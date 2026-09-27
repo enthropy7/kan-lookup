@@ -1,0 +1,6154 @@
+{
+ "points": [
+  {
+   "task": "flame5",
+   "shape": "cp16_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 1.7843422293663025,
+   "val_rmse": 1.77921861410141,
+   "bytes": 2948,
+   "lat_ns": 2917
+  },
+  {
+   "task": "flame5",
+   "shape": "cp16_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.889283150434494,
+   "val_rmse": 0.9369511306285858,
+   "bytes": 5508,
+   "lat_ns": 2917
+  },
+  {
+   "task": "flame5",
+   "shape": "cp16_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.9314369261264801,
+   "val_rmse": 0.9755882620811462,
+   "bytes": 10628,
+   "lat_ns": 2917
+  },
+  {
+   "task": "flame5",
+   "shape": "cp1_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 31.47447109222412,
+   "val_rmse": 31.636611938476562,
+   "bytes": 188,
+   "lat_ns": 875
+  },
+  {
+   "task": "flame5",
+   "shape": "cp1_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 26.411978721618652,
+   "val_rmse": 26.607072830200195,
+   "bytes": 348,
+   "lat_ns": 875
+  },
+  {
+   "task": "flame5",
+   "shape": "cp1_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 33.366536140441895,
+   "val_rmse": 33.59334945678711,
+   "bytes": 668,
+   "lat_ns": 875
+  },
+  {
+   "task": "flame5",
+   "shape": "cp2_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 12.390918254852295,
+   "val_rmse": 12.527342319488525,
+   "bytes": 372,
+   "lat_ns": 875
+  },
+  {
+   "task": "flame5",
+   "shape": "cp2_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 12.450233459472656,
+   "val_rmse": 12.570945739746094,
+   "bytes": 692,
+   "lat_ns": 875
+  },
+  {
+   "task": "flame5",
+   "shape": "cp2_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 17.437495231628418,
+   "val_rmse": 17.170963287353516,
+   "bytes": 1332,
+   "lat_ns": 875
+  },
+  {
+   "task": "flame5",
+   "shape": "cp4_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 3.464861750602722,
+   "val_rmse": 3.4960551261901855,
+   "bytes": 740,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "cp4_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 3.4730788469314575,
+   "val_rmse": 3.4299283027648926,
+   "bytes": 1380,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "cp4_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 3.538524627685547,
+   "val_rmse": 3.6145604848861694,
+   "bytes": 2660,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "cp8_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 1.9424114227294922,
+   "val_rmse": 1.937028169631958,
+   "bytes": 1476,
+   "lat_ns": 1750
+  },
+  {
+   "task": "flame5",
+   "shape": "cp8_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 1.3065506219863892,
+   "val_rmse": 1.295449435710907,
+   "bytes": 2756,
+   "lat_ns": 1750
+  },
+  {
+   "task": "flame5",
+   "shape": "cp8_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 1.400748610496521,
+   "val_rmse": 1.394283413887024,
+   "bytes": 5316,
+   "lat_ns": 1750
+  },
+  {
+   "task": "flame5",
+   "shape": "ga2m_q16_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 5.154360055923462,
+   "val_rmse": 5.168923377990723,
+   "bytes": 5344,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "ga2m_q16_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 5.5852134227752686,
+   "val_rmse": 5.602794885635376,
+   "bytes": 20704,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "ga2m_q16_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 5.442434310913086,
+   "val_rmse": 5.484015464782715,
+   "bytes": 1504,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "ga2m_q32_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 4.966857433319092,
+   "val_rmse": 4.991067409515381,
+   "bytes": 5504,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "ga2m_q32_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 5.574344873428345,
+   "val_rmse": 5.589702844619751,
+   "bytes": 20864,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "ga2m_q32_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 5.214446067810059,
+   "val_rmse": 5.29145622253418,
+   "bytes": 1664,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "ga2m_q64_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 4.953675746917725,
+   "val_rmse": 4.977202653884888,
+   "bytes": 5824,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "ga2m_q64_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 5.596814155578613,
+   "val_rmse": 5.599910497665405,
+   "bytes": 21184,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "ga2m_q64_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 5.212067604064941,
+   "val_rmse": 5.288228511810303,
+   "bytes": 1984,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n100_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 14.438778426214068,
+   "val_rmse": 14.698544153966559,
+   "bytes": 23604,
+   "lat_ns": 9333
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n100_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 12.393909792416693,
+   "val_rmse": 12.460529855456924,
+   "bytes": 49204,
+   "lat_ns": 12251
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n100_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 20.056602305879597,
+   "val_rmse": 19.873955555278616,
+   "bytes": 10804,
+   "lat_ns": 7001
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n200_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 11.91304385096394,
+   "val_rmse": 12.131339162279861,
+   "bytes": 47204,
+   "lat_ns": 17209
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n200_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 10.576561849529941,
+   "val_rmse": 10.590018851152797,
+   "bytes": 98404,
+   "lat_ns": 29168
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n200_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 15.374497703525922,
+   "val_rmse": 15.48429299125319,
+   "bytes": 21604,
+   "lat_ns": 10501
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n25_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 25.353640700981927,
+   "val_rmse": 25.27096918710344,
+   "bytes": 5904,
+   "lat_ns": 2625
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n25_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 21.13997969787952,
+   "val_rmse": 20.980145405905542,
+   "bytes": 12304,
+   "lat_ns": 3209
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n25_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 32.84990897997061,
+   "val_rmse": 32.7660315708985,
+   "bytes": 2704,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n400_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 9.96923229363042,
+   "val_rmse": 10.102075239508755,
+   "bytes": 94404,
+   "lat_ns": 40835
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n400_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 8.803657052928761,
+   "val_rmse": 8.863458819335014,
+   "bytes": 196804,
+   "lat_ns": 112005
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n400_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 11.316347560592101,
+   "val_rmse": 11.424648948162979,
+   "bytes": 43204,
+   "lat_ns": 21293
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n50_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 21.349511536628473,
+   "val_rmse": 21.182132984324692,
+   "bytes": 11804,
+   "lat_ns": 4666
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n50_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 17.439137667980045,
+   "val_rmse": 17.28867255881986,
+   "bytes": 24604,
+   "lat_ns": 5542
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n50_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 26.19289277733309,
+   "val_rmse": 26.119893433486933,
+   "bytes": 5404,
+   "lat_ns": 3500
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n800_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 8.309317338352095,
+   "val_rmse": 8.289121516205538,
+   "bytes": 188804,
+   "lat_ns": 151381
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n800_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 7.505269377262459,
+   "val_rmse": 7.588728322935156,
+   "bytes": 393604,
+   "lat_ns": 273302
+  },
+  {
+   "task": "flame5",
+   "shape": "gbdt_n800_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 8.051962743052147,
+   "val_rmse": 8.116918544375546,
+   "bytes": 86404,
+   "lat_ns": 42293
+  },
+  {
+   "task": "flame5",
+   "shape": "grid_n3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 11.297894405358441,
+   "val_rmse": 11.558079725088712,
+   "bytes": 490,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "grid_n4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 31.70579404876907,
+   "val_rmse": 31.3137311154092,
+   "bytes": 2052,
+   "lat_ns": 2041
+  },
+  {
+   "task": "flame5",
+   "shape": "grid_n5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 4.919543653215083,
+   "val_rmse": 5.03834185163426,
+   "bytes": 6254,
+   "lat_ns": 2041
+  },
+  {
+   "task": "flame5",
+   "shape": "grid_n6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 13.837576659094509,
+   "val_rmse": 13.75491731802882,
+   "bytes": 15556,
+   "lat_ns": 2041
+  },
+  {
+   "task": "flame5",
+   "shape": "grid_n7",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 3.548895757071636,
+   "val_rmse": 3.5692207059196805,
+   "bytes": 33618,
+   "lat_ns": 2041
+  },
+  {
+   "task": "flame5",
+   "shape": "grid_n8",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 8.319431485635219,
+   "val_rmse": 8.21070426806953,
+   "bytes": 65540,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "grid_n9",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 3.238124315161574,
+   "val_rmse": 3.10927612703049,
+   "bytes": 118102,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "gridnode_n3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 24.50531205841516,
+   "val_rmse": 24.51413637139941,
+   "bytes": 490,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "gridnode_n4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 44.670583985103825,
+   "val_rmse": 44.00394237385866,
+   "bytes": 2052,
+   "lat_ns": 2041
+  },
+  {
+   "task": "flame5",
+   "shape": "gridnode_n5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 10.79612702423551,
+   "val_rmse": 10.686925376797236,
+   "bytes": 6254,
+   "lat_ns": 2041
+  },
+  {
+   "task": "flame5",
+   "shape": "gridnode_n6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 18.947767574299434,
+   "val_rmse": 18.475858884484353,
+   "bytes": 15556,
+   "lat_ns": 2041
+  },
+  {
+   "task": "flame5",
+   "shape": "gridnode_n7",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 6.477935545633993,
+   "val_rmse": 6.377353665710306,
+   "bytes": 33618,
+   "lat_ns": 2041
+  },
+  {
+   "task": "flame5",
+   "shape": "gridnode_n8",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 10.513692692711407,
+   "val_rmse": 10.231486172147774,
+   "bytes": 65540,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "gridnode_n9",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 4.380024492546863,
+   "val_rmse": 4.278406156205316,
+   "bytes": 118102,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "gridv_n2x4x10x4x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 5.8256912400549705,
+   "val_rmse": 5.703961676709787,
+   "bytes": 1944,
+   "lat_ns": 3208
+  },
+  {
+   "task": "flame5",
+   "shape": "gridv_n2x5x13x5x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 3.103993166101054,
+   "val_rmse": 3.0859951361612628,
+   "bytes": 3924,
+   "lat_ns": 3208
+  },
+  {
+   "task": "flame5",
+   "shape": "gridv_n3x6x16x7x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 2.1688158684562455,
+   "val_rmse": 2.146078242145854,
+   "bytes": 16152,
+   "lat_ns": 3208
+  },
+  {
+   "task": "flame5",
+   "shape": "gridv_n3x8x21x8x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 1.332931564591324,
+   "val_rmse": 1.33902224715682,
+   "bytes": 32280,
+   "lat_ns": 3208
+  },
+  {
+   "task": "flame5",
+   "shape": "gridv_n3x9x26x9x5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 1.199923762337333,
+   "val_rmse": 1.2337170071901002,
+   "bytes": 63204,
+   "lat_ns": 3208
+  },
+  {
+   "task": "flame5",
+   "shape": "gridv_n4x9x30x10x6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.9748728985352912,
+   "val_rmse": 1.0101491650948247,
+   "bytes": 129624,
+   "lat_ns": 3209
+  },
+  {
+   "task": "flame5",
+   "shape": "gridvnode_n2x4x10x4x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 11.919818599261873,
+   "val_rmse": 11.75549251828127,
+   "bytes": 1944,
+   "lat_ns": 3208
+  },
+  {
+   "task": "flame5",
+   "shape": "gridvnode_n2x5x13x5x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 8.743304003210008,
+   "val_rmse": 8.655526453598322,
+   "bytes": 3924,
+   "lat_ns": 3208
+  },
+  {
+   "task": "flame5",
+   "shape": "gridvnode_n3x6x16x7x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 4.314648913910915,
+   "val_rmse": 4.287279580957203,
+   "bytes": 16152,
+   "lat_ns": 3208
+  },
+  {
+   "task": "flame5",
+   "shape": "gridvnode_n3x8x21x8x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 3.2422509619213637,
+   "val_rmse": 3.2597704732162907,
+   "bytes": 32280,
+   "lat_ns": 3208
+  },
+  {
+   "task": "flame5",
+   "shape": "gridvnode_n3x9x26x9x5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 2.5121663658295454,
+   "val_rmse": 2.519788043093668,
+   "bytes": 63204,
+   "lat_ns": 3208
+  },
+  {
+   "task": "flame5",
+   "shape": "gridvnode_n4x9x30x10x6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 1.7432786750735016,
+   "val_rmse": 1.7377683848532548,
+   "bytes": 129624,
+   "lat_ns": 3209
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 2.488220691680908,
+   "val_rmse": 2.416808605194092,
+   "bytes": 3308,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.38975533843040466,
+   "val_rmse": 0.39936740696430206,
+   "bytes": 12524,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.35312680900096893,
+   "val_rmse": 0.36207015812397003,
+   "bytes": 24812,
+   "lat_ns": 2334
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.35044774413108826,
+   "val_rmse": 0.35920271277427673,
+   "bytes": 49388,
+   "lat_ns": 2625
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 6.358845233917236,
+   "val_rmse": 6.457864999771118,
+   "bytes": 12524,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 6.57635498046875,
+   "val_rmse": 6.6479387283325195,
+   "bytes": 6380,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 1.6320251822471619,
+   "val_rmse": 1.634292721748352,
+   "bytes": 49388,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 2.3611940145492554,
+   "val_rmse": 2.3630199432373047,
+   "bytes": 24812,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 2.4568822383880615,
+   "val_rmse": 2.375396728515625,
+   "bytes": 3308,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.40044088661670685,
+   "val_rmse": 0.409610852599144,
+   "bytes": 12524,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.37758034467697144,
+   "val_rmse": 0.3827841877937317,
+   "bytes": 24812,
+   "lat_ns": 2334
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.3762045353651047,
+   "val_rmse": 0.3798076659440994,
+   "bytes": 49388,
+   "lat_ns": 2625
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 6.328085899353027,
+   "val_rmse": 6.416117191314697,
+   "bytes": 12524,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 6.46489691734314,
+   "val_rmse": 6.5412633419036865,
+   "bytes": 6380,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 1.6218830347061157,
+   "val_rmse": 1.6125368475914001,
+   "bytes": 49388,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w16_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 2.1675955057144165,
+   "val_rmse": 2.1708340644836426,
+   "bytes": 24812,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 2.3785476684570312,
+   "val_rmse": 2.3260765075683594,
+   "bytes": 6572,
+   "lat_ns": 3500
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.2986067682504654,
+   "val_rmse": 0.30748607218265533,
+   "bytes": 25004,
+   "lat_ns": 3792
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.254209041595459,
+   "val_rmse": 0.26083460450172424,
+   "bytes": 49580,
+   "lat_ns": 4084
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.2510640621185303,
+   "val_rmse": 0.25669486820697784,
+   "bytes": 98732,
+   "lat_ns": 7000
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 6.07808780670166,
+   "val_rmse": 6.157027244567871,
+   "bytes": 25004,
+   "lat_ns": 3500
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 6.277137756347656,
+   "val_rmse": 6.367149829864502,
+   "bytes": 12716,
+   "lat_ns": 3791
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 1.5365524291992188,
+   "val_rmse": 1.540220558643341,
+   "bytes": 98732,
+   "lat_ns": 6125
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 2.141040325164795,
+   "val_rmse": 2.144439458847046,
+   "bytes": 49580,
+   "lat_ns": 4083
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 2.4657692909240723,
+   "val_rmse": 2.3930574655532837,
+   "bytes": 6572,
+   "lat_ns": 3500
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.27206772565841675,
+   "val_rmse": 0.2878728359937668,
+   "bytes": 25004,
+   "lat_ns": 3792
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.24223943799734116,
+   "val_rmse": 0.2542116791009903,
+   "bytes": 49580,
+   "lat_ns": 4084
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.2452312856912613,
+   "val_rmse": 0.25059450417757034,
+   "bytes": 98732,
+   "lat_ns": 7000
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 6.0571417808532715,
+   "val_rmse": 6.116283655166626,
+   "bytes": 25004,
+   "lat_ns": 3500
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 6.178128957748413,
+   "val_rmse": 6.258920669555664,
+   "bytes": 12716,
+   "lat_ns": 3791
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 1.5264034271240234,
+   "val_rmse": 1.5252983570098877,
+   "bytes": 98732,
+   "lat_ns": 6125
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w32_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 1.9380089044570923,
+   "val_rmse": 1.9525960683822632,
+   "bytes": 49580,
+   "lat_ns": 4083
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 3.089922785758972,
+   "val_rmse": 3.013180375099182,
+   "bytes": 860,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 2.085145890712738,
+   "val_rmse": 2.081195831298828,
+   "bytes": 3164,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 2.076050102710724,
+   "val_rmse": 2.0738539695739746,
+   "bytes": 6236,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 2.074693739414215,
+   "val_rmse": 2.0729414224624634,
+   "bytes": 12380,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 7.9318554401397705,
+   "val_rmse": 7.958761930465698,
+   "bytes": 3164,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 8.288017749786377,
+   "val_rmse": 8.327913761138916,
+   "bytes": 1628,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 2.8493945598602295,
+   "val_rmse": 2.8588030338287354,
+   "bytes": 12380,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 3.7886067628860474,
+   "val_rmse": 3.7750279903411865,
+   "bytes": 6236,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 2.9866533279418945,
+   "val_rmse": 2.8942097425460815,
+   "bytes": 860,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 1.517835259437561,
+   "val_rmse": 1.544857144355774,
+   "bytes": 3164,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 1.5089237689971924,
+   "val_rmse": 1.5353793501853943,
+   "bytes": 6236,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 1.5082423686981201,
+   "val_rmse": 1.53395414352417,
+   "bytes": 12380,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 8.046832084655762,
+   "val_rmse": 8.13346242904663,
+   "bytes": 3164,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 8.531203746795654,
+   "val_rmse": 8.551532745361328,
+   "bytes": 1628,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 2.49162220954895,
+   "val_rmse": 2.4837822914123535,
+   "bytes": 12380,
+   "lat_ns": 1167
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w4_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 3.7492330074310303,
+   "val_rmse": 3.751423478126526,
+   "bytes": 6236,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 2.4834959506988525,
+   "val_rmse": 2.439103603363037,
+   "bytes": 1676,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.7279283404350281,
+   "val_rmse": 0.7384699583053589,
+   "bytes": 6284,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.7125563025474548,
+   "val_rmse": 0.722483366727829,
+   "bytes": 12428,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.7113650143146515,
+   "val_rmse": 0.7204981744289398,
+   "bytes": 24716,
+   "lat_ns": 1459
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 6.850746154785156,
+   "val_rmse": 6.870410680770874,
+   "bytes": 6284,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 7.044142007827759,
+   "val_rmse": 7.129502296447754,
+   "bytes": 3212,
+   "lat_ns": 1459
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 1.8724709153175354,
+   "val_rmse": 1.866115689277649,
+   "bytes": 24716,
+   "lat_ns": 1459
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 2.6952693462371826,
+   "val_rmse": 2.684115171432495,
+   "bytes": 12428,
+   "lat_ns": 1459
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 2.536932110786438,
+   "val_rmse": 2.455873131752014,
+   "bytes": 1676,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.6669823229312897,
+   "val_rmse": 0.6750012934207916,
+   "bytes": 6284,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.6522421836853027,
+   "val_rmse": 0.6608667075634003,
+   "bytes": 12428,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.6506256461143494,
+   "val_rmse": 0.6596450507640839,
+   "bytes": 24716,
+   "lat_ns": 1459
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 6.7172651290893555,
+   "val_rmse": 6.788281440734863,
+   "bytes": 6284,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 6.92509126663208,
+   "val_rmse": 7.0298802852630615,
+   "bytes": 3212,
+   "lat_ns": 1459
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 1.8008283972740173,
+   "val_rmse": 1.7803812623023987,
+   "bytes": 24716,
+   "lat_ns": 1459
+  },
+  {
+   "task": "flame5",
+   "shape": "kan1_w8_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 2.500572919845581,
+   "val_rmse": 2.4968490600585938,
+   "bytes": 12428,
+   "lat_ns": 1459
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w16_g5",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 1.1006529927253723,
+   "val_rmse": 1.1006805300712585,
+   "bytes": 11692,
+   "lat_ns": 4375
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w16_g5",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.3025699108839035,
+   "val_rmse": 0.30010876059532166,
+   "bytes": 45484,
+   "lat_ns": 4667
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w16_g5",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.2872667536139488,
+   "val_rmse": 0.2820036932826042,
+   "bytes": 90540,
+   "lat_ns": 4958
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w16_g5",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.2861170321702957,
+   "val_rmse": 0.28033509105443954,
+   "bytes": 180652,
+   "lat_ns": 9625
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w16_g5",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 6.703972578048706,
+   "val_rmse": 6.787353515625,
+   "bytes": 45484,
+   "lat_ns": 3500
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w16_g5",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 6.953290224075317,
+   "val_rmse": 7.017009019851685,
+   "bytes": 22956,
+   "lat_ns": 3500
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w16_g5",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 1.722188413143158,
+   "val_rmse": 1.7212397456169128,
+   "bytes": 180652,
+   "lat_ns": 7584
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w16_g5",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 2.415942072868347,
+   "val_rmse": 2.384431838989258,
+   "bytes": 90540,
+   "lat_ns": 3792
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w8_g5",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 2.0779227018356323,
+   "val_rmse": 2.033308744430542,
+   "bytes": 3820,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w8_g5",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.5407445281744003,
+   "val_rmse": 0.5446960628032684,
+   "bytes": 14572,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w8_g5",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.526971623301506,
+   "val_rmse": 0.5300812274217606,
+   "bytes": 28908,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w8_g5",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.5262300223112106,
+   "val_rmse": 0.528831735253334,
+   "bytes": 57580,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w8_g5",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 7.696436405181885,
+   "val_rmse": 7.789128541946411,
+   "bytes": 14572,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w8_g5",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 8.031119346618652,
+   "val_rmse": 8.095759391784668,
+   "bytes": 7404,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w8_g5",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 2.0298558473587036,
+   "val_rmse": 2.020699679851532,
+   "bytes": 57580,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "kan2_w8_g5",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 3.28616201877594,
+   "val_rmse": 3.2779945135116577,
+   "bytes": 28908,
+   "lat_ns": 2333
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.588050127029419,
+   "val_rmse": 2.618923544883728,
+   "bytes": 1808,
+   "lat_ns": 10792
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 10.049555778503418,
+   "val_rmse": 10.084416389465332,
+   "bytes": 2064,
+   "lat_ns": 15750
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 4.75671124458313,
+   "val_rmse": 4.748186826705933,
+   "bytes": 2064,
+   "lat_ns": 15750
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 6.499026775360107,
+   "val_rmse": 6.553330659866333,
+   "bytes": 240,
+   "lat_ns": 2042
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 11.138362407684326,
+   "val_rmse": 11.189880847930908,
+   "bytes": 496,
+   "lat_ns": 2917
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 7.411256790161133,
+   "val_rmse": 7.323803901672363,
+   "bytes": 496,
+   "lat_ns": 2917
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 4.0715625286102295,
+   "val_rmse": 4.091951131820679,
+   "bytes": 464,
+   "lat_ns": 3500
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 11.016704559326172,
+   "val_rmse": 11.050259590148926,
+   "bytes": 720,
+   "lat_ns": 4667
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 5.475771903991699,
+   "val_rmse": 5.561131238937378,
+   "bytes": 720,
+   "lat_ns": 4667
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.8851171731948853,
+   "val_rmse": 2.9090662002563477,
+   "bytes": 912,
+   "lat_ns": 5834
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 10.284600734710693,
+   "val_rmse": 10.314965724945068,
+   "bytes": 1168,
+   "lat_ns": 8458
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp1_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 5.3701043128967285,
+   "val_rmse": 5.364156007766724,
+   "bytes": 1168,
+   "lat_ns": 8458
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.273180842399597,
+   "val_rmse": 2.2591512203216553,
+   "bytes": 19220,
+   "lat_ns": 36752
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 8.024003982543945,
+   "val_rmse": 7.952692985534668,
+   "bytes": 19732,
+   "lat_ns": 47252
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.990769624710083,
+   "val_rmse": 3.0144330263137817,
+   "bytes": 19732,
+   "lat_ns": 46669
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 4.786143064498901,
+   "val_rmse": 4.81601357460022,
+   "bytes": 628,
+   "lat_ns": 4083
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 9.980090141296387,
+   "val_rmse": 10.028668403625488,
+   "bytes": 1140,
+   "lat_ns": 5250
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 4.916987895965576,
+   "val_rmse": 4.902528524398804,
+   "bytes": 1140,
+   "lat_ns": 5251
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 3.43108332157135,
+   "val_rmse": 3.4668904542922974,
+   "bytes": 1748,
+   "lat_ns": 7292
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 10.613028049468994,
+   "val_rmse": 10.533350944519043,
+   "bytes": 2260,
+   "lat_ns": 10208
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 4.019139051437378,
+   "val_rmse": 4.033686518669128,
+   "bytes": 2260,
+   "lat_ns": 9917
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.5991193056106567,
+   "val_rmse": 2.602150321006775,
+   "bytes": 5524,
+   "lat_ns": 15459
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 9.284863471984863,
+   "val_rmse": 9.221189498901367,
+   "bytes": 6036,
+   "lat_ns": 20709
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp2_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 3.7568445205688477,
+   "val_rmse": 3.7732346057891846,
+   "bytes": 6036,
+   "lat_ns": 20418
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.3001761436462402,
+   "val_rmse": 2.3115776777267456,
+   "bytes": 36632,
+   "lat_ns": 65045
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 7.4799768924713135,
+   "val_rmse": 7.4319987297058105,
+   "bytes": 37400,
+   "lat_ns": 81378
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 3.0205212831497192,
+   "val_rmse": 3.015350818634033,
+   "bytes": 37400,
+   "lat_ns": 80503
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 4.803406476974487,
+   "val_rmse": 4.821452379226685,
+   "bytes": 1016,
+   "lat_ns": 5833
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 9.45609188079834,
+   "val_rmse": 9.540971040725708,
+   "bytes": 1784,
+   "lat_ns": 7875
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 5.313799858093262,
+   "val_rmse": 5.293189287185669,
+   "bytes": 1784,
+   "lat_ns": 7875
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 3.702068567276001,
+   "val_rmse": 3.7198686599731445,
+   "bytes": 3032,
+   "lat_ns": 11084
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 11.822690963745117,
+   "val_rmse": 11.886513233184814,
+   "bytes": 3800,
+   "lat_ns": 15167
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 4.266072034835815,
+   "val_rmse": 4.272799730300903,
+   "bytes": 3800,
+   "lat_ns": 15168
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.7443177700042725,
+   "val_rmse": 2.759256362915039,
+   "bytes": 10136,
+   "lat_ns": 24793
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 9.907656192779541,
+   "val_rmse": 9.883318901062012,
+   "bytes": 10904,
+   "lat_ns": 32668
+  },
+  {
+   "task": "flame5",
+   "shape": "mlp3_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 3.678090810775757,
+   "val_rmse": 3.6744444370269775,
+   "bytes": 10904,
+   "lat_ns": 32668
+  },
+  {
+   "task": "flame5",
+   "shape": "poly1",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 139.14758463192766,
+   "val_rmse": 137.32910866363372,
+   "bytes": 42,
+   "lat_ns": 583
+  },
+  {
+   "task": "flame5",
+   "shape": "poly2",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 32.391910485361,
+   "val_rmse": 32.20516204662836,
+   "bytes": 147,
+   "lat_ns": 875
+  },
+  {
+   "task": "flame5",
+   "shape": "poly3",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 28.436598792663787,
+   "val_rmse": 28.284645983491405,
+   "bytes": 392,
+   "lat_ns": 1458
+  },
+  {
+   "task": "flame5",
+   "shape": "poly4",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 13.39459261564633,
+   "val_rmse": 13.192453534854293,
+   "bytes": 882,
+   "lat_ns": 2625
+  },
+  {
+   "task": "flame5",
+   "shape": "poly5",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 12.978278639055404,
+   "val_rmse": 12.833263561154906,
+   "bytes": 1764,
+   "lat_ns": 4958
+  },
+  {
+   "task": "flame5",
+   "shape": "poly6",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 7.715770990666827,
+   "val_rmse": 7.636747616195742,
+   "bytes": 3234,
+   "lat_ns": 8459
+  },
+  {
+   "task": "msis7",
+   "shape": "cp16_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.027236320078372955,
+   "val_rmse": 0.027331430464982986,
+   "bytes": 4100,
+   "lat_ns": 3792
+  },
+  {
+   "task": "msis7",
+   "shape": "cp16_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.028224141336977482,
+   "val_rmse": 0.02831376437097788,
+   "bytes": 7684,
+   "lat_ns": 3792
+  },
+  {
+   "task": "msis7",
+   "shape": "cp16_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.04111021012067795,
+   "val_rmse": 0.04142574220895767,
+   "bytes": 14852,
+   "lat_ns": 3792
+  },
+  {
+   "task": "msis7",
+   "shape": "cp1_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.10824324190616608,
+   "val_rmse": 0.10740190371870995,
+   "bytes": 260,
+   "lat_ns": 875
+  },
+  {
+   "task": "msis7",
+   "shape": "cp1_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.14684173464775085,
+   "val_rmse": 0.14701085537672043,
+   "bytes": 484,
+   "lat_ns": 875
+  },
+  {
+   "task": "msis7",
+   "shape": "cp1_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.19042927771806717,
+   "val_rmse": 0.1918591633439064,
+   "bytes": 932,
+   "lat_ns": 875
+  },
+  {
+   "task": "msis7",
+   "shape": "cp2_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.09732814878225327,
+   "val_rmse": 0.09552118927240372,
+   "bytes": 516,
+   "lat_ns": 1167
+  },
+  {
+   "task": "msis7",
+   "shape": "cp2_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.09931690245866776,
+   "val_rmse": 0.09753406047821045,
+   "bytes": 964,
+   "lat_ns": 1167
+  },
+  {
+   "task": "msis7",
+   "shape": "cp2_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.1009872630238533,
+   "val_rmse": 0.09917278960347176,
+   "bytes": 1860,
+   "lat_ns": 1167
+  },
+  {
+   "task": "msis7",
+   "shape": "cp4_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.0577227845788002,
+   "val_rmse": 0.058259859681129456,
+   "bytes": 1028,
+   "lat_ns": 1459
+  },
+  {
+   "task": "msis7",
+   "shape": "cp4_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.06121128797531128,
+   "val_rmse": 0.06107322685420513,
+   "bytes": 1924,
+   "lat_ns": 1459
+  },
+  {
+   "task": "msis7",
+   "shape": "cp4_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.05775390937924385,
+   "val_rmse": 0.057732753455638885,
+   "bytes": 3716,
+   "lat_ns": 1459
+  },
+  {
+   "task": "msis7",
+   "shape": "cp8_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.03977068141102791,
+   "val_rmse": 0.039779504761099815,
+   "bytes": 2052,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "cp8_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.04266321659088135,
+   "val_rmse": 0.04298969730734825,
+   "bytes": 3844,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "cp8_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.046220675110816956,
+   "val_rmse": 0.04601239413022995,
+   "bytes": 7428,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "ga2m_q16_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.06586365774273872,
+   "val_rmse": 0.0648844726383686,
+   "bytes": 11092,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "ga2m_q16_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.08230636641383171,
+   "val_rmse": 0.0815931186079979,
+   "bytes": 43348,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "ga2m_q16_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.062012238427996635,
+   "val_rmse": 0.06160009652376175,
+   "bytes": 3028,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "ga2m_q32_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.06595516204833984,
+   "val_rmse": 0.0649741180241108,
+   "bytes": 11316,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "ga2m_q32_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.08245881646871567,
+   "val_rmse": 0.08174432441592216,
+   "bytes": 43572,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "ga2m_q32_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.0620364248752594,
+   "val_rmse": 0.06161206401884556,
+   "bytes": 3252,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "ga2m_q64_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.06615827977657318,
+   "val_rmse": 0.06509564071893692,
+   "bytes": 11764,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "ga2m_q64_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.08310490846633911,
+   "val_rmse": 0.08242368325591087,
+   "bytes": 44020,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "ga2m_q64_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.06223060563206673,
+   "val_rmse": 0.061804743483662605,
+   "bytes": 3700,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n100_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.06945527357314336,
+   "val_rmse": 0.06871868355791436,
+   "bytes": 23604,
+   "lat_ns": 7292
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n100_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.061609780151073844,
+   "val_rmse": 0.06084035650672142,
+   "bytes": 49204,
+   "lat_ns": 11667
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n100_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.08622690883153089,
+   "val_rmse": 0.08509976305198785,
+   "bytes": 10804,
+   "lat_ns": 5834
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n200_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.059241086406699964,
+   "val_rmse": 0.0581493076386226,
+   "bytes": 47204,
+   "lat_ns": 13709
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n200_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.052031260177999805,
+   "val_rmse": 0.05109510018257147,
+   "bytes": 98404,
+   "lat_ns": 22459
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n200_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.06998929065600044,
+   "val_rmse": 0.06919594236986859,
+   "bytes": 21604,
+   "lat_ns": 10792
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n25_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.10106069748698991,
+   "val_rmse": 0.1008428627370004,
+   "bytes": 5904,
+   "lat_ns": 2625
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n25_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.08363692921712454,
+   "val_rmse": 0.08375874902853492,
+   "bytes": 12304,
+   "lat_ns": 2917
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n25_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.12922285648181048,
+   "val_rmse": 0.12808625647994737,
+   "bytes": 2704,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n400_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.05133969978682,
+   "val_rmse": 0.05053631314513572,
+   "bytes": 94404,
+   "lat_ns": 30043
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n400_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.045055532038472484,
+   "val_rmse": 0.0440199907115909,
+   "bytes": 196804,
+   "lat_ns": 76420
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n400_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.057851939414938734,
+   "val_rmse": 0.0573904950072482,
+   "bytes": 43204,
+   "lat_ns": 20417
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n50_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.08222077898282998,
+   "val_rmse": 0.08172777455395955,
+   "bytes": 11804,
+   "lat_ns": 4375
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n50_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.07066381239676214,
+   "val_rmse": 0.07078671022475105,
+   "bytes": 24604,
+   "lat_ns": 5250
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n50_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.1033642449450529,
+   "val_rmse": 0.10226773054727807,
+   "bytes": 5404,
+   "lat_ns": 3500
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n800_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.04330494429885974,
+   "val_rmse": 0.04314429199075344,
+   "bytes": 188804,
+   "lat_ns": 121046
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n800_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.0402827045221558,
+   "val_rmse": 0.03948394793167922,
+   "bytes": 393604,
+   "lat_ns": 196299
+  },
+  {
+   "task": "msis7",
+   "shape": "gbdt_n800_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.04794061470182405,
+   "val_rmse": 0.047633341392383406,
+   "bytes": 86404,
+   "lat_ns": 40835
+  },
+  {
+   "task": "msis7",
+   "shape": "grid_n2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.2154639716427702,
+   "val_rmse": 0.21429234822818916,
+   "bytes": 260,
+   "lat_ns": 6125
+  },
+  {
+   "task": "msis7",
+   "shape": "grid_n3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.11602099295015805,
+   "val_rmse": 0.11591487298029551,
+   "bytes": 4378,
+   "lat_ns": 6126
+  },
+  {
+   "task": "msis7",
+   "shape": "grid_n4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.08569734957778732,
+   "val_rmse": 0.0861351074641926,
+   "bytes": 32772,
+   "lat_ns": 6126
+  },
+  {
+   "task": "msis7",
+   "shape": "gridnode_n2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.37606347803087437,
+   "val_rmse": 0.3859051275156584,
+   "bytes": 260,
+   "lat_ns": 6125
+  },
+  {
+   "task": "msis7",
+   "shape": "gridnode_n3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.15564434024588097,
+   "val_rmse": 0.15549339701457984,
+   "bytes": 4378,
+   "lat_ns": 6126
+  },
+  {
+   "task": "msis7",
+   "shape": "gridnode_n4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.10851247995158154,
+   "val_rmse": 0.10965867734131844,
+   "bytes": 32772,
+   "lat_ns": 6126
+  },
+  {
+   "task": "msis7",
+   "shape": "gridv_n3x3x3x4x2x2x2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.1229112581754791,
+   "val_rmse": 0.12337112016064726,
+   "bytes": 1760,
+   "lat_ns": 11083
+  },
+  {
+   "task": "msis7",
+   "shape": "gridv_n3x3x4x4x2x2x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.107846751685545,
+   "val_rmse": 0.1079442760512727,
+   "bytes": 3488,
+   "lat_ns": 11083
+  },
+  {
+   "task": "msis7",
+   "shape": "gridv_n4x4x5x5x2x3x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.0615930776314957,
+   "val_rmse": 0.06181971809635893,
+   "bytes": 14432,
+   "lat_ns": 11083
+  },
+  {
+   "task": "msis7",
+   "shape": "gridv_n5x4x5x6x3x3x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.05082233689439036,
+   "val_rmse": 0.05072713515827596,
+   "bytes": 32432,
+   "lat_ns": 11084
+  },
+  {
+   "task": "msis7",
+   "shape": "gridv_n5x5x6x6x3x3x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.044918918136935625,
+   "val_rmse": 0.04542229153999987,
+   "bytes": 64832,
+   "lat_ns": 11084
+  },
+  {
+   "task": "msis7",
+   "shape": "gridv_n6x6x7x7x3x3x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.03808818079055974,
+   "val_rmse": 0.03824214744823626,
+   "bytes": 127040,
+   "lat_ns": 11959
+  },
+  {
+   "task": "msis7",
+   "shape": "gridvnode_n3x3x3x4x2x2x2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.1885182505934514,
+   "val_rmse": 0.1862243918292805,
+   "bytes": 1760,
+   "lat_ns": 11083
+  },
+  {
+   "task": "msis7",
+   "shape": "gridvnode_n3x3x4x4x2x2x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.16077961040285824,
+   "val_rmse": 0.16088725920139357,
+   "bytes": 3488,
+   "lat_ns": 11083
+  },
+  {
+   "task": "msis7",
+   "shape": "gridvnode_n4x4x5x5x2x3x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.11186365181323225,
+   "val_rmse": 0.11067954511633071,
+   "bytes": 14432,
+   "lat_ns": 11083
+  },
+  {
+   "task": "msis7",
+   "shape": "gridvnode_n5x4x5x6x3x3x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.08272320150247638,
+   "val_rmse": 0.0820432265024578,
+   "bytes": 32432,
+   "lat_ns": 11084
+  },
+  {
+   "task": "msis7",
+   "shape": "gridvnode_n5x5x6x6x3x3x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.06796585867867591,
+   "val_rmse": 0.06779081983612659,
+   "bytes": 64832,
+   "lat_ns": 11084
+  },
+  {
+   "task": "msis7",
+   "shape": "gridvnode_n6x6x7x7x3x3x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.06051306076419364,
+   "val_rmse": 0.06005224327457706,
+   "bytes": 127040,
+   "lat_ns": 11959
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.02641262672841549,
+   "val_rmse": 0.026470773853361607,
+   "bytes": 4348,
+   "lat_ns": 2334
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.024616879411041737,
+   "val_rmse": 0.02443203516304493,
+   "bytes": 16636,
+   "lat_ns": 2625
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.024611840024590492,
+   "val_rmse": 0.024424351751804352,
+   "bytes": 33020,
+   "lat_ns": 2625
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.024612789042294025,
+   "val_rmse": 0.024423870258033276,
+   "bytes": 65788,
+   "lat_ns": 2917
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.03592463955283165,
+   "val_rmse": 0.03611493483185768,
+   "bytes": 16636,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.037596093490719795,
+   "val_rmse": 0.037741027772426605,
+   "bytes": 8444,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.025522486306726933,
+   "val_rmse": 0.02524492610245943,
+   "bytes": 65788,
+   "lat_ns": 2334
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.02781670354306698,
+   "val_rmse": 0.027627523988485336,
+   "bytes": 33020,
+   "lat_ns": 2334
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.02759248949587345,
+   "val_rmse": 0.027936890721321106,
+   "bytes": 4348,
+   "lat_ns": 2334
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.025603948161005974,
+   "val_rmse": 0.025345458649098873,
+   "bytes": 16636,
+   "lat_ns": 2625
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.02563792932778597,
+   "val_rmse": 0.02537982538342476,
+   "bytes": 33020,
+   "lat_ns": 2625
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.025648342445492744,
+   "val_rmse": 0.025394144468009472,
+   "bytes": 65788,
+   "lat_ns": 2917
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.03646514005959034,
+   "val_rmse": 0.0367170050740242,
+   "bytes": 16636,
+   "lat_ns": 2042
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.038047099485993385,
+   "val_rmse": 0.03825483098626137,
+   "bytes": 8444,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.026376723311841488,
+   "val_rmse": 0.026212641038000584,
+   "bytes": 65788,
+   "lat_ns": 2334
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w16_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.028611252084374428,
+   "val_rmse": 0.028627789579331875,
+   "bytes": 33020,
+   "lat_ns": 2334
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.018293212167918682,
+   "val_rmse": 0.01828976534307003,
+   "bytes": 8636,
+   "lat_ns": 3792
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.016197905875742435,
+   "val_rmse": 0.01618217770010233,
+   "bytes": 33212,
+   "lat_ns": 4084
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.016198357567191124,
+   "val_rmse": 0.016183662228286266,
+   "bytes": 65980,
+   "lat_ns": 4667
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.016201048158109188,
+   "val_rmse": 0.016186334192752838,
+   "bytes": 131516,
+   "lat_ns": 7876
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.02915010042488575,
+   "val_rmse": 0.029510794207453728,
+   "bytes": 33212,
+   "lat_ns": 3792
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.030455807223916054,
+   "val_rmse": 0.0307030426338315,
+   "bytes": 16828,
+   "lat_ns": 4083
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.017329907976090908,
+   "val_rmse": 0.017258815467357635,
+   "bytes": 131516,
+   "lat_ns": 7000
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.01935497298836708,
+   "val_rmse": 0.01936851255595684,
+   "bytes": 65980,
+   "lat_ns": 4958
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.020190108567476273,
+   "val_rmse": 0.020281940698623657,
+   "bytes": 8636,
+   "lat_ns": 3792
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.01787120196968317,
+   "val_rmse": 0.017966351471841335,
+   "bytes": 33212,
+   "lat_ns": 4084
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.01791153848171234,
+   "val_rmse": 0.018003780394792557,
+   "bytes": 65980,
+   "lat_ns": 4667
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.017925339750945568,
+   "val_rmse": 0.018018699251115322,
+   "bytes": 131516,
+   "lat_ns": 7876
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.03009551391005516,
+   "val_rmse": 0.030497190542519093,
+   "bytes": 33212,
+   "lat_ns": 3792
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.03132499009370804,
+   "val_rmse": 0.03164427913725376,
+   "bytes": 16828,
+   "lat_ns": 4083
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.0188981918618083,
+   "val_rmse": 0.01895173080265522,
+   "bytes": 131516,
+   "lat_ns": 7000
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w32_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.020740503445267677,
+   "val_rmse": 0.020851803943514824,
+   "bytes": 65980,
+   "lat_ns": 4958
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.05634511262178421,
+   "val_rmse": 0.05671342462301254,
+   "bytes": 1132,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.055478254333138466,
+   "val_rmse": 0.05586513131856918,
+   "bytes": 4204,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.055470025166869164,
+   "val_rmse": 0.05585719831287861,
+   "bytes": 8300,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.055469051003456116,
+   "val_rmse": 0.055858030915260315,
+   "bytes": 16492,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.06388634815812111,
+   "val_rmse": 0.06469199247658253,
+   "bytes": 4204,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.06566626951098442,
+   "val_rmse": 0.06644440814852715,
+   "bytes": 2156,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.05600804463028908,
+   "val_rmse": 0.056346213445067406,
+   "bytes": 16492,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.05775346979498863,
+   "val_rmse": 0.0582564901560545,
+   "bytes": 8300,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.05785165913403034,
+   "val_rmse": 0.057642363011837006,
+   "bytes": 1132,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.05553465336561203,
+   "val_rmse": 0.05549994856119156,
+   "bytes": 4204,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.0555479321628809,
+   "val_rmse": 0.055515289306640625,
+   "bytes": 8300,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.05555626004934311,
+   "val_rmse": 0.0555189810693264,
+   "bytes": 16492,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.06510680168867111,
+   "val_rmse": 0.0655287653207779,
+   "bytes": 4204,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.06788325309753418,
+   "val_rmse": 0.06825665012001991,
+   "bytes": 2156,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.05614887550473213,
+   "val_rmse": 0.05611475557088852,
+   "bytes": 16492,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w4_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.05949394591152668,
+   "val_rmse": 0.05954773910343647,
+   "bytes": 8300,
+   "lat_ns": 1458
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.03738517314195633,
+   "val_rmse": 0.03770981356501579,
+   "bytes": 2204,
+   "lat_ns": 1459
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.03628036379814148,
+   "val_rmse": 0.036611124873161316,
+   "bytes": 8348,
+   "lat_ns": 1459
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.03626603074371815,
+   "val_rmse": 0.0366047527641058,
+   "bytes": 16540,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.03626423701643944,
+   "val_rmse": 0.036602992564439774,
+   "bytes": 32924,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.04632045328617096,
+   "val_rmse": 0.04688333161175251,
+   "bytes": 8348,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.04777884483337402,
+   "val_rmse": 0.04839375242590904,
+   "bytes": 4252,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.03687930665910244,
+   "val_rmse": 0.03727025166153908,
+   "bytes": 32924,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.03876996040344238,
+   "val_rmse": 0.03906964510679245,
+   "bytes": 16540,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.03841046057641506,
+   "val_rmse": 0.03907330147922039,
+   "bytes": 2204,
+   "lat_ns": 1459
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.036478668451309204,
+   "val_rmse": 0.03699409030377865,
+   "bytes": 8348,
+   "lat_ns": 1459
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.036495862528681755,
+   "val_rmse": 0.037013689056038857,
+   "bytes": 16540,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.036501623690128326,
+   "val_rmse": 0.03701874613761902,
+   "bytes": 32924,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.04625991731882095,
+   "val_rmse": 0.04746686480939388,
+   "bytes": 8348,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.047181837260723114,
+   "val_rmse": 0.04849627427756786,
+   "bytes": 4252,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.03715695068240166,
+   "val_rmse": 0.03770310431718826,
+   "bytes": 32924,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan1_w8_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.038993114605546,
+   "val_rmse": 0.03994257561862469,
+   "bytes": 16540,
+   "lat_ns": 1750
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w16_g5",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.016000887844711542,
+   "val_rmse": 0.016194883733987808,
+   "bytes": 12732,
+   "lat_ns": 4375
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w16_g5",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.013963645789772272,
+   "val_rmse": 0.014044633135199547,
+   "bytes": 49596,
+   "lat_ns": 4667
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w16_g5",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.013963908422738314,
+   "val_rmse": 0.014044429641216993,
+   "bytes": 98748,
+   "lat_ns": 5542
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w16_g5",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.01396675780415535,
+   "val_rmse": 0.014045323710888624,
+   "bytes": 197052,
+   "lat_ns": 9917
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w16_g5",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.03288792632520199,
+   "val_rmse": 0.03308985382318497,
+   "bytes": 49596,
+   "lat_ns": 3500
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w16_g5",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.034409262239933014,
+   "val_rmse": 0.03492669574916363,
+   "bytes": 25020,
+   "lat_ns": 3791
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w16_g5",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.015811271499842405,
+   "val_rmse": 0.01591135561466217,
+   "bytes": 197052,
+   "lat_ns": 7584
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w16_g5",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.02180261444300413,
+   "val_rmse": 0.02234749961644411,
+   "bytes": 98748,
+   "lat_ns": 4667
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w8_g5",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.02864418737590313,
+   "val_rmse": 0.02912491001188755,
+   "bytes": 4348,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w8_g5",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.02780727669596672,
+   "val_rmse": 0.028138685040175915,
+   "bytes": 16636,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w8_g5",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.027814483270049095,
+   "val_rmse": 0.02814061101526022,
+   "bytes": 33020,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w8_g5",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.027817190624773502,
+   "val_rmse": 0.02814310323446989,
+   "bytes": 65788,
+   "lat_ns": 2625
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w8_g5",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.04235378839075565,
+   "val_rmse": 0.04302537813782692,
+   "bytes": 16636,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w8_g5",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.04434186965227127,
+   "val_rmse": 0.045060060918331146,
+   "bytes": 8444,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w8_g5",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.02885175682604313,
+   "val_rmse": 0.02910697553306818,
+   "bytes": 65788,
+   "lat_ns": 2334
+  },
+  {
+   "task": "msis7",
+   "shape": "kan2_w8_g5",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.032609811052680016,
+   "val_rmse": 0.03284716513007879,
+   "bytes": 33020,
+   "lat_ns": 2334
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.039027970284223557,
+   "val_rmse": 0.039075082167983055,
+   "bytes": 2064,
+   "lat_ns": 11084
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.06943736970424652,
+   "val_rmse": 0.06973898783326149,
+   "bytes": 2320,
+   "lat_ns": 16042
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.049800293520092964,
+   "val_rmse": 0.04927556589245796,
+   "bytes": 2320,
+   "lat_ns": 15751
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.09069504588842392,
+   "val_rmse": 0.09063173457980156,
+   "bytes": 272,
+   "lat_ns": 2333
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.09101962298154831,
+   "val_rmse": 0.0911707691848278,
+   "bytes": 528,
+   "lat_ns": 2917
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.06948898732662201,
+   "val_rmse": 0.06918562948703766,
+   "bytes": 528,
+   "lat_ns": 2917
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.0611222293227911,
+   "val_rmse": 0.061943622305989265,
+   "bytes": 528,
+   "lat_ns": 3500
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.0786125548183918,
+   "val_rmse": 0.07889585196971893,
+   "bytes": 784,
+   "lat_ns": 4667
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.06221421994268894,
+   "val_rmse": 0.062090907245874405,
+   "bytes": 784,
+   "lat_ns": 4667
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.04797099158167839,
+   "val_rmse": 0.04869026318192482,
+   "bytes": 1040,
+   "lat_ns": 6125
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.07369517907500267,
+   "val_rmse": 0.07375957444310188,
+   "bytes": 1296,
+   "lat_ns": 8459
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp1_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.0549132265150547,
+   "val_rmse": 0.054568011313676834,
+   "bytes": 1296,
+   "lat_ns": 8459
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.02158650103956461,
+   "val_rmse": 0.021459169685840607,
+   "bytes": 19476,
+   "lat_ns": 37043
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.03782096691429615,
+   "val_rmse": 0.03804286755621433,
+   "bytes": 19988,
+   "lat_ns": 47543
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.029629327356815338,
+   "val_rmse": 0.029948201030492783,
+   "bytes": 19988,
+   "lat_ns": 46669
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.053734421730041504,
+   "val_rmse": 0.05415389500558376,
+   "bytes": 660,
+   "lat_ns": 4084
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.055648863315582275,
+   "val_rmse": 0.05567799136042595,
+   "bytes": 1172,
+   "lat_ns": 5542
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.04912179335951805,
+   "val_rmse": 0.049917859956622124,
+   "bytes": 1172,
+   "lat_ns": 5542
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.03644709475338459,
+   "val_rmse": 0.03669202886521816,
+   "bytes": 1812,
+   "lat_ns": 7583
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.03955330327153206,
+   "val_rmse": 0.03992338106036186,
+   "bytes": 2324,
+   "lat_ns": 10209
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.038722408935427666,
+   "val_rmse": 0.03891270235180855,
+   "bytes": 2324,
+   "lat_ns": 9918
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.02757583186030388,
+   "val_rmse": 0.027652296237647533,
+   "bytes": 5652,
+   "lat_ns": 15459
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.04096059873700142,
+   "val_rmse": 0.04120413772761822,
+   "bytes": 6164,
+   "lat_ns": 20709
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp2_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.03433354198932648,
+   "val_rmse": 0.03464913181960583,
+   "bytes": 6164,
+   "lat_ns": 20418
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.01981009915471077,
+   "val_rmse": 0.020046423189342022,
+   "bytes": 36888,
+   "lat_ns": 65627
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.03331539407372475,
+   "val_rmse": 0.033263808116316795,
+   "bytes": 37656,
+   "lat_ns": 81669
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.023254080675542355,
+   "val_rmse": 0.023356874473392963,
+   "bytes": 37656,
+   "lat_ns": 80504
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.04922139085829258,
+   "val_rmse": 0.049745216965675354,
+   "bytes": 1048,
+   "lat_ns": 5834
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.04298149049282074,
+   "val_rmse": 0.04289281740784645,
+   "bytes": 1816,
+   "lat_ns": 7876
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.04821806028485298,
+   "val_rmse": 0.04830080457031727,
+   "bytes": 1816,
+   "lat_ns": 7875
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.034532103687524796,
+   "val_rmse": 0.03460772521793842,
+   "bytes": 3096,
+   "lat_ns": 11375
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.03197591658681631,
+   "val_rmse": 0.03154877293854952,
+   "bytes": 3864,
+   "lat_ns": 15459
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.035044193267822266,
+   "val_rmse": 0.03499583341181278,
+   "bytes": 3864,
+   "lat_ns": 15459
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.025807436555624008,
+   "val_rmse": 0.025509057566523552,
+   "bytes": 10264,
+   "lat_ns": 24793
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.03535078279674053,
+   "val_rmse": 0.03549525700509548,
+   "bytes": 11032,
+   "lat_ns": 32959
+  },
+  {
+   "task": "msis7",
+   "shape": "mlp3_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.02881317213177681,
+   "val_rmse": 0.029130470007658005,
+   "bytes": 11032,
+   "lat_ns": 32959
+  },
+  {
+   "task": "msis7",
+   "shape": "poly1",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.22928241771298719,
+   "val_rmse": 0.2307891839051892,
+   "bytes": 56,
+   "lat_ns": 583
+  },
+  {
+   "task": "msis7",
+   "shape": "poly2",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.14507472822162312,
+   "val_rmse": 0.14544903816768467,
+   "bytes": 252,
+   "lat_ns": 1167
+  },
+  {
+   "task": "msis7",
+   "shape": "poly3",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.11224981969188427,
+   "val_rmse": 0.11315760815127221,
+   "bytes": 840,
+   "lat_ns": 2625
+  },
+  {
+   "task": "msis7",
+   "shape": "poly4",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.07807575303442975,
+   "val_rmse": 0.07885583625466645,
+   "bytes": 2310,
+   "lat_ns": 6126
+  },
+  {
+   "task": "msis7",
+   "shape": "poly5",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.05935096656360815,
+   "val_rmse": 0.05930230432146156,
+   "bytes": 5544,
+   "lat_ns": 14292
+  },
+  {
+   "task": "msis7",
+   "shape": "poly6",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.04058741714103231,
+   "val_rmse": 0.04086354421442711,
+   "bytes": 12012,
+   "lat_ns": 30335
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridv_n2x2x7x9x2x2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 3.309633224683344,
+   "val_rmse": 3.37941562202052,
+   "bytes": 2044,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridv_n3x2x8x10x2x2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 1.9856717859521242,
+   "val_rmse": 2.033177726806206,
+   "bytes": 3868,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridv_n4x3x11x15x2x2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.9998953179026983,
+   "val_rmse": 0.9951878199443576,
+   "bytes": 15868,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridv_n4x3x15x22x2x2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.736685862860817,
+   "val_rmse": 0.7589687886284388,
+   "bytes": 31708,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridv_n5x3x16x22x2x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.6416428009538637,
+   "val_rmse": 0.7134238917465344,
+   "bytes": 63388,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridv_n5x4x19x28x2x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.4694701820393623,
+   "val_rmse": 0.5007895821414662,
+   "bytes": 127708,
+   "lat_ns": 5834
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridvnode_n2x2x7x9x2x2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 8.954252668920994,
+   "val_rmse": 9.036983664238976,
+   "bytes": 2044,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridvnode_n3x2x8x10x2x2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 5.032139951575078,
+   "val_rmse": 5.0517276309409835,
+   "bytes": 3868,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridvnode_n4x3x11x15x2x2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 2.2610350889790363,
+   "val_rmse": 2.3031617156561595,
+   "bytes": 15868,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridvnode_n4x3x15x22x2x2",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 1.9264857949185183,
+   "val_rmse": 1.963442168155896,
+   "bytes": 31708,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridvnode_n5x3x16x22x2x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 1.3337331403530113,
+   "val_rmse": 1.370628227430993,
+   "bytes": 63388,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridvnode_n5x4x19x28x2x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.9856657527492273,
+   "val_rmse": 0.9847308448317844,
+   "bytes": 127708,
+   "lat_ns": 5834
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridv_n3x2x14x4x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.6709421523710392,
+   "val_rmse": 0.6960676945334024,
+   "bytes": 2040,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridv_n4x2x16x5x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.5213111086201139,
+   "val_rmse": 0.5322845731790365,
+   "bytes": 3864,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridv_n5x3x22x6x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.2690537504814841,
+   "val_rmse": 0.28172771454194956,
+   "bytes": 15864,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridv_n5x3x31x7x5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.20083292289724863,
+   "val_rmse": 0.20579023602706692,
+   "bytes": 32574,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridv_n6x3x33x9x6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.17096203028637683,
+   "val_rmse": 0.17535967050853918,
+   "bytes": 64176,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridv_n7x4x37x9x7",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.14401921272843896,
+   "val_rmse": 0.15048659531982564,
+   "bytes": 130560,
+   "lat_ns": 3209
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridvnode_n3x2x14x4x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 2.5339356494912457,
+   "val_rmse": 2.5813210370651696,
+   "bytes": 2040,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridvnode_n4x2x16x5x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 1.9141395661201093,
+   "val_rmse": 1.9370866448606285,
+   "bytes": 3864,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridvnode_n5x3x22x6x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.8904423384680065,
+   "val_rmse": 0.902555061353922,
+   "bytes": 15864,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridvnode_n5x3x31x7x5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.6505729556616975,
+   "val_rmse": 0.6590444404013222,
+   "bytes": 32574,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridvnode_n6x3x33x9x6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.4892857410664772,
+   "val_rmse": 0.49738762909515455,
+   "bytes": 64176,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridvnode_n7x4x37x9x7",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.33859999267464164,
+   "val_rmse": 0.34613426088637855,
+   "bytes": 130560,
+   "lat_ns": 3209
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp16_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.0068720809649676085,
+   "val_rmse": 0.00688032153993845,
+   "bytes": 2372,
+   "lat_ns": 2625
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp16_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.0024102008901536465,
+   "val_rmse": 0.0022523002699017525,
+   "bytes": 4420,
+   "lat_ns": 2625
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp16_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.0010438179597258568,
+   "val_rmse": 0.0009628288971725851,
+   "bytes": 8516,
+   "lat_ns": 2625
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp1_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.05396249145269394,
+   "val_rmse": 0.0533951073884964,
+   "bytes": 152,
+   "lat_ns": 875
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp1_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.05373573489487171,
+   "val_rmse": 0.05313822068274021,
+   "bytes": 280,
+   "lat_ns": 875
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp1_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.053787706419825554,
+   "val_rmse": 0.05320609547197819,
+   "bytes": 536,
+   "lat_ns": 875
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp2_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.02461912762373686,
+   "val_rmse": 0.024197925813496113,
+   "bytes": 300,
+   "lat_ns": 875
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp2_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.024189691059291363,
+   "val_rmse": 0.02355141844600439,
+   "bytes": 556,
+   "lat_ns": 875
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp2_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.02419489622116089,
+   "val_rmse": 0.02360663842409849,
+   "bytes": 1068,
+   "lat_ns": 875
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp4_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.00928624626249075,
+   "val_rmse": 0.009259888902306557,
+   "bytes": 596,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp4_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.006979873403906822,
+   "val_rmse": 0.006908561568707228,
+   "bytes": 1108,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp4_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.006868727272376418,
+   "val_rmse": 0.006815100787207484,
+   "bytes": 2132,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp8_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.00701496540568769,
+   "val_rmse": 0.007004243554547429,
+   "bytes": 1188,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp8_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.0029977913945913315,
+   "val_rmse": 0.002911756164394319,
+   "bytes": 2212,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "cp8_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.0022549128625541925,
+   "val_rmse": 0.0021573214326053858,
+   "bytes": 4260,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "ga2m_q16_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.037939295172691345,
+   "val_rmse": 0.037438420578837395,
+   "bytes": 3244,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "ga2m_q16_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.04049041122198105,
+   "val_rmse": 0.03974852338433266,
+   "bytes": 12460,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "ga2m_q16_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.03875884972512722,
+   "val_rmse": 0.03810429386794567,
+   "bytes": 940,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "ga2m_q32_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.037658337503671646,
+   "val_rmse": 0.03711569309234619,
+   "bytes": 3372,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "ga2m_q32_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.040494177490472794,
+   "val_rmse": 0.03974795714020729,
+   "bytes": 12588,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "ga2m_q32_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.0386201199144125,
+   "val_rmse": 0.03804458677768707,
+   "bytes": 1068,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "ga2m_q64_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.037648189812898636,
+   "val_rmse": 0.03715217113494873,
+   "bytes": 3628,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "ga2m_q64_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.04048886150121689,
+   "val_rmse": 0.03978738561272621,
+   "bytes": 12844,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "ga2m_q64_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 0.0386436115950346,
+   "val_rmse": 0.03807187080383301,
+   "bytes": 1324,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n100_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.018514064329506044,
+   "val_rmse": 0.018023408244704858,
+   "bytes": 23604,
+   "lat_ns": 7584
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n100_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.013556728523536024,
+   "val_rmse": 0.013466831029469249,
+   "bytes": 49204,
+   "lat_ns": 9917
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n100_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.02656309990127887,
+   "val_rmse": 0.026340942595579273,
+   "bytes": 10804,
+   "lat_ns": 5542
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n200_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.01371927977184297,
+   "val_rmse": 0.013526276307677351,
+   "bytes": 47204,
+   "lat_ns": 14292
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n200_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.010996452452823305,
+   "val_rmse": 0.011036721179353918,
+   "bytes": 98404,
+   "lat_ns": 22167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n200_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.019939888286685314,
+   "val_rmse": 0.020097282533931678,
+   "bytes": 21604,
+   "lat_ns": 9917
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n25_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.03105884801329531,
+   "val_rmse": 0.030159975294088596,
+   "bytes": 5904,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n25_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.022931616419555892,
+   "val_rmse": 0.022871979085232495,
+   "bytes": 12304,
+   "lat_ns": 2626
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n25_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.05916477949089684,
+   "val_rmse": 0.05725589362487113,
+   "bytes": 2704,
+   "lat_ns": 1751
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n400_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.011172521243931673,
+   "val_rmse": 0.011183745187326226,
+   "bytes": 94404,
+   "lat_ns": 38502
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n400_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.009227379180257041,
+   "val_rmse": 0.009277227899010306,
+   "bytes": 196804,
+   "lat_ns": 71753
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n400_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.015290833236730127,
+   "val_rmse": 0.015433494976325401,
+   "bytes": 43204,
+   "lat_ns": 19834
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n50_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.02402336212489041,
+   "val_rmse": 0.02346931098789247,
+   "bytes": 11804,
+   "lat_ns": 3792
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n50_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.01883406028658496,
+   "val_rmse": 0.018437465771885993,
+   "bytes": 24604,
+   "lat_ns": 4959
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n50_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.037346561066172186,
+   "val_rmse": 0.03673579790359247,
+   "bytes": 5404,
+   "lat_ns": 3208
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n800_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.009419713958153622,
+   "val_rmse": 0.009438935331619155,
+   "bytes": 188804,
+   "lat_ns": 130964
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n800_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.008141789514548463,
+   "val_rmse": 0.008188303540208048,
+   "bytes": 393604,
+   "lat_ns": 189591
+  },
+  {
+   "task": "tyre4",
+   "shape": "gbdt_n800_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.012017234837885247,
+   "val_rmse": 0.0120394271059082,
+   "bytes": 86404,
+   "lat_ns": 39960
+  },
+  {
+   "task": "tyre4",
+   "shape": "grid_n10",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.014646803154597352,
+   "val_rmse": 0.013814984812808727,
+   "bytes": 20004,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "grid_n12",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.012499105450179205,
+   "val_rmse": 0.011826465723737854,
+   "bytes": 41476,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "grid_n15",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.019200606671380124,
+   "val_rmse": 0.01866158211822052,
+   "bytes": 101254,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "grid_n3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.19681123803714595,
+   "val_rmse": 0.19286850312284382,
+   "bytes": 166,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "grid_n4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.0704934378419807,
+   "val_rmse": 0.06915829941034282,
+   "bytes": 516,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "grid_n5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.10886588057462016,
+   "val_rmse": 0.10653687717949617,
+   "bytes": 1254,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "grid_n6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.03153043484777755,
+   "val_rmse": 0.030594869709494463,
+   "bytes": 2596,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "grid_n8",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.018989489812020505,
+   "val_rmse": 0.018498605872612185,
+   "bytes": 8196,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridnode_n10",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.022075414140791418,
+   "val_rmse": 0.02112476089090158,
+   "bytes": 20004,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridnode_n12",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.017766736162843244,
+   "val_rmse": 0.016949976569140397,
+   "bytes": 41476,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridnode_n15",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.019275317927787833,
+   "val_rmse": 0.019184578028383963,
+   "bytes": 101254,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridnode_n3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.257174207430849,
+   "val_rmse": 0.25355464155261775,
+   "bytes": 166,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridnode_n4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.0904911488936931,
+   "val_rmse": 0.08829047733096737,
+   "bytes": 516,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridnode_n5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.1307488179821613,
+   "val_rmse": 0.12776446995340485,
+   "bytes": 1254,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridnode_n6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.044354247464456806,
+   "val_rmse": 0.042916211195853524,
+   "bytes": 2596,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridnode_n8",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.02916983619653185,
+   "val_rmse": 0.02780592647635356,
+   "bytes": 8196,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridv_n13x41x3x5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.0018331725945750694,
+   "val_rmse": 0.0018158576504835372,
+   "bytes": 16010,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridv_n17x53x3x6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.0011562683194223107,
+   "val_rmse": 0.001112968486793672,
+   "bytes": 32456,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridv_n22x70x3x7",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.0008689505906063859,
+   "val_rmse": 0.0008562758639135724,
+   "bytes": 64700,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridv_n25x81x4x8",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.0006874563202078848,
+   "val_rmse": 0.0006610786918400202,
+   "bytes": 129620,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridv_n7x24x2x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.006535885354527216,
+   "val_rmse": 0.006410102691404834,
+   "bytes": 2036,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridv_n9x28x2x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.004052230920945182,
+   "val_rmse": 0.004007567979824122,
+   "bytes": 4052,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridvnode_n13x41x3x5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.0043635561547229855,
+   "val_rmse": 0.004308222432962925,
+   "bytes": 16010,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridvnode_n17x53x3x6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.0026295069698155675,
+   "val_rmse": 0.002582579554820062,
+   "bytes": 32456,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridvnode_n22x70x3x7",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.00167241240588432,
+   "val_rmse": 0.0016431531717565372,
+   "bytes": 64700,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridvnode_n25x81x4x8",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.0012218414582921865,
+   "val_rmse": 0.0012253565270188278,
+   "bytes": 129620,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridvnode_n7x24x2x3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.01441020784656472,
+   "val_rmse": 0.014180852953526765,
+   "bytes": 2036,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "gridvnode_n9x28x2x4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 0.008711369881338756,
+   "val_rmse": 0.008596486886200348,
+   "bytes": 4052,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.00968446908518672,
+   "val_rmse": 0.009338933043181896,
+   "bytes": 2788,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.0013336879201233387,
+   "val_rmse": 0.0013116949703544378,
+   "bytes": 10468,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.0011672721593640745,
+   "val_rmse": 0.0011353506706655025,
+   "bytes": 20708,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.0011583673767745495,
+   "val_rmse": 0.0011249581002630293,
+   "bytes": 41188,
+   "lat_ns": 2334
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.013935682829469442,
+   "val_rmse": 0.01394176110625267,
+   "bytes": 10468,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.014589777681976557,
+   "val_rmse": 0.014418742153793573,
+   "bytes": 5348,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.003719553700648248,
+   "val_rmse": 0.00355826283339411,
+   "bytes": 41188,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.004990733927115798,
+   "val_rmse": 0.004879482323303819,
+   "bytes": 20708,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.009683031123131514,
+   "val_rmse": 0.009445815347135067,
+   "bytes": 2788,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.0012342615518718958,
+   "val_rmse": 0.0011712221894413233,
+   "bytes": 10468,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.0010297284461557865,
+   "val_rmse": 0.0009880938741844147,
+   "bytes": 20708,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.0010174762865062803,
+   "val_rmse": 0.0009737899526953697,
+   "bytes": 41188,
+   "lat_ns": 2334
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.013778844848275185,
+   "val_rmse": 0.013617347460240126,
+   "bytes": 10468,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.014152927324175835,
+   "val_rmse": 0.014053316786885262,
+   "bytes": 5348,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.0036212323466315866,
+   "val_rmse": 0.00347594462800771,
+   "bytes": 41188,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w16_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.004731422057375312,
+   "val_rmse": 0.004589360440149903,
+   "bytes": 20708,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.0093046841211617,
+   "val_rmse": 0.008917381521314383,
+   "bytes": 5540,
+   "lat_ns": 3500
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.000979341217316687,
+   "val_rmse": 0.0009476502018515021,
+   "bytes": 20900,
+   "lat_ns": 3792
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.0008166558691300452,
+   "val_rmse": 0.0007920001808088273,
+   "bytes": 41380,
+   "lat_ns": 4083
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.0008071222982835025,
+   "val_rmse": 0.0007806184876244515,
+   "bytes": 82340,
+   "lat_ns": 7000
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.01347824651747942,
+   "val_rmse": 0.01333089079707861,
+   "bytes": 20900,
+   "lat_ns": 3500
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.01380156772211194,
+   "val_rmse": 0.013604545500129461,
+   "bytes": 10660,
+   "lat_ns": 3500
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.0035046112025156617,
+   "val_rmse": 0.00335153890773654,
+   "bytes": 82340,
+   "lat_ns": 5834
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.004328018287196755,
+   "val_rmse": 0.004239921225234866,
+   "bytes": 41380,
+   "lat_ns": 3792
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.009414221625775099,
+   "val_rmse": 0.009161968249827623,
+   "bytes": 5540,
+   "lat_ns": 3500
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.000850126933073625,
+   "val_rmse": 0.0008346324611920863,
+   "bytes": 20900,
+   "lat_ns": 3792
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.0006172102876007557,
+   "val_rmse": 0.0005979497800581157,
+   "bytes": 41380,
+   "lat_ns": 4083
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.0005872520268894732,
+   "val_rmse": 0.0005682329938281327,
+   "bytes": 82340,
+   "lat_ns": 7000
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.013400561641901731,
+   "val_rmse": 0.013217848725616932,
+   "bytes": 20900,
+   "lat_ns": 3500
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.013627136591821909,
+   "val_rmse": 0.013429749757051468,
+   "bytes": 10660,
+   "lat_ns": 3500
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.0034169304417446256,
+   "val_rmse": 0.003265093662776053,
+   "bytes": 82340,
+   "lat_ns": 5834
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w32_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.004078845493495464,
+   "val_rmse": 0.003952267346903682,
+   "bytes": 41380,
+   "lat_ns": 3792
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.012043833266943693,
+   "val_rmse": 0.011751825455576181,
+   "bytes": 724,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.0079105612821877,
+   "val_rmse": 0.007800398860126734,
+   "bytes": 2644,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.007887320127338171,
+   "val_rmse": 0.00778229208663106,
+   "bytes": 5204,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.007884398568421602,
+   "val_rmse": 0.007780281826853752,
+   "bytes": 10324,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.020673107355833054,
+   "val_rmse": 0.020596853457391262,
+   "bytes": 2644,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.02184431441128254,
+   "val_rmse": 0.0216521006077528,
+   "bytes": 1364,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.009383524768054485,
+   "val_rmse": 0.009270783048123121,
+   "bytes": 10324,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.011993071995675564,
+   "val_rmse": 0.012032696045935154,
+   "bytes": 5204,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.012492933310568333,
+   "val_rmse": 0.012083313893526793,
+   "bytes": 724,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.007290316745638847,
+   "val_rmse": 0.007242538500577211,
+   "bytes": 2644,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.007252810290083289,
+   "val_rmse": 0.007219317369163036,
+   "bytes": 5204,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.007250558119267225,
+   "val_rmse": 0.007215406280010939,
+   "bytes": 10324,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.02037030551582575,
+   "val_rmse": 0.02032295987010002,
+   "bytes": 2644,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.02175740245729685,
+   "val_rmse": 0.02177870087325573,
+   "bytes": 1364,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.008713307790458202,
+   "val_rmse": 0.008682873100042343,
+   "bytes": 10324,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w4_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.011583564337342978,
+   "val_rmse": 0.01158695574849844,
+   "bytes": 5204,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.00947673013433814,
+   "val_rmse": 0.009267694782465696,
+   "bytes": 1412,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.002832882688380778,
+   "val_rmse": 0.0027809706516563892,
+   "bytes": 5252,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.0027763802791014314,
+   "val_rmse": 0.002718477975577116,
+   "bytes": 10372,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.002773927873931825,
+   "val_rmse": 0.0027133069233968854,
+   "bytes": 20612,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.015655546449124813,
+   "val_rmse": 0.015561365988105536,
+   "bytes": 5252,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.016445552930235863,
+   "val_rmse": 0.016318569891154766,
+   "bytes": 2692,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.0047235130332410336,
+   "val_rmse": 0.00463065505027771,
+   "bytes": 20612,
+   "lat_ns": 1459
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.0068029912654310465,
+   "val_rmse": 0.00675608916208148,
+   "bytes": 10372,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.00857941759750247,
+   "val_rmse": 0.008386439643800259,
+   "bytes": 1412,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.0027020025299862027,
+   "val_rmse": 0.0026028279680758715,
+   "bytes": 5252,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.00264050520490855,
+   "val_rmse": 0.0025507627287879586,
+   "bytes": 10372,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.0026364228688180447,
+   "val_rmse": 0.002546273055486381,
+   "bytes": 20612,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.015046601183712482,
+   "val_rmse": 0.014756678137928247,
+   "bytes": 5252,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.015396205242723227,
+   "val_rmse": 0.015222597867250443,
+   "bytes": 2692,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.00460805045440793,
+   "val_rmse": 0.004542380105704069,
+   "bytes": 20612,
+   "lat_ns": 1459
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan1_w8_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.005782908294349909,
+   "val_rmse": 0.005739455344155431,
+   "bytes": 10372,
+   "lat_ns": 1458
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w16_g5",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.005337689071893692,
+   "val_rmse": 0.005200457759201527,
+   "bytes": 11172,
+   "lat_ns": 4084
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w16_g5",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.0007290269422810525,
+   "val_rmse": 0.000711546977981925,
+   "bytes": 43428,
+   "lat_ns": 4375
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w16_g5",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.0006488502549473196,
+   "val_rmse": 0.00063178944401443,
+   "bytes": 86436,
+   "lat_ns": 4667
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w16_g5",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.0006424549501389265,
+   "val_rmse": 0.0006261648086365312,
+   "bytes": 172452,
+   "lat_ns": 9334
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w16_g5",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.013938989955931902,
+   "val_rmse": 0.013858238700777292,
+   "bytes": 43428,
+   "lat_ns": 3500
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w16_g5",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.014811488799750805,
+   "val_rmse": 0.0145940026268363,
+   "bytes": 21924,
+   "lat_ns": 3500
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w16_g5",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.003596462542191148,
+   "val_rmse": 0.0034465715289115906,
+   "bytes": 172452,
+   "lat_ns": 7584
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w16_g5",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.004958431934937835,
+   "val_rmse": 0.004880820866674185,
+   "bytes": 86436,
+   "lat_ns": 3792
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w8_g5",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.006627216236665845,
+   "val_rmse": 0.00644157431088388,
+   "bytes": 3556,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w8_g5",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.0012435433454811573,
+   "val_rmse": 0.0012110146635677665,
+   "bytes": 13540,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w8_g5",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.0011780604254454374,
+   "val_rmse": 0.0011436673521529883,
+   "bytes": 26852,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w8_g5",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.0011732397833839059,
+   "val_rmse": 0.0011398541391827166,
+   "bytes": 53476,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w8_g5",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 0.015584871638566256,
+   "val_rmse": 0.015445382334291935,
+   "bytes": 13540,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w8_g5",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 0.016431246884167194,
+   "val_rmse": 0.01618713978677988,
+   "bytes": 6884,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w8_g5",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.004081821534782648,
+   "val_rmse": 0.003931586630642414,
+   "bytes": 53476,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "kan2_w8_g5",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.006397483171895146,
+   "val_rmse": 0.006303788162767887,
+   "bytes": 26852,
+   "lat_ns": 2333
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.012386357877403498,
+   "val_rmse": 0.01241221372038126,
+   "bytes": 1680,
+   "lat_ns": 10500
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.05387182533740997,
+   "val_rmse": 0.05379438027739525,
+   "bytes": 1936,
+   "lat_ns": 15459
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.01937555056065321,
+   "val_rmse": 0.019338159821927547,
+   "bytes": 1936,
+   "lat_ns": 15459
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.029748544096946716,
+   "val_rmse": 0.029253721237182617,
+   "bytes": 224,
+   "lat_ns": 2042
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.054351843893527985,
+   "val_rmse": 0.05440473183989525,
+   "bytes": 480,
+   "lat_ns": 2917
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.02812482975423336,
+   "val_rmse": 0.028031357564032078,
+   "bytes": 480,
+   "lat_ns": 2626
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.01956482045352459,
+   "val_rmse": 0.019556873477995396,
+   "bytes": 432,
+   "lat_ns": 3209
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.05403752252459526,
+   "val_rmse": 0.0537529643625021,
+   "bytes": 688,
+   "lat_ns": 4667
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.02332465723156929,
+   "val_rmse": 0.02327842079102993,
+   "bytes": 688,
+   "lat_ns": 4667
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.013481316156685352,
+   "val_rmse": 0.013562158681452274,
+   "bytes": 848,
+   "lat_ns": 5833
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.05201710760593414,
+   "val_rmse": 0.05161811038851738,
+   "bytes": 1104,
+   "lat_ns": 8167
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp1_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.020428487099707127,
+   "val_rmse": 0.020375799387693405,
+   "bytes": 1104,
+   "lat_ns": 8167
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.005246864166110754,
+   "val_rmse": 0.005171029595658183,
+   "bytes": 19092,
+   "lat_ns": 36460
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.032777002081274986,
+   "val_rmse": 0.03255957365036011,
+   "bytes": 19604,
+   "lat_ns": 47252
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.005595153896138072,
+   "val_rmse": 0.005574107868596911,
+   "bytes": 19604,
+   "lat_ns": 46669
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.011290722526609898,
+   "val_rmse": 0.011174001265317202,
+   "bytes": 612,
+   "lat_ns": 3792
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.037820084020495415,
+   "val_rmse": 0.03791039437055588,
+   "bytes": 1124,
+   "lat_ns": 5250
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.011102994438260794,
+   "val_rmse": 0.01090532774105668,
+   "bytes": 1124,
+   "lat_ns": 5250
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.007272872608155012,
+   "val_rmse": 0.007213184144347906,
+   "bytes": 1716,
+   "lat_ns": 7292
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.03566059470176697,
+   "val_rmse": 0.0352561641484499,
+   "bytes": 2228,
+   "lat_ns": 9917
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.008641277439892292,
+   "val_rmse": 0.008536248933523893,
+   "bytes": 2228,
+   "lat_ns": 9917
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.006114042829722166,
+   "val_rmse": 0.006103939609602094,
+   "bytes": 5460,
+   "lat_ns": 15167
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.035398248583078384,
+   "val_rmse": 0.035780323669314384,
+   "bytes": 5972,
+   "lat_ns": 20418
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp2_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.0075993319042027,
+   "val_rmse": 0.00759167829528451,
+   "bytes": 5972,
+   "lat_ns": 20417
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.004543493967503309,
+   "val_rmse": 0.004483110504224896,
+   "bytes": 36504,
+   "lat_ns": 65044
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.02875338401645422,
+   "val_rmse": 0.02925772126764059,
+   "bytes": 37272,
+   "lat_ns": 81378
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.004559627268463373,
+   "val_rmse": 0.004560733446851373,
+   "bytes": 37272,
+   "lat_ns": 80503
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.00883727753534913,
+   "val_rmse": 0.00875551626086235,
+   "bytes": 1000,
+   "lat_ns": 5833
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.033229582011699677,
+   "val_rmse": 0.03315470740199089,
+   "bytes": 1768,
+   "lat_ns": 7875
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.008611967787146568,
+   "val_rmse": 0.00842728465795517,
+   "bytes": 1768,
+   "lat_ns": 7875
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.0064831082709133625,
+   "val_rmse": 0.0064378948882222176,
+   "bytes": 3000,
+   "lat_ns": 11084
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.028117154724895954,
+   "val_rmse": 0.02783682383596897,
+   "bytes": 3768,
+   "lat_ns": 15167
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.006502471631392837,
+   "val_rmse": 0.006476328242570162,
+   "bytes": 3768,
+   "lat_ns": 15167
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.005449728574603796,
+   "val_rmse": 0.005436415784060955,
+   "bytes": 10072,
+   "lat_ns": 24501
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.024312038905918598,
+   "val_rmse": 0.024224132299423218,
+   "bytes": 10840,
+   "lat_ns": 32668
+  },
+  {
+   "task": "tyre4",
+   "shape": "mlp3_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.005463364766910672,
+   "val_rmse": 0.005418863380327821,
+   "bytes": 10840,
+   "lat_ns": 32959
+  },
+  {
+   "task": "tyre4",
+   "shape": "poly1",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.29037533339424815,
+   "val_rmse": 0.2867936689450351,
+   "bytes": 35,
+   "lat_ns": 583
+  },
+  {
+   "task": "tyre4",
+   "shape": "poly2",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.21051910226119244,
+   "val_rmse": 0.2066228961175111,
+   "bytes": 105,
+   "lat_ns": 875
+  },
+  {
+   "task": "tyre4",
+   "shape": "poly3",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.1373159994602675,
+   "val_rmse": 0.1338007797317651,
+   "bytes": 245,
+   "lat_ns": 1167
+  },
+  {
+   "task": "tyre4",
+   "shape": "poly4",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.12223103281524313,
+   "val_rmse": 0.12017661964723254,
+   "bytes": 490,
+   "lat_ns": 1750
+  },
+  {
+   "task": "tyre4",
+   "shape": "poly5",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.08352894641088206,
+   "val_rmse": 0.08198625393850668,
+   "bytes": 882,
+   "lat_ns": 2625
+  },
+  {
+   "task": "tyre4",
+   "shape": "poly6",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.07804598929341121,
+   "val_rmse": 0.07705926653513384,
+   "bytes": 1470,
+   "lat_ns": 4084
+  }
+ ],
+ "criteria": {
+  "val_rmse": {
+   "C1": {
+    "cells": [
+     false,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "holds": true
+   },
+   "C2": {
+    "cells": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     true,
+     true
+    ],
+    "holds": false
+   },
+   "C3": {
+    "cells": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "holds": true
+   }
+  },
+  "rmse": {
+   "C1": {
+    "cells": [
+     false,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "holds": true
+   },
+   "C2": {
+    "cells": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     true,
+     true
+    ],
+    "holds": false
+   },
+   "C3": {
+    "cells": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "holds": true
+   }
+  },
+  "C4_tyre4": {
+   "target_rmse": 0.0006874563202078848,
+   "best_baseline": {
+    "task": "tyre4",
+    "shape": "gridv_n25x81x4x8",
+    "variant": "i16",
+    "family": "grid",
+    "rmse": 0.0006874563202078848,
+    "val_rmse": 0.0006610786918400202,
+    "bytes": 129620,
+    "lat_ns": 1750
+   },
+   "base_fastest": {
+    "task": "tyre4",
+    "shape": "gridv_n25x81x4x8",
+    "variant": "i16",
+    "family": "grid",
+    "rmse": 0.0006874563202078848,
+    "val_rmse": 0.0006610786918400202,
+    "bytes": 129620,
+    "lat_ns": 1750
+   },
+   "base_smallest": {
+    "task": "tyre4",
+    "shape": "gridv_n25x81x4x8",
+    "variant": "i16",
+    "family": "grid",
+    "rmse": 0.0006874563202078848,
+    "val_rmse": 0.0006610786918400202,
+    "bytes": 129620,
+    "lat_ns": 1750
+   },
+   "kan_fastest": {
+    "task": "tyre4",
+    "shape": "kan1_w32_g20",
+    "variant": "lin7_i16_m5",
+    "family": "kan",
+    "rmse": 0.0006172102876007557,
+    "val_rmse": 0.0005979497800581157,
+    "bytes": 41380,
+    "lat_ns": 4083
+   },
+   "kan_smallest": {
+    "task": "tyre4",
+    "shape": "kan1_w32_g20",
+    "variant": "lin7_i16_m5",
+    "family": "kan",
+    "rmse": 0.0006172102876007557,
+    "val_rmse": 0.0005979497800581157,
+    "bytes": 41380,
+    "lat_ns": 4083
+   },
+   "lat_ratio": 2.333142857142857,
+   "size_ratio": 0.31924085789230056,
+   "a": false,
+   "b": null,
+   "kan_best_rmse": 0.0005872520268894732,
+   "win": false
+  },
+  "C4_msis7": {
+   "target_rmse": 0.01981009915471077,
+   "best_baseline": {
+    "task": "msis7",
+    "shape": "mlp3_w128",
+    "variant": "int8",
+    "family": "mlp_int8",
+    "rmse": 0.01981009915471077,
+    "val_rmse": 0.020046423189342022,
+    "bytes": 36888,
+    "lat_ns": 65627
+   },
+   "base_fastest": {
+    "task": "msis7",
+    "shape": "mlp3_w128",
+    "variant": "int8",
+    "family": "mlp_int8",
+    "rmse": 0.01981009915471077,
+    "val_rmse": 0.020046423189342022,
+    "bytes": 36888,
+    "lat_ns": 65627
+   },
+   "base_smallest": {
+    "task": "msis7",
+    "shape": "mlp3_w128",
+    "variant": "int8",
+    "family": "mlp_int8",
+    "rmse": 0.01981009915471077,
+    "val_rmse": 0.020046423189342022,
+    "bytes": 36888,
+    "lat_ns": 65627
+   },
+   "kan_fastest": {
+    "task": "msis7",
+    "shape": "kan1_w32_g10",
+    "variant": "lin4_i16",
+    "family": "kan",
+    "rmse": 0.018293212167918682,
+    "val_rmse": 0.01828976534307003,
+    "bytes": 8636,
+    "lat_ns": 3792
+   },
+   "kan_smallest": {
+    "task": "msis7",
+    "shape": "kan1_w32_g10",
+    "variant": "lin4_i16",
+    "family": "kan",
+    "rmse": 0.018293212167918682,
+    "val_rmse": 0.01828976534307003,
+    "bytes": 8636,
+    "lat_ns": 3792
+   },
+   "lat_ratio": 0.05778109619516358,
+   "size_ratio": 0.23411407503795273,
+   "a": true,
+   "b": null,
+   "kan_best_rmse": 0.013963645789772272,
+   "win": true
+  },
+  "C4_flame5": {
+   "target_rmse": 0.889283150434494,
+   "best_baseline": {
+    "task": "flame5",
+    "shape": "cp16_q32",
+    "variant": "i16",
+    "family": "cp",
+    "rmse": 0.889283150434494,
+    "val_rmse": 0.9369511306285858,
+    "bytes": 5508,
+    "lat_ns": 2917
+   },
+   "base_fastest": {
+    "task": "flame5",
+    "shape": "cp16_q32",
+    "variant": "i16",
+    "family": "cp",
+    "rmse": 0.889283150434494,
+    "val_rmse": 0.9369511306285858,
+    "bytes": 5508,
+    "lat_ns": 2917
+   },
+   "base_smallest": {
+    "task": "flame5",
+    "shape": "cp16_q32",
+    "variant": "i16",
+    "family": "cp",
+    "rmse": 0.889283150434494,
+    "val_rmse": 0.9369511306285858,
+    "bytes": 5508,
+    "lat_ns": 2917
+   },
+   "kan_fastest": {
+    "task": "flame5",
+    "shape": "kan1_w8_g10",
+    "variant": "lin6_i16_m5",
+    "family": "kan",
+    "rmse": 0.7279283404350281,
+    "val_rmse": 0.7384699583053589,
+    "bytes": 6284,
+    "lat_ns": 1458
+   },
+   "kan_smallest": {
+    "task": "flame5",
+    "shape": "kan1_w8_g10",
+    "variant": "lin6_i16_m5",
+    "family": "kan",
+    "rmse": 0.7279283404350281,
+    "val_rmse": 0.7384699583053589,
+    "bytes": 6284,
+    "lat_ns": 1458
+   },
+   "lat_ratio": 0.49982859101816934,
+   "size_ratio": 1.1408859840232388,
+   "a": false,
+   "b": {
+    "task": "flame5",
+    "shape": "kan1_w16_g10",
+    "variant": "lin6_i16_m5",
+    "family": "kan",
+    "rmse": 0.38975533843040466,
+    "val_rmse": 0.39936740696430206,
+    "bytes": 12524,
+    "lat_ns": 2333
+   },
+   "kan_best_rmse": 0.24223943799734116,
+   "win": true
+  }
+ }
+}

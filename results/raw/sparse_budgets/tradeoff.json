@@ -1,0 +1,514 @@
+{
+ "L1": true,
+ "count": 8,
+ "models": {
+  "pv_mp5": {
+   "32768": {
+    "kan": {
+     "task": "pv_mp5",
+     "shape": "kan1_w16_g20",
+     "variant": "lin7_i16_m5",
+     "family": "kan",
+     "rmse": 0.023617926985025406,
+     "val_rmse": 0.023587001487612724,
+     "bytes": 24812,
+     "lat_ns": 958,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "pv_mp5",
+     "shape": "sgrid_mod_reg_n2_fit",
+     "variant": "i16",
+     "rmse": 13.594996924228791,
+     "val_rmse": 14.013363417359013,
+     "bytes": 50,
+     "family": "sgrid",
+     "lat_ns": 583
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "pv_mp5",
+     "shape": "sgrid_mod_w0.99_b32_fit",
+     "variant": "i16",
+     "rmse": 0.010013109774448135,
+     "val_rmse": 0.01039420871854163,
+     "bytes": 32716,
+     "family": "sgrid",
+     "lat_ns": 13042
+    }
+   },
+   "131072": {
+    "kan": {
+     "task": "pv_mp5",
+     "shape": "kan1_w32_g20",
+     "variant": "lin8_i16_m5",
+     "family": "kan",
+     "rmse": 0.018233035691082478,
+     "val_rmse": 0.019004122354090214,
+     "bytes": 98732,
+     "lat_ns": 1917,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "pv_mp5",
+     "shape": "sgrid_mod_reg_n3_fit",
+     "variant": "i16",
+     "rmse": 4.832356486842103,
+     "val_rmse": 5.096926093474449,
+     "bytes": 230,
+     "family": "sgrid",
+     "lat_ns": 1459
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "pv_mp5",
+     "shape": "sgrid_mod_w0.99_b32_fit",
+     "variant": "i16",
+     "rmse": 0.010013109774448135,
+     "val_rmse": 0.01039420871854163,
+     "bytes": 32716,
+     "family": "sgrid",
+     "lat_ns": 13042
+    }
+   }
+  },
+  "pv_chain6": {
+   "32768": {
+    "kan": {
+     "task": "pv_chain6",
+     "shape": "kan1_w32_g20",
+     "variant": "lin6_i16_m5",
+     "family": "kan",
+     "rmse": 0.31182195246219635,
+     "val_rmse": 0.3688602149486542,
+     "bytes": 29108,
+     "lat_ns": 1625,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "pv_chain6",
+     "shape": "sgrid_mod_reg_n2_fit",
+     "variant": "i16",
+     "rmse": 29.54592720836746,
+     "val_rmse": 29.807863442736586,
+     "bytes": 58,
+     "family": "sgrid",
+     "lat_ns": 667
+    },
+    "fastest_sgrid_at_kan_error": null
+   },
+   "131072": {
+    "kan": {
+     "task": "pv_chain6",
+     "shape": "kan2_w16_g5",
+     "variant": "lin7_i16_m5",
+     "family": "kan",
+     "rmse": 0.18380305171012878,
+     "val_rmse": 0.2003137543797493,
+     "bytes": 94644,
+     "lat_ns": 1875,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "pv_chain6",
+     "shape": "sgrid_mod_reg_n3_fit",
+     "variant": "i16",
+     "rmse": 13.392433271540185,
+     "val_rmse": 13.679882120300324,
+     "bytes": 310,
+     "family": "sgrid",
+     "lat_ns": 1834
+    },
+    "fastest_sgrid_at_kan_error": null
+   }
+  },
+  "msis7": {
+   "32768": {
+    "kan": {
+     "task": "msis7",
+     "shape": "kan2_w16_g5",
+     "variant": "lin4_i16",
+     "family": "kan",
+     "rmse": 0.016000887844711542,
+     "val_rmse": 0.016194883733987808,
+     "bytes": 12732,
+     "lat_ns": 1583,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "msis7",
+     "shape": "sgrid_mod_reg_n2_fit",
+     "variant": "i16",
+     "rmse": 0.16827833939481168,
+     "val_rmse": 0.16905117400815403,
+     "bytes": 66,
+     "family": "sgrid",
+     "lat_ns": 750
+    },
+    "fastest_sgrid_at_kan_error": null
+   },
+   "131072": {
+    "kan": {
+     "task": "msis7",
+     "shape": "kan2_w16_g5",
+     "variant": "lin7_i16_m5",
+     "family": "kan",
+     "rmse": 0.013963908422738314,
+     "val_rmse": 0.014044429641216993,
+     "bytes": 98748,
+     "lat_ns": 1958,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "msis7",
+     "shape": "sgrid_mod_reg_n2_fit",
+     "variant": "i16",
+     "rmse": 0.16827833939481168,
+     "val_rmse": 0.16905117400815403,
+     "bytes": 66,
+     "family": "sgrid",
+     "lat_ns": 750
+    },
+    "fastest_sgrid_at_kan_error": null
+   }
+  },
+  "flame5": {
+   "32768": {
+    "kan": {
+     "task": "flame5",
+     "shape": "kan1_w32_g20",
+     "variant": "lin6_i16_m5",
+     "family": "kan",
+     "rmse": 0.27206772565841675,
+     "val_rmse": 0.2878728359937668,
+     "bytes": 25004,
+     "lat_ns": 1583,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "flame5",
+     "shape": "sgrid_mod_reg_n3_fit",
+     "variant": "i16",
+     "rmse": 7.1848705723316275,
+     "val_rmse": 7.345628383505119,
+     "bytes": 230,
+     "family": "sgrid",
+     "lat_ns": 1459
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "flame5",
+     "shape": "sgrid_mod_w0.9_b32_fit",
+     "variant": "i16",
+     "rmse": 0.2488874549516773,
+     "val_rmse": 0.247762438074611,
+     "bytes": 32678,
+     "family": "sgrid",
+     "lat_ns": 21583
+    }
+   },
+   "131072": {
+    "kan": {
+     "task": "flame5",
+     "shape": "kan1_w32_g20",
+     "variant": "lin8_i16_m5",
+     "family": "kan",
+     "rmse": 0.2452312856912613,
+     "val_rmse": 0.25059450417757034,
+     "bytes": 98732,
+     "lat_ns": 1917,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "flame5",
+     "shape": "sgrid_mod_reg_n3_fit",
+     "variant": "i16",
+     "rmse": 7.1848705723316275,
+     "val_rmse": 7.345628383505119,
+     "bytes": 230,
+     "family": "sgrid",
+     "lat_ns": 1459
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "flame5",
+     "shape": "sgrid_mod_reg_n7_fit",
+     "variant": "i16",
+     "rmse": 0.2043307116009825,
+     "val_rmse": 0.2043569209638418,
+     "bytes": 39738,
+     "family": "sgrid",
+     "lat_ns": 25833
+    }
+   }
+  },
+  "gasz7": {
+   "32768": {
+    "kan": {
+     "task": "gasz7",
+     "shape": "kan1_w16_g10",
+     "variant": "lin6_i16_m5",
+     "family": "kan",
+     "rmse": 3.660966831375845e-05,
+     "val_rmse": 4.013459329144098e-05,
+     "bytes": 16636,
+     "lat_ns": 958,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "gasz7",
+     "shape": "sgrid_mod_reg_n2_fit",
+     "variant": "i16",
+     "rmse": 0.014117129366625559,
+     "val_rmse": 0.014092183318043822,
+     "bytes": 66,
+     "family": "sgrid",
+     "lat_ns": 750
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "gasz7",
+     "shape": "sgrid_mod_w0.5_b16_fit",
+     "variant": "i16",
+     "rmse": 2.957579816124282e-05,
+     "val_rmse": 2.9680276799451616e-05,
+     "bytes": 16377,
+     "family": "sgrid",
+     "lat_ns": 19000
+    }
+   },
+   "131072": {
+    "kan": {
+     "task": "gasz7",
+     "shape": "kan1_w32_g10",
+     "variant": "lin7_i16_m5",
+     "family": "kan",
+     "rmse": 2.296016100444831e-05,
+     "val_rmse": 2.541698904678924e-05,
+     "bytes": 65980,
+     "lat_ns": 1958,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "gasz7",
+     "shape": "sgrid_mod_reg_n2_fit",
+     "variant": "i16",
+     "rmse": 0.014117129366625559,
+     "val_rmse": 0.014092183318043822,
+     "bytes": 66,
+     "family": "sgrid",
+     "lat_ns": 750
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "gasz7",
+     "shape": "sgrid_mod_w0.5_b32_fit",
+     "variant": "i16",
+     "rmse": 1.2454180011196876e-05,
+     "val_rmse": 1.1971439793637366e-05,
+     "bytes": 32694,
+     "family": "sgrid",
+     "lat_ns": 30125
+    }
+   }
+  },
+  "ign5": {
+   "32768": {
+    "kan": {
+     "task": "ign5",
+     "shape": "kan1_w32_g10",
+     "variant": "lin6_i16_m5",
+     "family": "kan",
+     "rmse": 0.0018743813852779567,
+     "val_rmse": 0.001807866443414241,
+     "bytes": 25004,
+     "lat_ns": 1583,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "ign5",
+     "shape": "sgrid_mod_reg_n3_fit",
+     "variant": "i16",
+     "rmse": 0.054530731262843746,
+     "val_rmse": 0.054554117100144184,
+     "bytes": 230,
+     "family": "sgrid",
+     "lat_ns": 1459
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "ign5",
+     "shape": "sgrid_mod_w0.99_b128_fit",
+     "variant": "i16",
+     "rmse": 0.0017441037959832473,
+     "val_rmse": 0.001673436094797731,
+     "bytes": 131062,
+     "family": "sgrid",
+     "lat_ns": 21791
+    }
+   },
+   "131072": {
+    "kan": {
+     "task": "ign5",
+     "shape": "kan1_w32_g10",
+     "variant": "lin8_i16_m5",
+     "family": "kan",
+     "rmse": 0.0016460956539958715,
+     "val_rmse": 0.0015901544829830527,
+     "bytes": 98732,
+     "lat_ns": 1917,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "ign5",
+     "shape": "sgrid_mod_reg_n3_fit",
+     "variant": "i16",
+     "rmse": 0.054530731262843746,
+     "val_rmse": 0.054554117100144184,
+     "bytes": 230,
+     "family": "sgrid",
+     "lat_ns": 1459
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "ign5",
+     "shape": "sgrid_mod_w0.9_b128_fit",
+     "variant": "i16",
+     "rmse": 0.001525497830215503,
+     "val_rmse": 0.0013488885297708965,
+     "bytes": 130932,
+     "family": "sgrid",
+     "lat_ns": 36333
+    }
+   }
+  },
+  "msis_d5": {
+   "32768": {
+    "kan": {
+     "task": "msis_d5",
+     "shape": "kan1_w32_g20",
+     "variant": "lin6_i16_m5",
+     "family": "kan",
+     "rmse": 0.010160406120121479,
+     "val_rmse": 0.010101459454745054,
+     "bytes": 25004,
+     "lat_ns": 1583,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "msis_d5",
+     "shape": "sgrid_mod_reg_n3_fit",
+     "variant": "i16",
+     "rmse": 0.07626589255995248,
+     "val_rmse": 0.0749546602738458,
+     "bytes": 230,
+     "family": "sgrid",
+     "lat_ns": 1459
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "msis_d5",
+     "shape": "sgrid_mod_reg_n7_fit",
+     "variant": "i16",
+     "rmse": 0.008424004037147095,
+     "val_rmse": 0.008055812794137661,
+     "bytes": 39738,
+     "family": "sgrid",
+     "lat_ns": 26042
+    }
+   },
+   "131072": {
+    "kan": {
+     "task": "msis_d5",
+     "shape": "kan2_w16_g5",
+     "variant": "lin7_i16_m5",
+     "family": "kan",
+     "rmse": 0.009603641927242279,
+     "val_rmse": 0.009593742433935404,
+     "bytes": 90540,
+     "lat_ns": 1917,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "msis_d5",
+     "shape": "sgrid_mod_reg_n3_fit",
+     "variant": "i16",
+     "rmse": 0.07626589255995248,
+     "val_rmse": 0.0749546602738458,
+     "bytes": 230,
+     "family": "sgrid",
+     "lat_ns": 1459
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "msis_d5",
+     "shape": "sgrid_mod_reg_n7_fit",
+     "variant": "i16",
+     "rmse": 0.008424004037147095,
+     "val_rmse": 0.008055812794137661,
+     "bytes": 39738,
+     "family": "sgrid",
+     "lat_ns": 26042
+    }
+   }
+  },
+  "msis_d6": {
+   "32768": {
+    "kan": {
+     "task": "msis_d6",
+     "shape": "kan1_w32_g20",
+     "variant": "lin6_i16_m5",
+     "family": "kan",
+     "rmse": 0.012507626786828041,
+     "val_rmse": 0.01267895195633173,
+     "bytes": 29108,
+     "lat_ns": 1625,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "msis_d6",
+     "shape": "sgrid_mod_reg_n2_fit",
+     "variant": "i16",
+     "rmse": 0.1610828465357071,
+     "val_rmse": 0.16420229403507788,
+     "bytes": 58,
+     "family": "sgrid",
+     "lat_ns": 667
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "msis_d6",
+     "shape": "sgrid_mod_w0.5_b128_fit",
+     "variant": "i16",
+     "rmse": 0.011374259822077168,
+     "val_rmse": 0.0104163920362172,
+     "bytes": 131062,
+     "family": "sgrid",
+     "lat_ns": 45375
+    }
+   },
+   "131072": {
+    "kan": {
+     "task": "msis_d6",
+     "shape": "kan2_w16_g5",
+     "variant": "lin7_i16_m5",
+     "family": "kan",
+     "rmse": 0.012473631650209427,
+     "val_rmse": 0.012471369002014399,
+     "bytes": 94644,
+     "lat_ns": 1875,
+     "fam": "kan"
+    },
+    "sgrid_at_kan_latency": {
+     "task": "msis_d6",
+     "shape": "sgrid_mod_reg_n3_fit",
+     "variant": "i16",
+     "rmse": 0.08045906530505477,
+     "val_rmse": 0.08082987076771835,
+     "bytes": 310,
+     "family": "sgrid",
+     "lat_ns": 1875
+    },
+    "fastest_sgrid_at_kan_error": {
+     "task": "msis_d6",
+     "shape": "sgrid_mod_w0.5_b128_fit",
+     "variant": "i16",
+     "rmse": 0.011374259822077168,
+     "val_rmse": 0.0104163920362172,
+     "bytes": 131062,
+     "family": "sgrid",
+     "lat_ns": 45375
+    }
+   }
+  }
+ }
+}

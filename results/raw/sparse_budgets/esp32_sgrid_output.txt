@@ -1,0 +1,1234 @@
+board esp32 rev 301 cores 2 cpu_mhz 240 flash 4194304 specs 308 heap_free 270612 largest_block 139264
+spec sgrid:flame5.sgrid_mod_reg_n1 cycles 320 p10 320 p90 320 sum 14.7578
+spec sgridfast:flame5.sgrid_mod_reg_n1 cycles 390 p10 390 p90 390 sum 14.7578
+spec sgrid:flame5.sgrid_mod_reg_n1 ram cycles 320 p10 320 p90 320 sum 14.7578
+spec sgridfast:flame5.sgrid_mod_reg_n1 ram cycles 389 p10 389 p90 389 sum 14.7578
+spec sgrid:flame5.sgrid_mod_reg_n2 cycles 1914 p10 1907 p90 1917 sum -8.36454
+spec sgridfast:flame5.sgrid_mod_reg_n2 cycles 974 p10 963 p90 977 sum -8.36454
+spec sgrid:flame5.sgrid_mod_reg_n2 ram cycles 1914 p10 1907 p90 1917 sum -8.36454
+spec sgridfast:flame5.sgrid_mod_reg_n2 ram cycles 968 p10 957 p90 971 sum -8.36454
+spec sgrid:flame5.sgrid_mod_reg_n3 cycles 3958 p10 3942 p90 3959 sum 19.3447
+spec sgridfast:flame5.sgrid_mod_reg_n3 cycles 2325 p10 2309 p90 2329 sum 19.3447
+spec sgrid:flame5.sgrid_mod_reg_n3 ram cycles 3958 p10 3942 p90 3959 sum 19.3447
+spec sgridfast:flame5.sgrid_mod_reg_n3 ram cycles 2304 p10 2288 p90 2308 sum 19.3447
+spec sgrid:flame5.sgrid_mod_reg_n4 cycles 7542 p10 7526 p90 7543 sum -3.02482
+spec sgridfast:flame5.sgrid_mod_reg_n4 cycles 5384 p10 5364 p90 5390 sum -3.02482
+spec sgrid:flame5.sgrid_mod_reg_n4 ram cycles 7542 p10 7526 p90 7543 sum -3.02482
+spec sgridfast:flame5.sgrid_mod_reg_n4 ram cycles 5328 p10 5308 p90 5334 sum -3.02482
+spec sgrid:flame5.sgrid_mod_reg_n5 cycles 14024 p10 14007 p90 14029 sum 3.28501
+spec sgridfast:flame5.sgrid_mod_reg_n5 cycles 11700 p10 11679 p90 11707 sum 3.28501
+spec sgrid:flame5.sgrid_mod_reg_n5 ram cycles 14024 p10 14007 p90 14029 sum 3.28501
+spec sgridfast:flame5.sgrid_mod_reg_n5 ram cycles 11574 p10 11553 p90 11581 sum 3.28501
+spec sgrid:flame5.sgrid_mod_reg_n6 cycles 25387 p10 25370 p90 25467 sum -10.9811
+spec sgridfast:flame5.sgrid_mod_reg_n6 cycles 23358 p10 23337 p90 23424 sum -10.9811
+spec sgrid:flame5.sgrid_mod_reg_n6 ram cycles 25387 p10 25370 p90 25465 sum -10.9811
+spec sgridfast:flame5.sgrid_mod_reg_n6 ram cycles 23106 p10 23085 p90 23171 sum -10.9811
+spec sgrid:flame5.sgrid_mod_reg_n7 cycles 73175 p10 71985 p90 76056 sum -65.1046
+spec sgridfast:flame5.sgrid_mod_reg_n7 cycles 70122 p10 68712 p90 72715 sum -65.1046
+spec sgrid:flame5.sgrid_mod_reg_n7 ram cycles 44372 p10 44349 p90 44451 sum -65.1046
+spec sgridfast:flame5.sgrid_mod_reg_n7 ram cycles 42849 p10 42827 p90 42927 sum -65.1046
+spec sgrid:flame5.sgrid_mod_reg_n8 cycles 258701 p10 250692 p90 265650 sum 63.5066
+spec sgridfast:flame5.sgrid_mod_reg_n8 cycles 256518 p10 248861 p90 263285 sum 63.5066
+spec sgrid:flame5.sgrid_mod_reg_n8 ram cycles 74628 p10 74577 p90 74650 sum 63.5066
+spec sgridfast:flame5.sgrid_mod_reg_n8 ram cycles 74394 p10 74369 p90 74483 sum 63.5066
+spec sgrid:flame5.sgrid_mod_w0.5_b4 cycles 14024 p10 14007 p90 14041 sum -6.76046
+spec sgridfast:flame5.sgrid_mod_w0.5_b4 cycles 11700 p10 11679 p90 11707 sum -6.76046
+spec sgrid:flame5.sgrid_mod_w0.5_b4 ram cycles 14024 p10 14007 p90 14041 sum -6.76046
+spec sgridfast:flame5.sgrid_mod_w0.5_b4 ram cycles 11574 p10 11553 p90 11581 sum -6.76046
+spec sgrid:flame5.sgrid_mod_w0.5_b8 cycles 19471 p10 19454 p90 19549 sum -16.9444
+spec sgridfast:flame5.sgrid_mod_w0.5_b8 cycles 16843 p10 16822 p90 16899 sum -16.9444
+spec sgrid:flame5.sgrid_mod_w0.5_b8 ram cycles 19471 p10 19454 p90 19532 sum -16.9444
+spec sgridfast:flame5.sgrid_mod_w0.5_b8 ram cycles 16661 p10 16640 p90 16671 sum -16.9444
+spec sgrid:flame5.sgrid_mod_w0.5_b16 cycles 28173 p10 28150 p90 28249 sum -24.9996
+spec sgridfast:flame5.sgrid_mod_w0.5_b16 cycles 25545 p10 25523 p90 25611 sum -24.9996
+spec sgrid:flame5.sgrid_mod_w0.5_b16 ram cycles 28173 p10 28150 p90 28251 sum -24.9996
+spec sgridfast:flame5.sgrid_mod_w0.5_b16 ram cycles 25271 p10 25249 p90 25337 sum -24.9996
+spec sgrid:flame5.sgrid_mod_w0.5_b32 cycles 44719 p10 44508 p90 44854 sum -13.8233
+spec sgridfast:flame5.sgrid_mod_w0.5_b32 cycles 41923 p10 41772 p90 42030 sum -13.8233
+spec sgrid:flame5.sgrid_mod_w0.5_b32 ram cycles 38413 p10 38384 p90 38486 sum -13.8233
+spec sgridfast:flame5.sgrid_mod_w0.5_b32 ram cycles 36420 p10 36397 p90 36497 sum -13.8233
+spec sgrid:flame5.sgrid_mod_w0.5_b64 cycles 124799 p10 117215 p90 129387 sum -42.3363
+spec sgridfast:flame5.sgrid_mod_w0.5_b64 cycles 121638 p10 114857 p90 126609 sum -42.3363
+spec sgrid:flame5.sgrid_mod_w0.5_b64 ram cycles 53384 p10 53353 p90 53458 sum -42.3363
+spec sgridfast:flame5.sgrid_mod_w0.5_b64 ram cycles 51500 p10 51464 p90 51567 sum -42.3363
+spec sgrid:flame5.sgrid_mod_w0.5_b128 cycles 240970 p10 233245 p90 248575 sum -85.1308
+spec sgridfast:flame5.sgrid_mod_w0.5_b128 cycles 238642 p10 231207 p90 246268 sum -85.1308
+spec sgrid:flame5.sgrid_mod_w0.5_b128 ram cycles 75969 p10 75875 p90 75983 sum -85.1308
+spec sgridfast:flame5.sgrid_mod_w0.5_b128 ram cycles 74849 p10 74824 p90 74938 sum -85.1308
+spec sgrid:flame5.sgrid_mod_w0.9_b4 cycles 15803 p10 15780 p90 15819 sum -8.45686
+spec sgridfast:flame5.sgrid_mod_w0.9_b4 cycles 11653 p10 11631 p90 11664 sum -8.45686
+spec sgrid:flame5.sgrid_mod_w0.9_b4 ram cycles 15803 p10 15780 p90 15817 sum -8.45686
+spec sgridfast:flame5.sgrid_mod_w0.9_b4 ram cycles 11532 p10 11510 p90 11543 sum -8.45686
+spec sgrid:flame5.sgrid_mod_w0.9_b8 cycles 20202 p10 20179 p90 20258 sum -0.120498
+spec sgridfast:flame5.sgrid_mod_w0.9_b8 cycles 16683 p10 16661 p90 16741 sum -0.120498
+spec sgrid:flame5.sgrid_mod_w0.9_b8 ram cycles 20202 p10 20179 p90 20276 sum -0.120498
+spec sgridfast:flame5.sgrid_mod_w0.9_b8 ram cycles 16504 p10 16482 p90 16516 sum -0.120498
+spec sgrid:flame5.sgrid_mod_w0.9_b16 cycles 28939 p10 28912 p90 29014 sum -44.0368
+spec sgridfast:flame5.sgrid_mod_w0.9_b16 cycles 25386 p10 25361 p90 25440 sum -44.0368
+spec sgrid:flame5.sgrid_mod_w0.9_b16 ram cycles 28939 p10 28912 p90 29012 sum -44.0368
+spec sgridfast:flame5.sgrid_mod_w0.9_b16 ram cycles 25116 p10 25091 p90 25169 sum -44.0368
+spec sgrid:flame5.sgrid_mod_w0.9_b32 cycles 45428 p10 45171 p90 45592 sum -33.8009
+spec sgridfast:flame5.sgrid_mod_w0.9_b32 cycles 40380 p10 40162 p90 40656 sum -33.8009
+spec sgrid:flame5.sgrid_mod_w0.9_b32 ram cycles 39091 p10 39060 p90 39166 sum -33.8009
+spec sgridfast:flame5.sgrid_mod_w0.9_b32 ram cycles 36146 p10 36121 p90 36224 sum -33.8009
+spec sgrid:flame5.sgrid_mod_w0.9_b64 cycles 118094 p10 113301 p90 124893 sum -48.1006
+spec sgridfast:flame5.sgrid_mod_w0.9_b64 cycles 114428 p10 108810 p90 121364 sum -48.1006
+spec sgrid:flame5.sgrid_mod_w0.9_b64 ram cycles 52023 p10 51992 p90 52100 sum -48.1006
+spec sgridfast:flame5.sgrid_mod_w0.9_b64 ram cycles 50214 p10 50189 p90 50292 sum -48.1006
+spec sgrid:flame5.sgrid_mod_w0.9_b128 cycles 236080 p10 228095 p90 243860 sum -46.4114
+spec sgridfast:flame5.sgrid_mod_w0.9_b128 cycles 234337 p10 226038 p90 241544 sum -46.4114
+spec sgrid:flame5.sgrid_mod_w0.9_b128 ram cycles 74033 p10 73982 p90 74055 sum -46.4114
+spec sgridfast:flame5.sgrid_mod_w0.9_b128 ram cycles 73809 p10 73784 p90 73898 sum -46.4114
+spec sgrid:flame5.sgrid_mod_w0.99_b4 cycles 13253 p10 13230 p90 13259 sum -21.3325
+spec sgridfast:flame5.sgrid_mod_w0.99_b4 cycles 8866 p10 8844 p90 8877 sum -21.3325
+spec sgrid:flame5.sgrid_mod_w0.99_b4 ram cycles 13253 p10 13230 p90 13259 sum -21.3325
+spec sgridfast:flame5.sgrid_mod_w0.99_b4 ram cycles 8776 p10 8754 p90 8787 sum -21.3325
+spec sgrid:flame5.sgrid_mod_w0.99_b8 cycles 16566 p10 16539 p90 16597 sum -21.2562
+spec sgridfast:flame5.sgrid_mod_w0.99_b8 cycles 11545 p10 11520 p90 11556 sum -21.2562
+spec sgrid:flame5.sgrid_mod_w0.99_b8 ram cycles 16566 p10 16539 p90 16597 sum -21.2562
+spec sgridfast:flame5.sgrid_mod_w0.99_b8 ram cycles 11426 p10 11401 p90 11437 sum -21.2562
+spec sgrid:flame5.sgrid_mod_w0.99_b16 cycles 21460 p10 21433 p90 21538 sum -18.2141
+spec sgridfast:flame5.sgrid_mod_w0.99_b16 cycles 17116 p10 17091 p90 17170 sum -18.2141
+spec sgrid:flame5.sgrid_mod_w0.99_b16 ram cycles 21460 p10 21433 p90 21514 sum -18.2141
+spec sgridfast:flame5.sgrid_mod_w0.99_b16 ram cycles 16933 p10 16908 p90 16944 sum -18.2141
+spec sgrid:flame5.sgrid_mod_w0.99_b32 cycles 34246 p10 33874 p90 34360 sum 5.97314
+spec sgridfast:flame5.sgrid_mod_w0.99_b32 cycles 31124 p10 30712 p90 31270 sum 5.97314
+spec sgrid:flame5.sgrid_mod_w0.99_b32 ram cycles 30212 p10 30184 p90 30285 sum 5.97314
+spec sgridfast:flame5.sgrid_mod_w0.99_b32 ram cycles 25634 p10 25609 p90 25700 sum 5.97314
+spec sgrid:flame5.sgrid_mod_w0.99_b64 cycles 69308 p10 68572 p90 74267 sum 2.59746
+spec sgridfast:flame5.sgrid_mod_w0.99_b64 cycles 66742 p10 65331 p90 71757 sum 2.59746
+spec sgrid:flame5.sgrid_mod_w0.99_b64 ram cycles 38084 p10 38077 p90 38148 sum 2.59746
+spec sgridfast:flame5.sgrid_mod_w0.99_b64 ram cycles 34223 p10 34198 p90 34301 sum 2.59746
+spec sgrid:flame5.sgrid_mod_w0.99_b128 cycles 134955 p10 130085 p90 140980 sum -8.11838
+spec sgridfast:flame5.sgrid_mod_w0.99_b128 cycles 133700 p10 128356 p90 140651 sum -8.11838
+spec sgrid:flame5.sgrid_mod_w0.99_b128 ram cycles 51954 p10 51924 p90 52031 sum -8.11838
+spec sgridfast:flame5.sgrid_mod_w0.99_b128 ram cycles 49329 p10 49293 p90 49396 sum -8.11838
+spec sgrid:gasz7.sgrid_mod_reg_n1 cycles 392 p10 392 p90 392 sum 14.7578
+spec sgridfast:gasz7.sgrid_mod_reg_n1 cycles 444 p10 444 p90 444 sum 14.7578
+spec sgrid:gasz7.sgrid_mod_reg_n1 ram cycles 392 p10 392 p90 392 sum 14.7578
+spec sgridfast:gasz7.sgrid_mod_reg_n1 ram cycles 443 p10 443 p90 443 sum 14.7578
+spec sgrid:gasz7.sgrid_mod_reg_n2 cycles 2622 p10 2614 p90 2629 sum 14.5384
+spec sgridfast:gasz7.sgrid_mod_reg_n2 cycles 1258 p10 1246 p90 1267 sum 14.5384
+spec sgrid:gasz7.sgrid_mod_reg_n2 ram cycles 2622 p10 2614 p90 2629 sum 14.5384
+spec sgridfast:gasz7.sgrid_mod_reg_n2 ram cycles 1250 p10 1238 p90 1259 sum 14.5384
+spec sgrid:gasz7.sgrid_mod_reg_n3 cycles 5951 p10 5942 p90 5964 sum 30.564
+spec sgridfast:gasz7.sgrid_mod_reg_n3 cycles 3701 p10 3680 p90 3715 sum 30.564
+spec sgrid:gasz7.sgrid_mod_reg_n3 ram cycles 5951 p10 5942 p90 5964 sum 30.564
+spec sgridfast:gasz7.sgrid_mod_reg_n3 ram cycles 3665 p10 3644 p90 3679 sum 30.564
+spec sgrid:gasz7.sgrid_mod_reg_n4 cycles 13711 p10 13696 p90 13719 sum 5.51546
+spec sgridfast:gasz7.sgrid_mod_reg_n4 cycles 11123 p10 11099 p90 11137 sum 5.51546
+spec sgrid:gasz7.sgrid_mod_reg_n4 ram cycles 13711 p10 13696 p90 13719 sum 5.51546
+spec sgridfast:gasz7.sgrid_mod_reg_n4 ram cycles 11003 p10 10979 p90 11017 sum 5.51546
+spec sgrid:gasz7.sgrid_mod_reg_n5 cycles 32428 p10 32406 p90 32506 sum -6.42912
+spec sgridfast:gasz7.sgrid_mod_reg_n5 cycles 30623 p10 30600 p90 30691 sum -6.42912
+spec sgrid:gasz7.sgrid_mod_reg_n5 ram cycles 32428 p10 32406 p90 32506 sum -6.42912
+spec sgridfast:gasz7.sgrid_mod_reg_n5 ram cycles 30293 p10 30270 p90 30370 sum -6.42912
+spec sgrid:gasz7.sgrid_mod_reg_n6 cycles 131567 p10 130930 p90 133057 sum 26.8299
+spec sgridfast:gasz7.sgrid_mod_reg_n6 cycles 130047 p10 129560 p90 130754 sum 26.8299
+spec sgrid:gasz7.sgrid_mod_reg_n6 ram cycles 74761 p10 74713 p90 74768 sum 26.8299
+spec sgridfast:gasz7.sgrid_mod_reg_n6 ram cycles 74533 p10 74433 p90 74545 sum 26.8299
+spec sgrid:gasz7.sgrid_mod_w0.5_b4 cycles 17419 p10 17389 p90 17470 sum -26.7134
+spec sgridfast:gasz7.sgrid_mod_w0.5_b4 cycles 12345 p10 12322 p90 12356 sum -26.7134
+spec sgrid:gasz7.sgrid_mod_w0.5_b4 ram cycles 17419 p10 17389 p90 17467 sum -26.7134
+spec sgridfast:gasz7.sgrid_mod_w0.5_b4 ram cycles 12219 p10 12196 p90 12230 sum -26.7134
+spec sgrid:gasz7.sgrid_mod_w0.5_b8 cycles 24906 p10 24873 p90 24984 sum 13.4134
+spec sgridfast:gasz7.sgrid_mod_w0.5_b8 cycles 19486 p10 19463 p90 19549 sum 13.4134
+spec sgrid:gasz7.sgrid_mod_w0.5_b8 ram cycles 24906 p10 24873 p90 24987 sum 13.4134
+spec sgridfast:gasz7.sgrid_mod_w0.5_b8 ram cycles 19282 p10 19259 p90 19345 sum 13.4134
+spec sgrid:gasz7.sgrid_mod_w0.5_b16 cycles 37534 p10 37507 p90 37581 sum 19.035
+spec sgridfast:gasz7.sgrid_mod_w0.5_b16 cycles 33475 p10 33452 p90 33553 sum 19.035
+spec sgrid:gasz7.sgrid_mod_w0.5_b16 ram cycles 37534 p10 37501 p90 37614 sum 19.035
+spec sgridfast:gasz7.sgrid_mod_w0.5_b16 ram cycles 33118 p10 33095 p90 33196 sum 19.035
+spec sgrid:gasz7.sgrid_mod_w0.5_b32 cycles 60939 p10 60641 p90 61019 sum 17.9044
+spec sgridfast:gasz7.sgrid_mod_w0.5_b32 cycles 54097 p10 54002 p90 54662 sum 17.9044
+spec sgrid:gasz7.sgrid_mod_w0.5_b32 ram cycles 54698 p10 54661 p90 54774 sum 17.9044
+spec sgridfast:gasz7.sgrid_mod_w0.5_b32 ram cycles 50422 p10 50386 p90 50489 sum 17.9044
+spec sgrid:gasz7.sgrid_mod_w0.5_b64 cycles 204578 p10 195669 p90 206284 sum 35.7981
+spec sgridfast:gasz7.sgrid_mod_w0.5_b64 cycles 200043 p10 190360 p90 201633 sum 35.7981
+spec sgrid:gasz7.sgrid_mod_w0.5_b64 ram cycles 85983 p10 85908 p90 86019 sum 35.7981
+spec sgridfast:gasz7.sgrid_mod_w0.5_b64 ram cycles 83960 p10 83891 p90 83996 sum 35.7981
+spec sgrid:gasz7.sgrid_mod_w0.5_b128 cycles 434261 p10 426548 p90 434861 sum -43.6926
+spec sgridfast:gasz7.sgrid_mod_w0.5_b128 cycles 433810 p10 425697 p90 434008 sum -43.6926
+spec sgrid:gasz7.sgrid_mod_w0.5_b128 ram cycles 128686 p10 128641 p90 128719 sum -43.6926
+spec sgridfast:gasz7.sgrid_mod_w0.5_b128 ram cycles 129467 p10 129405 p90 129494 sum -43.6926
+spec sgrid:gasz7.sgrid_mod_w0.9_b4 cycles 17419 p10 17389 p90 17440 sum -26.7134
+spec sgridfast:gasz7.sgrid_mod_w0.9_b4 cycles 12345 p10 12322 p90 12356 sum -26.7134
+spec sgrid:gasz7.sgrid_mod_w0.9_b4 ram cycles 17419 p10 17389 p90 17440 sum -26.7134
+spec sgridfast:gasz7.sgrid_mod_w0.9_b4 ram cycles 12219 p10 12196 p90 12230 sum -26.7134
+spec sgrid:gasz7.sgrid_mod_w0.9_b8 cycles 24685 p10 24652 p90 24764 sum 26.4491
+spec sgridfast:gasz7.sgrid_mod_w0.9_b8 cycles 19236 p10 19213 p90 19291 sum 26.4491
+spec sgrid:gasz7.sgrid_mod_w0.9_b8 ram cycles 24685 p10 24652 p90 24765 sum 26.4491
+spec sgridfast:gasz7.sgrid_mod_w0.9_b8 ram cycles 19035 p10 19012 p90 19114 sum 26.4491
+spec sgrid:gasz7.sgrid_mod_w0.9_b16 cycles 32513 p10 32478 p90 32561 sum -12.929
+spec sgridfast:gasz7.sgrid_mod_w0.9_b16 cycles 26591 p10 26566 p90 26653 sum -12.929
+spec sgrid:gasz7.sgrid_mod_w0.9_b16 ram cycles 32513 p10 32478 p90 32561 sum -12.929
+spec sgridfast:gasz7.sgrid_mod_w0.9_b16 ram cycles 26310 p10 26285 p90 26364 sum -12.929
+spec sgrid:gasz7.sgrid_mod_w0.9_b32 cycles 49846 p10 49563 p90 49974 sum 6.70757
+spec sgridfast:gasz7.sgrid_mod_w0.9_b32 cycles 45056 p10 45048 p90 45286 sum 6.70757
+spec sgrid:gasz7.sgrid_mod_w0.9_b32 ram cycles 43884 p10 43849 p90 43962 sum 6.70757
+spec sgridfast:gasz7.sgrid_mod_w0.9_b32 ram cycles 38598 p10 38571 p90 38640 sum 6.70757
+spec sgrid:gasz7.sgrid_mod_w0.9_b64 cycles 121640 p10 121359 p90 125537 sum 1.27065
+spec sgridfast:gasz7.sgrid_mod_w0.9_b64 cycles 117890 p10 117757 p90 122610 sum 1.27065
+spec sgrid:gasz7.sgrid_mod_w0.9_b64 ram cycles 62272 p10 62236 p90 62348 sum 1.27065
+spec sgridfast:gasz7.sgrid_mod_w0.9_b64 ram cycles 57242 p10 57205 p90 57320 sum 1.27065
+spec sgrid:gasz7.sgrid_mod_w0.9_b128 cycles 261042 p10 258637 p90 270046 sum -42.3255
+spec sgridfast:gasz7.sgrid_mod_w0.9_b128 cycles 258750 p10 255938 p90 267435 sum -42.3255
+spec sgrid:gasz7.sgrid_mod_w0.9_b128 ram cycles 92229 p10 92153 p90 92267 sum -42.3255
+spec sgridfast:gasz7.sgrid_mod_w0.9_b128 ram cycles 89505 p10 89436 p90 89542 sum -42.3255
+spec sgrid:gasz7.sgrid_mod_w0.99_b4 cycles 17419 p10 17389 p90 17467 sum -26.7134
+spec sgridfast:gasz7.sgrid_mod_w0.99_b4 cycles 12345 p10 12322 p90 12356 sum -26.7134
+spec sgrid:gasz7.sgrid_mod_w0.99_b4 ram cycles 17419 p10 17389 p90 17477 sum -26.7134
+spec sgridfast:gasz7.sgrid_mod_w0.99_b4 ram cycles 12219 p10 12196 p90 12230 sum -26.7134
+spec sgrid:gasz7.sgrid_mod_w0.99_b8 cycles 24685 p10 24652 p90 24735 sum 26.4491
+spec sgridfast:gasz7.sgrid_mod_w0.99_b8 cycles 19236 p10 19213 p90 19291 sum 26.4491
+spec sgrid:gasz7.sgrid_mod_w0.99_b8 ram cycles 24685 p10 24652 p90 24732 sum 26.4491
+spec sgridfast:gasz7.sgrid_mod_w0.99_b8 ram cycles 19035 p10 19012 p90 19113 sum 26.4491
+spec sgrid:gasz7.sgrid_mod_w0.99_b16 cycles 32513 p10 32478 p90 32590 sum -12.929
+spec sgridfast:gasz7.sgrid_mod_w0.99_b16 cycles 26591 p10 26566 p90 26654 sum -12.929
+spec sgrid:gasz7.sgrid_mod_w0.99_b16 ram cycles 32513 p10 32478 p90 32563 sum -12.929
+spec sgridfast:gasz7.sgrid_mod_w0.99_b16 ram cycles 26310 p10 26285 p90 26371 sum -12.929
+spec sgrid:gasz7.sgrid_mod_w0.99_b32 cycles 49846 p10 49689 p90 50010 sum 6.70757
+spec sgridfast:gasz7.sgrid_mod_w0.99_b32 cycles 45127 p10 45049 p90 45445 sum 6.70757
+spec sgrid:gasz7.sgrid_mod_w0.99_b32 ram cycles 43884 p10 43849 p90 43964 sum 6.70757
+spec sgridfast:gasz7.sgrid_mod_w0.99_b32 ram cycles 38587 p10 38562 p90 38649 sum 6.70757
+spec sgrid:gasz7.sgrid_mod_w0.99_b64 cycles 121576 p10 120264 p90 125079 sum 7.90762
+spec sgridfast:gasz7.sgrid_mod_w0.99_b64 cycles 115299 p10 114401 p90 119848 sum 7.90762
+spec sgrid:gasz7.sgrid_mod_w0.99_b64 ram cycles 61269 p10 61231 p90 61345 sum 7.90762
+spec sgridfast:gasz7.sgrid_mod_w0.99_b64 ram cycles 56163 p10 56126 p90 56241 sum 7.90762
+spec sgrid:gasz7.sgrid_mod_w0.99_b128 cycles 245737 p10 243915 p90 253575 sum 11.8495
+spec sgridfast:gasz7.sgrid_mod_w0.99_b128 cycles 239233 p10 237214 p90 247408 sum 11.8495
+spec sgrid:gasz7.sgrid_mod_w0.99_b128 ram cycles 86227 p10 86151 p90 86265 sum 11.8495
+spec sgridfast:gasz7.sgrid_mod_w0.99_b128 ram cycles 83150 p10 83072 p90 83187 sum 11.8495
+spec sgrid:ign5.sgrid_mod_reg_n1 cycles 320 p10 320 p90 320 sum 14.7578
+spec sgridfast:ign5.sgrid_mod_reg_n1 cycles 390 p10 390 p90 390 sum 14.7578
+spec sgrid:ign5.sgrid_mod_reg_n1 ram cycles 320 p10 320 p90 320 sum 14.7578
+spec sgridfast:ign5.sgrid_mod_reg_n1 ram cycles 389 p10 389 p90 389 sum 14.7578
+spec sgrid:ign5.sgrid_mod_reg_n2 cycles 1914 p10 1907 p90 1917 sum -8.36454
+spec sgridfast:ign5.sgrid_mod_reg_n2 cycles 974 p10 963 p90 977 sum -8.36454
+spec sgrid:ign5.sgrid_mod_reg_n2 ram cycles 1914 p10 1907 p90 1917 sum -8.36454
+spec sgridfast:ign5.sgrid_mod_reg_n2 ram cycles 968 p10 957 p90 971 sum -8.36454
+spec sgrid:ign5.sgrid_mod_reg_n3 cycles 3958 p10 3942 p90 3959 sum 19.3447
+spec sgridfast:ign5.sgrid_mod_reg_n3 cycles 2325 p10 2309 p90 2329 sum 19.3447
+spec sgrid:ign5.sgrid_mod_reg_n3 ram cycles 3958 p10 3942 p90 3959 sum 19.3447
+spec sgridfast:ign5.sgrid_mod_reg_n3 ram cycles 2304 p10 2288 p90 2308 sum 19.3447
+spec sgrid:ign5.sgrid_mod_reg_n4 cycles 7542 p10 7526 p90 7543 sum -3.02482
+spec sgridfast:ign5.sgrid_mod_reg_n4 cycles 5384 p10 5364 p90 5390 sum -3.02482
+spec sgrid:ign5.sgrid_mod_reg_n4 ram cycles 7542 p10 7526 p90 7543 sum -3.02482
+spec sgridfast:ign5.sgrid_mod_reg_n4 ram cycles 5328 p10 5308 p90 5334 sum -3.02482
+spec sgrid:ign5.sgrid_mod_reg_n5 cycles 14024 p10 14007 p90 14041 sum 3.28501
+spec sgridfast:ign5.sgrid_mod_reg_n5 cycles 11700 p10 11679 p90 11707 sum 3.28501
+spec sgrid:ign5.sgrid_mod_reg_n5 ram cycles 14024 p10 14007 p90 14041 sum 3.28501
+spec sgridfast:ign5.sgrid_mod_reg_n5 ram cycles 11574 p10 11553 p90 11581 sum 3.28501
+spec sgrid:ign5.sgrid_mod_reg_n6 cycles 25387 p10 25370 p90 25467 sum -10.9811
+spec sgridfast:ign5.sgrid_mod_reg_n6 cycles 23358 p10 23337 p90 23417 sum -10.9811
+spec sgrid:ign5.sgrid_mod_reg_n6 ram cycles 25387 p10 25370 p90 25448 sum -10.9811
+spec sgridfast:ign5.sgrid_mod_reg_n6 ram cycles 23106 p10 23085 p90 23163 sum -10.9811
+spec sgrid:ign5.sgrid_mod_reg_n7 cycles 73231 p10 71784 p90 75914 sum -65.1046
+spec sgridfast:ign5.sgrid_mod_reg_n7 cycles 70138 p10 68589 p90 72595 sum -65.1046
+spec sgrid:ign5.sgrid_mod_reg_n7 ram cycles 44372 p10 44349 p90 44451 sum -65.1046
+spec sgridfast:ign5.sgrid_mod_reg_n7 ram cycles 42849 p10 42827 p90 42927 sum -65.1046
+spec sgrid:ign5.sgrid_mod_reg_n8 cycles 258687 p10 250711 p90 265698 sum 63.5066
+spec sgridfast:ign5.sgrid_mod_reg_n8 cycles 256511 p10 248860 p90 263278 sum 63.5066
+spec sgrid:ign5.sgrid_mod_reg_n8 ram cycles 74628 p10 74550 p90 74659 sum 63.5066
+spec sgridfast:ign5.sgrid_mod_reg_n8 ram cycles 74406 p10 74382 p90 74472 sum 63.5066
+spec sgrid:ign5.sgrid_mod_w0.5_b4 cycles 15939 p10 15916 p90 15954 sum -9.22604
+spec sgridfast:ign5.sgrid_mod_w0.5_b4 cycles 11811 p10 11789 p90 11822 sum -9.22604
+spec sgrid:ign5.sgrid_mod_w0.5_b4 ram cycles 15939 p10 15916 p90 15953 sum -9.22604
+spec sgridfast:ign5.sgrid_mod_w0.5_b4 ram cycles 11688 p10 11666 p90 11699 sum -9.22604
+spec sgrid:ign5.sgrid_mod_w0.5_b8 cycles 20270 p10 20247 p90 20327 sum -7.91546
+spec sgridfast:ign5.sgrid_mod_w0.5_b8 cycles 16762 p10 16740 p90 16780 sum -7.91546
+spec sgrid:ign5.sgrid_mod_w0.5_b8 ram cycles 20270 p10 20247 p90 20325 sum -7.91546
+spec sgridfast:ign5.sgrid_mod_w0.5_b8 ram cycles 16582 p10 16560 p90 16593 sum -7.91546
+spec sgrid:ign5.sgrid_mod_w0.5_b16 cycles 28888 p10 28861 p90 28962 sum -30.5074
+spec sgridfast:ign5.sgrid_mod_w0.5_b16 cycles 25320 p10 25295 p90 25387 sum -30.5074
+spec sgrid:ign5.sgrid_mod_w0.5_b16 ram cycles 28888 p10 28861 p90 28964 sum -30.5074
+spec sgridfast:ign5.sgrid_mod_w0.5_b16 ram cycles 25051 p10 25026 p90 25104 sum -30.5074
+spec sgrid:ign5.sgrid_mod_w0.5_b32 cycles 45267 p10 45112 p90 45588 sum -60.4846
+spec sgridfast:ign5.sgrid_mod_w0.5_b32 cycles 40751 p10 40671 p90 41191 sum -60.4846
+spec sgrid:ign5.sgrid_mod_w0.5_b32 ram cycles 38989 p10 38958 p90 39058 sum -60.4846
+spec sgridfast:ign5.sgrid_mod_w0.5_b32 ram cycles 36068 p10 36043 p90 36157 sum -60.4846
+spec sgrid:ign5.sgrid_mod_w0.5_b64 cycles 120836 p10 115146 p90 126656 sum -84.8861
+spec sgridfast:ign5.sgrid_mod_w0.5_b64 cycles 116093 p10 110139 p90 121630 sum -84.8861
+spec sgrid:ign5.sgrid_mod_w0.5_b64 ram cycles 53433 p10 53403 p90 53510 sum -84.8861
+spec sgridfast:ign5.sgrid_mod_w0.5_b64 ram cycles 50657 p10 50632 p90 50735 sum -84.8861
+spec sgrid:ign5.sgrid_mod_w0.5_b128 cycles 237043 p10 230011 p90 245917 sum -86.6787
+spec sgridfast:ign5.sgrid_mod_w0.5_b128 cycles 234745 p10 227033 p90 243577 sum -86.6787
+spec sgrid:ign5.sgrid_mod_w0.5_b128 ram cycles 75182 p10 75138 p90 75211 sum -86.6787
+spec sgridfast:ign5.sgrid_mod_w0.5_b128 ram cycles 74082 p10 74057 p90 74171 sum -86.6787
+spec sgrid:ign5.sgrid_mod_w0.9_b4 cycles 13019 p10 12992 p90 13023 sum 8.19231
+spec sgridfast:ign5.sgrid_mod_w0.9_b4 cycles 7511 p10 7486 p90 7522 sum 8.19231
+spec sgrid:ign5.sgrid_mod_w0.9_b4 ram cycles 13019 p10 12992 p90 13023 sum 8.19231
+spec sgridfast:ign5.sgrid_mod_w0.9_b4 ram cycles 7441 p10 7416 p90 7452 sum 8.19231
+spec sgrid:ign5.sgrid_mod_w0.9_b8 cycles 17096 p10 17068 p90 17147 sum 8.96113
+spec sgridfast:ign5.sgrid_mod_w0.9_b8 cycles 11071 p10 11046 p90 11088 sum 8.96113
+spec sgrid:ign5.sgrid_mod_w0.9_b8 ram cycles 17096 p10 17068 p90 17147 sum 8.96113
+spec sgridfast:ign5.sgrid_mod_w0.9_b8 ram cycles 10961 p10 10936 p90 10972 sum 8.96113
+spec sgrid:ign5.sgrid_mod_w0.9_b16 cycles 23366 p10 23338 p90 23441 sum 2.66524
+spec sgridfast:ign5.sgrid_mod_w0.9_b16 cycles 18099 p10 18074 p90 18152 sum 2.66524
+spec sgrid:ign5.sgrid_mod_w0.9_b16 ram cycles 23366 p10 23338 p90 23416 sum 2.66524
+spec sgridfast:ign5.sgrid_mod_w0.9_b16 ram cycles 17910 p10 17885 p90 17977 sum 2.66524
+spec sgrid:ign5.sgrid_mod_w0.9_b32 cycles 35750 p10 35456 p90 35870 sum 6.87669
+spec sgridfast:ign5.sgrid_mod_w0.9_b32 cycles 31111 p10 30781 p90 31189 sum 6.87669
+spec sgrid:ign5.sgrid_mod_w0.9_b32 ram cycles 34311 p10 34281 p90 34389 sum 6.87669
+spec sgridfast:ign5.sgrid_mod_w0.9_b32 ram cycles 28964 p10 28938 p90 29041 sum 6.87669
+spec sgrid:ign5.sgrid_mod_w0.9_b64 cycles 71881 p10 69708 p90 73787 sum 14.7626
+spec sgridfast:ign5.sgrid_mod_w0.9_b64 cycles 65172 p10 62870 p90 67474 sum 14.7626
+spec sgrid:ign5.sgrid_mod_w0.9_b64 ram cycles 41061 p10 41029 p90 41137 sum 14.7626
+spec sgridfast:ign5.sgrid_mod_w0.9_b64 ram cycles 36380 p10 36354 p90 36446 sum 14.7626
+spec sgrid:ign5.sgrid_mod_w0.9_b128 cycles 164151 p10 156910 p90 167434 sum -28.3691
+spec sgridfast:ign5.sgrid_mod_w0.9_b128 cycles 159109 p10 151771 p90 161758 sum -28.3691
+spec sgrid:ign5.sgrid_mod_w0.9_b128 ram cycles 60319 p10 60287 p90 60396 sum -28.3691
+spec sgridfast:ign5.sgrid_mod_w0.9_b128 ram cycles 57193 p10 57155 p90 57271 sum -28.3691
+spec sgrid:ign5.sgrid_mod_w0.99_b4 cycles 12305 p10 12278 p90 12318 sum -9.72986
+spec sgridfast:ign5.sgrid_mod_w0.99_b4 cycles 6621 p10 6596 p90 6632 sum -9.72986
+spec sgrid:ign5.sgrid_mod_w0.99_b4 ram cycles 12305 p10 12278 p90 12309 sum -9.72986
+spec sgridfast:ign5.sgrid_mod_w0.99_b4 ram cycles 6560 p10 6535 p90 6571 sum -9.72986
+spec sgrid:ign5.sgrid_mod_w0.99_b8 cycles 16587 p10 16559 p90 16641 sum -23.362
+spec sgridfast:ign5.sgrid_mod_w0.99_b8 cycles 10466 p10 10441 p90 10477 sum -23.362
+spec sgrid:ign5.sgrid_mod_w0.99_b8 ram cycles 16587 p10 16559 p90 16618 sum -23.362
+spec sgridfast:ign5.sgrid_mod_w0.99_b8 ram cycles 10364 p10 10339 p90 10375 sum -23.362
+spec sgrid:ign5.sgrid_mod_w0.99_b16 cycles 18966 p10 18938 p90 19015 sum -17.4064
+spec sgridfast:ign5.sgrid_mod_w0.99_b16 cycles 13196 p10 13171 p90 13207 sum -17.4064
+spec sgrid:ign5.sgrid_mod_w0.99_b16 ram cycles 18966 p10 18938 p90 19016 sum -17.4064
+spec sgridfast:ign5.sgrid_mod_w0.99_b16 ram cycles 13064 p10 13039 p90 13075 sum -17.4064
+spec sgrid:ign5.sgrid_mod_w0.99_b32 cycles 26806 p10 26516 p90 26915 sum 12.5406
+spec sgridfast:ign5.sgrid_mod_w0.99_b32 cycles 20292 p10 20260 p90 20669 sum 12.5406
+spec sgrid:ign5.sgrid_mod_w0.99_b32 ram cycles 25831 p10 25801 p90 25911 sum 12.5406
+spec sgridfast:ign5.sgrid_mod_w0.99_b32 ram cycles 19623 p10 19597 p90 19700 sum 12.5406
+spec sgrid:ign5.sgrid_mod_w0.99_b64 cycles 53133 p10 51208 p90 54439 sum 13.2967
+spec sgridfast:ign5.sgrid_mod_w0.99_b64 cycles 45738 p10 43372 p90 46995 sum 13.2967
+spec sgrid:ign5.sgrid_mod_w0.99_b64 ram cycles 32460 p10 32430 p90 32533 sum 13.2967
+spec sgridfast:ign5.sgrid_mod_w0.99_b64 ram cycles 26847 p10 26821 p90 26913 sum 13.2967
+spec sgrid:ign5.sgrid_mod_w0.99_b128 cycles 91047 p10 87420 p90 92396 sum -5.91368
+spec sgridfast:ign5.sgrid_mod_w0.99_b128 cycles 83390 p10 79172 p90 85606 sum -5.91368
+spec sgrid:ign5.sgrid_mod_w0.99_b128 ram cycles 40124 p10 40094 p90 40204 sum -5.91368
+spec sgridfast:ign5.sgrid_mod_w0.99_b128 ram cycles 35148 p10 35122 p90 35214 sum -5.91368
+spec sgrid:igrf4.sgrid_mod_reg_n1 cycles 284 p10 284 p90 284 sum 14.7578
+spec sgridfast:igrf4.sgrid_mod_reg_n1 cycles 363 p10 363 p90 363 sum 14.7578
+spec sgrid:igrf4.sgrid_mod_reg_n1 ram cycles 284 p10 284 p90 284 sum 14.7578
+spec sgridfast:igrf4.sgrid_mod_reg_n1 ram cycles 362 p10 362 p90 362 sum 14.7578
+spec sgrid:igrf4.sgrid_mod_reg_n2 cycles 1562 p10 1551 p90 1563 sum -10.3566
+spec sgridfast:igrf4.sgrid_mod_reg_n2 cycles 831 p10 819 p90 835 sum -10.3566
+spec sgrid:igrf4.sgrid_mod_reg_n2 ram cycles 1562 p10 1551 p90 1563 sum -10.3566
+spec sgridfast:igrf4.sgrid_mod_reg_n2 ram cycles 826 p10 814 p90 830 sum -10.3566
+spec sgrid:igrf4.sgrid_mod_reg_n3 cycles 3059 p10 3043 p90 3061 sum -0.842454
+spec sgridfast:igrf4.sgrid_mod_reg_n3 cycles 1756 p10 1732 p90 1761 sum -0.842454
+spec sgrid:igrf4.sgrid_mod_reg_n3 ram cycles 3059 p10 3043 p90 3061 sum -0.842454
+spec sgridfast:igrf4.sgrid_mod_reg_n3 ram cycles 1738 p10 1717 p90 1746 sum -0.842454
+spec sgrid:igrf4.sgrid_mod_reg_n4 cycles 5313 p10 5296 p90 5322 sum 7.7864
+spec sgridfast:igrf4.sgrid_mod_reg_n4 cycles 3521 p10 3490 p90 3525 sum 7.7864
+spec sgrid:igrf4.sgrid_mod_reg_n4 ram cycles 5313 p10 5296 p90 5322 sum 7.7864
+spec sgridfast:igrf4.sgrid_mod_reg_n4 ram cycles 3482 p10 3455 p90 3490 sum 7.7864
+spec sgrid:igrf4.sgrid_mod_reg_n5 cycles 8768 p10 8749 p90 8776 sum -0.740215
+spec sgridfast:igrf4.sgrid_mod_reg_n5 cycles 6697 p10 6669 p90 6705 sum -0.740215
+spec sgrid:igrf4.sgrid_mod_reg_n5 ram cycles 8768 p10 8749 p90 8776 sum -0.740215
+spec sgridfast:igrf4.sgrid_mod_reg_n5 ram cycles 6632 p10 6599 p90 6635 sum -0.740215
+spec sgrid:igrf4.sgrid_mod_reg_n6 cycles 13956 p10 13936 p90 13966 sum 13.2303
+spec sgridfast:igrf4.sgrid_mod_reg_n6 cycles 11675 p10 11639 p90 11676 sum 13.2303
+spec sgrid:igrf4.sgrid_mod_reg_n6 ram cycles 13956 p10 13936 p90 13966 sum 13.2303
+spec sgridfast:igrf4.sgrid_mod_reg_n6 ram cycles 11549 p10 11513 p90 11550 sum 13.2303
+spec sgrid:igrf4.sgrid_mod_reg_n7 cycles 21526 p10 21504 p90 21583 sum -28.0795
+spec sgridfast:igrf4.sgrid_mod_reg_n7 cycles 19426 p10 19387 p90 19494 sum -28.0795
+spec sgrid:igrf4.sgrid_mod_reg_n7 ram cycles 21526 p10 21504 p90 21582 sum -28.0795
+spec sgridfast:igrf4.sgrid_mod_reg_n7 ram cycles 19206 p10 19177 p90 19217 sum -28.0795
+spec sgrid:igrf4.sgrid_mod_reg_n8 cycles 65192 p10 59928 p90 65885 sum 16.0349
+spec sgridfast:igrf4.sgrid_mod_reg_n8 cycles 61082 p10 54856 p90 61159 sum 16.0349
+spec sgrid:igrf4.sgrid_mod_reg_n8 ram cycles 32224 p10 32201 p90 32293 sum 16.0349
+spec sgridfast:igrf4.sgrid_mod_reg_n8 ram cycles 30209 p10 30169 p90 30287 sum 16.0349
+spec sgrid:igrf4.sgrid_mod_w0.5_b4 cycles 11730 p10 11710 p90 11740 sum 24.5426
+spec sgridfast:igrf4.sgrid_mod_w0.5_b4 cycles 9190 p10 9154 p90 9191 sum 24.5426
+spec sgrid:igrf4.sgrid_mod_w0.5_b4 ram cycles 11730 p10 11710 p90 11740 sum 24.5426
+spec sgridfast:igrf4.sgrid_mod_w0.5_b4 ram cycles 9085 p10 9057 p90 9094 sum 24.5426
+spec sgrid:igrf4.sgrid_mod_w0.5_b8 cycles 15817 p10 15795 p90 15844 sum 23.9021
+spec sgridfast:igrf4.sgrid_mod_w0.5_b8 cycles 13043 p10 13004 p90 13044 sum 23.9021
+spec sgrid:igrf4.sgrid_mod_w0.5_b8 ram cycles 15817 p10 15795 p90 15844 sum 23.9021
+spec sgridfast:igrf4.sgrid_mod_w0.5_b8 ram cycles 12904 p10 12865 p90 12906 sum 23.9021
+spec sgrid:igrf4.sgrid_mod_w0.5_b16 cycles 20660 p10 20638 p90 20716 sum 10.4823
+spec sgridfast:igrf4.sgrid_mod_w0.5_b16 cycles 18467 p10 18428 p90 18535 sum 10.4823
+spec sgrid:igrf4.sgrid_mod_w0.5_b16 ram cycles 20660 p10 20638 p90 20716 sum 10.4823
+spec sgridfast:igrf4.sgrid_mod_w0.5_b16 ram cycles 18268 p10 18229 p90 18269 sum 10.4823
+spec sgrid:igrf4.sgrid_mod_w0.5_b32 cycles 30244 p10 29887 p90 30469 sum 14.042
+spec sgridfast:igrf4.sgrid_mod_w0.5_b32 cycles 27405 p10 27305 p90 27452 sum 14.042
+spec sgrid:igrf4.sgrid_mod_w0.5_b32 ram cycles 26836 p10 26813 p90 26905 sum 14.042
+spec sgridfast:igrf4.sgrid_mod_w0.5_b32 ram cycles 24341 p10 24310 p90 24428 sum 14.042
+spec sgrid:igrf4.sgrid_mod_w0.5_b64 cycles 77259 p10 72951 p90 78251 sum 10.0834
+spec sgridfast:igrf4.sgrid_mod_w0.5_b64 cycles 74654 p10 70697 p90 75456 sum 10.0834
+spec sgrid:igrf4.sgrid_mod_w0.5_b64 ram cycles 35514 p10 35491 p90 35603 sum 10.0834
+spec sgridfast:igrf4.sgrid_mod_w0.5_b64 ram cycles 33022 p10 32982 p90 33091 sum 10.0834
+spec sgrid:igrf4.sgrid_mod_w0.5_b128 cycles 137673 p10 131620 p90 138770 sum 6.24649
+spec sgridfast:igrf4.sgrid_mod_w0.5_b128 cycles 135729 p10 129736 p90 136336 sum 6.24649
+spec sgrid:igrf4.sgrid_mod_w0.5_b128 ram cycles 46238 p10 46215 p90 46316 sum 6.24649
+spec sgridfast:igrf4.sgrid_mod_w0.5_b128 ram cycles 44700 p10 44660 p90 44769 sum 6.24649
+spec sgrid:igrf4.sgrid_mod_w0.9_b4 cycles 10796 p10 10776 p90 10806 sum -27.6943
+spec sgridfast:igrf4.sgrid_mod_w0.9_b4 cycles 8179 p10 8143 p90 8180 sum -27.6943
+spec sgrid:igrf4.sgrid_mod_w0.9_b4 ram cycles 10796 p10 10776 p90 10806 sum -27.6943
+spec sgridfast:igrf4.sgrid_mod_w0.9_b4 ram cycles 8086 p10 8057 p90 8094 sum -27.6943
+spec sgrid:igrf4.sgrid_mod_w0.9_b8 cycles 14031 p10 14009 p90 14058 sum -28.1389
+spec sgridfast:igrf4.sgrid_mod_w0.9_b8 cycles 11009 p10 10970 p90 11010 sum -28.1389
+spec sgrid:igrf4.sgrid_mod_w0.9_b8 ram cycles 14031 p10 14009 p90 14058 sum -28.1389
+spec sgridfast:igrf4.sgrid_mod_w0.9_b8 ram cycles 10891 p10 10852 p90 10892 sum -28.1389
+spec sgrid:igrf4.sgrid_mod_w0.9_b16 cycles 19299 p10 19277 p90 19377 sum -36.0973
+spec sgridfast:igrf4.sgrid_mod_w0.9_b16 cycles 16920 p10 16881 p90 16961 sum -36.0973
+spec sgrid:igrf4.sgrid_mod_w0.9_b16 ram cycles 19299 p10 19277 p90 19368 sum -36.0973
+spec sgridfast:igrf4.sgrid_mod_w0.9_b16 ram cycles 16736 p10 16697 p90 16737 sum -36.0973
+spec sgrid:igrf4.sgrid_mod_w0.9_b32 cycles 28716 p10 28383 p90 28830 sum -23.6296
+spec sgridfast:igrf4.sgrid_mod_w0.9_b32 cycles 26947 p10 26573 p90 27077 sum -23.6296
+spec sgrid:igrf4.sgrid_mod_w0.9_b32 ram cycles 25256 p10 25233 p90 25325 sum -23.6296
+spec sgridfast:igrf4.sgrid_mod_w0.9_b32 ram cycles 22547 p10 22507 p90 22616 sum -23.6296
+spec sgrid:igrf4.sgrid_mod_w0.9_b64 cycles 72674 p10 68887 p90 73805 sum -16.6339
+spec sgridfast:igrf4.sgrid_mod_w0.9_b64 cycles 70738 p10 66901 p90 71674 sum -16.6339
+spec sgrid:igrf4.sgrid_mod_w0.9_b64 ram cycles 33584 p10 33561 p90 33654 sum -16.6339
+spec sgridfast:igrf4.sgrid_mod_w0.9_b64 ram cycles 31717 p10 31677 p90 31785 sum -16.6339
+spec sgrid:igrf4.sgrid_mod_w0.9_b128 cycles 134727 p10 128311 p90 136000 sum -34.5504
+spec sgridfast:igrf4.sgrid_mod_w0.9_b128 cycles 132625 p10 125830 p90 133862 sum -34.5504
+spec sgrid:igrf4.sgrid_mod_w0.9_b128 ram cycles 44980 p10 44957 p90 45058 sum -34.5504
+spec sgridfast:igrf4.sgrid_mod_w0.9_b128 ram cycles 43400 p10 43360 p90 43478 sum -34.5504
+spec sgrid:igrf4.sgrid_mod_w0.99_b4 cycles 8854 p10 8832 p90 8864 sum 6.96867
+spec sgridfast:igrf4.sgrid_mod_w0.99_b4 cycles 5034 p10 4995 p90 5035 sum 6.96867
+spec sgrid:igrf4.sgrid_mod_w0.99_b4 ram cycles 8854 p10 8832 p90 8864 sum 6.96867
+spec sgridfast:igrf4.sgrid_mod_w0.99_b4 ram cycles 4978 p10 4948 p90 4988 sum 6.96867
+spec sgrid:igrf4.sgrid_mod_w0.99_b8 cycles 11180 p10 11158 p90 11207 sum -14.7226
+spec sgridfast:igrf4.sgrid_mod_w0.99_b8 cycles 7777 p10 7738 p90 7778 sum -14.7226
+spec sgrid:igrf4.sgrid_mod_w0.99_b8 ram cycles 11180 p10 11158 p90 11190 sum -14.7226
+spec sgridfast:igrf4.sgrid_mod_w0.99_b8 ram cycles 7698 p10 7659 p90 7699 sum -14.7226
+spec sgrid:igrf4.sgrid_mod_w0.99_b16 cycles 14501 p10 14478 p90 14528 sum -10.3411
+spec sgridfast:igrf4.sgrid_mod_w0.99_b16 cycles 10698 p10 10658 p90 10700 sum -10.3411
+spec sgrid:igrf4.sgrid_mod_w0.99_b16 ram cycles 14501 p10 14478 p90 14528 sum -10.3411
+spec sgridfast:igrf4.sgrid_mod_w0.99_b16 ram cycles 10586 p10 10546 p90 10588 sum -10.3411
+spec sgrid:igrf4.sgrid_mod_w0.99_b32 cycles 27039 p10 26634 p90 27399 sum 1.35261
+spec sgridfast:igrf4.sgrid_mod_w0.99_b32 cycles 15527 p10 15291 p90 15564 sum 1.35261
+spec sgrid:igrf4.sgrid_mod_w0.99_b32 ram cycles 18962 p10 18939 p90 19025 sum 1.35261
+spec sgridfast:igrf4.sgrid_mod_w0.99_b32 ram cycles 14776 p10 14745 p90 14787 sum 1.35261
+spec sgrid:igrf4.sgrid_mod_w0.99_b64 cycles 53098 p10 50688 p90 54251 sum -0.0403466
+spec sgridfast:igrf4.sgrid_mod_w0.99_b64 cycles 43037 p10 40611 p90 43646 sum -0.0403466
+spec sgrid:igrf4.sgrid_mod_w0.99_b64 ram cycles 28137 p10 28114 p90 28200 sum -0.0403466
+spec sgridfast:igrf4.sgrid_mod_w0.99_b64 ram cycles 24992 p10 24952 p90 25030 sum -0.0403466
+spec sgrid:igrf4.sgrid_mod_w0.99_b128 cycles 106962 p10 100087 p90 107460 sum -4.03914
+spec sgridfast:igrf4.sgrid_mod_w0.99_b128 cycles 98330 p10 91311 p90 98630 sum -4.03914
+spec sgrid:igrf4.sgrid_mod_w0.99_b128 ram cycles 39245 p10 39222 p90 39335 sum -4.03914
+spec sgridfast:igrf4.sgrid_mod_w0.99_b128 ram cycles 36405 p10 36362 p90 36472 sum -4.03914
+spec sgrid:msis7.sgrid_mod_reg_n1 cycles 392 p10 392 p90 392 sum 14.7578
+spec sgridfast:msis7.sgrid_mod_reg_n1 cycles 444 p10 444 p90 444 sum 14.7578
+spec sgrid:msis7.sgrid_mod_reg_n1 ram cycles 392 p10 392 p90 392 sum 14.7578
+spec sgridfast:msis7.sgrid_mod_reg_n1 ram cycles 443 p10 443 p90 443 sum 14.7578
+spec sgrid:msis7.sgrid_mod_reg_n2 cycles 2622 p10 2614 p90 2629 sum 14.5384
+spec sgridfast:msis7.sgrid_mod_reg_n2 cycles 1258 p10 1246 p90 1267 sum 14.5384
+spec sgrid:msis7.sgrid_mod_reg_n2 ram cycles 2622 p10 2614 p90 2629 sum 14.5384
+spec sgridfast:msis7.sgrid_mod_reg_n2 ram cycles 1250 p10 1238 p90 1259 sum 14.5384
+spec sgrid:msis7.sgrid_mod_reg_n3 cycles 5951 p10 5942 p90 5964 sum 30.564
+spec sgridfast:msis7.sgrid_mod_reg_n3 cycles 3701 p10 3680 p90 3715 sum 30.564
+spec sgrid:msis7.sgrid_mod_reg_n3 ram cycles 5951 p10 5942 p90 5964 sum 30.564
+spec sgridfast:msis7.sgrid_mod_reg_n3 ram cycles 3665 p10 3644 p90 3679 sum 30.564
+spec sgrid:msis7.sgrid_mod_reg_n4 cycles 13711 p10 13696 p90 13737 sum 5.51546
+spec sgridfast:msis7.sgrid_mod_reg_n4 cycles 11123 p10 11099 p90 11137 sum 5.51546
+spec sgrid:msis7.sgrid_mod_reg_n4 ram cycles 13711 p10 13696 p90 13737 sum 5.51546
+spec sgridfast:msis7.sgrid_mod_reg_n4 ram cycles 11003 p10 10979 p90 11017 sum 5.51546
+spec sgrid:msis7.sgrid_mod_reg_n5 cycles 32428 p10 32406 p90 32491 sum -6.42912
+spec sgridfast:msis7.sgrid_mod_reg_n5 cycles 30623 p10 30600 p90 30691 sum -6.42912
+spec sgrid:msis7.sgrid_mod_reg_n5 ram cycles 32428 p10 32406 p90 32505 sum -6.42912
+spec sgridfast:msis7.sgrid_mod_reg_n5 ram cycles 30293 p10 30270 p90 30361 sum -6.42912
+spec sgrid:msis7.sgrid_mod_reg_n6 cycles 132382 p10 131535 p90 133179 sum 26.8299
+spec sgridfast:msis7.sgrid_mod_reg_n6 cycles 130496 p10 129856 p90 130963 sum 26.8299
+spec sgrid:msis7.sgrid_mod_reg_n6 ram cycles 74791 p10 74683 p90 74795 sum 26.8299
+spec sgridfast:msis7.sgrid_mod_reg_n6 ram cycles 74467 p10 74456 p90 74519 sum 26.8299
+spec sgrid:msis7.sgrid_mod_w0.5_b4 cycles 15902 p10 15872 p90 15923 sum 39.5293
+spec sgridfast:msis7.sgrid_mod_w0.5_b4 cycles 10779 p10 10756 p90 10790 sum 39.5293
+spec sgrid:msis7.sgrid_mod_w0.5_b4 ram cycles 15902 p10 15872 p90 15923 sum 39.5293
+spec sgridfast:msis7.sgrid_mod_w0.5_b4 ram cycles 10668 p10 10645 p90 10679 sum 39.5293
+spec sgrid:msis7.sgrid_mod_w0.5_b8 cycles 21171 p10 21141 p90 21226 sum 58.4549
+spec sgridfast:msis7.sgrid_mod_w0.5_b8 cycles 16664 p10 16641 p90 16718 sum 58.4549
+spec sgrid:msis7.sgrid_mod_w0.5_b8 ram cycles 21171 p10 21141 p90 21227 sum 58.4549
+spec sgridfast:msis7.sgrid_mod_w0.5_b8 ram cycles 16488 p10 16465 p90 16544 sum 58.4549
+spec sgrid:msis7.sgrid_mod_w0.5_b16 cycles 29883 p10 29850 p90 29937 sum 46.6833
+spec sgridfast:msis7.sgrid_mod_w0.5_b16 cycles 25039 p10 25016 p90 25095 sum 46.6833
+spec sgrid:msis7.sgrid_mod_w0.5_b16 ram cycles 29883 p10 29850 p90 29936 sum 46.6833
+spec sgridfast:msis7.sgrid_mod_w0.5_b16 ram cycles 24774 p10 24751 p90 24836 sum 46.6833
+spec sgrid:msis7.sgrid_mod_w0.5_b32 cycles 44940 p10 44581 p90 45018 sum 44.7098
+spec sgridfast:msis7.sgrid_mod_w0.5_b32 cycles 39104 p10 38856 p90 39234 sum 44.7098
+spec sgrid:msis7.sgrid_mod_w0.5_b32 ram cycles 39472 p10 39437 p90 39548 sum 44.7098
+spec sgridfast:msis7.sgrid_mod_w0.5_b32 ram cycles 35144 p10 35121 p90 35207 sum 44.7098
+spec sgrid:msis7.sgrid_mod_w0.5_b64 cycles 111393 p10 106865 p90 113056 sum 73.093
+spec sgridfast:msis7.sgrid_mod_w0.5_b64 cycles 106898 p10 101991 p90 108879 sum 73.093
+spec sgrid:msis7.sgrid_mod_w0.5_b64 ram cycles 56365 p10 56330 p90 56442 sum 73.093
+spec sgridfast:msis7.sgrid_mod_w0.5_b64 ram cycles 53341 p10 53307 p90 53409 sum 73.093
+spec sgrid:msis7.sgrid_mod_w0.5_b128 cycles 234891 p10 226603 p90 239615 sum 78.5653
+spec sgridfast:msis7.sgrid_mod_w0.5_b128 cycles 231763 p10 224162 p90 236183 sum 78.5653
+spec sgrid:msis7.sgrid_mod_w0.5_b128 ram cycles 84504 p10 84429 p90 84540 sum 78.5653
+spec sgridfast:msis7.sgrid_mod_w0.5_b128 ram cycles 81919 p10 81841 p90 81955 sum 78.5653
+spec sgrid:msis7.sgrid_mod_w0.9_b4 cycles 15902 p10 15872 p90 15949 sum 39.5293
+spec sgridfast:msis7.sgrid_mod_w0.9_b4 cycles 10779 p10 10756 p90 10790 sum 39.5293
+spec sgrid:msis7.sgrid_mod_w0.9_b4 ram cycles 15902 p10 15872 p90 15923 sum 39.5293
+spec sgridfast:msis7.sgrid_mod_w0.9_b4 ram cycles 10668 p10 10645 p90 10679 sum 39.5293
+spec sgrid:msis7.sgrid_mod_w0.9_b8 cycles 21171 p10 21141 p90 21227 sum 58.4549
+spec sgridfast:msis7.sgrid_mod_w0.9_b8 cycles 16664 p10 16641 p90 16693 sum 58.4549
+spec sgrid:msis7.sgrid_mod_w0.9_b8 ram cycles 21171 p10 21141 p90 21227 sum 58.4549
+spec sgridfast:msis7.sgrid_mod_w0.9_b8 ram cycles 16488 p10 16465 p90 16499 sum 58.4549
+spec sgrid:msis7.sgrid_mod_w0.9_b16 cycles 29883 p10 29850 p90 29937 sum 46.6833
+spec sgridfast:msis7.sgrid_mod_w0.9_b16 cycles 25040 p10 25016 p90 25094 sum 46.6833
+spec sgrid:msis7.sgrid_mod_w0.9_b16 ram cycles 29883 p10 29850 p90 29936 sum 46.6833
+spec sgridfast:msis7.sgrid_mod_w0.9_b16 ram cycles 24774 p10 24751 p90 24852 sum 46.6833
+spec sgrid:msis7.sgrid_mod_w0.9_b32 cycles 44940 p10 44581 p90 45018 sum 44.7098
+spec sgridfast:msis7.sgrid_mod_w0.9_b32 cycles 39104 p10 38812 p90 39234 sum 44.7098
+spec sgrid:msis7.sgrid_mod_w0.9_b32 ram cycles 39470 p10 39443 p90 39548 sum 44.7098
+spec sgridfast:msis7.sgrid_mod_w0.9_b32 ram cycles 35144 p10 35121 p90 35233 sum 44.7098
+spec sgrid:msis7.sgrid_mod_w0.9_b64 cycles 111366 p10 106837 p90 113012 sum 73.093
+spec sgridfast:msis7.sgrid_mod_w0.9_b64 cycles 106881 p10 101992 p90 108854 sum 73.093
+spec sgrid:msis7.sgrid_mod_w0.9_b64 ram cycles 56365 p10 56330 p90 56441 sum 73.093
+spec sgridfast:msis7.sgrid_mod_w0.9_b64 ram cycles 53341 p10 53307 p90 53409 sum 73.093
+spec sgrid:msis7.sgrid_mod_w0.9_b128 cycles 234963 p10 226602 p90 239591 sum 78.5653
+spec sgridfast:msis7.sgrid_mod_w0.9_b128 cycles 231739 p10 224162 p90 236184 sum 78.5653
+spec sgrid:msis7.sgrid_mod_w0.9_b128 ram cycles 84504 p10 84429 p90 84539 sum 78.5653
+spec sgridfast:msis7.sgrid_mod_w0.9_b128 ram cycles 81919 p10 81850 p90 81945 sum 78.5653
+spec sgrid:msis7.sgrid_mod_w0.99_b4 cycles 15902 p10 15872 p90 15923 sum 39.5293
+spec sgridfast:msis7.sgrid_mod_w0.99_b4 cycles 10779 p10 10756 p90 10790 sum 39.5293
+spec sgrid:msis7.sgrid_mod_w0.99_b4 ram cycles 15902 p10 15872 p90 15951 sum 39.5293
+spec sgridfast:msis7.sgrid_mod_w0.99_b4 ram cycles 10668 p10 10645 p90 10679 sum 39.5293
+spec sgrid:msis7.sgrid_mod_w0.99_b8 cycles 21171 p10 21141 p90 21218 sum 58.4549
+spec sgridfast:msis7.sgrid_mod_w0.99_b8 cycles 16664 p10 16641 p90 16693 sum 58.4549
+spec sgrid:msis7.sgrid_mod_w0.99_b8 ram cycles 21171 p10 21141 p90 21220 sum 58.4549
+spec sgridfast:msis7.sgrid_mod_w0.99_b8 ram cycles 16488 p10 16465 p90 16499 sum 58.4549
+spec sgrid:msis7.sgrid_mod_w0.99_b16 cycles 29883 p10 29850 p90 29935 sum 46.6833
+spec sgridfast:msis7.sgrid_mod_w0.99_b16 cycles 25039 p10 25016 p90 25118 sum 46.6833
+spec sgrid:msis7.sgrid_mod_w0.99_b16 ram cycles 29883 p10 29850 p90 29933 sum 46.6833
+spec sgridfast:msis7.sgrid_mod_w0.99_b16 ram cycles 24774 p10 24751 p90 24853 sum 46.6833
+spec sgrid:msis7.sgrid_mod_w0.99_b32 cycles 44993 p10 44616 p90 45056 sum 44.7098
+spec sgridfast:msis7.sgrid_mod_w0.99_b32 cycles 39104 p10 38812 p90 39311 sum 44.7098
+spec sgrid:msis7.sgrid_mod_w0.99_b32 ram cycles 39470 p10 39437 p90 39543 sum 44.7098
+spec sgridfast:msis7.sgrid_mod_w0.99_b32 ram cycles 35144 p10 35121 p90 35222 sum 44.7098
+spec sgrid:msis7.sgrid_mod_w0.99_b64 cycles 111366 p10 106724 p90 112932 sum 73.093
+spec sgridfast:msis7.sgrid_mod_w0.99_b64 cycles 106905 p10 101793 p90 108685 sum 73.093
+spec sgrid:msis7.sgrid_mod_w0.99_b64 ram cycles 56365 p10 56336 p90 56443 sum 73.093
+spec sgridfast:msis7.sgrid_mod_w0.99_b64 ram cycles 53330 p10 53307 p90 53419 sum 73.093
+spec sgrid:msis7.sgrid_mod_w0.99_b128 cycles 234891 p10 226603 p90 239614 sum 78.5653
+spec sgridfast:msis7.sgrid_mod_w0.99_b128 cycles 231688 p10 224211 p90 236169 sum 78.5653
+spec sgrid:msis7.sgrid_mod_w0.99_b128 ram cycles 84504 p10 84429 p90 84540 sum 78.5653
+spec sgridfast:msis7.sgrid_mod_w0.99_b128 ram cycles 81919 p10 81841 p90 81955 sum 78.5653
+spec sgrid:msis_d3.sgrid_mod_reg_n1 cycles 248 p10 248 p90 248 sum 14.7578
+spec sgridfast:msis_d3.sgrid_mod_reg_n1 cycles 336 p10 336 p90 336 sum 14.7578
+spec sgrid:msis_d3.sgrid_mod_reg_n1 ram cycles 248 p10 248 p90 248 sum 14.7578
+spec sgridfast:msis_d3.sgrid_mod_reg_n1 ram cycles 335 p10 335 p90 335 sum 14.7578
+spec sgrid:msis_d3.sgrid_mod_reg_n2 cycles 1204 p10 1198 p90 1209 sum -10.1077
+spec sgridfast:msis_d3.sgrid_mod_reg_n2 cycles 686 p10 677 p90 692 sum -10.1077
+spec sgrid:msis_d3.sgrid_mod_reg_n2 ram cycles 1204 p10 1198 p90 1209 sum -10.1077
+spec sgridfast:msis_d3.sgrid_mod_reg_n2 ram cycles 682 p10 673 p90 688 sum -10.1077
+spec sgrid:msis_d3.sgrid_mod_reg_n3 cycles 2226 p10 2210 p90 2231 sum 12.3493
+spec sgridfast:msis_d3.sgrid_mod_reg_n3 cycles 1261 p10 1239 p90 1268 sum 12.3493
+spec sgrid:msis_d3.sgrid_mod_reg_n3 ram cycles 2226 p10 2210 p90 2231 sum 12.3493
+spec sgridfast:msis_d3.sgrid_mod_reg_n3 ram cycles 1251 p10 1229 p90 1258 sum 12.3493
+spec sgrid:msis_d3.sgrid_mod_reg_n4 cycles 3545 p10 3523 p90 3552 sum -0.95593
+spec sgridfast:msis_d3.sgrid_mod_reg_n4 cycles 2166 p10 2134 p90 2170 sum -0.95593
+spec sgrid:msis_d3.sgrid_mod_reg_n4 ram cycles 3545 p10 3523 p90 3552 sum -0.95593
+spec sgridfast:msis_d3.sgrid_mod_reg_n4 ram cycles 2146 p10 2114 p90 2150 sum -0.95593
+spec sgrid:msis_d3.sgrid_mod_reg_n5 cycles 5242 p10 5220 p90 5253 sum -1.47911
+spec sgridfast:msis_d3.sgrid_mod_reg_n5 cycles 3490 p10 3454 p90 3493 sum -1.47911
+spec sgrid:msis_d3.sgrid_mod_reg_n5 ram cycles 5242 p10 5220 p90 5253 sum -1.47911
+spec sgridfast:msis_d3.sgrid_mod_reg_n5 ram cycles 3455 p10 3419 p90 3458 sum -1.47911
+spec sgrid:msis_d3.sgrid_mod_reg_n6 cycles 7398 p10 7375 p90 7413 sum 7.8898
+spec sgridfast:msis_d3.sgrid_mod_reg_n6 cycles 5326 p10 5288 p90 5329 sum 7.8898
+spec sgrid:msis_d3.sgrid_mod_reg_n6 ram cycles 7398 p10 7375 p90 7413 sum 7.8898
+spec sgridfast:msis_d3.sgrid_mod_reg_n6 ram cycles 5270 p10 5232 p90 5273 sum 7.8898
+spec sgrid:msis_d3.sgrid_mod_reg_n7 cycles 10100 p10 10075 p90 10117 sum 6.22334
+spec sgridfast:msis_d3.sgrid_mod_reg_n7 cycles 7869 p10 7827 p90 7871 sum 6.22334
+spec sgrid:msis_d3.sgrid_mod_reg_n7 ram cycles 10100 p10 10075 p90 10117 sum 6.22334
+spec sgridfast:msis_d3.sgrid_mod_reg_n7 ram cycles 7785 p10 7743 p90 7787 sum 6.22334
+spec sgrid:msis_d3.sgrid_mod_reg_n8 cycles 13431 p10 13406 p90 13452 sum -12.7467
+spec sgridfast:msis_d3.sgrid_mod_reg_n8 cycles 11007 p10 10964 p90 11010 sum -12.7467
+spec sgrid:msis_d3.sgrid_mod_reg_n8 ram cycles 13431 p10 13406 p90 13452 sum -12.7467
+spec sgridfast:msis_d3.sgrid_mod_reg_n8 ram cycles 10887 p10 10844 p90 10889 sum -12.7467
+spec sgrid:msis_d3.sgrid_mod_reg_n9 cycles 26462 p10 25728 p90 26616 sum 19.6625
+spec sgridfast:msis_d3.sgrid_mod_reg_n9 cycles 23618 p10 23013 p90 23813 sum 19.6625
+spec sgrid:msis_d3.sgrid_mod_reg_n9 ram cycles 17477 p10 17451 p90 17546 sum 19.6625
+spec sgridfast:msis_d3.sgrid_mod_reg_n9 ram cycles 14870 p10 14826 p90 14872 sum 19.6625
+spec sgrid:msis_d3.sgrid_mod_reg_n10 cycles 66017 p10 64090 p90 67323 sum 6.89044
+spec sgridfast:msis_d3.sgrid_mod_reg_n10 cycles 60718 p10 58574 p90 61914 sum 6.89044
+spec sgrid:msis_d3.sgrid_mod_reg_n10 ram cycles 22322 p10 22296 p90 22388 sum 6.89044
+spec sgridfast:msis_d3.sgrid_mod_reg_n10 ram cycles 19724 p10 19679 p90 19758 sum 6.89044
+spec sgrid:msis_d3.sgrid_mod_w0.5_b4 cycles 8011 p10 7988 p90 8026 sum -24.0021
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b4 cycles 5984 p10 5946 p90 5987 sum -24.0021
+spec sgrid:msis_d3.sgrid_mod_w0.5_b4 ram cycles 8011 p10 7988 p90 8026 sum -24.0021
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b4 ram cycles 5921 p10 5883 p90 5924 sum -24.0021
+spec sgrid:msis_d3.sgrid_mod_w0.5_b8 cycles 10187 p10 10162 p90 10204 sum -24.048
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b8 cycles 7909 p10 7867 p90 7911 sum -24.048
+spec sgrid:msis_d3.sgrid_mod_w0.5_b8 ram cycles 10187 p10 10162 p90 10208 sum -24.048
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b8 ram cycles 7826 p10 7784 p90 7828 sum -24.048
+spec sgrid:msis_d3.sgrid_mod_w0.5_b16 cycles 12005 p10 11980 p90 12022 sum -29.7159
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b16 cycles 9947 p10 9905 p90 9949 sum -29.7159
+spec sgrid:msis_d3.sgrid_mod_w0.5_b16 ram cycles 12005 p10 11980 p90 12022 sum -29.7159
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b16 ram cycles 9840 p10 9798 p90 9842 sum -29.7159
+spec sgrid:msis_d3.sgrid_mod_w0.5_b32 cycles 18300 p10 18056 p90 18345 sum -24.3307
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b32 cycles 14771 p10 14628 p90 14850 sum -24.3307
+spec sgrid:msis_d3.sgrid_mod_w0.5_b32 ram cycles 15099 p10 15074 p90 15156 sum -24.3307
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b32 ram cycles 12758 p10 12715 p90 12760 sum -24.3307
+spec sgrid:msis_d3.sgrid_mod_w0.5_b64 cycles 34707 p10 34028 p90 35926 sum -18.0609
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b64 cycles 30844 p10 30078 p90 32060 sum -18.0609
+spec sgrid:msis_d3.sgrid_mod_w0.5_b64 ram cycles 18482 p10 18456 p90 18557 sum -18.0609
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b64 ram cycles 15899 p10 15855 p90 15901 sum -18.0609
+spec sgrid:msis_d3.sgrid_mod_w0.5_b128 cycles 54199 p10 53111 p90 55621 sum -23.392
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b128 cycles 50490 p10 49886 p90 52185 sum -23.392
+spec sgrid:msis_d3.sgrid_mod_w0.5_b128 ram cycles 21710 p10 21684 p90 21775 sum -23.392
+spec sgridfast:msis_d3.sgrid_mod_w0.5_b128 ram cycles 19560 p10 19516 p90 19594 sum -23.392
+spec sgrid:msis_d3.sgrid_mod_w0.9_b4 cycles 8011 p10 7988 p90 8026 sum -24.0021
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b4 cycles 5984 p10 5946 p90 5987 sum -24.0021
+spec sgrid:msis_d3.sgrid_mod_w0.9_b4 ram cycles 8011 p10 7988 p90 8026 sum -24.0021
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b4 ram cycles 5921 p10 5883 p90 5924 sum -24.0021
+spec sgrid:msis_d3.sgrid_mod_w0.9_b8 cycles 10187 p10 10162 p90 10204 sum -24.048
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b8 cycles 7909 p10 7867 p90 7911 sum -24.048
+spec sgrid:msis_d3.sgrid_mod_w0.9_b8 ram cycles 10187 p10 10162 p90 10204 sum -24.048
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b8 ram cycles 7826 p10 7784 p90 7828 sum -24.048
+spec sgrid:msis_d3.sgrid_mod_w0.9_b16 cycles 12005 p10 11980 p90 12026 sum -29.7159
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b16 cycles 9947 p10 9905 p90 9949 sum -29.7159
+spec sgrid:msis_d3.sgrid_mod_w0.9_b16 ram cycles 12005 p10 11980 p90 12026 sum -29.7159
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b16 ram cycles 9840 p10 9798 p90 9842 sum -29.7159
+spec sgrid:msis_d3.sgrid_mod_w0.9_b32 cycles 16232 p10 16163 p90 16355 sum -25.9002
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b32 cycles 13772 p10 13642 p90 13834 sum -25.9002
+spec sgrid:msis_d3.sgrid_mod_w0.9_b32 ram cycles 15099 p10 15074 p90 15151 sum -25.9002
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b32 ram cycles 12758 p10 12715 p90 12760 sum -25.9002
+spec sgrid:msis_d3.sgrid_mod_w0.9_b64 cycles 31805 p10 31416 p90 33568 sum -24.8959
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b64 cycles 29088 p10 28482 p90 30464 sum -24.8959
+spec sgrid:msis_d3.sgrid_mod_w0.9_b64 ram cycles 18245 p10 18219 p90 18342 sum -24.8959
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b64 ram cycles 15614 p10 15570 p90 15616 sum -24.8959
+spec sgrid:msis_d3.sgrid_mod_w0.9_b128 cycles 52356 p10 51078 p90 53975 sum -22.6323
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b128 cycles 49652 p10 48264 p90 51013 sum -22.6323
+spec sgrid:msis_d3.sgrid_mod_w0.9_b128 ram cycles 21712 p10 21686 p90 21778 sum -22.6323
+spec sgridfast:msis_d3.sgrid_mod_w0.9_b128 ram cycles 19536 p10 19492 p90 19615 sum -22.6323
+spec sgrid:msis_d3.sgrid_mod_w0.99_b4 cycles 8011 p10 7988 p90 8026 sum -24.0021
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b4 cycles 5984 p10 5946 p90 5988 sum -24.0021
+spec sgrid:msis_d3.sgrid_mod_w0.99_b4 ram cycles 8011 p10 7988 p90 8026 sum -24.0021
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b4 ram cycles 5921 p10 5883 p90 5924 sum -24.0021
+spec sgrid:msis_d3.sgrid_mod_w0.99_b8 cycles 10187 p10 10162 p90 10204 sum -24.048
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b8 cycles 7909 p10 7867 p90 7911 sum -24.048
+spec sgrid:msis_d3.sgrid_mod_w0.99_b8 ram cycles 10187 p10 10162 p90 10204 sum -24.048
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b8 ram cycles 7826 p10 7784 p90 7828 sum -24.048
+spec sgrid:msis_d3.sgrid_mod_w0.99_b16 cycles 12005 p10 11980 p90 12022 sum -29.7159
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b16 cycles 9947 p10 9905 p90 9950 sum -29.7159
+spec sgrid:msis_d3.sgrid_mod_w0.99_b16 ram cycles 12005 p10 11980 p90 12026 sum -29.7159
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b16 ram cycles 9840 p10 9798 p90 9842 sum -29.7159
+spec sgrid:msis_d3.sgrid_mod_w0.99_b32 cycles 16214 p10 16145 p90 16372 sum -25.9002
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b32 cycles 13772 p10 13624 p90 13851 sum -25.9002
+spec sgrid:msis_d3.sgrid_mod_w0.99_b32 ram cycles 15099 p10 15074 p90 15156 sum -25.9002
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b32 ram cycles 12758 p10 12715 p90 12760 sum -25.9002
+spec sgrid:msis_d3.sgrid_mod_w0.99_b64 cycles 31857 p10 31380 p90 33585 sum -24.8959
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b64 cycles 29094 p10 28430 p90 30560 sum -24.8959
+spec sgrid:msis_d3.sgrid_mod_w0.99_b64 ram cycles 18245 p10 18220 p90 18297 sum -24.8959
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b64 ram cycles 15614 p10 15570 p90 15681 sum -24.8959
+spec sgrid:msis_d3.sgrid_mod_w0.99_b128 cycles 52366 p10 51113 p90 53975 sum -22.6323
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b128 cycles 49721 p10 48264 p90 50996 sum -22.6323
+spec sgrid:msis_d3.sgrid_mod_w0.99_b128 ram cycles 21712 p10 21686 p90 21777 sum -22.6323
+spec sgridfast:msis_d3.sgrid_mod_w0.99_b128 ram cycles 19536 p10 19525 p90 19570 sum -22.6323
+spec sgrid:msis_d4.sgrid_mod_reg_n1 cycles 284 p10 284 p90 284 sum 14.7578
+spec sgridfast:msis_d4.sgrid_mod_reg_n1 cycles 363 p10 363 p90 363 sum 14.7578
+spec sgrid:msis_d4.sgrid_mod_reg_n1 ram cycles 284 p10 284 p90 284 sum 14.7578
+spec sgridfast:msis_d4.sgrid_mod_reg_n1 ram cycles 362 p10 362 p90 362 sum 14.7578
+spec sgrid:msis_d4.sgrid_mod_reg_n2 cycles 1562 p10 1551 p90 1563 sum -10.3566
+spec sgridfast:msis_d4.sgrid_mod_reg_n2 cycles 831 p10 819 p90 835 sum -10.3566
+spec sgrid:msis_d4.sgrid_mod_reg_n2 ram cycles 1562 p10 1551 p90 1563 sum -10.3566
+spec sgridfast:msis_d4.sgrid_mod_reg_n2 ram cycles 826 p10 814 p90 830 sum -10.3566
+spec sgrid:msis_d4.sgrid_mod_reg_n3 cycles 3059 p10 3043 p90 3061 sum -0.842454
+spec sgridfast:msis_d4.sgrid_mod_reg_n3 cycles 1753 p10 1732 p90 1761 sum -0.842454
+spec sgrid:msis_d4.sgrid_mod_reg_n3 ram cycles 3059 p10 3043 p90 3061 sum -0.842454
+spec sgridfast:msis_d4.sgrid_mod_reg_n3 ram cycles 1738 p10 1717 p90 1746 sum -0.842454
+spec sgrid:msis_d4.sgrid_mod_reg_n4 cycles 5313 p10 5296 p90 5322 sum 7.7864
+spec sgridfast:msis_d4.sgrid_mod_reg_n4 cycles 3517 p10 3490 p90 3525 sum 7.7864
+spec sgrid:msis_d4.sgrid_mod_reg_n4 ram cycles 5313 p10 5296 p90 5322 sum 7.7864
+spec sgridfast:msis_d4.sgrid_mod_reg_n4 ram cycles 3482 p10 3455 p90 3490 sum 7.7864
+spec sgrid:msis_d4.sgrid_mod_reg_n5 cycles 8768 p10 8749 p90 8776 sum -0.740215
+spec sgridfast:msis_d4.sgrid_mod_reg_n5 cycles 6702 p10 6669 p90 6705 sum -0.740215
+spec sgrid:msis_d4.sgrid_mod_reg_n5 ram cycles 8768 p10 8749 p90 8776 sum -0.740215
+spec sgridfast:msis_d4.sgrid_mod_reg_n5 ram cycles 6632 p10 6599 p90 6635 sum -0.740215
+spec sgrid:msis_d4.sgrid_mod_reg_n6 cycles 13956 p10 13936 p90 13984 sum 13.2303
+spec sgridfast:msis_d4.sgrid_mod_reg_n6 cycles 11675 p10 11639 p90 11676 sum 13.2303
+spec sgrid:msis_d4.sgrid_mod_reg_n6 ram cycles 13956 p10 13936 p90 13984 sum 13.2303
+spec sgridfast:msis_d4.sgrid_mod_reg_n6 ram cycles 11549 p10 11513 p90 11550 sum 13.2303
+spec sgrid:msis_d4.sgrid_mod_reg_n7 cycles 21526 p10 21504 p90 21582 sum -28.0795
+spec sgridfast:msis_d4.sgrid_mod_reg_n7 cycles 19426 p10 19387 p90 19466 sum -28.0795
+spec sgrid:msis_d4.sgrid_mod_reg_n7 ram cycles 21526 p10 21504 p90 21595 sum -28.0795
+spec sgridfast:msis_d4.sgrid_mod_reg_n7 ram cycles 19216 p10 19177 p90 19283 sum -28.0795
+spec sgrid:msis_d4.sgrid_mod_reg_n8 cycles 64519 p10 59418 p90 65636 sum 16.0349
+spec sgridfast:msis_d4.sgrid_mod_reg_n8 cycles 60918 p10 54927 p90 61276 sum 16.0349
+spec sgrid:msis_d4.sgrid_mod_reg_n8 ram cycles 32224 p10 32201 p90 32296 sum 16.0349
+spec sgridfast:msis_d4.sgrid_mod_reg_n8 ram cycles 30209 p10 30169 p90 30278 sum 16.0349
+spec sgrid:msis_d4.sgrid_mod_w0.5_b4 cycles 11051 p10 11031 p90 11061 sum 6.82749
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b4 cycles 8455 p10 8419 p90 8457 sum 6.82749
+spec sgrid:msis_d4.sgrid_mod_w0.5_b4 ram cycles 11051 p10 11031 p90 11061 sum 6.82749
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b4 ram cycles 8358 p10 8330 p90 8367 sum 6.82749
+spec sgrid:msis_d4.sgrid_mod_w0.5_b8 cycles 13685 p10 13665 p90 13744 sum 8.97859
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b8 cycles 11387 p10 11351 p90 11388 sum 8.97859
+spec sgrid:msis_d4.sgrid_mod_w0.5_b8 ram cycles 13685 p10 13665 p90 13745 sum 8.97859
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b8 ram cycles 11264 p10 11228 p90 11265 sum 8.97859
+spec sgrid:msis_d4.sgrid_mod_w0.5_b16 cycles 18742 p10 18719 p90 18810 sum 13.2118
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b16 cycles 16143 p10 16104 p90 16182 sum 13.2118
+spec sgrid:msis_d4.sgrid_mod_w0.5_b16 ram cycles 18741 p10 18719 p90 18797 sum 13.2118
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b16 ram cycles 15972 p10 15933 p90 16011 sum 13.2118
+spec sgrid:msis_d4.sgrid_mod_w0.5_b32 cycles 27269 p10 26988 p90 27386 sum 19.6156
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b32 cycles 24826 p10 24335 p90 25042 sum 19.6156
+spec sgrid:msis_d4.sgrid_mod_w0.5_b32 ram cycles 24026 p10 24004 p90 24095 sum 19.6156
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b32 ram cycles 21752 p10 21713 p90 21791 sum 19.6156
+spec sgrid:msis_d4.sgrid_mod_w0.5_b64 cycles 57617 p10 53992 p90 58953 sum 27.9725
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b64 cycles 54623 p10 50253 p90 55782 sum 27.9725
+spec sgrid:msis_d4.sgrid_mod_w0.5_b64 ram cycles 30885 p10 30862 p90 30964 sum 27.9725
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b64 ram cycles 28331 p10 28291 p90 28370 sum 27.9725
+spec sgrid:msis_d4.sgrid_mod_w0.5_b128 cycles 101117 p10 95536 p90 104566 sum 14.5559
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b128 cycles 98970 p10 91913 p90 101990 sum 14.5559
+spec sgrid:msis_d4.sgrid_mod_w0.5_b128 ram cycles 39010 p10 39002 p90 39072 sum 14.5559
+spec sgridfast:msis_d4.sgrid_mod_w0.5_b128 ram cycles 37259 p10 37228 p90 37346 sum 14.5559
+spec sgrid:msis_d4.sgrid_mod_w0.9_b4 cycles 11051 p10 11031 p90 11061 sum 6.82749
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b4 cycles 8455 p10 8419 p90 8456 sum 6.82749
+spec sgrid:msis_d4.sgrid_mod_w0.9_b4 ram cycles 11051 p10 11031 p90 11061 sum 6.82749
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b4 ram cycles 8358 p10 8330 p90 8367 sum 6.82749
+spec sgrid:msis_d4.sgrid_mod_w0.9_b8 cycles 13685 p10 13665 p90 13713 sum 8.97859
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b8 cycles 11387 p10 11351 p90 11396 sum 8.97859
+spec sgrid:msis_d4.sgrid_mod_w0.9_b8 ram cycles 13685 p10 13665 p90 13713 sum 8.97859
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b8 ram cycles 11264 p10 11228 p90 11265 sum 8.97859
+spec sgrid:msis_d4.sgrid_mod_w0.9_b16 cycles 18741 p10 18719 p90 18830 sum 0.464754
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b16 cycles 16143 p10 16104 p90 16182 sum 0.464754
+spec sgrid:msis_d4.sgrid_mod_w0.9_b16 ram cycles 18741 p10 18719 p90 18810 sum 0.464754
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b16 ram cycles 15972 p10 15933 p90 15973 sum 0.464754
+spec sgrid:msis_d4.sgrid_mod_w0.9_b32 cycles 26861 p10 26711 p90 27117 sum 6.87236
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b32 cycles 24791 p10 24247 p90 24867 sum 6.87236
+spec sgrid:msis_d4.sgrid_mod_w0.9_b32 ram cycles 23890 p10 23868 p90 23959 sum 6.87236
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b32 ram cycles 21596 p10 21557 p90 21635 sum 6.87236
+spec sgrid:msis_d4.sgrid_mod_w0.9_b64 cycles 56926 p10 53736 p90 57879 sum -1.08237
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b64 cycles 54562 p10 50388 p90 55714 sum -1.08237
+spec sgrid:msis_d4.sgrid_mod_w0.9_b64 ram cycles 30579 p10 30556 p90 30649 sum -1.08237
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b64 ram cycles 27993 p10 27953 p90 28070 sum -1.08237
+spec sgrid:msis_d4.sgrid_mod_w0.9_b128 cycles 99268 p10 92622 p90 101343 sum -10.9044
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b128 cycles 97554 p10 90871 p90 99531 sum -10.9044
+spec sgrid:msis_d4.sgrid_mod_w0.9_b128 ram cycles 38363 p10 38340 p90 38433 sum -10.9044
+spec sgridfast:msis_d4.sgrid_mod_w0.9_b128 ram cycles 36565 p10 36525 p90 36645 sum -10.9044
+spec sgrid:msis_d4.sgrid_mod_w0.99_b4 cycles 11051 p10 11031 p90 11079 sum 6.82749
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b4 cycles 8455 p10 8419 p90 8457 sum 6.82749
+spec sgrid:msis_d4.sgrid_mod_w0.99_b4 ram cycles 11051 p10 11031 p90 11061 sum 6.82749
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b4 ram cycles 8359 p10 8330 p90 8367 sum 6.82749
+spec sgrid:msis_d4.sgrid_mod_w0.99_b8 cycles 13685 p10 13665 p90 13695 sum 8.97859
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b8 cycles 11387 p10 11351 p90 11388 sum 8.97859
+spec sgrid:msis_d4.sgrid_mod_w0.99_b8 ram cycles 13685 p10 13665 p90 13695 sum 8.97859
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b8 ram cycles 11264 p10 11228 p90 11265 sum 8.97859
+spec sgrid:msis_d4.sgrid_mod_w0.99_b16 cycles 18741 p10 18719 p90 18768 sum 0.464754
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b16 cycles 16143 p10 16104 p90 16150 sum 0.464754
+spec sgrid:msis_d4.sgrid_mod_w0.99_b16 ram cycles 18741 p10 18719 p90 18819 sum 0.464754
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b16 ram cycles 15972 p10 15933 p90 15973 sum 0.464754
+spec sgrid:msis_d4.sgrid_mod_w0.99_b32 cycles 26843 p10 26729 p90 27134 sum 6.87236
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b32 cycles 24827 p10 24247 p90 24867 sum 6.87236
+spec sgrid:msis_d4.sgrid_mod_w0.99_b32 ram cycles 23890 p10 23868 p90 23949 sum 6.87236
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b32 ram cycles 21596 p10 21557 p90 21636 sum 6.87236
+spec sgrid:msis_d4.sgrid_mod_w0.99_b64 cycles 57032 p10 53677 p90 57791 sum -1.08237
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b64 cycles 54632 p10 50364 p90 55820 sum -1.08237
+spec sgrid:msis_d4.sgrid_mod_w0.99_b64 ram cycles 30579 p10 30556 p90 30649 sum -1.08237
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b64 ram cycles 27993 p10 27953 p90 28062 sum -1.08237
+spec sgrid:msis_d4.sgrid_mod_w0.99_b128 cycles 99268 p10 92634 p90 101340 sum -10.9044
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b128 cycles 97554 p10 90866 p90 99536 sum -10.9044
+spec sgrid:msis_d4.sgrid_mod_w0.99_b128 ram cycles 38373 p10 38355 p90 38419 sum -10.9044
+spec sgridfast:msis_d4.sgrid_mod_w0.99_b128 ram cycles 36565 p10 36525 p90 36643 sum -10.9044
+spec sgrid:msis_d5.sgrid_mod_reg_n1 cycles 320 p10 320 p90 320 sum 14.7578
+spec sgridfast:msis_d5.sgrid_mod_reg_n1 cycles 390 p10 390 p90 390 sum 14.7578
+spec sgrid:msis_d5.sgrid_mod_reg_n1 ram cycles 320 p10 320 p90 320 sum 14.7578
+spec sgridfast:msis_d5.sgrid_mod_reg_n1 ram cycles 389 p10 389 p90 389 sum 14.7578
+spec sgrid:msis_d5.sgrid_mod_reg_n2 cycles 1914 p10 1907 p90 1917 sum -8.36454
+spec sgridfast:msis_d5.sgrid_mod_reg_n2 cycles 974 p10 963 p90 977 sum -8.36454
+spec sgrid:msis_d5.sgrid_mod_reg_n2 ram cycles 1914 p10 1907 p90 1917 sum -8.36454
+spec sgridfast:msis_d5.sgrid_mod_reg_n2 ram cycles 968 p10 957 p90 971 sum -8.36454
+spec sgrid:msis_d5.sgrid_mod_reg_n3 cycles 3958 p10 3942 p90 3959 sum 19.3447
+spec sgridfast:msis_d5.sgrid_mod_reg_n3 cycles 2325 p10 2309 p90 2329 sum 19.3447
+spec sgrid:msis_d5.sgrid_mod_reg_n3 ram cycles 3958 p10 3942 p90 3959 sum 19.3447
+spec sgridfast:msis_d5.sgrid_mod_reg_n3 ram cycles 2304 p10 2288 p90 2308 sum 19.3447
+spec sgrid:msis_d5.sgrid_mod_reg_n4 cycles 7542 p10 7526 p90 7543 sum -3.02482
+spec sgridfast:msis_d5.sgrid_mod_reg_n4 cycles 5384 p10 5364 p90 5390 sum -3.02482
+spec sgrid:msis_d5.sgrid_mod_reg_n4 ram cycles 7542 p10 7526 p90 7543 sum -3.02482
+spec sgridfast:msis_d5.sgrid_mod_reg_n4 ram cycles 5328 p10 5308 p90 5334 sum -3.02482
+spec sgrid:msis_d5.sgrid_mod_reg_n5 cycles 14024 p10 14007 p90 14059 sum 3.28501
+spec sgridfast:msis_d5.sgrid_mod_reg_n5 cycles 11700 p10 11679 p90 11707 sum 3.28501
+spec sgrid:msis_d5.sgrid_mod_reg_n5 ram cycles 14024 p10 14007 p90 14059 sum 3.28501
+spec sgridfast:msis_d5.sgrid_mod_reg_n5 ram cycles 11574 p10 11553 p90 11581 sum 3.28501
+spec sgrid:msis_d5.sgrid_mod_reg_n6 cycles 25387 p10 25370 p90 25458 sum -10.9811
+spec sgridfast:msis_d5.sgrid_mod_reg_n6 cycles 23358 p10 23337 p90 23416 sum -10.9811
+spec sgrid:msis_d5.sgrid_mod_reg_n6 ram cycles 25387 p10 25370 p90 25466 sum -10.9811
+spec sgridfast:msis_d5.sgrid_mod_reg_n6 ram cycles 23106 p10 23085 p90 23171 sum -10.9811
+spec sgrid:msis_d5.sgrid_mod_reg_n7 cycles 73079 p10 71536 p90 75411 sum -65.1046
+spec sgridfast:msis_d5.sgrid_mod_reg_n7 cycles 70158 p10 68730 p90 72348 sum -65.1046
+spec sgrid:msis_d5.sgrid_mod_reg_n7 ram cycles 44378 p10 44349 p90 44451 sum -65.1046
+spec sgridfast:msis_d5.sgrid_mod_reg_n7 ram cycles 42849 p10 42827 p90 42927 sum -65.1046
+spec sgrid:msis_d5.sgrid_mod_reg_n8 cycles 258692 p10 250718 p90 265699 sum 63.5066
+spec sgridfast:msis_d5.sgrid_mod_reg_n8 cycles 256521 p10 248867 p90 263281 sum 63.5066
+spec sgrid:msis_d5.sgrid_mod_reg_n8 ram cycles 74581 p10 74550 p90 74659 sum 63.5066
+spec sgridfast:msis_d5.sgrid_mod_reg_n8 ram cycles 74405 p10 74382 p90 74472 sum 63.5066
+spec sgrid:msis_d5.sgrid_mod_w0.5_b4 cycles 13032 p10 13015 p90 13050 sum 8.25502
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b4 cycles 9632 p10 9611 p90 9642 sum 8.25502
+spec sgrid:msis_d5.sgrid_mod_w0.5_b4 ram cycles 13032 p10 13015 p90 13040 sum 8.25502
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b4 ram cycles 9531 p10 9510 p90 9541 sum 8.25502
+spec sgrid:msis_d5.sgrid_mod_w0.5_b8 cycles 17059 p10 17042 p90 17121 sum 16.8843
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b8 cycles 14162 p10 14141 p90 14179 sum 16.8843
+spec sgrid:msis_d5.sgrid_mod_w0.5_b8 ram cycles 17059 p10 17042 p90 17094 sum 16.8843
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b8 ram cycles 14011 p10 13990 p90 14021 sum 16.8843
+spec sgrid:msis_d5.sgrid_mod_w0.5_b16 cycles 23502 p10 23479 p90 23577 sum 22.5492
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b16 cycles 20253 p10 20231 p90 20308 sum 22.5492
+spec sgrid:msis_d5.sgrid_mod_w0.5_b16 ram cycles 23502 p10 23479 p90 23580 sum 22.5492
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b16 ram cycles 20039 p10 20017 p90 20094 sum 22.5492
+spec sgrid:msis_d5.sgrid_mod_w0.5_b32 cycles 35144 p10 34885 p90 35301 sum 26.9109
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b32 cycles 32604 p10 32275 p90 32682 sum 26.9109
+spec sgrid:msis_d5.sgrid_mod_w0.5_b32 ram cycles 30368 p10 30345 p90 30443 sum 26.9109
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b32 ram cycles 27496 p10 27474 p90 27562 sum 26.9109
+spec sgrid:msis_d5.sgrid_mod_w0.5_b64 cycles 88674 p10 86662 p90 93114 sum 16.3657
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b64 cycles 85046 p10 81971 p90 88838 sum 16.3657
+spec sgrid:msis_d5.sgrid_mod_w0.5_b64 ram cycles 42709 p10 42685 p90 42783 sum 16.3657
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b64 ram cycles 40566 p10 40544 p90 40643 sum 16.3657
+spec sgrid:msis_d5.sgrid_mod_w0.5_b128 cycles 156318 p10 154216 p90 164776 sum 12.683
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b128 cycles 152712 p10 150752 p90 161070 sum 12.683
+spec sgrid:msis_d5.sgrid_mod_w0.5_b128 ram cycles 57587 p10 57556 p90 57664 sum 12.683
+spec sgridfast:msis_d5.sgrid_mod_w0.5_b128 ram cycles 55559 p10 55534 p90 55648 sum 12.683
+spec sgrid:msis_d5.sgrid_mod_w0.9_b4 cycles 13032 p10 13015 p90 13040 sum 8.25502
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b4 cycles 9632 p10 9611 p90 9642 sum 8.25502
+spec sgrid:msis_d5.sgrid_mod_w0.9_b4 ram cycles 13032 p10 13015 p90 13050 sum 8.25502
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b4 ram cycles 9531 p10 9510 p90 9541 sum 8.25502
+spec sgrid:msis_d5.sgrid_mod_w0.9_b8 cycles 17059 p10 17042 p90 17121 sum 16.8843
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b8 cycles 14162 p10 14141 p90 14179 sum 16.8843
+spec sgrid:msis_d5.sgrid_mod_w0.9_b8 ram cycles 17059 p10 17042 p90 17094 sum 16.8843
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b8 ram cycles 14011 p10 13990 p90 14021 sum 16.8843
+spec sgrid:msis_d5.sgrid_mod_w0.9_b16 cycles 23502 p10 23479 p90 23577 sum 22.5492
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b16 cycles 20253 p10 20231 p90 20310 sum 22.5492
+spec sgrid:msis_d5.sgrid_mod_w0.9_b16 ram cycles 23502 p10 23479 p90 23557 sum 22.5492
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b16 ram cycles 20039 p10 20017 p90 20095 sum 22.5492
+spec sgrid:msis_d5.sgrid_mod_w0.9_b32 cycles 35099 p10 34956 p90 35284 sum 26.9109
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b32 cycles 32604 p10 32275 p90 32682 sum 26.9109
+spec sgrid:msis_d5.sgrid_mod_w0.9_b32 ram cycles 30368 p10 30345 p90 30443 sum 26.9109
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b32 ram cycles 27496 p10 27474 p90 27574 sum 26.9109
+spec sgrid:msis_d5.sgrid_mod_w0.9_b64 cycles 88062 p10 85725 p90 92304 sum 29.725
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b64 cycles 83692 p10 80620 p90 87826 sum 29.725
+spec sgrid:msis_d5.sgrid_mod_w0.9_b64 ram cycles 43422 p10 43395 p90 43503 sum 29.725
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b64 ram cycles 40512 p10 40476 p90 40567 sum 29.725
+spec sgrid:msis_d5.sgrid_mod_w0.9_b128 cycles 153858 p10 151177 p90 162610 sum 30.0228
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b128 cycles 151243 p10 147986 p90 159621 sum 30.0228
+spec sgrid:msis_d5.sgrid_mod_w0.9_b128 ram cycles 57604 p10 57573 p90 57679 sum 30.0228
+spec sgridfast:msis_d5.sgrid_mod_w0.9_b128 ram cycles 55583 p10 55547 p90 55661 sum 30.0228
+spec sgrid:msis_d5.sgrid_mod_w0.99_b4 cycles 13032 p10 13015 p90 13050 sum 8.25502
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b4 cycles 9632 p10 9611 p90 9642 sum 8.25502
+spec sgrid:msis_d5.sgrid_mod_w0.99_b4 ram cycles 13032 p10 13015 p90 13040 sum 8.25502
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b4 ram cycles 9531 p10 9510 p90 9541 sum 8.25502
+spec sgrid:msis_d5.sgrid_mod_w0.99_b8 cycles 17059 p10 17042 p90 17137 sum 16.8843
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b8 cycles 14162 p10 14141 p90 14179 sum 16.8843
+spec sgrid:msis_d5.sgrid_mod_w0.99_b8 ram cycles 17059 p10 17042 p90 17094 sum 16.8843
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b8 ram cycles 14011 p10 13990 p90 14021 sum 16.8843
+spec sgrid:msis_d5.sgrid_mod_w0.99_b16 cycles 23502 p10 23479 p90 23577 sum 22.5492
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b16 cycles 20253 p10 20231 p90 20309 sum 22.5492
+spec sgrid:msis_d5.sgrid_mod_w0.99_b16 ram cycles 23502 p10 23479 p90 23558 sum 22.5492
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b16 ram cycles 20039 p10 20017 p90 20105 sum 22.5492
+spec sgrid:msis_d5.sgrid_mod_w0.99_b32 cycles 35354 p10 35151 p90 35392 sum 26.9109
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b32 cycles 32604 p10 32275 p90 32682 sum 26.9109
+spec sgrid:msis_d5.sgrid_mod_w0.99_b32 ram cycles 30368 p10 30345 p90 30443 sum 26.9109
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b32 ram cycles 27496 p10 27474 p90 27562 sum 26.9109
+spec sgrid:msis_d5.sgrid_mod_w0.99_b64 cycles 87885 p10 85646 p90 92258 sum 29.725
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b64 cycles 83797 p10 80628 p90 87862 sum 29.725
+spec sgrid:msis_d5.sgrid_mod_w0.99_b64 ram cycles 43422 p10 43395 p90 43501 sum 29.725
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b64 ram cycles 40512 p10 40476 p90 40567 sum 29.725
+spec sgrid:msis_d5.sgrid_mod_w0.99_b128 cycles 153856 p10 151176 p90 162615 sum 30.0228
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b128 cycles 151243 p10 147986 p90 159615 sum 30.0228
+spec sgrid:msis_d5.sgrid_mod_w0.99_b128 ram cycles 57604 p10 57573 p90 57682 sum 30.0228
+spec sgridfast:msis_d5.sgrid_mod_w0.99_b128 ram cycles 55583 p10 55547 p90 55650 sum 30.0228
+spec sgrid:msis_d6.sgrid_mod_reg_n1 cycles 356 p10 356 p90 356 sum 14.7578
+spec sgridfast:msis_d6.sgrid_mod_reg_n1 cycles 417 p10 417 p90 417 sum 14.7578
+spec sgrid:msis_d6.sgrid_mod_reg_n1 ram cycles 356 p10 356 p90 356 sum 14.7578
+spec sgridfast:msis_d6.sgrid_mod_reg_n1 ram cycles 416 p10 416 p90 416 sum 14.7578
+spec sgrid:msis_d6.sgrid_mod_reg_n2 cycles 2268 p10 2262 p90 2273 sum 2.27681
+spec sgridfast:msis_d6.sgrid_mod_reg_n2 cycles 1115 p10 1106 p90 1123 sum 2.27681
+spec sgrid:msis_d6.sgrid_mod_reg_n2 ram cycles 2268 p10 2262 p90 2273 sum 2.27681
+spec sgridfast:msis_d6.sgrid_mod_reg_n2 ram cycles 1108 p10 1099 p90 1116 sum 2.27681
+spec sgrid:msis_d6.sgrid_mod_reg_n3 cycles 4920 p10 4908 p90 4928 sum 11.1727
+spec sgridfast:msis_d6.sgrid_mod_reg_n3 cycles 2970 p10 2955 p90 2983 sum 11.1727
+spec sgrid:msis_d6.sgrid_mod_reg_n3 ram cycles 4920 p10 4908 p90 4928 sum 11.1727
+spec sgridfast:msis_d6.sgrid_mod_reg_n3 ram cycles 2944 p10 2927 p90 2955 sum 11.1727
+spec sgrid:msis_d6.sgrid_mod_reg_n4 cycles 10316 p10 10293 p90 10317 sum -45.3135
+spec sgridfast:msis_d6.sgrid_mod_reg_n4 cycles 7955 p10 7934 p90 7965 sum -45.3135
+spec sgrid:msis_d6.sgrid_mod_reg_n4 ram cycles 10316 p10 10293 p90 10317 sum -45.3135
+spec sgridfast:msis_d6.sgrid_mod_reg_n4 ram cycles 7871 p10 7850 p90 7881 sum -45.3135
+spec sgrid:msis_d6.sgrid_mod_reg_n5 cycles 21665 p10 21643 p90 21723 sum -16.4397
+spec sgridfast:msis_d6.sgrid_mod_reg_n5 cycles 19481 p10 19456 p90 19535 sum -16.4397
+spec sgrid:msis_d6.sgrid_mod_reg_n5 ram cycles 21665 p10 21643 p90 21721 sum -16.4397
+spec sgridfast:msis_d6.sgrid_mod_reg_n5 ram cycles 19271 p10 19246 p90 19340 sum -16.4397
+spec sgrid:msis_d6.sgrid_mod_reg_n6 cycles 55464 p10 55200 p90 55852 sum 8.28474
+spec sgridfast:msis_d6.sgrid_mod_reg_n6 cycles 53215 p10 52919 p90 53394 sum 8.28474
+spec sgrid:msis_d6.sgrid_mod_reg_n6 ram cycles 44450 p10 44418 p90 44512 sum 8.28474
+spec sgridfast:msis_d6.sgrid_mod_reg_n6 ram cycles 42884 p10 42856 p90 42962 sum 8.28474
+spec sgrid:msis_d6.sgrid_mod_reg_n7 cycles 278068 p10 275114 p90 283454 sum 93.0838
+spec sgridfast:msis_d6.sgrid_mod_reg_n7 cycles 277525 p10 274311 p90 282643 sum 93.0838
+spec sgrid:msis_d6.sgrid_mod_reg_n7 ram cycles 87264 p10 87195 p90 87291 sum 93.0838
+spec sgridfast:msis_d6.sgrid_mod_reg_n7 ram cycles 87613 p10 87518 p90 87628 sum 93.0838
+spec sgrid:msis_d6.sgrid_mod_w0.5_b4 cycles 14341 p10 14317 p90 14349 sum -12.314
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b4 cycles 10084 p10 10056 p90 10088 sum -12.314
+spec sgrid:msis_d6.sgrid_mod_w0.5_b4 ram cycles 14341 p10 14317 p90 14358 sum -12.314
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b4 ram cycles 9979 p10 9951 p90 9983 sum -12.314
+spec sgrid:msis_d6.sgrid_mod_w0.5_b8 cycles 19526 p10 19502 p90 19579 sum -17.0973
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b8 cycles 15824 p10 15796 p90 15846 sum -17.0973
+spec sgrid:msis_d6.sgrid_mod_w0.5_b8 ram cycles 19526 p10 19502 p90 19590 sum -17.0973
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b8 ram cycles 15657 p10 15629 p90 15661 sum -17.0973
+spec sgrid:msis_d6.sgrid_mod_w0.5_b16 cycles 27295 p10 27268 p90 27357 sum -8.35878
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b16 cycles 23264 p10 23235 p90 23331 sum -8.35878
+spec sgrid:msis_d6.sgrid_mod_w0.5_b16 ram cycles 27295 p10 27268 p90 27356 sum -8.35878
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b16 ram cycles 23017 p10 22988 p90 23083 sum -8.35878
+spec sgrid:msis_d6.sgrid_mod_w0.5_b32 cycles 40285 p10 39870 p90 40470 sum 20.9692
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b32 cycles 38399 p10 38315 p90 38476 sum 20.9692
+spec sgrid:msis_d6.sgrid_mod_w0.5_b32 ram cycles 36678 p10 36651 p90 36766 sum 20.9692
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b32 ram cycles 33254 p10 33225 p90 33332 sum 20.9692
+spec sgrid:msis_d6.sgrid_mod_w0.5_b64 cycles 104847 p10 102761 p90 105584 sum 22.4161
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b64 cycles 103332 p10 101186 p90 103585 sum 22.4161
+spec sgrid:msis_d6.sgrid_mod_w0.5_b64 ram cycles 51134 p10 51097 p90 51203 sum 22.4161
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b64 ram cycles 48818 p10 48786 p90 48893 sum 22.4161
+spec sgrid:msis_d6.sgrid_mod_w0.5_b128 cycles 210396 p10 208473 p90 212438 sum 24.3024
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b128 cycles 205791 p10 204245 p90 207566 sum 24.3024
+spec sgrid:msis_d6.sgrid_mod_w0.5_b128 ram cycles 73890 p10 73842 p90 73902 sum 24.3024
+spec sgridfast:msis_d6.sgrid_mod_w0.5_b128 ram cycles 71580 p10 71565 p90 71654 sum 24.3024
+spec sgrid:msis_d6.sgrid_mod_w0.9_b4 cycles 14341 p10 14317 p90 14349 sum -12.314
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b4 cycles 10084 p10 10056 p90 10088 sum -12.314
+spec sgrid:msis_d6.sgrid_mod_w0.9_b4 ram cycles 14341 p10 14317 p90 14358 sum -12.314
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b4 ram cycles 9979 p10 9951 p90 9983 sum -12.314
+spec sgrid:msis_d6.sgrid_mod_w0.9_b8 cycles 19526 p10 19502 p90 19579 sum -17.0973
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b8 cycles 15824 p10 15796 p90 15846 sum -17.0973
+spec sgrid:msis_d6.sgrid_mod_w0.9_b8 ram cycles 19526 p10 19502 p90 19590 sum -17.0973
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b8 ram cycles 15657 p10 15629 p90 15661 sum -17.0973
+spec sgrid:msis_d6.sgrid_mod_w0.9_b16 cycles 27295 p10 27268 p90 27375 sum -8.35878
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b16 cycles 23264 p10 23235 p90 23331 sum -8.35878
+spec sgrid:msis_d6.sgrid_mod_w0.9_b16 ram cycles 27295 p10 27268 p90 27373 sum -8.35878
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b16 ram cycles 23017 p10 22988 p90 23083 sum -8.35878
+spec sgrid:msis_d6.sgrid_mod_w0.9_b32 cycles 40497 p10 40187 p90 40613 sum 20.9692
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b32 cycles 37786 p10 37662 p90 38210 sum 20.9692
+spec sgrid:msis_d6.sgrid_mod_w0.9_b32 ram cycles 36678 p10 36651 p90 36742 sum 20.9692
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b32 ram cycles 33254 p10 33225 p90 33320 sum 20.9692
+spec sgrid:msis_d6.sgrid_mod_w0.9_b64 cycles 104991 p10 102882 p90 105716 sum 22.4161
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b64 cycles 103453 p10 101195 p90 103555 sum 22.4161
+spec sgrid:msis_d6.sgrid_mod_w0.9_b64 ram cycles 51134 p10 51097 p90 51205 sum 22.4161
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b64 ram cycles 48818 p10 48786 p90 48893 sum 22.4161
+spec sgrid:msis_d6.sgrid_mod_w0.9_b128 cycles 210397 p10 208460 p90 212459 sum 24.3024
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b128 cycles 205786 p10 204241 p90 207568 sum 24.3024
+spec sgrid:msis_d6.sgrid_mod_w0.9_b128 ram cycles 73890 p10 73842 p90 73902 sum 24.3024
+spec sgridfast:msis_d6.sgrid_mod_w0.9_b128 ram cycles 71580 p10 71565 p90 71655 sum 24.3024
+spec sgrid:msis_d6.sgrid_mod_w0.99_b4 cycles 14341 p10 14317 p90 14358 sum -12.314
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b4 cycles 10084 p10 10056 p90 10088 sum -12.314
+spec sgrid:msis_d6.sgrid_mod_w0.99_b4 ram cycles 14341 p10 14317 p90 14358 sum -12.314
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b4 ram cycles 9979 p10 9951 p90 9983 sum -12.314
+spec sgrid:msis_d6.sgrid_mod_w0.99_b8 cycles 19526 p10 19502 p90 19586 sum -17.0973
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b8 cycles 15824 p10 15796 p90 15876 sum -17.0973
+spec sgrid:msis_d6.sgrid_mod_w0.99_b8 ram cycles 19526 p10 19502 p90 19581 sum -17.0973
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b8 ram cycles 15657 p10 15629 p90 15662 sum -17.0973
+spec sgrid:msis_d6.sgrid_mod_w0.99_b16 cycles 27295 p10 27268 p90 27359 sum -8.35878
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b16 cycles 23264 p10 23235 p90 23315 sum -8.35878
+spec sgrid:msis_d6.sgrid_mod_w0.99_b16 ram cycles 27295 p10 27268 p90 27347 sum -8.35878
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b16 ram cycles 23017 p10 22988 p90 23084 sum -8.35878
+spec sgrid:msis_d6.sgrid_mod_w0.99_b32 cycles 40400 p10 39958 p90 40612 sum 20.9692
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b32 cycles 38415 p10 38298 p90 38534 sum 20.9692
+spec sgrid:msis_d6.sgrid_mod_w0.99_b32 ram cycles 36688 p10 36651 p90 36739 sum 20.9692
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b32 ram cycles 33254 p10 33225 p90 33320 sum 20.9692
+spec sgrid:msis_d6.sgrid_mod_w0.99_b64 cycles 105024 p10 102761 p90 105626 sum 22.4161
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b64 cycles 103418 p10 101229 p90 103599 sum 22.4161
+spec sgrid:msis_d6.sgrid_mod_w0.99_b64 ram cycles 51134 p10 51097 p90 51203 sum 22.4161
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b64 ram cycles 48818 p10 48786 p90 48894 sum 22.4161
+spec sgrid:msis_d6.sgrid_mod_w0.99_b128 cycles 210397 p10 208469 p90 212465 sum 24.3024
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b128 cycles 205785 p10 204236 p90 207556 sum 24.3024
+spec sgrid:msis_d6.sgrid_mod_w0.99_b128 ram cycles 73890 p10 73842 p90 73913 sum 24.3024
+spec sgridfast:msis_d6.sgrid_mod_w0.99_b128 ram cycles 71580 p10 71565 p90 71654 sum 24.3024
+spec sgrid:pv_chain6.sgrid_mod_reg_n1 cycles 356 p10 356 p90 356 sum 14.7578
+spec sgridfast:pv_chain6.sgrid_mod_reg_n1 cycles 417 p10 417 p90 417 sum 14.7578
+spec sgrid:pv_chain6.sgrid_mod_reg_n1 ram cycles 356 p10 356 p90 356 sum 14.7578
+spec sgridfast:pv_chain6.sgrid_mod_reg_n1 ram cycles 416 p10 416 p90 416 sum 14.7578
+spec sgrid:pv_chain6.sgrid_mod_reg_n2 cycles 2268 p10 2262 p90 2273 sum 2.27681
+spec sgridfast:pv_chain6.sgrid_mod_reg_n2 cycles 1115 p10 1106 p90 1123 sum 2.27681
+spec sgrid:pv_chain6.sgrid_mod_reg_n2 ram cycles 2268 p10 2262 p90 2273 sum 2.27681
+spec sgridfast:pv_chain6.sgrid_mod_reg_n2 ram cycles 1108 p10 1099 p90 1116 sum 2.27681
+spec sgrid:pv_chain6.sgrid_mod_reg_n3 cycles 4920 p10 4908 p90 4928 sum 11.1727
+spec sgridfast:pv_chain6.sgrid_mod_reg_n3 cycles 2970 p10 2955 p90 2983 sum 11.1727
+spec sgrid:pv_chain6.sgrid_mod_reg_n3 ram cycles 4920 p10 4908 p90 4928 sum 11.1727
+spec sgridfast:pv_chain6.sgrid_mod_reg_n3 ram cycles 2944 p10 2927 p90 2955 sum 11.1727
+spec sgrid:pv_chain6.sgrid_mod_reg_n4 cycles 10316 p10 10293 p90 10334 sum -45.3135
+spec sgridfast:pv_chain6.sgrid_mod_reg_n4 cycles 7955 p10 7934 p90 7965 sum -45.3135
+spec sgrid:pv_chain6.sgrid_mod_reg_n4 ram cycles 10316 p10 10293 p90 10318 sum -45.3135
+spec sgridfast:pv_chain6.sgrid_mod_reg_n4 ram cycles 7871 p10 7850 p90 7881 sum -45.3135
+spec sgrid:pv_chain6.sgrid_mod_reg_n5 cycles 21665 p10 21643 p90 21725 sum -16.4397
+spec sgridfast:pv_chain6.sgrid_mod_reg_n5 cycles 19481 p10 19456 p90 19550 sum -16.4397
+spec sgrid:pv_chain6.sgrid_mod_reg_n5 ram cycles 21665 p10 21643 p90 21729 sum -16.4397
+spec sgridfast:pv_chain6.sgrid_mod_reg_n5 ram cycles 19271 p10 19246 p90 19349 sum -16.4397
+spec sgrid:pv_chain6.sgrid_mod_reg_n6 cycles 55464 p10 55273 p90 55774 sum 8.28474
+spec sgridfast:pv_chain6.sgrid_mod_reg_n6 cycles 53215 p10 52919 p90 53394 sum 8.28474
+spec sgrid:pv_chain6.sgrid_mod_reg_n6 ram cycles 44450 p10 44418 p90 44519 sum 8.28474
+spec sgridfast:pv_chain6.sgrid_mod_reg_n6 ram cycles 42884 p10 42856 p90 42962 sum 8.28474
+spec sgrid:pv_chain6.sgrid_mod_reg_n7 cycles 278080 p10 275115 p90 283444 sum 93.0838
+spec sgridfast:pv_chain6.sgrid_mod_reg_n7 cycles 277526 p10 274298 p90 282650 sum 93.0838
+spec sgrid:pv_chain6.sgrid_mod_reg_n7 ram cycles 87264 p10 87195 p90 87300 sum 93.0838
+spec sgridfast:pv_chain6.sgrid_mod_reg_n7 ram cycles 87596 p10 87535 p90 87628 sum 93.0838
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b4 cycles 16195 p10 16171 p90 16212 sum 0.653476
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b4 cycles 12096 p10 12068 p90 12100 sum 0.653476
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b4 ram cycles 16195 p10 16171 p90 16253 sum 0.653476
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b4 ram cycles 11969 p10 11941 p90 11973 sum 0.653476
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b8 cycles 25070 p10 25043 p90 25123 sum 32.4626
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b8 cycles 20834 p10 20805 p90 20883 sum 32.4626
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b8 ram cycles 25070 p10 25043 p90 25150 sum 32.4626
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b8 ram cycles 20614 p10 20585 p90 20662 sum 32.4626
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b16 cycles 32868 p10 32841 p90 32948 sum 36.4646
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b16 cycles 29570 p10 29541 p90 29637 sum 36.4646
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b16 ram cycles 32868 p10 32841 p90 32939 sum 36.4646
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b16 ram cycles 29251 p10 29222 p90 29317 sum 36.4646
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b32 cycles 61364 p10 61055 p90 61443 sum 52.8215
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b32 cycles 54830 p10 54569 p90 54908 sum 52.8215
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b32 ram cycles 49832 p10 49792 p90 49900 sum 52.8215
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b32 ram cycles 46383 p10 46352 p90 46461 sum 52.8215
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b64 cycles 172453 p10 171016 p90 175942 sum 60.4696
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b64 cycles 168258 p10 167665 p90 172188 sum 60.4696
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b64 ram cycles 70772 p10 70732 p90 70850 sum 60.4696
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b64 ram cycles 68964 p10 68949 p90 69039 sum 60.4696
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b128 cycles 329905 p10 327913 p90 335000 sum 76.3342
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b128 cycles 328621 p10 327460 p90 334198 sum 76.3342
+spec sgrid:pv_chain6.sgrid_mod_w0.5_b128 ram cycles 100010 p10 99932 p90 100038 sum 76.3342
+spec sgridfast:pv_chain6.sgrid_mod_w0.5_b128 ram cycles 100250 p10 100172 p90 100265 sum 76.3342
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b4 cycles 13992 p10 13965 p90 14004 sum 52.5229
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b4 cycles 8382 p10 8353 p90 8385 sum 52.5229
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b4 ram cycles 13992 p10 13965 p90 14028 sum 52.5229
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b4 ram cycles 8302 p10 8273 p90 8305 sum 52.5229
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b8 cycles 16956 p10 16926 p90 17034 sum 66.8784
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b8 cycles 10452 p10 10421 p90 10455 sum 66.8784
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b8 ram cycles 16956 p10 16926 p90 17018 sum 66.8784
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b8 ram cycles 10351 p10 10320 p90 10354 sum 66.8784
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b16 cycles 21101 p10 21071 p90 21150 sum 74.073
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b16 cycles 15207 p10 15176 p90 15228 sum 74.073
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b16 ram cycles 21101 p10 21071 p90 21149 sum 74.073
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b16 ram cycles 15051 p10 15020 p90 15054 sum 74.073
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b32 cycles 33585 p10 33549 p90 33736 sum 122.085
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b32 cycles 28697 p10 28467 p90 28728 sum 122.085
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b32 ram cycles 32010 p10 31980 p90 32071 sum 122.085
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b32 ram cycles 27078 p10 27047 p90 27144 sum 122.085
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b64 cycles 89705 p10 88377 p90 90075 sum 126.97
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b64 cycles 82411 p10 81147 p90 82589 sum 126.97
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b64 ram cycles 49805 p10 49762 p90 49876 sum 126.97
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b64 ram cycles 45367 p10 45332 p90 45441 sum 126.97
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b128 cycles 148812 p10 147116 p90 150244 sum 100.758
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b128 cycles 140336 p10 138093 p90 141016 sum 100.758
+spec sgrid:pv_chain6.sgrid_mod_w0.9_b128 ram cycles 64438 p10 64393 p90 64516 sum 100.758
+spec sgridfast:pv_chain6.sgrid_mod_w0.9_b128 ram cycles 58766 p10 58731 p90 58841 sum 100.758
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b4 cycles 13992 p10 13965 p90 14028 sum 52.5229
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b4 cycles 8382 p10 8353 p90 8385 sum 52.5229
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b4 ram cycles 13992 p10 13965 p90 14002 sum 52.5229
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b4 ram cycles 8302 p10 8273 p90 8305 sum 52.5229
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b8 cycles 16956 p10 16926 p90 16991 sum 66.8784
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b8 cycles 10452 p10 10421 p90 10455 sum 66.8784
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b8 ram cycles 16956 p10 16926 p90 17007 sum 66.8784
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b8 ram cycles 10351 p10 10320 p90 10354 sum 66.8784
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b16 cycles 19046 p10 19016 p90 19124 sum 56.811
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b16 cycles 12779 p10 12748 p90 12800 sum 56.811
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b16 ram cycles 19046 p10 19016 p90 19123 sum 56.811
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b16 ram cycles 12651 p10 12620 p90 12654 sum 56.811
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b32 cycles 24384 p10 24182 p90 24546 sum 40.4634
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b32 cycles 19167 p10 18739 p90 19625 sum 40.4634
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b32 ram cycles 23182 p10 23149 p90 23242 sum 40.4634
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b32 ram cycles 16034 p10 16002 p90 16037 sum 40.4634
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b64 cycles 40105 p10 39980 p90 40266 sum 40.7786
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b64 cycles 35281 p10 34725 p90 35768 sum 40.7786
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b64 ram cycles 28707 p10 28674 p90 28778 sum 40.7786
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b64 ram cycles 22128 p10 22096 p90 22194 sum 40.7786
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b128 cycles 72095 p10 71482 p90 72987 sum 35.9759
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b128 cycles 65382 p10 65003 p90 66182 sum 35.9759
+spec sgrid:pv_chain6.sgrid_mod_w0.99_b128 ram cycles 38538 p10 38493 p90 38606 sum 35.9759
+spec sgridfast:pv_chain6.sgrid_mod_w0.99_b128 ram cycles 30498 p10 30466 p90 30575 sum 35.9759
+spec sgrid:pv_mp5.sgrid_mod_reg_n1 cycles 320 p10 320 p90 320 sum 14.7578
+spec sgridfast:pv_mp5.sgrid_mod_reg_n1 cycles 390 p10 390 p90 390 sum 14.7578
+spec sgrid:pv_mp5.sgrid_mod_reg_n1 ram cycles 320 p10 320 p90 320 sum 14.7578
+spec sgridfast:pv_mp5.sgrid_mod_reg_n1 ram cycles 389 p10 389 p90 389 sum 14.7578
+spec sgrid:pv_mp5.sgrid_mod_reg_n2 cycles 1914 p10 1907 p90 1917 sum -8.36454
+spec sgridfast:pv_mp5.sgrid_mod_reg_n2 cycles 974 p10 963 p90 977 sum -8.36454
+spec sgrid:pv_mp5.sgrid_mod_reg_n2 ram cycles 1914 p10 1907 p90 1917 sum -8.36454
+spec sgridfast:pv_mp5.sgrid_mod_reg_n2 ram cycles 968 p10 957 p90 971 sum -8.36454
+spec sgrid:pv_mp5.sgrid_mod_reg_n3 cycles 3958 p10 3942 p90 3959 sum 19.3447
+spec sgridfast:pv_mp5.sgrid_mod_reg_n3 cycles 2325 p10 2309 p90 2329 sum 19.3447
+spec sgrid:pv_mp5.sgrid_mod_reg_n3 ram cycles 3958 p10 3942 p90 3959 sum 19.3447
+spec sgridfast:pv_mp5.sgrid_mod_reg_n3 ram cycles 2304 p10 2288 p90 2308 sum 19.3447
+spec sgrid:pv_mp5.sgrid_mod_reg_n4 cycles 7542 p10 7526 p90 7543 sum -3.02482
+spec sgridfast:pv_mp5.sgrid_mod_reg_n4 cycles 5384 p10 5364 p90 5390 sum -3.02482
+spec sgrid:pv_mp5.sgrid_mod_reg_n4 ram cycles 7542 p10 7526 p90 7543 sum -3.02482
+spec sgridfast:pv_mp5.sgrid_mod_reg_n4 ram cycles 5328 p10 5308 p90 5334 sum -3.02482
+spec sgrid:pv_mp5.sgrid_mod_reg_n5 cycles 14024 p10 14007 p90 14041 sum 3.28501
+spec sgridfast:pv_mp5.sgrid_mod_reg_n5 cycles 11700 p10 11679 p90 11707 sum 3.28501
+spec sgrid:pv_mp5.sgrid_mod_reg_n5 ram cycles 14024 p10 14007 p90 14041 sum 3.28501
+spec sgridfast:pv_mp5.sgrid_mod_reg_n5 ram cycles 11574 p10 11553 p90 11581 sum 3.28501
+spec sgrid:pv_mp5.sgrid_mod_reg_n6 cycles 25387 p10 25370 p90 25458 sum -10.9811
+spec sgridfast:pv_mp5.sgrid_mod_reg_n6 cycles 23358 p10 23337 p90 23415 sum -10.9811
+spec sgrid:pv_mp5.sgrid_mod_reg_n6 ram cycles 25387 p10 25370 p90 25465 sum -10.9811
+spec sgridfast:pv_mp5.sgrid_mod_reg_n6 ram cycles 23106 p10 23085 p90 23171 sum -10.9811
+spec sgrid:pv_mp5.sgrid_mod_reg_n7 cycles 73149 p10 71766 p90 75571 sum -65.1046
+spec sgridfast:pv_mp5.sgrid_mod_reg_n7 cycles 70035 p10 68536 p90 72251 sum -65.1046
+spec sgrid:pv_mp5.sgrid_mod_reg_n7 ram cycles 44378 p10 44349 p90 44451 sum -65.1046
+spec sgridfast:pv_mp5.sgrid_mod_reg_n7 ram cycles 42849 p10 42827 p90 42927 sum -65.1046
+spec sgrid:pv_mp5.sgrid_mod_reg_n8 cycles 258691 p10 250727 p90 265687 sum 63.5066
+spec sgridfast:pv_mp5.sgrid_mod_reg_n8 cycles 256513 p10 248874 p90 263275 sum 63.5066
+spec sgrid:pv_mp5.sgrid_mod_reg_n8 ram cycles 74643 p10 74550 p90 74659 sum 63.5066
+spec sgridfast:pv_mp5.sgrid_mod_reg_n8 ram cycles 74405 p10 74382 p90 74472 sum 63.5066
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b4 cycles 15753 p10 15730 p90 15811 sum 17.3335
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b4 cycles 11588 p10 11566 p90 11599 sum 17.3335
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b4 ram cycles 15753 p10 15730 p90 15768 sum 17.3335
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b4 ram cycles 11468 p10 11446 p90 11480 sum 17.3335
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b8 cycles 20441 p10 20418 p90 20519 sum 39.7946
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b8 cycles 16893 p10 16871 p90 16961 sum 39.7946
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b8 ram cycles 20441 p10 20418 p90 20515 sum 39.7946
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b8 ram cycles 16713 p10 16691 p90 16724 sum 39.7946
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b16 cycles 29126 p10 29099 p90 29201 sum 26.6675
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b16 cycles 25583 p10 25558 p90 25637 sum 26.6675
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b16 ram cycles 29126 p10 29099 p90 29205 sum 26.6675
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b16 ram cycles 25311 p10 25286 p90 25377 sum 26.6675
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b32 cycles 46048 p10 45652 p90 46128 sum 48.2251
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b32 cycles 41558 p10 41321 p90 41661 sum 48.2251
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b32 ram cycles 39376 p10 39349 p90 39449 sum 48.2251
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b32 ram cycles 36471 p10 36446 p90 36560 sum 48.2251
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b64 cycles 124824 p10 117645 p90 129640 sum 43.2492
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b64 cycles 120915 p10 113940 p90 125724 sum 43.2492
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b64 ram cycles 53384 p10 53353 p90 53462 sum 43.2492
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b64 ram cycles 51489 p10 51464 p90 51567 sum 43.2492
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b128 cycles 240547 p10 232680 p90 247906 sum 4.61999
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b128 cycles 237435 p10 229126 p90 244794 sum 4.61999
+spec sgrid:pv_mp5.sgrid_mod_w0.5_b128 ram cycles 75953 p10 75903 p90 75976 sum 4.61999
+spec sgridfast:pv_mp5.sgrid_mod_w0.5_b128 ram cycles 74849 p10 74824 p90 74938 sum 4.61999
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b4 cycles 14358 p10 14331 p90 14388 sum -9.23088
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b4 cycles 9074 p10 9049 p90 9085 sum -9.23088
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b4 ram cycles 14358 p10 14331 p90 14389 sum -9.23088
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b4 ram cycles 8984 p10 8959 p90 8995 sum -9.23088
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b8 cycles 20373 p10 20345 p90 20423 sum 6.0398
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b8 cycles 14838 p10 14813 p90 14855 sum 6.0398
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b8 ram cycles 20373 p10 20345 p90 20448 sum 6.0398
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b8 ram cycles 14685 p10 14660 p90 14696 sum 6.0398
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b16 cycles 29653 p10 29625 p90 29726 sum -21.2423
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b16 cycles 25160 p10 25135 p90 25214 sum -21.2423
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b16 ram cycles 29653 p10 29625 p90 29726 sum -21.2423
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b16 ram cycles 24895 p10 24870 p90 24948 sum -21.2423
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b32 cycles 44888 p10 43973 p90 44967 sum 12.2089
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b32 cycles 38334 p10 37970 p90 38598 sum 12.2089
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b32 ram cycles 39325 p10 39320 p90 39375 sum 12.2089
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b32 ram cycles 35330 p10 35305 p90 35396 sum 12.2089
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b64 cycles 120956 p10 113338 p90 125525 sum 4.1431
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b64 cycles 115317 p10 107691 p90 120064 sum 4.1431
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b64 ram cycles 54385 p10 54353 p90 54463 sum 4.1431
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b64 ram cycles 50722 p10 50696 p90 50800 sum 4.1431
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b128 cycles 237399 p10 229615 p90 245826 sum -7.05833
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b128 cycles 233290 p10 225394 p90 241343 sum -7.05833
+spec sgrid:pv_mp5.sgrid_mod_w0.9_b128 ram cycles 76326 p10 76230 p90 76340 sum -7.05833
+spec sgridfast:pv_mp5.sgrid_mod_w0.9_b128 ram cycles 74354 p10 74291 p90 74381 sum -7.05833
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b4 cycles 12403 p10 12376 p90 12434 sum -38.7376
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b4 cycles 6776 p10 6751 p90 6787 sum -38.7376
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b4 ram cycles 12403 p10 12376 p90 12407 sum -38.7376
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b4 ram cycles 6712 p10 6687 p90 6723 sum -38.7376
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b8 cycles 17362 p10 17334 p90 17412 sum -45.4006
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b8 cycles 11489 p10 11464 p90 11506 sum -45.4006
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b8 ram cycles 17362 p10 17334 p90 17412 sum -45.4006
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b8 ram cycles 11371 p10 11346 p90 11382 sum -45.4006
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b16 cycles 22970 p10 22940 p90 23048 sum -53.2416
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b16 cycles 16834 p10 16808 p90 16885 sum -53.2416
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b16 ram cycles 22970 p10 22940 p90 23036 sum -53.2416
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b16 ram cycles 16657 p10 16631 p90 16669 sum -53.2416
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b32 cycles 32250 p10 32000 p90 32724 sum -47.3679
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b32 cycles 24881 p10 24708 p90 24909 sum -47.3679
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b32 ram cycles 29751 p10 29721 p90 29824 sum -47.3679
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b32 ram cycles 23204 p10 23178 p90 23256 sum -47.3679
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b64 cycles 80895 p10 77373 p90 83899 sum -56.8204
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b64 cycles 71402 p10 67846 p90 75097 sum -56.8204
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b64 ram cycles 44146 p10 44116 p90 44225 sum -56.8204
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b64 ram cycles 39090 p10 39064 p90 39168 sum -56.8204
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b128 cycles 163924 p10 152998 p90 168203 sum -66.3281
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b128 cycles 155347 p10 145055 p90 161342 sum -66.3281
+spec sgrid:pv_mp5.sgrid_mod_w0.99_b128 ram cycles 61299 p10 61268 p90 61377 sum -66.3281
+spec sgridfast:pv_mp5.sgrid_mod_w0.99_b128 ram cycles 56695 p10 56656 p90 56760 sum -66.3281
+spec sgrid:tyre4.sgrid_mod_reg_n1 cycles 284 p10 284 p90 284 sum 14.7578
+spec sgridfast:tyre4.sgrid_mod_reg_n1 cycles 363 p10 363 p90 363 sum 14.7578
+spec sgrid:tyre4.sgrid_mod_reg_n1 ram cycles 284 p10 284 p90 284 sum 14.7578
+spec sgridfast:tyre4.sgrid_mod_reg_n1 ram cycles 362 p10 362 p90 362 sum 14.7578
+spec sgrid:tyre4.sgrid_mod_reg_n2 cycles 1562 p10 1551 p90 1563 sum -10.3566
+spec sgridfast:tyre4.sgrid_mod_reg_n2 cycles 831 p10 819 p90 835 sum -10.3566
+spec sgrid:tyre4.sgrid_mod_reg_n2 ram cycles 1562 p10 1551 p90 1563 sum -10.3566
+spec sgridfast:tyre4.sgrid_mod_reg_n2 ram cycles 826 p10 814 p90 830 sum -10.3566
+spec sgrid:tyre4.sgrid_mod_reg_n3 cycles 3059 p10 3043 p90 3061 sum -0.842454
+spec sgridfast:tyre4.sgrid_mod_reg_n3 cycles 1753 p10 1732 p90 1761 sum -0.842454
+spec sgrid:tyre4.sgrid_mod_reg_n3 ram cycles 3059 p10 3043 p90 3061 sum -0.842454
+spec sgridfast:tyre4.sgrid_mod_reg_n3 ram cycles 1741 p10 1717 p90 1746 sum -0.842454
+spec sgrid:tyre4.sgrid_mod_reg_n4 cycles 5313 p10 5296 p90 5322 sum 7.7864
+spec sgridfast:tyre4.sgrid_mod_reg_n4 cycles 3521 p10 3490 p90 3525 sum 7.7864
+spec sgrid:tyre4.sgrid_mod_reg_n4 ram cycles 5313 p10 5296 p90 5322 sum 7.7864
+spec sgridfast:tyre4.sgrid_mod_reg_n4 ram cycles 3486 p10 3455 p90 3490 sum 7.7864
+spec sgrid:tyre4.sgrid_mod_reg_n5 cycles 8768 p10 8749 p90 8776 sum -0.740215
+spec sgridfast:tyre4.sgrid_mod_reg_n5 cycles 6702 p10 6669 p90 6705 sum -0.740215
+spec sgrid:tyre4.sgrid_mod_reg_n5 ram cycles 8768 p10 8749 p90 8777 sum -0.740215
+spec sgridfast:tyre4.sgrid_mod_reg_n5 ram cycles 6627 p10 6599 p90 6635 sum -0.740215
+spec sgrid:tyre4.sgrid_mod_reg_n6 cycles 13956 p10 13936 p90 13984 sum 13.2303
+spec sgridfast:tyre4.sgrid_mod_reg_n6 cycles 11675 p10 11639 p90 11684 sum 13.2303
+spec sgrid:tyre4.sgrid_mod_reg_n6 ram cycles 13956 p10 13936 p90 13984 sum 13.2303
+spec sgridfast:tyre4.sgrid_mod_reg_n6 ram cycles 11549 p10 11513 p90 11550 sum 13.2303
+spec sgrid:tyre4.sgrid_mod_reg_n7 cycles 21526 p10 21504 p90 21597 sum -28.0795
+spec sgridfast:tyre4.sgrid_mod_reg_n7 cycles 19426 p10 19387 p90 19493 sum -28.0795
+spec sgrid:tyre4.sgrid_mod_reg_n7 ram cycles 21526 p10 21504 p90 21582 sum -28.0795
+spec sgridfast:tyre4.sgrid_mod_reg_n7 ram cycles 19206 p10 19177 p90 19293 sum -28.0795
+spec sgrid:tyre4.sgrid_mod_reg_n8 cycles 65015 p10 60072 p90 65667 sum 16.0349
+spec sgridfast:tyre4.sgrid_mod_reg_n8 cycles 60830 p10 54926 p90 61153 sum 16.0349
+spec sgrid:tyre4.sgrid_mod_reg_n8 ram cycles 32224 p10 32201 p90 32294 sum 16.0349
+spec sgridfast:tyre4.sgrid_mod_reg_n8 ram cycles 30209 p10 30169 p90 30278 sum 16.0349
+spec sgrid:tyre4.sgrid_mod_w0.5_b4 cycles 11689 p10 11667 p90 11716 sum -6.33037
+spec sgridfast:tyre4.sgrid_mod_w0.5_b4 cycles 8355 p10 8316 p90 8357 sum -6.33037
+spec sgrid:tyre4.sgrid_mod_w0.5_b4 ram cycles 11689 p10 11667 p90 11699 sum -6.33037
+spec sgridfast:tyre4.sgrid_mod_w0.5_b4 ram cycles 8259 p10 8230 p90 8270 sum -6.33037
+spec sgrid:tyre4.sgrid_mod_w0.5_b8 cycles 15061 p10 15038 p90 15088 sum -13.1036
+spec sgridfast:tyre4.sgrid_mod_w0.5_b8 cycles 11288 p10 11248 p90 11296 sum -13.1036
+spec sgrid:tyre4.sgrid_mod_w0.5_b8 ram cycles 15061 p10 15038 p90 15088 sum -13.1036
+spec sgridfast:tyre4.sgrid_mod_w0.5_b8 ram cycles 11170 p10 11130 p90 11172 sum -13.1036
+spec sgrid:tyre4.sgrid_mod_w0.5_b16 cycles 19445 p10 19422 p90 19534 sum -23.7925
+spec sgridfast:tyre4.sgrid_mod_w0.5_b16 cycles 16280 p10 16240 p90 16288 sum -23.7925
+spec sgrid:tyre4.sgrid_mod_w0.5_b16 ram cycles 19445 p10 19422 p90 19515 sum -23.7925
+spec sgridfast:tyre4.sgrid_mod_w0.5_b16 ram cycles 16105 p10 16065 p90 16174 sum -23.7925
+spec sgrid:tyre4.sgrid_mod_w0.5_b32 cycles 30979 p10 30608 p90 31002 sum -5.76633
+spec sgridfast:tyre4.sgrid_mod_w0.5_b32 cycles 27100 p10 26916 p90 27336 sum -5.76633
+spec sgrid:tyre4.sgrid_mod_w0.5_b32 ram cycles 25997 p10 25974 p90 26075 sum -5.76633
+spec sgridfast:tyre4.sgrid_mod_w0.5_b32 ram cycles 22527 p10 22487 p90 22597 sum -5.76633
+spec sgrid:tyre4.sgrid_mod_w0.5_b64 cycles 76844 p10 71729 p90 77448 sum 6.7563
+spec sgridfast:tyre4.sgrid_mod_w0.5_b64 cycles 73743 p10 68678 p90 74744 sum 6.7563
+spec sgrid:tyre4.sgrid_mod_w0.5_b64 ram cycles 34851 p10 34828 p90 34928 sum 6.7563
+spec sgridfast:tyre4.sgrid_mod_w0.5_b64 ram cycles 32307 p10 32267 p90 32385 sum 6.7563
+spec sgrid:tyre4.sgrid_mod_w0.5_b128 cycles 128336 p10 120554 p90 129880 sum 4.78106
+spec sgridfast:tyre4.sgrid_mod_w0.5_b128 cycles 126352 p10 118906 p90 127745 sum 4.78106
+spec sgrid:tyre4.sgrid_mod_w0.5_b128 ram cycles 43716 p10 43682 p90 43783 sum 4.78106
+spec sgridfast:tyre4.sgrid_mod_w0.5_b128 ram cycles 42061 p10 42021 p90 42139 sum 4.78106
+spec sgrid:tyre4.sgrid_mod_w0.9_b4 cycles 10647 p10 10624 p90 10657 sum -9.0959
+spec sgridfast:tyre4.sgrid_mod_w0.9_b4 cycles 6220 p10 6180 p90 6222 sum -9.0959
+spec sgrid:tyre4.sgrid_mod_w0.9_b4 ram cycles 10647 p10 10624 p90 10657 sum -9.0959
+spec sgridfast:tyre4.sgrid_mod_w0.9_b4 ram cycles 6161 p10 6121 p90 6163 sum -9.0959
+spec sgrid:tyre4.sgrid_mod_w0.9_b8 cycles 13126 p10 13103 p90 13153 sum -20.5231
+spec sgridfast:tyre4.sgrid_mod_w0.9_b8 cycles 9107 p10 9067 p90 9109 sum -20.5231
+spec sgrid:tyre4.sgrid_mod_w0.9_b8 ram cycles 13126 p10 13103 p90 13136 sum -20.5231
+spec sgridfast:tyre4.sgrid_mod_w0.9_b8 ram cycles 9006 p10 8975 p90 9017 sum -20.5231
+spec sgrid:tyre4.sgrid_mod_w0.9_b16 cycles 16822 p10 16799 p90 16850 sum -8.77687
+spec sgridfast:tyre4.sgrid_mod_w0.9_b16 cycles 12551 p10 12511 p90 12553 sum -8.77687
+spec sgrid:tyre4.sgrid_mod_w0.9_b16 ram cycles 16822 p10 16799 p90 16850 sum -8.77687
+spec sgridfast:tyre4.sgrid_mod_w0.9_b16 ram cycles 12421 p10 12381 p90 12423 sum -8.77687
+spec sgrid:tyre4.sgrid_mod_w0.9_b32 cycles 20993 p10 20805 p90 20995 sum -2.02988
+spec sgridfast:tyre4.sgrid_mod_w0.9_b32 cycles 18292 p10 17909 p90 18482 sum -2.02988
+spec sgrid:tyre4.sgrid_mod_w0.9_b32 ram cycles 19761 p10 19738 p90 19824 sum -2.02988
+spec sgridfast:tyre4.sgrid_mod_w0.9_b32 ram cycles 15656 p10 15616 p90 15658 sum -2.02988
+spec sgrid:tyre4.sgrid_mod_w0.9_b64 cycles 44820 p10 43096 p90 45467 sum 2.73644
+spec sgridfast:tyre4.sgrid_mod_w0.9_b64 cycles 36536 p10 34554 p90 37378 sum 2.73644
+spec sgrid:tyre4.sgrid_mod_w0.9_b64 ram cycles 25583 p10 25560 p90 25647 sum 2.73644
+spec sgridfast:tyre4.sgrid_mod_w0.9_b64 ram cycles 21312 p10 21271 p90 21349 sum 2.73644
+spec sgrid:tyre4.sgrid_mod_w0.9_b128 cycles 82459 p10 77321 p90 83161 sum -18.6932
+spec sgridfast:tyre4.sgrid_mod_w0.9_b128 cycles 75597 p10 70050 p90 75998 sum -18.6932
+spec sgrid:tyre4.sgrid_mod_w0.9_b128 ram cycles 34250 p10 34227 p90 34328 sum -18.6932
+spec sgridfast:tyre4.sgrid_mod_w0.9_b128 ram cycles 30923 p10 30882 p90 30993 sum -18.6932
+spec sgrid:tyre4.sgrid_mod_w0.99_b4 cycles 9814 p10 9791 p90 9824 sum -9.52097
+spec sgridfast:tyre4.sgrid_mod_w0.99_b4 cycles 5286 p10 5246 p90 5288 sum -9.52097
+spec sgrid:tyre4.sgrid_mod_w0.99_b4 ram cycles 9814 p10 9791 p90 9824 sum -9.52097
+spec sgridfast:tyre4.sgrid_mod_w0.99_b4 ram cycles 5229 p10 5198 p90 5240 sum -9.52097
+spec sgrid:tyre4.sgrid_mod_w0.99_b8 cycles 11591 p10 11568 p90 11619 sum -7.72594
+spec sgridfast:tyre4.sgrid_mod_w0.99_b8 cycles 6460 p10 6420 p90 6462 sum -7.72594
+spec sgrid:tyre4.sgrid_mod_w0.99_b8 ram cycles 11591 p10 11568 p90 11602 sum -7.72594
+spec sgridfast:tyre4.sgrid_mod_w0.99_b8 ram cycles 6400 p10 6360 p90 6402 sum -7.72594
+spec sgrid:tyre4.sgrid_mod_w0.99_b16 cycles 14411 p10 14388 p90 14439 sum -5.50679
+spec sgridfast:tyre4.sgrid_mod_w0.99_b16 cycles 9743 p10 9703 p90 9745 sum -5.50679
+spec sgrid:tyre4.sgrid_mod_w0.99_b16 ram cycles 14411 p10 14388 p90 14439 sum -5.50679
+spec sgridfast:tyre4.sgrid_mod_w0.99_b16 ram cycles 9636 p10 9605 p90 9647 sum -5.50679
+spec sgrid:tyre4.sgrid_mod_w0.99_b32 cycles 19765 p10 19642 p90 20037 sum -10.0014
+spec sgridfast:tyre4.sgrid_mod_w0.99_b32 cycles 14813 p10 14694 p90 14961 sum -10.0014
+spec sgrid:tyre4.sgrid_mod_w0.99_b32 ram cycles 18251 p10 18228 p90 18322 sum -10.0014
+spec sgridfast:tyre4.sgrid_mod_w0.99_b32 ram cycles 13930 p10 13890 p90 13932 sum -10.0014
+spec sgrid:tyre4.sgrid_mod_w0.99_b64 cycles 39101 p10 37223 p90 39647 sum 2.87351
+spec sgridfast:tyre4.sgrid_mod_w0.99_b64 cycles 30469 p10 28563 p90 30693 sum 2.87351
+spec sgrid:tyre4.sgrid_mod_w0.99_b64 ram cycles 22475 p10 22452 p90 22553 sum 2.87351
+spec sgridfast:tyre4.sgrid_mod_w0.99_b64 ram cycles 17769 p10 17728 p90 17805 sum 2.87351
+spec sgrid:tyre4.sgrid_mod_w0.99_b128 cycles 61442 p10 58591 p90 62068 sum 1.68754
+spec sgridfast:tyre4.sgrid_mod_w0.99_b128 cycles 53662 p10 50709 p90 54132 sum 1.68754
+spec sgrid:tyre4.sgrid_mod_w0.99_b128 ram cycles 27997 p10 27974 p90 28075 sum 1.68754
+spec sgridfast:tyre4.sgrid_mod_w0.99_b128 ram cycles 23987 p10 23946 p90 24057 sum 1.68754
+DONE

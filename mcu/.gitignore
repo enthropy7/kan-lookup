@@ -1,0 +1,11 @@
+common/blob.c
+common/host_test
+common/host_all
+esp32/build/
+esp32/sdkconfig
+esp32/sdkconfig.old
+esp32/main/specs.c
+esp32/managed_components/
+esp32/*.log
+esp32/results*.txt
+stm32/sgrid_specs.txt

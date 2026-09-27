@@ -1,0 +1,37 @@
+{
+ "env": {
+  "time_utc": "2026-09-28T00:33:50+00:00",
+  "argv": [
+   "kantab/experiments/sparse_budgets.py",
+   "build"
+  ],
+  "host": "nixos",
+  "kernel": "6.18.42",
+  "cpu": "AMD Ryzen 5 7500F 6-Core Processor",
+  "python": "3.12.14",
+  "torch": "2.13.0+cu130",
+  "nixpkgs_rev": "6774f7bc253789b113a4f39285dc0fa100abeacc",
+  "env": {
+   "PYTHONHASHSEED": "0",
+   "CUDA_VISIBLE_DEVICES": ""
+  },
+  "git": {
+   "commit": "9d969a63d679077c5919e4ede0dfba119a60b086",
+   "dirty_files": []
+  }
+ },
+ "cuts": [
+  4096,
+  8192,
+  16384,
+  32768,
+  65536,
+  131072
+ ],
+ "w": [
+  0.5,
+  0.9,
+  0.99
+ ],
+ "max_bytes": 131072
+}

@@ -1,0 +1,49 @@
+name: build
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  results:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, macos-15]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cachix/install-nix-action@v31
+      - name: Every verdict and figure, recomputed from results/raw
+        run: nix build -L
+      - name: Tests in the development shell
+        run: nix develop --command pytest -q tests
+      - run: mkdir out && cp result/verdicts.txt result/numbers.json out/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: results-${{ matrix.os }}
+          path: out
+
+  same-results:
+    needs: results
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/download-artifact@v4
+      - name: Linux and macOS give the same verdicts and numbers
+        run: |
+          diff results-ubuntu-24.04/verdicts.txt results-macos-15/verdicts.txt
+          diff results-ubuntu-24.04/numbers.json results-macos-15/numbers.json
+
+  firmware-shells:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, macos-15]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cachix/install-nix-action@v31
+      - name: STM32 toolchain, CMSIS and libopencm3
+        run: nix develop ./mcu/stm32 --command arm-none-eabi-gcc --version
+      - name: ESP-IDF
+        run: nix develop ./mcu/esp32 --command idf.py --version

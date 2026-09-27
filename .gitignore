@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+/result
+/result-*
+.direnv/
+results/raw/sparse_budgets/grids/
