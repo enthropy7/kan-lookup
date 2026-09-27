@@ -1,0 +1,224 @@
+{
+ "top": {
+  "kan_toy2": [
+   "mlp3_w128",
+   "mlp2_w128",
+   "mlp3_w128_silu",
+   "mlp3_w64_silu",
+   "mlp3_w128_tanh",
+   "mlp3_w64_tanh",
+   "kan1_w32_g10",
+   "kan1_w32_g20"
+  ],
+  "kan_toy4": [
+   "mlp3_w128",
+   "mlp3_w64",
+   "mlp3_w128_silu",
+   "mlp3_w64_silu",
+   "mlp3_w128_tanh",
+   "mlp3_w64_tanh",
+   "kan2_w16_g5",
+   "kan2_w8_g5"
+  ],
+  "feyn_i6_2": [
+   "mlp2_w128",
+   "mlp3_w128",
+   "mlp3_w128_silu",
+   "mlp2_w128_silu",
+   "mlp3_w128_tanh",
+   "mlp3_w64_tanh",
+   "kan1_w32_g20",
+   "kan1_w32_g10"
+  ],
+  "feyn_i29_16": [
+   "mlp3_w128",
+   "mlp2_w128",
+   "mlp3_w128_silu",
+   "mlp3_w64_silu",
+   "mlp3_w128_tanh",
+   "mlp2_w128_tanh",
+   "kan2_w16_g5",
+   "kan2_w8_g5"
+  ],
+  "feyn_i40_1": [
+   "mlp2_w128",
+   "mlp3_w128",
+   "mlp3_w128_silu",
+   "mlp3_w64_silu",
+   "mlp3_w128_tanh",
+   "mlp3_w64_tanh",
+   "kan2_w16_g5",
+   "kan2_w8_g5"
+  ],
+  "ccpp": [
+   "mlp3_w128",
+   "mlp3_w64",
+   "mlp3_w128_silu",
+   "mlp2_w128_silu",
+   "mlp3_w128_tanh",
+   "mlp3_w64_tanh",
+   "kan1_w32_g10",
+   "kan1_w32_g20"
+  ],
+  "airfoil": [
+   "mlp3_w128",
+   "mlp3_w64",
+   "mlp3_w128_silu",
+   "mlp3_w64_silu",
+   "mlp3_w128_tanh",
+   "mlp3_w64_tanh",
+   "kan1_w32_g20",
+   "kan1_w32_g10"
+  ],
+  "concrete": [
+   "mlp3_w128",
+   "mlp2_w128",
+   "mlp3_w128_silu",
+   "mlp3_w64_silu",
+   "mlp2_w128_tanh",
+   "mlp3_w128_tanh",
+   "kan1_w32_g20",
+   "kan1_w16_g20"
+  ],
+  "energy": [
+   "mlp1_w128",
+   "mlp1_w32",
+   "mlp2_w128_silu",
+   "mlp2_w64_silu",
+   "mlp2_w32_tanh",
+   "mlp2_w128_tanh",
+   "kan1_w32_g5",
+   "kan2_w16_g5"
+  ],
+  "airq": [
+   "mlp1_w128",
+   "mlp2_w128",
+   "mlp3_w128_silu",
+   "mlp2_w64_silu",
+   "mlp3_w128_tanh",
+   "mlp3_w32_tanh",
+   "kan2_w16_g5",
+   "kan1_w32_g5"
+  ]
+ },
+ "steps": 30000,
+ "seeds": [
+  2,
+  3
+ ],
+ "lrs": [
+  0.001,
+  0.003,
+  0.01
+ ],
+ "lut_variants": [
+  [
+   "lut6_i8",
+   6,
+   8,
+   false
+  ],
+  [
+   "lut6_i16",
+   6,
+   16,
+   false
+  ],
+  [
+   "lut8_i8",
+   8,
+   8,
+   false
+  ],
+  [
+   "lut8_i16",
+   8,
+   16,
+   false
+  ],
+  [
+   "lin4_i16",
+   4,
+   16,
+   true
+  ],
+  [
+   "lin6_i16",
+   6,
+   16,
+   true
+  ],
+  [
+   "lin7_i16",
+   7,
+   16,
+   true
+  ],
+  [
+   "lin8_i16",
+   8,
+   16,
+   true
+  ],
+  [
+   "lin10_i16",
+   10,
+   16,
+   true
+  ]
+ ],
+ "descriptive": [
+  "lin10_i16"
+ ],
+ "env": {
+  "time_utc": "2026-09-25T16:50:47+00:00",
+  "argv": [
+   "harness/regress_fine.py",
+   "run",
+   "--out",
+   "results/raw/exp037",
+   "--workers",
+   "12"
+  ],
+  "host": "nixos",
+  "kernel": "6.18.42",
+  "cpu": "AMD Ryzen 5 7500F 6-Core Processor",
+  "python": "3.12.14",
+  "torch": "2.13.0+cu130",
+  "torch_cuda": "13.0",
+  "cudnn": 92200,
+  "triton": "3.7.1",
+  "nixpkgs_rev": "6774f7bc253789b113a4f39285dc0fa100abeacc",
+  "env": {
+   "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+   "PYTHONHASHSEED": "0",
+   "CUDA_VISIBLE_DEVICES": ""
+  },
+  "git": {
+   "commit": "5830e89d0f36747197baa24aff7096a3f670b6eb",
+   "dirty_files": []
+  },
+  "device": null,
+  "gpu": [
+   {
+    "name": "NVIDIA GeForce RTX 4090",
+    "driver_version": "595.84",
+    "pci.bus_id": "00000000:01:00.0",
+    "vbios_version": "95.02.3C.00.EB",
+    "clocks.sm": "210",
+    "clocks.mem": "405",
+    "clocks.max.sm": "3105",
+    "clocks.max.mem": "10501",
+    "power.limit": "450.00",
+    "power.default_limit": "450.00",
+    "persistence_mode": "Disabled",
+    "compute_mode": "Default",
+    "pstate": "P8",
+    "utilization.gpu": "1",
+    "temperature.gpu": "42",
+    "memory.used": "387",
+    "memory.total": "24564"
+   }
+  ]
+ }
+}

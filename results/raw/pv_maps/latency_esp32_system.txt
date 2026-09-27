@@ -1,0 +1,2 @@
+board esp32 rev 301 cores 2 cpu_mhz 240 flash 4194304 specs 793 heap_free 271028 largest_block 139264
+ESP32-D0WD-V3 rev 3.1 (LilyGO T8, WROVER-E); a second board (WROOM-32, other flash vendor) gives identical cycle counts. Kernels mcu/common/mcubench.c; tables and weights in flash (QIO 80 MHz); 31 x 16 calls, median; kan int8, rot16, forests not timed.

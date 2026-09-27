@@ -1,0 +1,1588 @@
+board esp32 rev 301 cores 2 cpu_mhz 240 flash 4194304 specs 793 heap_free 271028 largest_block 139264
+spec cp:3:16:16 cycles 1959 p10 1959 p90 1959 sum -1.55363
+spec cp:3:16:16 ram cycles 1863 p10 1863 p90 1863 sum -1.55363
+spec cp:3:16:32 cycles 1959 p10 1959 p90 1959 sum 0.0813557
+spec cp:3:16:32 ram cycles 1863 p10 1863 p90 1863 sum 0.0813557
+spec cp:3:16:64 cycles 1959 p10 1959 p90 1959 sum 2.31765
+spec cp:3:16:64 ram cycles 1863 p10 1863 p90 1863 sum 2.31765
+spec cp:3:1:16 cycles 339 p10 339 p90 339 sum 0.0141456
+spec cp:3:1:16 ram cycles 333 p10 333 p90 333 sum 0.0141456
+spec cp:3:1:32 cycles 339 p10 339 p90 339 sum 0.129676
+spec cp:3:1:32 ram cycles 333 p10 333 p90 333 sum 0.129676
+spec cp:3:1:64 cycles 339 p10 339 p90 339 sum 0.885145
+spec cp:3:1:64 ram cycles 333 p10 333 p90 333 sum 0.885145
+spec cp:3:2:16 cycles 447 p10 447 p90 447 sum 0.00892985
+spec cp:3:2:16 ram cycles 435 p10 435 p90 435 sum 0.00892985
+spec cp:3:2:32 cycles 447 p10 447 p90 447 sum 0.169166
+spec cp:3:2:32 ram cycles 435 p10 435 p90 435 sum 0.169166
+spec cp:3:2:64 cycles 447 p10 447 p90 447 sum 0.913095
+spec cp:3:2:64 ram cycles 435 p10 435 p90 435 sum 0.913095
+spec cp:3:4:16 cycles 663 p10 663 p90 663 sum 0.198165
+spec cp:3:4:16 ram cycles 639 p10 639 p90 639 sum 0.198165
+spec cp:3:4:32 cycles 663 p10 663 p90 663 sum 0.451947
+spec cp:3:4:32 ram cycles 639 p10 639 p90 639 sum 0.451947
+spec cp:3:4:64 cycles 663 p10 663 p90 663 sum 1.32149
+spec cp:3:4:64 ram cycles 639 p10 639 p90 639 sum 1.32149
+spec cp:3:8:16 cycles 1095 p10 1095 p90 1095 sum 0.0310456
+spec cp:3:8:16 ram cycles 1047 p10 1047 p90 1047 sum 0.0310456
+spec cp:3:8:32 cycles 1095 p10 1095 p90 1095 sum 0.522481
+spec cp:3:8:32 ram cycles 1047 p10 1047 p90 1047 sum 0.522481
+spec cp:3:8:64 cycles 1095 p10 1095 p90 1095 sum 0.831015
+spec cp:3:8:64 ram cycles 1047 p10 1047 p90 1047 sum 0.831015
+spec cp:4:16:16 cycles 2427 p10 2427 p90 2427 sum -0.267457
+spec cp:4:16:16 ram cycles 2299 p10 2299 p90 2299 sum -0.267457
+spec cp:4:16:32 cycles 2427 p10 2427 p90 2427 sum 3.01317
+spec cp:4:16:32 ram cycles 2299 p10 2299 p90 2299 sum 3.01317
+spec cp:4:16:64 cycles 2427 p10 2427 p90 2427 sum -0.382754
+spec cp:4:16:64 ram cycles 2299 p10 2299 p90 2299 sum -0.382754
+spec cp:4:1:16 cycles 402 p10 402 p90 402 sum 0.115484
+spec cp:4:1:16 ram cycles 394 p10 394 p90 394 sum 0.115484
+spec cp:4:1:32 cycles 402 p10 402 p90 402 sum 0.0320871
+spec cp:4:1:32 ram cycles 394 p10 394 p90 394 sum 0.0320871
+spec cp:4:1:64 cycles 402 p10 402 p90 402 sum -0.382703
+spec cp:4:1:64 ram cycles 394 p10 394 p90 394 sum -0.382703
+spec cp:4:2:16 cycles 537 p10 537 p90 537 sum 0.131206
+spec cp:4:2:16 ram cycles 521 p10 521 p90 521 sum 0.131206
+spec cp:4:2:32 cycles 537 p10 537 p90 537 sum 0.544791
+spec cp:4:2:32 ram cycles 521 p10 521 p90 521 sum 0.544791
+spec cp:4:2:64 cycles 537 p10 537 p90 537 sum -0.873638
+spec cp:4:2:64 ram cycles 521 p10 521 p90 521 sum -0.873638
+spec cp:4:4:16 cycles 807 p10 807 p90 807 sum 0.169038
+spec cp:4:4:16 ram cycles 775 p10 775 p90 775 sum 0.169038
+spec cp:4:4:32 cycles 807 p10 807 p90 807 sum 0.973833
+spec cp:4:4:32 ram cycles 775 p10 775 p90 775 sum 0.973833
+spec cp:4:4:64 cycles 807 p10 807 p90 807 sum -0.940132
+spec cp:4:4:64 ram cycles 775 p10 775 p90 775 sum -0.940132
+spec cp:4:8:16 cycles 1347 p10 1347 p90 1347 sum 0.361697
+spec cp:4:8:16 ram cycles 1283 p10 1283 p90 1283 sum 0.361697
+spec cp:4:8:32 cycles 1347 p10 1347 p90 1347 sum 1.24741
+spec cp:4:8:32 ram cycles 1283 p10 1283 p90 1283 sum 1.24741
+spec cp:4:8:64 cycles 1347 p10 1347 p90 1347 sum 0.0654117
+spec cp:4:8:64 ram cycles 1283 p10 1283 p90 1283 sum 0.0654117
+spec cp:5:16:16 cycles 2895 p10 2895 p90 2895 sum 6.02248
+spec cp:5:16:16 ram cycles 2735 p10 2735 p90 2735 sum 6.02248
+spec cp:5:16:32 cycles 2895 p10 2895 p90 2895 sum 0.112601
+spec cp:5:16:32 ram cycles 2735 p10 2735 p90 2735 sum 0.112601
+spec cp:5:16:64 cycles 2895 p10 2895 p90 2895 sum -5.47449
+spec cp:5:16:64 ram cycles 2735 p10 2735 p90 2735 sum -5.47449
+spec cp:5:1:16 cycles 465 p10 465 p90 465 sum 0.569548
+spec cp:5:1:16 ram cycles 455 p10 455 p90 455 sum 0.569548
+spec cp:5:1:32 cycles 465 p10 465 p90 465 sum -0.588233
+spec cp:5:1:32 ram cycles 455 p10 455 p90 455 sum -0.588233
+spec cp:5:1:64 cycles 465 p10 465 p90 465 sum 0.183056
+spec cp:5:1:64 ram cycles 455 p10 455 p90 455 sum 0.183056
+spec cp:5:2:16 cycles 627 p10 627 p90 627 sum 1.5447
+spec cp:5:2:16 ram cycles 607 p10 607 p90 607 sum 1.5447
+spec cp:5:2:32 cycles 627 p10 627 p90 627 sum -2.78335
+spec cp:5:2:32 ram cycles 607 p10 607 p90 607 sum -2.78335
+spec cp:5:2:64 cycles 627 p10 627 p90 627 sum -1.16973
+spec cp:5:2:64 ram cycles 607 p10 607 p90 607 sum -1.16973
+spec cp:5:4:16 cycles 951 p10 951 p90 951 sum 1.74153
+spec cp:5:4:16 ram cycles 911 p10 911 p90 911 sum 1.74153
+spec cp:5:4:32 cycles 951 p10 951 p90 951 sum -2.25479
+spec cp:5:4:32 ram cycles 911 p10 911 p90 911 sum -2.25479
+spec cp:5:4:64 cycles 951 p10 951 p90 951 sum -2.85026
+spec cp:5:4:64 ram cycles 911 p10 911 p90 911 sum -2.85026
+spec cp:5:8:16 cycles 1599 p10 1599 p90 1599 sum 4.69047
+spec cp:5:8:16 ram cycles 1519 p10 1519 p90 1519 sum 4.69047
+spec cp:5:8:32 cycles 1599 p10 1599 p90 1599 sum -2.77243
+spec cp:5:8:32 ram cycles 1519 p10 1519 p90 1519 sum -2.77243
+spec cp:5:8:64 cycles 1599 p10 1599 p90 1599 sum -3.80856
+spec cp:5:8:64 ram cycles 1519 p10 1519 p90 1519 sum -3.80856
+spec cp:6:16:16 cycles 3363 p10 3363 p90 3363 sum 5.30665
+spec cp:6:16:16 ram cycles 3171 p10 3171 p90 3171 sum 5.30665
+spec cp:6:16:32 cycles 3363 p10 3363 p90 3363 sum 0.687904
+spec cp:6:16:32 ram cycles 3171 p10 3171 p90 3171 sum 0.687904
+spec cp:6:16:64 cycles 3363 p10 3363 p90 3363 sum -1.56225
+spec cp:6:16:64 ram cycles 3171 p10 3171 p90 3171 sum -1.56225
+spec cp:6:1:16 cycles 528 p10 528 p90 528 sum -0.142646
+spec cp:6:1:16 ram cycles 516 p10 516 p90 516 sum -0.142646
+spec cp:6:1:32 cycles 528 p10 528 p90 528 sum 0.500315
+spec cp:6:1:32 ram cycles 516 p10 516 p90 516 sum 0.500315
+spec cp:6:1:64 cycles 528 p10 528 p90 528 sum -1.7967
+spec cp:6:1:64 ram cycles 516 p10 516 p90 516 sum -1.7967
+spec cp:6:2:16 cycles 717 p10 717 p90 717 sum 0.712283
+spec cp:6:2:16 ram cycles 693 p10 693 p90 693 sum 0.712283
+spec cp:6:2:32 cycles 717 p10 717 p90 717 sum 1.41988
+spec cp:6:2:32 ram cycles 693 p10 693 p90 693 sum 1.41988
+spec cp:6:2:64 cycles 717 p10 717 p90 717 sum -2.54448
+spec cp:6:2:64 ram cycles 693 p10 693 p90 693 sum -2.54448
+spec cp:6:4:16 cycles 1095 p10 1095 p90 1095 sum 0.695229
+spec cp:6:4:16 ram cycles 1047 p10 1047 p90 1047 sum 0.695229
+spec cp:6:4:32 cycles 1095 p10 1095 p90 1095 sum 2.09908
+spec cp:6:4:32 ram cycles 1047 p10 1047 p90 1047 sum 2.09908
+spec cp:6:4:64 cycles 1095 p10 1095 p90 1095 sum -1.74937
+spec cp:6:4:64 ram cycles 1047 p10 1047 p90 1047 sum -1.74937
+spec cp:6:8:16 cycles 1851 p10 1851 p90 1851 sum 2.50424
+spec cp:6:8:16 ram cycles 1755 p10 1755 p90 1755 sum 2.50424
+spec cp:6:8:32 cycles 1851 p10 1851 p90 1851 sum 1.44859
+spec cp:6:8:32 ram cycles 1755 p10 1755 p90 1755 sum 1.44859
+spec cp:6:8:64 cycles 1851 p10 1851 p90 1851 sum -2.31556
+spec cp:6:8:64 ram cycles 1755 p10 1755 p90 1755 sum -2.31556
+spec cp:7:16:16 cycles 3831 p10 3831 p90 3831 sum 1.28714
+spec cp:7:16:16 ram cycles 3607 p10 3607 p90 3607 sum 1.28714
+spec cp:7:16:32 cycles 3831 p10 3831 p90 3831 sum 0.0886835
+spec cp:7:16:32 ram cycles 3607 p10 3607 p90 3607 sum 0.0886835
+spec cp:7:16:64 cycles 3831 p10 3831 p90 3831 sum -4.24055
+spec cp:7:16:64 ram cycles 3607 p10 3607 p90 3607 sum -4.24055
+spec cp:7:1:16 cycles 591 p10 591 p90 591 sum -0.533481
+spec cp:7:1:16 ram cycles 577 p10 577 p90 577 sum -0.533481
+spec cp:7:1:32 cycles 591 p10 591 p90 591 sum -1.54514
+spec cp:7:1:32 ram cycles 577 p10 577 p90 577 sum -1.54514
+spec cp:7:1:64 cycles 591 p10 591 p90 591 sum -2.19243
+spec cp:7:1:64 ram cycles 577 p10 577 p90 577 sum -2.19243
+spec cp:7:2:16 cycles 807 p10 807 p90 807 sum -3.46766
+spec cp:7:2:16 ram cycles 779 p10 779 p90 779 sum -3.46766
+spec cp:7:2:32 cycles 807 p10 807 p90 807 sum -3.44967
+spec cp:7:2:32 ram cycles 779 p10 779 p90 779 sum -3.44967
+spec cp:7:2:64 cycles 807 p10 807 p90 807 sum -1.63692
+spec cp:7:2:64 ram cycles 779 p10 779 p90 779 sum -1.63692
+spec cp:7:4:16 cycles 1239 p10 1239 p90 1239 sum -6.85133
+spec cp:7:4:16 ram cycles 1183 p10 1183 p90 1183 sum -6.85133
+spec cp:7:4:32 cycles 1239 p10 1239 p90 1239 sum -0.954563
+spec cp:7:4:32 ram cycles 1183 p10 1183 p90 1183 sum -0.954563
+spec cp:7:4:64 cycles 1239 p10 1239 p90 1239 sum -0.634056
+spec cp:7:4:64 ram cycles 1183 p10 1183 p90 1183 sum -0.634056
+spec cp:7:8:16 cycles 2103 p10 2103 p90 2103 sum -3.77689
+spec cp:7:8:16 ram cycles 1991 p10 1991 p90 1991 sum -3.77689
+spec cp:7:8:32 cycles 2103 p10 2103 p90 2103 sum -0.85873
+spec cp:7:8:32 ram cycles 1991 p10 1991 p90 1991 sum -0.85873
+spec cp:7:8:64 cycles 2103 p10 2103 p90 2103 sum -0.735795
+spec cp:7:8:64 ram cycles 1991 p10 1991 p90 1991 sum -0.735795
+spec f32:3-128-1 cycles 9091 p10 9091 p90 9091 sum -1.01225
+spec f32:3-128-1 ram cycles 8450 p10 8450 p90 8450 sum -1.01225
+spec f32:3-128-128-1 cycles 773589 p10 773574 p90 773647 sum -2.76106
+spec f32:3-128-128-1 ram cycles 143768 p10 143768 p90 143769 sum -2.76106
+spec f32:3-128-128-128-1 cycles 1513590 p10 1513567 p90 1513632 sum -3.68757
+spec f32:3-128-128-128-1 ram n/a
+spec f32:3-128-128-128-1:silu cycles 1614431 p10 1614352 p90 1614452 sum -5.44459
+spec f32:3-128-128-128-1:silu ram n/a
+spec f32:3-128-128-128-1:tanh cycles 1614341 p10 1614214 p90 1614580 sum -8.15185
+spec f32:3-128-128-128-1:tanh ram n/a
+spec f32:3-128-128-1:silu cycles 836693 p10 836622 p90 836720 sum -3.54977
+spec f32:3-128-128-1:silu ram cycles 197273 p10 197272 p90 197348 sum -3.54977
+spec f32:3-128-128-1:tanh cycles 836789 p10 836655 p90 836873 sum -4.06401
+spec f32:3-128-128-1:tanh ram cycles 195225 p10 195224 p90 195300 sum -4.06401
+spec f32:3-128-1:silu cycles 35843 p10 35843 p90 35918 sum -2.12046
+spec f32:3-128-1:silu ram cycles 35202 p10 35202 p90 35277 sum -2.12046
+spec f32:3-128-1:tanh cycles 34819 p10 34819 p90 34894 sum -3.81475
+spec f32:3-128-1:tanh ram cycles 34178 p10 34178 p90 34253 sum -3.81475
+spec f32:3-16-1 cycles 1363 p10 1363 p90 1363 sum 4.07377
+spec f32:3-16-1 ram cycles 1282 p10 1282 p90 1282 sum 4.07377
+spec f32:3-16-16-1 cycles 4270 p10 4270 p90 4270 sum -5.61503
+spec f32:3-16-16-1 ram cycles 3917 p10 3917 p90 3917 sum -5.61503
+spec f32:3-16-16-16-1 cycles 7177 p10 7177 p90 7177 sum -6.52592
+spec f32:3-16-16-16-1 ram cycles 6552 p10 6552 p90 6552 sum -6.52592
+spec f32:3-16-16-16-1:silu cycles 17209 p10 17209 p90 17284 sum -5.9966
+spec f32:3-16-16-16-1:silu ram cycles 16584 p10 16584 p90 16659 sum -5.9966
+spec f32:3-16-16-16-1:tanh cycles 16825 p10 16825 p90 16900 sum -6.50807
+spec f32:3-16-16-16-1:tanh ram cycles 16200 p10 16200 p90 16275 sum -6.50807
+spec f32:3-16-16-1:silu cycles 10958 p10 10958 p90 10958 sum -5.85563
+spec f32:3-16-16-1:silu ram cycles 10605 p10 10605 p90 10605 sum -5.85563
+spec f32:3-16-16-1:tanh cycles 10702 p10 10702 p90 10702 sum -5.5138
+spec f32:3-16-16-1:tanh ram cycles 10349 p10 10349 p90 10349 sum -5.5138
+spec f32:3-16-1:silu cycles 4707 p10 4707 p90 4707 sum 3.60232
+spec f32:3-16-1:silu ram cycles 4626 p10 4626 p90 4626 sum 3.60232
+spec f32:3-16-1:tanh cycles 4579 p10 4579 p90 4579 sum 3.81891
+spec f32:3-16-1:tanh ram cycles 4498 p10 4498 p90 4498 sum 3.81891
+spec f32:3-32-1 cycles 2467 p10 2467 p90 2467 sum -1.7206
+spec f32:3-32-1 ram cycles 2306 p10 2306 p90 2306 sum -1.7206
+spec f32:3-32-1:silu cycles 9155 p10 9155 p90 9155 sum -1.27225
+spec f32:3-32-1:silu ram cycles 8994 p10 8994 p90 8994 sum -1.27225
+spec f32:3-32-1:tanh cycles 8899 p10 8899 p90 8899 sum -1.34943
+spec f32:3-32-1:tanh ram cycles 8738 p10 8738 p90 8738 sum -1.34943
+spec f32:3-32-32-1 cycles 12814 p10 12814 p90 12814 sum -0.09364
+spec f32:3-32-32-1 ram cycles 11597 p10 11597 p90 11598 sum -0.09364
+spec f32:3-32-32-1:silu cycles 26190 p10 26190 p90 26265 sum -1.07822
+spec f32:3-32-32-1:silu ram cycles 24973 p10 24973 p90 25048 sum -1.07822
+spec f32:3-32-32-1:tanh cycles 25678 p10 25678 p90 25753 sum -1.84825
+spec f32:3-32-32-1:tanh ram cycles 24461 p10 24461 p90 24536 sum -1.84825
+spec f32:3-32-32-32-1 cycles 23161 p10 23161 p90 23236 sum 4.29717
+spec f32:3-32-32-32-1 ram cycles 20888 p10 20888 p90 20963 sum 4.29717
+spec f32:3-32-32-32-1:silu cycles 43225 p10 43225 p90 43300 sum 4.26531
+spec f32:3-32-32-32-1:silu ram cycles 40952 p10 40952 p90 41028 sum 4.26531
+spec f32:3-32-32-32-1:tanh cycles 42457 p10 42457 p90 42532 sum 5.39083
+spec f32:3-32-32-32-1:tanh ram cycles 40184 p10 40184 p90 40259 sum 5.39083
+spec f32:3-64-1 cycles 4675 p10 4675 p90 4675 sum -0.20655
+spec f32:3-64-1 ram cycles 4354 p10 4354 p90 4354 sum -0.20655
+spec f32:3-64-1:silu cycles 18051 p10 18051 p90 18051 sum 0.567058
+spec f32:3-64-1:silu ram cycles 17730 p10 17730 p90 17805 sum 0.567058
+spec f32:3-64-1:tanh cycles 17539 p10 17539 p90 17614 sum -0.0300196
+spec f32:3-64-1:tanh ram cycles 17218 p10 17218 p90 17293 sum -0.0300196
+spec f32:3-64-64-1 cycles 43726 p10 43726 p90 43801 sum 4.13148
+spec f32:3-64-64-1 ram cycles 39245 p10 39245 p90 39321 sum 4.13148
+spec f32:3-64-64-1:silu cycles 74786 p10 74719 p90 74795 sum 4.31201
+spec f32:3-64-64-1:silu ram cycles 65997 p10 65997 p90 66072 sum 4.31201
+spec f32:3-64-64-1:tanh cycles 73749 p10 73696 p90 73771 sum 4.68108
+spec f32:3-64-64-1:tanh ram cycles 64973 p10 64973 p90 65049 sum 4.68108
+spec f32:3-64-64-64-1 cycles 146917 p10 146903 p90 146918 sum 7.08502
+spec f32:3-64-64-64-1 ram cycles 74189 p10 74136 p90 74211 sum 7.08502
+spec f32:3-64-64-64-1:silu cycles 196802 p10 196790 p90 196877 sum 6.34008
+spec f32:3-64-64-64-1:silu ram cycles 114339 p10 114264 p90 114340 sum 6.34008
+spec f32:3-64-64-64-1:tanh cycles 198139 p10 197377 p90 198228 sum 6.94824
+spec f32:3-64-64-64-1:tanh ram cycles 112803 p10 112728 p90 112804 sum 6.94824
+spec f32:4-128-1 cycles 10243 p10 10243 p90 10243 sum 5.4878
+spec f32:4-128-1 ram cycles 9474 p10 9474 p90 9474 sum 5.4878
+spec f32:4-128-128-1 cycles 779674 p10 779654 p90 779722 sum 3.11639
+spec f32:4-128-128-1 ram cycles 144792 p10 144792 p90 144793 sum 3.11639
+spec f32:4-128-128-128-1 cycles 1519829 p10 1519807 p90 1519871 sum -2.60857
+spec f32:4-128-128-128-1 ram n/a
+spec f32:4-128-128-128-1:silu cycles 1621300 p10 1621249 p90 1621325 sum -3.43523
+spec f32:4-128-128-128-1:silu ram n/a
+spec f32:4-128-128-128-1:tanh cycles 1621567 p10 1621078 p90 1621801 sum -2.04336
+spec f32:4-128-128-128-1:tanh ram n/a
+spec f32:4-128-128-1:silu cycles 844145 p10 844058 p90 844163 sum 2.09675
+spec f32:4-128-128-1:silu ram cycles 198296 p10 198296 p90 198372 sum 2.09675
+spec f32:4-128-128-1:tanh cycles 842897 p10 842797 p90 843081 sum 5.35717
+spec f32:4-128-128-1:tanh ram cycles 196248 p10 196248 p90 196324 sum 5.35717
+spec f32:4-128-1:silu cycles 36995 p10 36995 p90 37070 sum 3.13932
+spec f32:4-128-1:silu ram cycles 36226 p10 36226 p90 36301 sum 3.13932
+spec f32:4-128-1:tanh cycles 35971 p10 35971 p90 36046 sum 4.53358
+spec f32:4-128-1:tanh ram cycles 35202 p10 35202 p90 35277 sum 4.53358
+spec f32:4-16-1 cycles 1507 p10 1507 p90 1507 sum -4.60864
+spec f32:4-16-1 ram cycles 1410 p10 1410 p90 1410 sum -4.60864
+spec f32:4-16-16-1 cycles 4414 p10 4414 p90 4414 sum 6.21958
+spec f32:4-16-16-1 ram cycles 4045 p10 4045 p90 4045 sum 6.21958
+spec f32:4-16-16-16-1 cycles 7321 p10 7321 p90 7321 sum -1.03256
+spec f32:4-16-16-16-1 ram cycles 6680 p10 6680 p90 6680 sum -1.03256
+spec f32:4-16-16-16-1:silu cycles 17353 p10 17353 p90 17353 sum -0.421688
+spec f32:4-16-16-16-1:silu ram cycles 16712 p10 16712 p90 16712 sum -0.421688
+spec f32:4-16-16-16-1:tanh cycles 16969 p10 16969 p90 16969 sum -0.21066
+spec f32:4-16-16-16-1:tanh ram cycles 16328 p10 16328 p90 16328 sum -0.21066
+spec f32:4-16-16-1:silu cycles 11102 p10 11102 p90 11102 sum 6.09137
+spec f32:4-16-16-1:silu ram cycles 10733 p10 10733 p90 10733 sum 6.09137
+spec f32:4-16-16-1:tanh cycles 10846 p10 10846 p90 10846 sum 6.00672
+spec f32:4-16-16-1:tanh ram cycles 10477 p10 10477 p90 10477 sum 6.00672
+spec f32:4-16-1:silu cycles 4851 p10 4851 p90 4851 sum -4.30789
+spec f32:4-16-1:silu ram cycles 4754 p10 4754 p90 4754 sum -4.30789
+spec f32:4-16-1:tanh cycles 4723 p10 4723 p90 4723 sum -4.70509
+spec f32:4-16-1:tanh ram cycles 4626 p10 4626 p90 4626 sum -4.70509
+spec f32:4-32-1 cycles 2755 p10 2755 p90 2755 sum -3.64818
+spec f32:4-32-1 ram cycles 2562 p10 2562 p90 2562 sum -3.64818
+spec f32:4-32-1:silu cycles 9443 p10 9443 p90 9443 sum -3.48943
+spec f32:4-32-1:silu ram cycles 9250 p10 9250 p90 9250 sum -3.48943
+spec f32:4-32-1:tanh cycles 9187 p10 9187 p90 9187 sum -3.08033
+spec f32:4-32-1:tanh ram cycles 8994 p10 8994 p90 8994 sum -3.08033
+spec f32:4-32-32-1 cycles 13102 p10 13102 p90 13155 sum -2.47386
+spec f32:4-32-32-1 ram cycles 11853 p10 11853 p90 11906 sum -2.47386
+spec f32:4-32-32-1:silu cycles 26478 p10 26478 p90 26553 sum -2.85757
+spec f32:4-32-32-1:silu ram cycles 25229 p10 25229 p90 25304 sum -2.85757
+spec f32:4-32-32-1:tanh cycles 25966 p10 25966 p90 26041 sum -2.74793
+spec f32:4-32-32-1:tanh ram cycles 24717 p10 24717 p90 24792 sum -2.74793
+spec f32:4-32-32-32-1 cycles 23449 p10 23449 p90 23524 sum 2.71073
+spec f32:4-32-32-32-1 ram cycles 21144 p10 21144 p90 21219 sum 2.71073
+spec f32:4-32-32-32-1:silu cycles 43513 p10 43513 p90 43588 sum 3.69773
+spec f32:4-32-32-32-1:silu ram cycles 41208 p10 41208 p90 41283 sum 3.69773
+spec f32:4-32-32-32-1:tanh cycles 42745 p10 42745 p90 42820 sum 3.97746
+spec f32:4-32-32-32-1:tanh ram cycles 40440 p10 40440 p90 40515 sum 3.97746
+spec f32:4-64-1 cycles 5251 p10 5251 p90 5251 sum -2.64436
+spec f32:4-64-1 ram cycles 4866 p10 4866 p90 4866 sum -2.64436
+spec f32:4-64-1:silu cycles 18627 p10 18627 p90 18702 sum -2.8247
+spec f32:4-64-1:silu ram cycles 18242 p10 18242 p90 18317 sum -2.8247
+spec f32:4-64-1:tanh cycles 18115 p10 18115 p90 18115 sum -3.12811
+spec f32:4-64-1:tanh ram cycles 17730 p10 17730 p90 17805 sum -3.12811
+spec f32:4-64-64-1 cycles 44302 p10 44302 p90 44377 sum 4.1192
+spec f32:4-64-64-1 ram cycles 39757 p10 39757 p90 39832 sum 4.1192
+spec f32:4-64-64-1:silu cycles 75351 p10 75298 p90 75373 sum 2.98706
+spec f32:4-64-64-1:silu ram cycles 66509 p10 66509 p90 66584 sum 2.98706
+spec f32:4-64-64-1:tanh cycles 74319 p10 74266 p90 74342 sum 2.31092
+spec f32:4-64-64-1:tanh ram cycles 65485 p10 65485 p90 65561 sum 2.31092
+spec f32:4-64-64-64-1 cycles 154685 p10 154671 p90 154685 sum -4.76036
+spec f32:4-64-64-64-1 ram cycles 74701 p10 74648 p90 74724 sum -4.76036
+spec f32:4-64-64-64-1:silu cycles 204618 p10 204609 p90 204693 sum -4.97556
+spec f32:4-64-64-64-1:silu ram cycles 114851 p10 114776 p90 114853 sum -4.97556
+spec f32:4-64-64-64-1:tanh cycles 205563 p10 205140 p90 206682 sum -5.54814
+spec f32:4-64-64-64-1:tanh ram cycles 113315 p10 113240 p90 113316 sum -5.54814
+spec f32:5-128-1 cycles 11395 p10 11395 p90 11395 sum 4.41796
+spec f32:5-128-1 ram cycles 10498 p10 10498 p90 10498 sum 4.41796
+spec f32:5-128-128-1 cycles 785969 p10 785952 p90 786040 sum -2.55861
+spec f32:5-128-128-1 ram cycles 145816 p10 145816 p90 145817 sum -2.55861
+spec f32:5-128-128-128-1 cycles 1525539 p10 1525522 p90 1525601 sum 1.84828
+spec f32:5-128-128-128-1 ram n/a
+spec f32:5-128-128-128-1:silu cycles 1627060 p10 1627009 p90 1627097 sum 3.1135
+spec f32:5-128-128-128-1:silu ram n/a
+spec f32:5-128-128-128-1:tanh cycles 1628682 p10 1628574 p90 1628787 sum 3.73548
+spec f32:5-128-128-128-1:tanh ram n/a
+spec f32:5-128-128-1:silu cycles 850896 p10 850824 p90 850920 sum -3.18645
+spec f32:5-128-128-1:silu ram cycles 199320 p10 199320 p90 199396 sum -3.18645
+spec f32:5-128-128-1:tanh cycles 851070 p10 850996 p90 851121 sum 0.211729
+spec f32:5-128-128-1:tanh ram cycles 197272 p10 197272 p90 197348 sum 0.211729
+spec f32:5-128-1:silu cycles 38147 p10 38147 p90 38222 sum 4.03535
+spec f32:5-128-1:silu ram cycles 37250 p10 37250 p90 37325 sum 4.03535
+spec f32:5-128-1:tanh cycles 37123 p10 37123 p90 37198 sum 3.75606
+spec f32:5-128-1:tanh ram cycles 36226 p10 36226 p90 36301 sum 3.75606
+spec f32:5-16-1 cycles 1651 p10 1651 p90 1651 sum 3.67362
+spec f32:5-16-1 ram cycles 1538 p10 1538 p90 1538 sum 3.67362
+spec f32:5-16-16-1 cycles 4558 p10 4558 p90 4558 sum -2.85785
+spec f32:5-16-16-1 ram cycles 4173 p10 4173 p90 4173 sum -2.85785
+spec f32:5-16-16-16-1 cycles 7465 p10 7465 p90 7465 sum 5.10925
+spec f32:5-16-16-16-1 ram cycles 6808 p10 6808 p90 6808 sum 5.10925
+spec f32:5-16-16-16-1:silu cycles 17497 p10 17497 p90 17497 sum 4.88576
+spec f32:5-16-16-16-1:silu ram cycles 16840 p10 16840 p90 16840 sum 4.88576
+spec f32:5-16-16-16-1:tanh cycles 17113 p10 17113 p90 17188 sum 4.78038
+spec f32:5-16-16-16-1:tanh ram cycles 16456 p10 16456 p90 16531 sum 4.78038
+spec f32:5-16-16-1:silu cycles 11246 p10 11246 p90 11246 sum -2.80027
+spec f32:5-16-16-1:silu ram cycles 10861 p10 10861 p90 10861 sum -2.80027
+spec f32:5-16-16-1:tanh cycles 10990 p10 10990 p90 10990 sum -3.21375
+spec f32:5-16-16-1:tanh ram cycles 10605 p10 10605 p90 10605 sum -3.21375
+spec f32:5-16-1:silu cycles 4995 p10 4995 p90 4995 sum 3.91511
+spec f32:5-16-1:silu ram cycles 4882 p10 4882 p90 4882 sum 3.91511
+spec f32:5-16-1:tanh cycles 4867 p10 4867 p90 4867 sum 3.66184
+spec f32:5-16-1:tanh ram cycles 4754 p10 4754 p90 4754 sum 3.66184
+spec f32:5-32-1 cycles 3043 p10 3043 p90 3043 sum -2.78239
+spec f32:5-32-1 ram cycles 2818 p10 2818 p90 2818 sum -2.78239
+spec f32:5-32-1:silu cycles 9731 p10 9731 p90 9731 sum -2.29855
+spec f32:5-32-1:silu ram cycles 9506 p10 9506 p90 9506 sum -2.29855
+spec f32:5-32-1:tanh cycles 9475 p10 9475 p90 9475 sum -2.91002
+spec f32:5-32-1:tanh ram cycles 9250 p10 9250 p90 9250 sum -2.91002
+spec f32:5-32-32-1 cycles 13390 p10 13390 p90 13443 sum -0.538062
+spec f32:5-32-32-1 ram cycles 12109 p10 12109 p90 12162 sum -0.538062
+spec f32:5-32-32-1:silu cycles 26766 p10 26766 p90 26841 sum -0.861907
+spec f32:5-32-32-1:silu ram cycles 25485 p10 25485 p90 25560 sum -0.861907
+spec f32:5-32-32-1:tanh cycles 26254 p10 26254 p90 26329 sum -0.600645
+spec f32:5-32-32-1:tanh ram cycles 24973 p10 24973 p90 25048 sum -0.600645
+spec f32:5-32-32-32-1 cycles 23737 p10 23737 p90 23812 sum 4.96161
+spec f32:5-32-32-32-1 ram cycles 21400 p10 21400 p90 21475 sum 4.96161
+spec f32:5-32-32-32-1:silu cycles 43801 p10 43801 p90 43876 sum 4.28244
+spec f32:5-32-32-32-1:silu ram cycles 41464 p10 41464 p90 41540 sum 4.28244
+spec f32:5-32-32-32-1:tanh cycles 43033 p10 43033 p90 43108 sum 3.91278
+spec f32:5-32-32-32-1:tanh ram cycles 40696 p10 40696 p90 40771 sum 3.91278
+spec f32:5-64-1 cycles 5827 p10 5827 p90 5827 sum 3.83295
+spec f32:5-64-1 ram cycles 5378 p10 5378 p90 5378 sum 3.83295
+spec f32:5-64-1:silu cycles 19203 p10 19203 p90 19278 sum 4.52623
+spec f32:5-64-1:silu ram cycles 18754 p10 18754 p90 18829 sum 4.52623
+spec f32:5-64-1:tanh cycles 18691 p10 18691 p90 18765 sum 4.19451
+spec f32:5-64-1:tanh ram cycles 18242 p10 18242 p90 18317 sum 4.19451
+spec f32:5-64-64-1 cycles 44878 p10 44878 p90 44953 sum 2.31635
+spec f32:5-64-64-1 ram cycles 40269 p10 40269 p90 40345 sum 2.31635
+spec f32:5-64-64-1:silu cycles 75948 p10 75874 p90 75949 sum 1.21803
+spec f32:5-64-64-1:silu ram cycles 67021 p10 67021 p90 67096 sum 1.21803
+spec f32:5-64-64-1:tanh cycles 74901 p10 74848 p90 74923 sum -0.453027
+spec f32:5-64-64-1:tanh ram cycles 65997 p10 65997 p90 66073 sum -0.453027
+spec f32:5-64-64-64-1 cycles 159510 p10 159494 p90 159511 sum 0.440528
+spec f32:5-64-64-64-1 ram cycles 75235 p10 75160 p90 75236 sum 0.440528
+spec f32:5-64-64-64-1:silu cycles 209401 p10 209386 p90 209475 sum 1.2165
+spec f32:5-64-64-64-1:silu ram cycles 115363 p10 115288 p90 115364 sum 1.2165
+spec f32:5-64-64-64-1:tanh cycles 214627 p10 214346 p90 214764 sum 0.0752739
+spec f32:5-64-64-64-1:tanh ram cycles 113827 p10 113752 p90 113828 sum 0.0752739
+spec f32:6-128-1 cycles 12547 p10 12547 p90 12547 sum -1.79346
+spec f32:6-128-1 ram cycles 11522 p10 11522 p90 11522 sum -1.79346
+spec f32:6-128-128-1 cycles 791432 p10 791423 p90 791496 sum -3.93598
+spec f32:6-128-128-1 ram cycles 146840 p10 146840 p90 146841 sum -3.93598
+spec f32:6-128-128-128-1 cycles 1530729 p10 1530717 p90 1530799 sum -5.08726
+spec f32:6-128-128-128-1 ram n/a
+spec f32:6-128-128-128-1:silu cycles 1631926 p10 1631901 p90 1631951 sum -6.88733
+spec f32:6-128-128-128-1:silu ram n/a
+spec f32:6-128-128-128-1:tanh cycles 1633527 p10 1633249 p90 1634018 sum -7.93314
+spec f32:6-128-128-128-1:tanh ram n/a
+spec f32:6-128-128-1:silu cycles 856182 p10 856115 p90 856207 sum -4.26218
+spec f32:6-128-128-1:silu ram cycles 200344 p10 200344 p90 200421 sum -4.26218
+spec f32:6-128-128-1:tanh cycles 856815 p10 856680 p90 857231 sum -3.93825
+spec f32:6-128-128-1:tanh ram cycles 198296 p10 198296 p90 198372 sum -3.93825
+spec f32:6-128-1:silu cycles 39299 p10 39299 p90 39374 sum -1.49915
+spec f32:6-128-1:silu ram cycles 38274 p10 38274 p90 38349 sum -1.49915
+spec f32:6-128-1:tanh cycles 38275 p10 38275 p90 38350 sum -0.244109
+spec f32:6-128-1:tanh ram cycles 37250 p10 37250 p90 37325 sum -0.244109
+spec f32:6-16-1 cycles 1795 p10 1795 p90 1795 sum 1.10827
+spec f32:6-16-1 ram cycles 1666 p10 1666 p90 1666 sum 1.10827
+spec f32:6-16-16-1 cycles 4702 p10 4702 p90 4702 sum 0.786646
+spec f32:6-16-16-1 ram cycles 4301 p10 4301 p90 4301 sum 0.786646
+spec f32:6-16-16-16-1 cycles 7609 p10 7609 p90 7609 sum 2.7845
+spec f32:6-16-16-16-1 ram cycles 6936 p10 6936 p90 6936 sum 2.7845
+spec f32:6-16-16-16-1:silu cycles 17641 p10 17641 p90 17641 sum 2.16603
+spec f32:6-16-16-16-1:silu ram cycles 16968 p10 16968 p90 16968 sum 2.16603
+spec f32:6-16-16-16-1:tanh cycles 17257 p10 17257 p90 17257 sum 2.49971
+spec f32:6-16-16-16-1:tanh ram cycles 16584 p10 16584 p90 16584 sum 2.49971
+spec f32:6-16-16-1:silu cycles 11390 p10 11390 p90 11390 sum 0.735138
+spec f32:6-16-16-1:silu ram cycles 10989 p10 10989 p90 10989 sum 0.735138
+spec f32:6-16-16-1:tanh cycles 11134 p10 11134 p90 11134 sum 0.226493
+spec f32:6-16-16-1:tanh ram cycles 10733 p10 10733 p90 10733 sum 0.226493
+spec f32:6-16-1:silu cycles 5139 p10 5139 p90 5139 sum 1.17867
+spec f32:6-16-1:silu ram cycles 5010 p10 5010 p90 5010 sum 1.17867
+spec f32:6-16-1:tanh cycles 5011 p10 5011 p90 5011 sum 1.57304
+spec f32:6-16-1:tanh ram cycles 4882 p10 4882 p90 4882 sum 1.57304
+spec f32:6-32-1 cycles 3331 p10 3331 p90 3331 sum -2.95935
+spec f32:6-32-1 ram cycles 3074 p10 3074 p90 3074 sum -2.95935
+spec f32:6-32-1:silu cycles 10019 p10 10019 p90 10019 sum -2.44243
+spec f32:6-32-1:silu ram cycles 9762 p10 9762 p90 9762 sum -2.44243
+spec f32:6-32-1:tanh cycles 9763 p10 9763 p90 9763 sum -2.81617
+spec f32:6-32-1:tanh ram cycles 9506 p10 9506 p90 9506 sum -2.81617
+spec f32:6-32-32-1 cycles 13678 p10 13678 p90 13678 sum 5.46711
+spec f32:6-32-32-1 ram cycles 12365 p10 12365 p90 12365 sum 5.46711
+spec f32:6-32-32-1:silu cycles 27054 p10 27054 p90 27129 sum 5.98153
+spec f32:6-32-32-1:silu ram cycles 25741 p10 25741 p90 25816 sum 5.98153
+spec f32:6-32-32-1:tanh cycles 26542 p10 26542 p90 26617 sum 6.25326
+spec f32:6-32-32-1:tanh ram cycles 25229 p10 25229 p90 25304 sum 6.25326
+spec f32:6-32-32-32-1 cycles 24025 p10 24025 p90 24100 sum -1.95969
+spec f32:6-32-32-32-1 ram cycles 21656 p10 21656 p90 21731 sum -1.95969
+spec f32:6-32-32-32-1:silu cycles 44089 p10 44089 p90 44164 sum -2.90402
+spec f32:6-32-32-32-1:silu ram cycles 41720 p10 41720 p90 41798 sum -2.90402
+spec f32:6-32-32-32-1:tanh cycles 43321 p10 43321 p90 43396 sum -3.3833
+spec f32:6-32-32-32-1:tanh ram cycles 40952 p10 40952 p90 41027 sum -3.3833
+spec f32:6-64-1 cycles 6403 p10 6403 p90 6403 sum 3.91954
+spec f32:6-64-1 ram cycles 5890 p10 5890 p90 5890 sum 3.91954
+spec f32:6-64-1:silu cycles 19779 p10 19779 p90 19854 sum 3.58736
+spec f32:6-64-1:silu ram cycles 19266 p10 19266 p90 19341 sum 3.58736
+spec f32:6-64-1:tanh cycles 19267 p10 19267 p90 19342 sum 4.00257
+spec f32:6-64-1:tanh ram cycles 18754 p10 18754 p90 18829 sum 4.00257
+spec f32:6-64-64-1 cycles 47998 p10 47998 p90 48074 sum -7.7477
+spec f32:6-64-64-1 ram cycles 40781 p10 40781 p90 40856 sum -7.7477
+spec f32:6-64-64-1:silu cycles 79059 p10 78997 p90 79072 sum -6.08832
+spec f32:6-64-64-1:silu ram cycles 67533 p10 67533 p90 67608 sum -6.08832
+spec f32:6-64-64-1:tanh cycles 78029 p10 77962 p90 78037 sum -7.233
+spec f32:6-64-64-1:tanh ram cycles 66509 p10 66509 p90 66584 sum -7.233
+spec f32:6-64-64-64-1 cycles 166419 p10 166409 p90 166468 sum 1.64591
+spec f32:6-64-64-64-1 ram cycles 75725 p10 75672 p90 75748 sum 1.64591
+spec f32:6-64-64-64-1:silu cycles 216404 p10 216333 p90 216561 sum 1.18824
+spec f32:6-64-64-64-1:silu ram cycles 115875 p10 115800 p90 115876 sum 1.18824
+spec f32:6-64-64-64-1:tanh cycles 218489 p10 218352 p90 219047 sum -0.472416
+spec f32:6-64-64-64-1:tanh ram cycles 114339 p10 114264 p90 114339 sum -0.472416
+spec f32:7-128-1 cycles 13699 p10 13699 p90 13752 sum 4.0697
+spec f32:7-128-1 ram cycles 12546 p10 12546 p90 12546 sum 4.0697
+spec f32:7-128-128-1 cycles 796879 p10 796865 p90 796947 sum -2.26666
+spec f32:7-128-128-1 ram cycles 147864 p10 147864 p90 147865 sum -2.26666
+spec f32:7-128-128-128-1 cycles 1536426 p10 1536403 p90 1536471 sum -3.73124
+spec f32:7-128-128-128-1 ram n/a
+spec f32:7-128-128-128-1:silu cycles 1637420 p10 1637392 p90 1637432 sum -4.8025
+spec f32:7-128-128-128-1:silu ram n/a
+spec f32:7-128-128-128-1:tanh cycles 1638108 p10 1637963 p90 1638418 sum -1.56967
+spec f32:7-128-128-128-1:tanh ram n/a
+spec f32:7-128-128-1:silu cycles 861390 p10 861325 p90 861412 sum -0.734564
+spec f32:7-128-128-1:silu ram cycles 201369 p10 201368 p90 201444 sum -0.734564
+spec f32:7-128-128-1:tanh cycles 861688 p10 861524 p90 861913 sum -0.696376
+spec f32:7-128-128-1:tanh ram cycles 199320 p10 199320 p90 199396 sum -0.696376
+spec f32:7-128-1:silu cycles 40451 p10 40451 p90 40526 sum 5.39807
+spec f32:7-128-1:silu ram cycles 39298 p10 39298 p90 39373 sum 5.39807
+spec f32:7-128-1:tanh cycles 39427 p10 39427 p90 39502 sum 6.7824
+spec f32:7-128-1:tanh ram cycles 38274 p10 38274 p90 38349 sum 6.7824
+spec f32:7-16-1 cycles 1939 p10 1939 p90 1939 sum -3.44533
+spec f32:7-16-1 ram cycles 1794 p10 1794 p90 1794 sum -3.44533
+spec f32:7-16-16-1 cycles 4846 p10 4846 p90 4846 sum 1.19353
+spec f32:7-16-16-1 ram cycles 4429 p10 4429 p90 4429 sum 1.19353
+spec f32:7-16-16-16-1 cycles 7753 p10 7753 p90 7753 sum -1.05557
+spec f32:7-16-16-16-1 ram cycles 7064 p10 7064 p90 7064 sum -1.05557
+spec f32:7-16-16-16-1:silu cycles 17785 p10 17785 p90 17860 sum -1.86617
+spec f32:7-16-16-16-1:silu ram cycles 17096 p10 17096 p90 17097 sum -1.86617
+spec f32:7-16-16-16-1:tanh cycles 17401 p10 17401 p90 17401 sum -2.05934
+spec f32:7-16-16-16-1:tanh ram cycles 16712 p10 16712 p90 16712 sum -2.05934
+spec f32:7-16-16-1:silu cycles 11534 p10 11534 p90 11534 sum 1.51815
+spec f32:7-16-16-1:silu ram cycles 11117 p10 11117 p90 11117 sum 1.51815
+spec f32:7-16-16-1:tanh cycles 11278 p10 11278 p90 11278 sum 1.25935
+spec f32:7-16-16-1:tanh ram cycles 10861 p10 10861 p90 10861 sum 1.25935
+spec f32:7-16-1:silu cycles 5283 p10 5283 p90 5283 sum -3.01133
+spec f32:7-16-1:silu ram cycles 5138 p10 5138 p90 5138 sum -3.01133
+spec f32:7-16-1:tanh cycles 5155 p10 5155 p90 5155 sum -3.40033
+spec f32:7-16-1:tanh ram cycles 5010 p10 5010 p90 5010 sum -3.40033
+spec f32:7-32-1 cycles 3619 p10 3619 p90 3619 sum -5.1993
+spec f32:7-32-1 ram cycles 3330 p10 3330 p90 3330 sum -5.1993
+spec f32:7-32-1:silu cycles 10307 p10 10307 p90 10307 sum -4.08233
+spec f32:7-32-1:silu ram cycles 10018 p10 10018 p90 10018 sum -4.08233
+spec f32:7-32-1:tanh cycles 10051 p10 10051 p90 10051 sum -4.38831
+spec f32:7-32-1:tanh ram cycles 9762 p10 9762 p90 9762 sum -4.38831
+spec f32:7-32-32-1 cycles 13966 p10 13966 p90 13966 sum 5.55897
+spec f32:7-32-32-1 ram cycles 12621 p10 12621 p90 12622 sum 5.55897
+spec f32:7-32-32-1:silu cycles 27342 p10 27342 p90 27417 sum 6.39815
+spec f32:7-32-32-1:silu ram cycles 25997 p10 25997 p90 26072 sum 6.39815
+spec f32:7-32-32-1:tanh cycles 26830 p10 26830 p90 26905 sum 6.42189
+spec f32:7-32-32-1:tanh ram cycles 25485 p10 25485 p90 25560 sum 6.42189
+spec f32:7-32-32-32-1 cycles 24313 p10 24313 p90 24388 sum -2.14101
+spec f32:7-32-32-32-1 ram cycles 21912 p10 21912 p90 21987 sum -2.14101
+spec f32:7-32-32-32-1:silu cycles 44377 p10 44377 p90 44453 sum -2.02471
+spec f32:7-32-32-32-1:silu ram cycles 41976 p10 41976 p90 42051 sum -2.02471
+spec f32:7-32-32-32-1:tanh cycles 43609 p10 43609 p90 43684 sum -2.42618
+spec f32:7-32-32-32-1:tanh ram cycles 41208 p10 41208 p90 41283 sum -2.42618
+spec f32:7-64-1 cycles 6979 p10 6979 p90 6979 sum 1.09993
+spec f32:7-64-1 ram cycles 6402 p10 6402 p90 6402 sum 1.09993
+spec f32:7-64-1:silu cycles 20355 p10 20355 p90 20430 sum -0.208567
+spec f32:7-64-1:silu ram cycles 19778 p10 19778 p90 19856 sum -0.208567
+spec f32:7-64-1:tanh cycles 19843 p10 19843 p90 19917 sum -1.76766
+spec f32:7-64-1:tanh ram cycles 19266 p10 19266 p90 19341 sum -1.76766
+spec f32:7-64-64-1 cycles 51118 p10 51118 p90 51193 sum -6.38852
+spec f32:7-64-64-1 ram cycles 41293 p10 41293 p90 41368 sum -6.38852
+spec f32:7-64-64-1:silu cycles 82182 p10 82114 p90 82189 sum -4.38971
+spec f32:7-64-64-1:silu ram cycles 68045 p10 68045 p90 68121 sum -4.38971
+spec f32:7-64-64-1:tanh cycles 81153 p10 81085 p90 81160 sum -4.37724
+spec f32:7-64-64-1:tanh ram cycles 67021 p10 67021 p90 67097 sum -4.37724
+spec f32:7-64-64-64-1 cycles 171240 p10 171227 p90 171300 sum -1.96922
+spec f32:7-64-64-64-1 ram cycles 76259 p10 76184 p90 76260 sum -1.96922
+spec f32:7-64-64-64-1:silu cycles 224598 p10 224525 p90 224683 sum -2.23449
+spec f32:7-64-64-64-1:silu ram cycles 116387 p10 116312 p90 116390 sum -2.23449
+spec f32:7-64-64-64-1:tanh cycles 226846 p10 226642 p90 227212 sum -1.06557
+spec f32:7-64-64-64-1:tanh ram cycles 114851 p10 114776 p90 114852 sum -1.06557
+spec ga2m:3:16:16 cycles 550 p10 550 p90 550 sum -18.0438
+spec ga2m:3:16:16 ram cycles 532 p10 532 p90 532 sum -18.0438
+spec ga2m:3:16:32 cycles 550 p10 550 p90 550 sum -9.74233
+spec ga2m:3:16:32 ram cycles 532 p10 532 p90 532 sum -9.74233
+spec ga2m:3:16:8 cycles 550 p10 550 p90 550 sum -13.1906
+spec ga2m:3:16:8 ram cycles 532 p10 532 p90 532 sum -13.1906
+spec ga2m:3:32:16 cycles 550 p10 550 p90 550 sum -38.7479
+spec ga2m:3:32:16 ram cycles 532 p10 532 p90 532 sum -38.7479
+spec ga2m:3:32:32 cycles 550 p10 550 p90 550 sum -13.5763
+spec ga2m:3:32:32 ram cycles 532 p10 532 p90 532 sum -13.5763
+spec ga2m:3:32:8 cycles 550 p10 550 p90 550 sum 23.1135
+spec ga2m:3:32:8 ram cycles 532 p10 532 p90 532 sum 23.1135
+spec ga2m:3:64:16 cycles 550 p10 550 p90 550 sum -46.9684
+spec ga2m:3:64:16 ram cycles 532 p10 532 p90 532 sum -46.9684
+spec ga2m:3:64:32 cycles 550 p10 550 p90 550 sum -38.5672
+spec ga2m:3:64:32 ram cycles 532 p10 532 p90 532 sum -38.5672
+spec ga2m:3:64:8 cycles 550 p10 550 p90 550 sum -47.938
+spec ga2m:3:64:8 ram cycles 532 p10 532 p90 532 sum -47.938
+spec ga2m:4:16:16 cycles 797 p10 797 p90 797 sum 0.032074
+spec ga2m:4:16:16 ram cycles 765 p10 765 p90 765 sum 0.032074
+spec ga2m:4:16:32 cycles 797 p10 797 p90 797 sum -25.1758
+spec ga2m:4:16:32 ram cycles 765 p10 765 p90 765 sum -25.1758
+spec ga2m:4:16:8 cycles 797 p10 797 p90 797 sum -1.03815
+spec ga2m:4:16:8 ram cycles 765 p10 765 p90 765 sum -1.03815
+spec ga2m:4:32:16 cycles 797 p10 797 p90 797 sum 23.3794
+spec ga2m:4:32:16 ram cycles 765 p10 765 p90 765 sum 23.3794
+spec ga2m:4:32:32 cycles 797 p10 797 p90 797 sum -13.8816
+spec ga2m:4:32:32 ram cycles 765 p10 765 p90 765 sum -13.8816
+spec ga2m:4:32:8 cycles 797 p10 797 p90 797 sum -24.3582
+spec ga2m:4:32:8 ram cycles 765 p10 765 p90 765 sum -24.3582
+spec ga2m:4:64:16 cycles 797 p10 797 p90 797 sum 50.353
+spec ga2m:4:64:16 ram cycles 765 p10 765 p90 765 sum 50.353
+spec ga2m:4:64:32 cycles 797 p10 797 p90 797 sum 22.4448
+spec ga2m:4:64:32 ram cycles 765 p10 765 p90 765 sum 22.4448
+spec ga2m:4:64:8 cycles 797 p10 797 p90 797 sum -126.92
+spec ga2m:4:64:8 ram cycles 765 p10 765 p90 765 sum -126.92
+spec ga2m:5:16:16 cycles 1090 p10 1090 p90 1090 sum 46.3296
+spec ga2m:5:16:16 ram cycles 1040 p10 1040 p90 1040 sum 46.3296
+spec ga2m:5:16:32 cycles 1143 p10 1107 p90 1231 sum 40.2255
+spec ga2m:5:16:32 ram cycles 1040 p10 1040 p90 1040 sum 40.2255
+spec ga2m:5:16:8 cycles 1090 p10 1090 p90 1090 sum -2.5093
+spec ga2m:5:16:8 ram cycles 1040 p10 1040 p90 1040 sum -2.5093
+spec ga2m:5:32:16 cycles 1090 p10 1090 p90 1090 sum 109.618
+spec ga2m:5:32:16 ram cycles 1040 p10 1040 p90 1040 sum 109.618
+spec ga2m:5:32:32 cycles 1143 p10 1107 p90 1196 sum 26.2029
+spec ga2m:5:32:32 ram cycles 1040 p10 1040 p90 1040 sum 26.2029
+spec ga2m:5:32:8 cycles 1090 p10 1090 p90 1090 sum 52.9067
+spec ga2m:5:32:8 ram cycles 1040 p10 1040 p90 1040 sum 52.9067
+spec ga2m:5:64:16 cycles 1090 p10 1090 p90 1090 sum 10.5237
+spec ga2m:5:64:16 ram cycles 1040 p10 1040 p90 1040 sum 10.5237
+spec ga2m:5:64:32 cycles 1125 p10 1107 p90 1160 sum 21.896
+spec ga2m:5:64:32 ram cycles 1040 p10 1040 p90 1040 sum 21.896
+spec ga2m:5:64:8 cycles 1090 p10 1090 p90 1090 sum 34.8467
+spec ga2m:5:64:8 ram cycles 1040 p10 1040 p90 1040 sum 34.8467
+spec ga2m:6:16:16 cycles 1429 p10 1429 p90 1429 sum -48.0487
+spec ga2m:6:16:16 ram cycles 1357 p10 1357 p90 1357 sum -48.0487
+spec ga2m:6:16:32 cycles 1836 p10 1729 p90 2083 sum 31.2138
+spec ga2m:6:16:32 ram cycles 1357 p10 1357 p90 1357 sum 31.2138
+spec ga2m:6:16:8 cycles 1429 p10 1429 p90 1429 sum -4.67925
+spec ga2m:6:16:8 ram cycles 1357 p10 1357 p90 1357 sum -4.67925
+spec ga2m:6:32:16 cycles 1429 p10 1429 p90 1429 sum -14.8623
+spec ga2m:6:32:16 ram cycles 1357 p10 1357 p90 1357 sum -14.8623
+spec ga2m:6:32:32 cycles 1871 p10 1800 p90 1889 sum -6.84852
+spec ga2m:6:32:32 ram cycles 1357 p10 1357 p90 1357 sum -6.84852
+spec ga2m:6:32:8 cycles 1429 p10 1429 p90 1429 sum 15.8014
+spec ga2m:6:32:8 ram cycles 1357 p10 1357 p90 1357 sum 15.8014
+spec ga2m:6:64:16 cycles 1429 p10 1429 p90 1429 sum -7.14449
+spec ga2m:6:64:16 ram cycles 1357 p10 1357 p90 1357 sum -7.14449
+spec ga2m:6:64:32 cycles 1835 p10 1729 p90 1836 sum -58.8346
+spec ga2m:6:64:32 ram cycles 1357 p10 1357 p90 1357 sum -58.8346
+spec ga2m:6:64:8 cycles 1429 p10 1429 p90 1429 sum -8.14693
+spec ga2m:6:64:8 ram cycles 1357 p10 1357 p90 1357 sum -8.14693
+spec ga2m:7:16:16 cycles 1814 p10 1814 p90 1814 sum -2.45823
+spec ga2m:7:16:16 ram cycles 1716 p10 1716 p90 1716 sum -2.45823
+spec ga2m:7:16:32 cycles 5511 p10 5387 p90 5811 sum 28.5002
+spec ga2m:7:16:32 ram cycles 1716 p10 1716 p90 1716 sum 28.5002
+spec ga2m:7:16:8 cycles 1814 p10 1814 p90 1814 sum 108.667
+spec ga2m:7:16:8 ram cycles 1716 p10 1716 p90 1716 sum 108.667
+spec ga2m:7:32:16 cycles 1814 p10 1814 p90 1814 sum 24.8392
+spec ga2m:7:32:16 ram cycles 1716 p10 1716 p90 1716 sum 24.8392
+spec ga2m:7:32:32 cycles 5847 p10 5740 p90 6041 sum 55.199
+spec ga2m:7:32:32 ram cycles 1716 p10 1716 p90 1716 sum 55.199
+spec ga2m:7:32:8 cycles 1814 p10 1814 p90 1814 sum 95.6856
+spec ga2m:7:32:8 ram cycles 1716 p10 1716 p90 1716 sum 95.6856
+spec ga2m:7:64:16 cycles 1814 p10 1814 p90 1814 sum 80.9387
+spec ga2m:7:64:16 ram cycles 1716 p10 1716 p90 1716 sum 80.9387
+spec ga2m:7:64:32 cycles 6166 p10 5404 p90 6289 sum -4.59741
+spec ga2m:7:64:32 ram cycles 1716 p10 1716 p90 1716 sum -4.59741
+spec ga2m:7:64:8 cycles 1814 p10 1814 p90 1814 sum 71.9487
+spec ga2m:7:64:8 ram cycles 1716 p10 1716 p90 1716 sum 71.9487
+spec grid:3:12 cycles 755 p10 755 p90 755 sum 1.08877
+spec grid:3:12 ram cycles 747 p10 747 p90 747 sum 1.08877
+spec grid:3:16 cycles 755 p10 755 p90 755 sum 1.87073
+spec grid:3:16 ram cycles 747 p10 747 p90 747 sum 1.87073
+spec grid:3:20 cycles 755 p10 755 p90 755 sum -0.759586
+spec grid:3:20 ram cycles 747 p10 747 p90 747 sum -0.759586
+spec grid:3:25 cycles 772 p10 755 p90 790 sum -2.41276
+spec grid:3:25 ram cycles 747 p10 747 p90 747 sum -2.41276
+spec grid:3:32 cycles 808 p10 755 p90 949 sum 9.13075
+spec grid:3:32 ram cycles 747 p10 747 p90 747 sum 9.13075
+spec grid:3:4 cycles 755 p10 755 p90 755 sum 2.17357
+spec grid:3:4 ram cycles 747 p10 747 p90 747 sum 2.17357
+spec grid:3:40 cycles 932 p10 843 p90 949 sum 8.58785
+spec grid:3:40 ram cycles 747 p10 747 p90 747 sum 8.58785
+spec grid:3:6 cycles 755 p10 755 p90 755 sum -9.71143
+spec grid:3:6 ram cycles 747 p10 747 p90 747 sum -9.71143
+spec grid:3:8 cycles 755 p10 755 p90 755 sum -1.05043
+spec grid:3:8 ram cycles 747 p10 747 p90 747 sum -1.05043
+spec grid:4:10 cycles 1411 p10 1376 p90 1411 sum 5.38265
+spec grid:4:10 ram cycles 1360 p10 1360 p90 1360 sum 5.38265
+spec grid:4:12 cycles 1499 p10 1393 p90 1641 sum -7.1209
+spec grid:4:12 ram cycles 1360 p10 1360 p90 1360 sum -7.1209
+spec grid:4:15 cycles 1623 p10 1482 p90 1747 sum -6.86838
+spec grid:4:15 ram cycles 1360 p10 1360 p90 1360 sum -6.86838
+spec grid:4:3 cycles 1376 p10 1376 p90 1376 sum 23.051
+spec grid:4:3 ram cycles 1360 p10 1360 p90 1360 sum 23.051
+spec grid:4:4 cycles 1376 p10 1376 p90 1376 sum -2.9313
+spec grid:4:4 ram cycles 1360 p10 1360 p90 1360 sum -2.9313
+spec grid:4:5 cycles 1376 p10 1376 p90 1376 sum -7.00162
+spec grid:4:5 ram cycles 1360 p10 1360 p90 1360 sum -7.00162
+spec grid:4:6 cycles 1376 p10 1376 p90 1376 sum -6.94102
+spec grid:4:6 ram cycles 1360 p10 1360 p90 1360 sum -6.94102
+spec grid:4:8 cycles 1376 p10 1376 p90 1376 sum 7.49737
+spec grid:4:8 ram cycles 1360 p10 1360 p90 1360 sum 7.49737
+spec grid:5:3 cycles 2653 p10 2653 p90 2653 sum 21.1454
+spec grid:5:3 ram cycles 2621 p10 2621 p90 2621 sum 21.1454
+spec grid:5:4 cycles 2653 p10 2653 p90 2653 sum -1.06027
+spec grid:5:4 ram cycles 2621 p10 2621 p90 2621 sum -1.06027
+spec grid:5:5 cycles 2653 p10 2653 p90 2653 sum 5.88814
+spec grid:5:5 ram cycles 2621 p10 2621 p90 2621 sum 5.88814
+spec grid:5:6 cycles 2653 p10 2653 p90 2653 sum 8.56426
+spec grid:5:6 ram cycles 2621 p10 2621 p90 2621 sum 8.56426
+spec grid:5:7 cycles 2812 p10 2653 p90 2883 sum -1.50372
+spec grid:5:7 ram cycles 2621 p10 2621 p90 2621 sum -1.50372
+spec grid:5:8 cycles 3574 p10 3449 p90 3998 sum -1.27474
+spec grid:5:8 ram cycles 2621 p10 2621 p90 2621 sum -1.27474
+spec grid:5:9 cycles 3838 p10 3519 p90 4032 sum 0.147351
+spec grid:5:9 ram cycles 2621 p10 2621 p90 2621 sum 0.147351
+spec grid:6:3 cycles 5338 p10 5338 p90 5338 sum 6.82397
+spec grid:6:3 ram cycles 5274 p10 5274 p90 5274 sum 6.82397
+spec grid:6:4 cycles 5338 p10 5338 p90 5338 sum 10.1608
+spec grid:6:4 ram cycles 5274 p10 5274 p90 5274 sum 10.1608
+spec grid:6:5 cycles 5568 p10 5391 p90 5656 sum -6.7561
+spec grid:6:5 ram cycles 5274 p10 5274 p90 5274 sum -6.7561
+spec grid:6:6 cycles 8134 p10 7709 p90 8241 sum -4.94943
+spec grid:6:6 ram cycles 5274 p10 5274 p90 5274 sum -4.94943
+spec grid:7:2 cycles 11031 p10 11031 p90 11031 sum -5.74236
+spec grid:7:2 ram cycles 10903 p10 10903 p90 10956 sum -5.74236
+spec grid:7:3 cycles 11031 p10 11031 p90 11031 sum -3.35254
+spec grid:7:3 ram cycles 10903 p10 10903 p90 10903 sum -3.35254
+spec grid:7:4 cycles 11367 p10 11101 p90 11508 sum 1.99639
+spec grid:7:4 ram cycles 10903 p10 10903 p90 10903 sum 1.99639
+spec gridv:3:12x12x14 cycles 928 p10 928 p90 928 sum 3.2797
+spec gridv:3:12x12x14 ram cycles 928 p10 928 p90 928 sum 3.2797
+spec gridv:3:18x19x23 cycles 928 p10 928 p90 928 sum -11.3288
+spec gridv:3:18x19x23 ram cycles 928 p10 928 p90 928 sum -11.3288
+spec gridv:3:23x24x29 cycles 1016 p10 928 p90 1051 sum -3.69102
+spec gridv:3:23x24x29 ram cycles 928 p10 928 p90 928 sum -3.69102
+spec gridv:3:29x31x36 cycles 1016 p10 963 p90 1051 sum 3.798
+spec gridv:3:29x31x36 ram cycles 928 p10 928 p90 928 sum 3.798
+spec gridv:3:37x38x46 cycles 1104 p10 981 p90 1104 sum -8.36244
+spec gridv:3:37x38x46 ram cycles 928 p10 928 p90 928 sum -8.36244
+spec gridv:3:9x10x11 cycles 928 p10 928 p90 928 sum -1.4376
+spec gridv:3:9x10x11 ram cycles 928 p10 928 p90 928 sum -1.4376
+spec gridv:4:10x10x12x13 cycles 1804 p10 1751 p90 1804 sum -1.52502
+spec gridv:4:10x10x12x13 ram cycles 1734 p10 1734 p90 1734 sum -1.52502
+spec gridv:4:12x12x15x15 cycles 2051 p10 1963 p90 2087 sum 5.53371
+spec gridv:4:12x12x15x15 ram cycles 1734 p10 1734 p90 1734 sum 5.53371
+spec gridv:4:13x41x3x5 cycles 1734 p10 1734 p90 1734 sum -2.62592
+spec gridv:4:13x41x3x5 ram cycles 1734 p10 1734 p90 1734 sum -2.62592
+spec gridv:4:15x14x17x18 cycles 2193 p10 2034 p90 2246 sum -9.94485
+spec gridv:4:15x14x17x18 ram cycles 1734 p10 1734 p90 1734 sum -9.94485
+spec gridv:4:16x15x2x2 cycles 1734 p10 1734 p90 1734 sum -13.791
+spec gridv:4:16x15x2x2 ram cycles 1734 p10 1734 p90 1734 sum -13.791
+spec gridv:4:17x53x3x6 cycles 1734 p10 1734 p90 1734 sum 5.26963
+spec gridv:4:17x53x3x6 ram cycles 1734 p10 1734 p90 1734 sum 5.26963
+spec gridv:4:18x18x3x2 cycles 1734 p10 1734 p90 1734 sum 1.24994
+spec gridv:4:18x18x3x2 ram cycles 1734 p10 1734 p90 1734 sum 1.24994
+spec gridv:4:22x70x3x7 cycles 1981 p10 1804 p90 2245 sum 3.0227
+spec gridv:4:22x70x3x7 ram cycles 1734 p10 1734 p90 1734 sum 3.0227
+spec gridv:4:25x81x4x8 cycles 2211 p10 2016 p90 2246 sum -6.32945
+spec gridv:4:25x81x4x8 ram cycles 1734 p10 1734 p90 1734 sum -6.32945
+spec gridv:4:32x31x4x2 cycles 1734 p10 1734 p90 1734 sum 4.26005
+spec gridv:4:32x31x4x2 ram cycles 1734 p10 1734 p90 1734 sum 4.26005
+spec gridv:4:40x40x5x2 cycles 1734 p10 1734 p90 1734 sum 8.33431
+spec gridv:4:40x40x5x2 ram cycles 1734 p10 1734 p90 1734 sum 8.33431
+spec gridv:4:58x56x5x2 cycles 1787 p10 1734 p90 1822 sum 8.11097
+spec gridv:4:58x56x5x2 ram cycles 1734 p10 1734 p90 1734 sum 8.11097
+spec gridv:4:5x5x6x6 cycles 1734 p10 1734 p90 1734 sum 8.38959
+spec gridv:4:5x5x6x6 ram cycles 1734 p10 1734 p90 1734 sum 8.38959
+spec gridv:4:61x59x6x3 cycles 1787 p10 1734 p90 1804 sum 5.97315
+spec gridv:4:61x59x6x3 ram cycles 1734 p10 1734 p90 1734 sum 5.97315
+spec gridv:4:6x6x7x8 cycles 1734 p10 1734 p90 1734 sum 0.265854
+spec gridv:4:6x6x7x8 ram cycles 1734 p10 1734 p90 1734 sum 0.265854
+spec gridv:4:7x24x2x3 cycles 1734 p10 1734 p90 1734 sum 1.61203
+spec gridv:4:7x24x2x3 ram cycles 1734 p10 1734 p90 1734 sum 1.61203
+spec gridv:4:9x28x2x4 cycles 1734 p10 1734 p90 1734 sum 5.11692
+spec gridv:4:9x28x2x4 ram cycles 1734 p10 1734 p90 1734 sum 5.11692
+spec gridv:4:9x8x10x11 cycles 1734 p10 1734 p90 1734 sum -1.35661
+spec gridv:4:9x8x10x11 ram cycles 1734 p10 1734 p90 1734 sum -1.35661
+spec gridv:5:10x7x4x19x3 cycles 3526 p10 3437 p90 3544 sum -2.16971
+spec gridv:5:10x7x4x19x3 ram cycles 3420 p10 3420 p90 3420 sum -2.16971
+spec gridv:5:10x9x12x12x5 cycles 3967 p10 3914 p90 4461 sum -0.531999
+spec gridv:5:10x9x12x12x5 ram cycles 3420 p10 3420 p90 3420 sum -0.531999
+spec gridv:5:11x8x5x24x3 cycles 4003 p10 3755 p90 4038 sum -0.267267
+spec gridv:5:11x8x5x24x3 ram cycles 3420 p10 3420 p90 3420 sum -0.267267
+spec gridv:5:13x9x5x28x4 cycles 4038 p10 4002 p90 4478 sum -1.12383
+spec gridv:5:13x9x5x28x4 ram cycles 3420 p10 3420 p90 3420 sum -1.12383
+spec gridv:5:2x4x10x4x3 cycles 3420 p10 3420 p90 3420 sum -2.94176
+spec gridv:5:2x4x10x4x3 ram cycles 3420 p10 3420 p90 3420 sum -2.94176
+spec gridv:5:2x5x13x5x3 cycles 3420 p10 3420 p90 3420 sum -3.08354
+spec gridv:5:2x5x13x5x3 ram cycles 3420 p10 3420 p90 3420 sum -3.08354
+spec gridv:5:3x2x14x4x3 cycles 3420 p10 3420 p90 3420 sum -5.12337
+spec gridv:5:3x2x14x4x3 ram cycles 3420 p10 3420 p90 3420 sum -5.12337
+spec gridv:5:3x6x16x7x4 cycles 3420 p10 3420 p90 3420 sum 7.35727
+spec gridv:5:3x6x16x7x4 ram cycles 3420 p10 3420 p90 3420 sum 7.35727
+spec gridv:5:3x8x21x8x4 cycles 3473 p10 3455 p90 3490 sum -1.76296
+spec gridv:5:3x8x21x8x4 ram cycles 3420 p10 3420 p90 3420 sum -1.76296
+spec gridv:5:3x9x26x9x5 cycles 3985 p10 3791 p90 4037 sum 4.74073
+spec gridv:5:3x9x26x9x5 ram cycles 3420 p10 3420 p90 3420 sum 4.74073
+spec gridv:5:4x2x16x5x3 cycles 3420 p10 3420 p90 3420 sum 4.11524
+spec gridv:5:4x2x16x5x3 ram cycles 3420 p10 3420 p90 3420 sum 4.11524
+spec gridv:5:4x4x4x5x3 cycles 3420 p10 3420 p90 3420 sum 0.162876
+spec gridv:5:4x4x4x5x3 ram cycles 3420 p10 3420 p90 3420 sum 0.162876
+spec gridv:5:4x9x30x10x6 cycles 4496 p10 4161 p90 4919 sum -0.303065
+spec gridv:5:4x9x30x10x6 ram cycles 3420 p10 3420 p90 3420 sum -0.303065
+spec gridv:5:5x3x22x6x4 cycles 3420 p10 3420 p90 3420 sum 0.480531
+spec gridv:5:5x3x22x6x4 ram cycles 3420 p10 3420 p90 3420 sum 0.480531
+spec gridv:5:5x3x31x7x5 cycles 3543 p10 3473 p90 3614 sum -6.27665
+spec gridv:5:5x3x31x7x5 ram cycles 3420 p10 3420 p90 3420 sum -6.27665
+spec gridv:5:5x5x5x5x3 cycles 3420 p10 3420 p90 3420 sum -2.61303
+spec gridv:5:5x5x5x5x3 ram cycles 3420 p10 3420 p90 3420 sum -2.61303
+spec gridv:5:6x3x33x9x6 cycles 3932 p10 3720 p90 4249 sum -1.26381
+spec gridv:5:6x3x33x9x6 ram cycles 3420 p10 3420 p90 3420 sum -1.26381
+spec gridv:5:6x4x2x10x2 cycles 3420 p10 3420 p90 3420 sum 7.04199
+spec gridv:5:6x4x2x10x2 ram cycles 3420 p10 3420 p90 3420 sum 7.04199
+spec gridv:5:6x5x3x11x2 cycles 3420 p10 3420 p90 3420 sum -1.44621
+spec gridv:5:6x5x3x11x2 ram cycles 3420 p10 3420 p90 3420 sum -1.44621
+spec gridv:5:6x6x7x8x4 cycles 3420 p10 3420 p90 3420 sum 0.903271
+spec gridv:5:6x6x7x8x4 ram cycles 3420 p10 3420 p90 3420 sum 0.903271
+spec gridv:5:7x4x37x9x7 cycles 4337 p10 4231 p90 4425 sum 5.40531
+spec gridv:5:7x4x37x9x7 ram cycles 3420 p10 3420 p90 3420 sum 5.40531
+spec gridv:5:7x7x9x9x4 cycles 3473 p10 3420 p90 3490 sum 1.55371
+spec gridv:5:7x7x9x9x4 ram cycles 3420 p10 3420 p90 3420 sum 1.55371
+spec gridv:5:8x6x3x18x3 cycles 3420 p10 3420 p90 3420 sum -0.3921
+spec gridv:5:8x6x3x18x3 ram cycles 3420 p10 3420 p90 3420 sum -0.3921
+spec gridv:5:9x9x10x10x4 cycles 3932 p10 3791 p90 3985 sum -6.23752
+spec gridv:5:9x9x10x10x4 ram cycles 3420 p10 3420 p90 3420 sum -6.23752
+spec gridv:6:2x2x7x9x2x2 cycles 7010 p10 7010 p90 7010 sum 4.44941
+spec gridv:6:2x2x7x9x2x2 ram cycles 7010 p10 7010 p90 7010 sum 4.44941
+spec gridv:6:3x2x8x10x2x2 cycles 7010 p10 7010 p90 7010 sum 1.69653
+spec gridv:6:3x2x8x10x2x2 ram cycles 7010 p10 7010 p90 7010 sum 1.69653
+spec gridv:6:4x3x11x15x2x2 cycles 7010 p10 7010 p90 7010 sum 7.08283
+spec gridv:6:4x3x11x15x2x2 ram cycles 7010 p10 7010 p90 7010 sum 7.08283
+spec gridv:6:4x3x15x22x2x2 cycles 7045 p10 7010 p90 7063 sum -0.143687
+spec gridv:6:4x3x15x22x2x2 ram cycles 7010 p10 7010 p90 7010 sum -0.143687
+spec gridv:6:4x3x4x5x2x2 cycles 7010 p10 7010 p90 7010 sum 1.75733
+spec gridv:6:4x3x4x5x2x2 ram cycles 7010 p10 7010 p90 7010 sum 1.75733
+spec gridv:6:4x4x4x5x3x2 cycles 7010 p10 7010 p90 7010 sum -0.188451
+spec gridv:6:4x4x4x5x3x2 ram cycles 7010 p10 7010 p90 7010 sum -0.188451
+spec gridv:6:5x3x16x22x2x3 cycles 7743 p10 7628 p90 7822 sum 3.7088
+spec gridv:6:5x3x16x22x2x3 ram cycles 7010 p10 7010 p90 7010 sum 3.7088
+spec gridv:6:5x4x19x28x2x3 cycles 8351 p10 8192 p90 8580 sum 1.81873
+spec gridv:6:5x4x19x28x2x3 ram cycles 7010 p10 7010 p90 7010 sum 1.81873
+spec gridv:6:5x5x6x6x3x3 cycles 7010 p10 7010 p90 7010 sum -4.29139
+spec gridv:6:5x5x6x6x3x3 ram cycles 7010 p10 7010 p90 7010 sum -4.29139
+spec gridv:6:6x6x7x7x3x3 cycles 7257 p10 7134 p90 7275 sum 0.889205
+spec gridv:6:6x6x7x7x3x3 ram cycles 7010 p10 7010 p90 7010 sum 0.889205
+spec gridv:6:7x6x8x8x4x3 cycles 8263 p10 7770 p90 8368 sum 0.645667
+spec gridv:6:7x6x8x8x4x3 ram cycles 7010 p10 7010 p90 7010 sum 0.645667
+spec gridv:6:7x7x9x9x4x4 cycles 9797 p10 9268 p90 10061 sum 4.69851
+spec gridv:6:7x7x9x9x4x4 ram cycles 7010 p10 7010 p90 7010 sum 4.69851
+spec gridv:7:10x10x3x3x3x3x4 cycles 18805 p10 18575 p90 18936 sum 4.98751
+spec gridv:7:10x10x3x3x3x3x4 ram cycles 14696 p10 14696 p90 14749 sum 4.98751
+spec gridv:7:12x13x3x3x3x3x5 cycles 21854 p10 21061 p90 22171 sum -1.72141
+spec gridv:7:12x13x3x3x3x3x5 ram cycles 14696 p10 14696 p90 14773 sum -1.72141
+spec gridv:7:3x3x3x4x2x2x2 cycles 14696 p10 14696 p90 14749 sum -9.26896
+spec gridv:7:3x3x3x4x2x2x2 ram cycles 14696 p10 14696 p90 14696 sum -9.26896
+spec gridv:7:3x3x4x4x2x2x3 cycles 14696 p10 14696 p90 14749 sum 0.0795526
+spec gridv:7:3x3x4x4x2x2x3 ram cycles 14696 p10 14696 p90 14749 sum 0.0795526
+spec gridv:7:4x4x5x5x2x3x3 cycles 14696 p10 14696 p90 14749 sum 0.0926955
+spec gridv:7:4x4x5x5x2x3x3 ram cycles 14696 p10 14696 p90 14749 sum 0.0926955
+spec gridv:7:4x5x2x2x2x2x3 cycles 14696 p10 14696 p90 14749 sum -6.27801
+spec gridv:7:4x5x2x2x2x2x3 ram cycles 14696 p10 14696 p90 14749 sum -6.27801
+spec gridv:7:5x4x5x6x3x3x3 cycles 15014 p10 14996 p90 15297 sum 1.21652
+spec gridv:7:5x4x5x6x3x3x3 ram cycles 14696 p10 14696 p90 14696 sum 1.21652
+spec gridv:7:5x5x6x6x3x3x4 cycles 18100 p10 17500 p90 18452 sum -2.44013
+spec gridv:7:5x5x6x6x3x3x4 ram cycles 14696 p10 14696 p90 14774 sum -2.44013
+spec gridv:7:6x6x7x7x3x3x4 cycles 21238 p10 20374 p90 21342 sum 4.45317
+spec gridv:7:6x6x7x7x3x3x4 ram cycles 14696 p10 14696 p90 14773 sum 4.45317
+spec gridv:7:6x7x2x2x2x2x3 cycles 14696 p10 14696 p90 14749 sum 8.11764
+spec gridv:7:6x7x2x2x2x2x3 ram cycles 14696 p10 14696 p90 14696 sum 8.11764
+spec gridv:7:7x8x3x2x2x3x4 cycles 14696 p10 14696 p90 14749 sum -3.79674
+spec gridv:7:7x8x3x2x2x3x4 ram cycles 14696 p10 14696 p90 14696 sum -3.79674
+spec gridv:7:8x9x3x2x3x3x4 cycles 15032 p10 14890 p90 15084 sum -0.635789
+spec gridv:7:8x9x3x2x3x3x4 ram cycles 14696 p10 14696 p90 14749 sum -0.635789
+spec kan16:3-16-16-1:256 cycles 13454 p10 13189 p90 13526 sum 4181.79
+spec kan16:3-16-16-1:256 ram n/a
+spec kan16:3-16-16-1:64 cycles 7536 p10 7157 p90 7883 sum 10528.4
+spec kan16:3-16-16-1:64 ram cycles 5245 p10 5244 p90 5245 sum 10528.4
+spec kan16:3-16-1:256 cycles 2248 p10 2214 p90 2302 sum 4862.87
+spec kan16:3-16-1:256 ram cycles 2151 p10 2150 p90 2152 sum 4862.87
+spec kan16:3-16-1:64 cycles 2196 p10 2196 p90 2197 sum -3811.6
+spec kan16:3-16-1:64 ram cycles 2151 p10 2151 p90 2152 sum -3811.6
+spec kan16:3-32-1:256 cycles 4480 p10 4195 p90 4550 sum 4093.66
+spec kan16:3-32-1:256 ram cycles 3731 p10 3730 p90 3732 sum 4093.66
+spec kan16:3-32-1:64 cycles 3824 p10 3823 p90 3825 sum -3255.74
+spec kan16:3-32-1:64 ram cycles 3731 p10 3730 p90 3732 sum -3255.74
+spec kan16:3-4-1:256 cycles 974 p10 973 p90 974 sum -883.814
+spec kan16:3-4-1:256 ram cycles 965 p10 964 p90 965 sum -883.814
+spec kan16:3-4-1:64 cycles 973 p10 973 p90 974 sum -123.119
+spec kan16:3-4-1:64 ram cycles 964 p10 964 p90 965 sum -123.119
+spec kan16:3-8-1:256 cycles 1382 p10 1381 p90 1382 sum -1689.16
+spec kan16:3-8-1:256 ram cycles 1361 p10 1360 p90 1361 sum -1689.16
+spec kan16:3-8-1:64 cycles 1382 p10 1382 p90 1382 sum 1821.17
+spec kan16:3-8-1:64 ram cycles 1361 p10 1361 p90 1361 sum 1821.17
+spec kan16:3-8-8-1:256 cycles 3233 p10 3198 p90 3622 sum -3123.24
+spec kan16:3-8-8-1:256 ram cycles 2537 p10 2536 p90 2537 sum -3123.24
+spec kan16:3-8-8-1:64 cycles 2612 p10 2611 p90 2612 sum -1465.34
+spec kan16:3-8-8-1:64 ram cycles 2535 p10 2534 p90 2535 sum -1465.34
+spec kan16:4-16-16-1:256 cycles 13781 p10 13727 p90 14029 sum -1928.28
+spec kan16:4-16-16-1:256 ram n/a
+spec kan16:4-16-16-1:64 cycles 7555 p10 7273 p90 7572 sum -1619.43
+spec kan16:4-16-16-1:64 ram cycles 5415 p10 5414 p90 5415 sum -1619.43
+spec kan16:4-16-1:256 cycles 2558 p10 2487 p90 2575 sum -3508.09
+spec kan16:4-16-1:256 ram cycles 2321 p10 2321 p90 2321 sum -3508.09
+spec kan16:4-16-1:64 cycles 2381 p10 2380 p90 2382 sum 972.865
+spec kan16:4-16-1:64 ram cycles 2321 p10 2320 p90 2322 sum 972.865
+spec kan16:4-32-1:256 cycles 5482 p10 5111 p90 5606 sum -3299.5
+spec kan16:4-32-1:256 ram cycles 4013 p10 4013 p90 4013 sum -3299.5
+spec kan16:4-32-1:64 cycles 4138 p10 4136 p90 4244 sum -830.06
+spec kan16:4-32-1:64 ram cycles 4014 p10 4012 p90 4014 sum -830.06
+spec kan16:4-4-1:256 cycles 1063 p10 1062 p90 1063 sum 966.854
+spec kan16:4-4-1:256 ram cycles 1051 p10 1050 p90 1051 sum 966.854
+spec kan16:4-4-1:64 cycles 1063 p10 1062 p90 1063 sum -2796.15
+spec kan16:4-4-1:64 ram cycles 1051 p10 1050 p90 1051 sum -2796.15
+spec kan16:4-8-1:256 cycles 1503 p10 1502 p90 1503 sum -2537.69
+spec kan16:4-8-1:256 ram cycles 1475 p10 1474 p90 1475 sum -2537.69
+spec kan16:4-8-1:64 cycles 1503 p10 1503 p90 1503 sum -2495.43
+spec kan16:4-8-1:64 ram cycles 1475 p10 1475 p90 1475 sum -2495.43
+spec kan16:4-8-8-1:256 cycles 3354 p10 3177 p90 3372 sum 1048.04
+spec kan16:4-8-8-1:256 ram cycles 2651 p10 2650 p90 2651 sum 1048.04
+spec kan16:4-8-8-1:64 cycles 2733 p10 2733 p90 2733 sum 459.604
+spec kan16:4-8-8-1:64 ram cycles 2649 p10 2649 p90 2649 sum 459.604
+spec kan16:5-16-16-1:256 cycles 14301 p10 14035 p90 14638 sum 5789.22
+spec kan16:5-16-16-1:256 ram n/a
+spec kan16:5-16-16-1:64 cycles 7935 p10 7740 p90 8252 sum -7665.09
+spec kan16:5-16-16-1:64 ram cycles 5585 p10 5585 p90 5585 sum -7665.09
+spec kan16:5-16-1:256 cycles 2901 p10 2831 p90 3132 sum 3529.03
+spec kan16:5-16-1:256 ram cycles 2491 p10 2490 p90 2491 sum 3529.03
+spec kan16:5-16-1:64 cycles 2566 p10 2566 p90 2566 sum 364.995
+spec kan16:5-16-1:64 ram cycles 2491 p10 2491 p90 2491 sum 364.995
+spec kan16:5-32-1:256 cycles 6291 p10 6184 p90 6398 sum 4803.76
+spec kan16:5-32-1:256 ram cycles 4295 p10 4294 p90 4295 sum 4803.76
+spec kan16:5-32-1:64 cycles 4616 p10 4538 p90 4822 sum -1520.93
+spec kan16:5-32-1:64 ram cycles 4295 p10 4294 p90 4296 sum -1520.93
+spec kan16:5-4-1:256 cycles 1152 p10 1151 p90 1152 sum -1446.65
+spec kan16:5-4-1:256 ram cycles 1137 p10 1136 p90 1137 sum -1446.65
+spec kan16:5-4-1:64 cycles 1152 p10 1151 p90 1152 sum -957.847
+spec kan16:5-4-1:64 ram cycles 1137 p10 1136 p90 1137 sum -957.847
+spec kan16:5-8-1:256 cycles 1677 p10 1641 p90 1784 sum -2320.4
+spec kan16:5-8-1:256 ram cycles 1589 p10 1588 p90 1589 sum -2320.4
+spec kan16:5-8-1:64 cycles 1624 p10 1624 p90 1624 sum -1935.33
+spec kan16:5-8-1:64 ram cycles 1589 p10 1589 p90 1589 sum -1935.33
+spec kan16:5-8-8-1:256 cycles 3475 p10 3385 p90 3775 sum 2743.25
+spec kan16:5-8-8-1:256 ram cycles 2765 p10 2764 p90 2765 sum 2743.25
+spec kan16:5-8-8-1:64 cycles 2854 p10 2854 p90 2855 sum 2406.02
+spec kan16:5-8-8-1:64 ram cycles 2763 p10 2763 p90 2764 sum 2406.02
+spec kan16:6-16-16-1:256 cycles 14699 p10 14539 p90 15069 sum 2062.61
+spec kan16:6-16-16-1:256 ram n/a
+spec kan16:6-16-16-1:64 cycles 8333 p10 7501 p90 8420 sum 1783.84
+spec kan16:6-16-16-1:64 ram cycles 5756 p10 5755 p90 5757 sum 1783.84
+spec kan16:6-16-1:256 cycles 3441 p10 3317 p90 3600 sum 4871.27
+spec kan16:6-16-1:256 ram cycles 2661 p10 2661 p90 2661 sum 4871.27
+spec kan16:6-16-1:64 cycles 2751 p10 2750 p90 2751 sum 2638.03
+spec kan16:6-16-1:64 ram cycles 2661 p10 2660 p90 2661 sum 2638.03
+spec kan16:6-32-1:256 cycles 7844 p10 7452 p90 8003 sum -2989.82
+spec kan16:6-32-1:256 ram cycles 4576 p10 4576 p90 4577 sum -2989.82
+spec kan16:6-32-1:64 cycles 5083 p10 4959 p90 5152 sum 6115.88
+spec kan16:6-32-1:64 ram cycles 4578 p10 4576 p90 4578 sum 6115.88
+spec kan16:6-4-1:256 cycles 1241 p10 1240 p90 1241 sum 201.296
+spec kan16:6-4-1:256 ram cycles 1223 p10 1222 p90 1223 sum 201.296
+spec kan16:6-4-1:64 cycles 1241 p10 1240 p90 1241 sum 475.007
+spec kan16:6-4-1:64 ram cycles 1223 p10 1222 p90 1223 sum 475.007
+spec kan16:6-8-1:256 cycles 1816 p10 1798 p90 1940 sum 1628.03
+spec kan16:6-8-1:256 ram cycles 1703 p10 1702 p90 1703 sum 1628.03
+spec kan16:6-8-1:64 cycles 1745 p10 1745 p90 1745 sum -3758.17
+spec kan16:6-8-1:64 ram cycles 1703 p10 1703 p90 1703 sum -3758.17
+spec kan16:6-8-8-1:256 cycles 3542 p10 3436 p90 3631 sum -646.837
+spec kan16:6-8-8-1:256 ram cycles 2878 p10 2878 p90 2879 sum -646.837
+spec kan16:6-8-8-1:64 cycles 2974 p10 2974 p90 2975 sum 3382.96
+spec kan16:6-8-8-1:64 ram cycles 2877 p10 2876 p90 2877 sum 3382.96
+spec kan16:7-16-16-1:256 cycles 15501 p10 15327 p90 15555 sum -1555.31
+spec kan16:7-16-16-1:256 ram n/a
+spec kan16:7-16-16-1:64 cycles 8234 p10 8076 p90 8411 sum 447.256
+spec kan16:7-16-16-1:64 ram cycles 5926 p10 5925 p90 5926 sum 447.256
+spec kan16:7-16-1:256 cycles 4192 p10 3997 p90 4210 sum -365.489
+spec kan16:7-16-1:256 ram cycles 2831 p10 2830 p90 2831 sum -365.489
+spec kan16:7-16-1:64 cycles 2936 p10 2935 p90 2936 sum -4650.67
+spec kan16:7-16-1:64 ram cycles 2831 p10 2830 p90 2831 sum -4650.67
+spec kan16:7-32-1:256 cycles 8811 p10 8635 p90 8917 sum 4771.93
+spec kan16:7-32-1:256 ram cycles 4859 p10 4858 p90 4860 sum 4771.93
+spec kan16:7-32-1:64 cycles 5313 p10 5235 p90 5342 sum 2400.31
+spec kan16:7-32-1:64 ram cycles 4859 p10 4859 p90 4860 sum 2400.31
+spec kan16:7-4-1:256 cycles 1330 p10 1329 p90 1330 sum -2206.24
+spec kan16:7-4-1:256 ram cycles 1309 p10 1308 p90 1309 sum -2206.24
+spec kan16:7-4-1:64 cycles 1330 p10 1329 p90 1330 sum 1081.42
+spec kan16:7-4-1:64 ram cycles 1309 p10 1308 p90 1309 sum 1081.42
+spec kan16:7-8-1:256 cycles 1919 p10 1901 p90 1990 sum 3048.4
+spec kan16:7-8-1:256 ram cycles 1817 p10 1817 p90 1817 sum 3048.4
+spec kan16:7-8-1:64 cycles 1866 p10 1866 p90 1866 sum 75.628
+spec kan16:7-8-1:64 ram cycles 1817 p10 1817 p90 1817 sum 75.628
+spec kan16:7-8-8-1:256 cycles 3750 p10 3663 p90 3768 sum -1588.41
+spec kan16:7-8-8-1:256 ram cycles 2991 p10 2990 p90 2991 sum -1588.41
+spec kan16:7-8-8-1:64 cycles 3096 p10 3095 p90 3096 sum -4212.97
+spec kan16:7-8-8-1:64 ram cycles 2991 p10 2990 p90 2991 sum -4212.97
+spec lin16:3-16-16-1:128 cycles 18504 p10 18275 p90 18682 sum -2503.07
+spec lin16:3-16-16-1:128 ram cycles 8254 p10 8254 p90 8255 sum -2503.07
+spec lin16:3-16-16-1:16 cycles 8892 p10 8892 p90 8893 sum -773.769
+spec lin16:3-16-16-1:16 ram cycles 8252 p10 8252 p90 8253 sum -773.769
+spec lin16:3-16-16-1:256 cycles 21215 p10 21144 p90 21517 sum 4596.24
+spec lin16:3-16-16-1:256 ram n/a
+spec lin16:3-16-16-1:64 cycles 11868 p10 10912 p90 12595 sum 11112.1
+spec lin16:3-16-16-1:64 ram cycles 8254 p10 8254 p90 8255 sum 11112.1
+spec lin16:3-16-1:128 cycles 3145 p10 3145 p90 3145 sum -3278.11
+spec lin16:3-16-1:128 ram cycles 3017 p10 3017 p90 3017 sum -3278.11
+spec lin16:3-16-1:16 cycles 3144 p10 3144 p90 3145 sum 964.619
+spec lin16:3-16-1:16 ram cycles 3016 p10 3016 p90 3017 sum 964.619
+spec lin16:3-16-1:256 cycles 3181 p10 3181 p90 3251 sum 4943.27
+spec lin16:3-16-1:256 ram cycles 3017 p10 3017 p90 3018 sum 4943.27
+spec lin16:3-16-1:64 cycles 3145 p10 3145 p90 3146 sum -3352.81
+spec lin16:3-16-1:64 ram cycles 3017 p10 3017 p90 3018 sum -3352.81
+spec lin16:3-32-1:128 cycles 5796 p10 5758 p90 5884 sum 3612.74
+spec lin16:3-32-1:128 ram cycles 5398 p10 5396 p90 5398 sum 3612.74
+spec lin16:3-32-1:16 cycles 5654 p10 5652 p90 5654 sum -841.663
+spec lin16:3-32-1:16 ram cycles 5398 p10 5396 p90 5398 sum -841.663
+spec lin16:3-32-1:256 cycles 7034 p10 6750 p90 7228 sum 4261.93
+spec lin16:3-32-1:256 ram cycles 5397 p10 5396 p90 5397 sum 4261.93
+spec lin16:3-32-1:64 cycles 5654 p10 5652 p90 5654 sum -3319.11
+spec lin16:3-32-1:64 ram cycles 5398 p10 5396 p90 5398 sum -3319.11
+spec lin16:3-4-1:128 cycles 1263 p10 1263 p90 1263 sum 474.938
+spec lin16:3-4-1:128 ram cycles 1231 p10 1231 p90 1231 sum 474.938
+spec lin16:3-4-1:16 cycles 1263 p10 1262 p90 1263 sum -178.346
+spec lin16:3-4-1:16 ram cycles 1231 p10 1230 p90 1231 sum -178.346
+spec lin16:3-4-1:256 cycles 1263 p10 1262 p90 1263 sum -969.355
+spec lin16:3-4-1:256 ram cycles 1231 p10 1230 p90 1231 sum -969.355
+spec lin16:3-4-1:64 cycles 1262 p10 1262 p90 1263 sum -233.136
+spec lin16:3-4-1:64 ram cycles 1230 p10 1230 p90 1231 sum -233.136
+spec lin16:3-8-1:128 cycles 1891 p10 1890 p90 1891 sum -1909.98
+spec lin16:3-8-1:128 ram cycles 1827 p10 1826 p90 1827 sum -1909.98
+spec lin16:3-8-1:16 cycles 1891 p10 1891 p90 1891 sum 267.201
+spec lin16:3-8-1:16 ram cycles 1827 p10 1827 p90 1827 sum 267.201
+spec lin16:3-8-1:256 cycles 1891 p10 1890 p90 1891 sum -1357.25
+spec lin16:3-8-1:256 ram cycles 1827 p10 1826 p90 1827 sum -1357.25
+spec lin16:3-8-1:64 cycles 1890 p10 1890 p90 1891 sum 1972.69
+spec lin16:3-8-1:64 ram cycles 1827 p10 1826 p90 1827 sum 1972.69
+spec lin16:3-8-8-1:128 cycles 4366 p10 4085 p90 4420 sum -1284.25
+spec lin16:3-8-8-1:128 ram cycles 3627 p10 3626 p90 3627 sum -1284.25
+spec lin16:3-8-8-1:16 cycles 3817 p10 3816 p90 3817 sum -3111.59
+spec lin16:3-8-8-1:16 ram cycles 3625 p10 3624 p90 3625 sum -3111.59
+spec lin16:3-8-8-1:256 cycles 4690 p10 4384 p90 4775 sum -2965.41
+spec lin16:3-8-8-1:256 ram cycles 3627 p10 3627 p90 3627 sum -2965.41
+spec lin16:3-8-8-1:64 cycles 3817 p10 3816 p90 3817 sum -1645.37
+spec lin16:3-8-8-1:64 ram cycles 3625 p10 3624 p90 3625 sum -1645.37
+spec lin16:4-16-16-1:128 cycles 18754 p10 17798 p90 19267 sum 4152.71
+spec lin16:4-16-16-1:128 ram cycles 8558 p10 8557 p90 8558 sum 4152.71
+spec lin16:4-16-16-1:16 cycles 9230 p10 9229 p90 9230 sum 1493.11
+spec lin16:4-16-16-1:16 ram cycles 8558 p10 8557 p90 8558 sum 1493.11
+spec lin16:4-16-16-1:256 cycles 22083 p10 21977 p90 22276 sum -1727.12
+spec lin16:4-16-16-1:256 ram n/a
+spec lin16:4-16-16-1:64 cycles 11905 p10 11691 p90 12026 sum -1610.9
+spec lin16:4-16-16-1:64 ram cycles 8559 p10 8559 p90 8560 sum -1610.9
+spec lin16:4-16-1:128 cycles 3481 p10 3480 p90 3534 sum -952.626
+spec lin16:4-16-1:128 ram cycles 3321 p10 3320 p90 3321 sum -952.626
+spec lin16:4-16-1:16 cycles 3480 p10 3480 p90 3481 sum -6826.72
+spec lin16:4-16-1:16 ram cycles 3321 p10 3320 p90 3321 sum -6826.72
+spec lin16:4-16-1:256 cycles 3746 p10 3711 p90 3782 sum -3723.32
+spec lin16:4-16-1:256 ram cycles 3321 p10 3321 p90 3321 sum -3723.32
+spec lin16:4-16-1:64 cycles 3481 p10 3481 p90 3481 sum 406.752
+spec lin16:4-16-1:64 ram cycles 3321 p10 3321 p90 3321 sum 406.752
+spec lin16:4-32-1:128 cycles 7094 p10 7040 p90 7201 sum -821.481
+spec lin16:4-32-1:128 ram cycles 5925 p10 5925 p90 5926 sum -821.481
+spec lin16:4-32-1:16 cycles 6246 p10 6245 p90 6247 sum -3779.62
+spec lin16:4-32-1:16 ram cycles 5926 p10 5925 p90 5927 sum -3779.62
+spec lin16:4-32-1:256 cycles 8988 p10 8758 p90 9165 sum -3813.01
+spec lin16:4-32-1:256 ram cycles 5925 p10 5924 p90 5926 sum -3813.01
+spec lin16:4-32-1:64 cycles 6298 p10 6244 p90 6333 sum -1053.17
+spec lin16:4-32-1:64 ram cycles 5925 p10 5924 p90 5926 sum -1053.17
+spec lin16:4-4-1:128 cycles 1407 p10 1407 p90 1407 sum -920.384
+spec lin16:4-4-1:128 ram cycles 1367 p10 1367 p90 1367 sum -920.384
+spec lin16:4-4-1:16 cycles 1407 p10 1406 p90 1407 sum -720.12
+spec lin16:4-4-1:16 ram cycles 1367 p10 1366 p90 1367 sum -720.12
+spec lin16:4-4-1:256 cycles 1407 p10 1406 p90 1407 sum 903.03
+spec lin16:4-4-1:256 ram cycles 1367 p10 1366 p90 1367 sum 903.03
+spec lin16:4-4-1:64 cycles 1407 p10 1406 p90 1407 sum -2817.65
+spec lin16:4-4-1:64 ram cycles 1367 p10 1366 p90 1367 sum -2817.65
+spec lin16:4-8-1:128 cycles 2099 p10 2098 p90 2099 sum 1418.62
+spec lin16:4-8-1:128 ram cycles 2019 p10 2018 p90 2019 sum 1418.62
+spec lin16:4-8-1:16 cycles 2099 p10 2098 p90 2099 sum 967.572
+spec lin16:4-8-1:16 ram cycles 2018 p10 2018 p90 2019 sum 967.572
+spec lin16:4-8-1:256 cycles 2099 p10 2098 p90 2099 sum -2865.7
+spec lin16:4-8-1:256 ram cycles 2019 p10 2018 p90 2019 sum -2865.7
+spec lin16:4-8-1:64 cycles 2099 p10 2099 p90 2099 sum -2819.16
+spec lin16:4-8-1:64 ram cycles 2019 p10 2019 p90 2019 sum -2819.16
+spec lin16:4-8-8-1:128 cycles 4222 p10 4081 p90 4292 sum 67.2155
+spec lin16:4-8-8-1:128 ram cycles 3819 p10 3818 p90 3820 sum 67.2155
+spec lin16:4-8-8-1:16 cycles 4024 p10 4024 p90 4025 sum 3132.28
+spec lin16:4-8-8-1:16 ram cycles 3816 p10 3816 p90 3817 sum 3132.28
+spec lin16:4-8-8-1:256 cycles 4540 p10 4486 p90 4858 sum 1401.08
+spec lin16:4-8-8-1:256 ram cycles 3819 p10 3818 p90 3819 sum 1401.08
+spec lin16:4-8-8-1:64 cycles 4025 p10 4025 p90 4025 sum 228.58
+spec lin16:4-8-8-1:64 ram cycles 3817 p10 3817 p90 3817 sum 228.58
+spec lin16:5-16-16-1:128 cycles 19001 p10 18930 p90 19752 sum -3032.59
+spec lin16:5-16-16-1:128 ram cycles 8863 p10 8862 p90 8863 sum -3032.59
+spec lin16:5-16-16-1:16 cycles 9566 p10 9564 p90 9567 sum -109.544
+spec lin16:5-16-16-1:16 ram cycles 8862 p10 8860 p90 8862 sum -109.544
+spec lin16:5-16-16-1:256 cycles 22946 p10 22594 p90 23089 sum 6235.47
+spec lin16:5-16-16-1:256 ram n/a
+spec lin16:5-16-16-1:64 cycles 12576 p10 11673 p90 12771 sum -7314.05
+spec lin16:5-16-16-1:64 ram cycles 8863 p10 8863 p90 8863 sum -7314.05
+spec lin16:5-16-1:128 cycles 4011 p10 3905 p90 4012 sum 467.446
+spec lin16:5-16-1:128 ram cycles 3625 p10 3624 p90 3626 sum 467.446
+spec lin16:5-16-1:16 cycles 3817 p10 3816 p90 3817 sum -3623.35
+spec lin16:5-16-1:16 ram cycles 3625 p10 3624 p90 3625 sum -3623.35
+spec lin16:5-16-1:256 cycles 4666 p10 4542 p90 4843 sum 3082.97
+spec lin16:5-16-1:256 ram cycles 3625 p10 3624 p90 3625 sum 3082.97
+spec lin16:5-16-1:64 cycles 3817 p10 3817 p90 3817 sum 731.038
+spec lin16:5-16-1:64 ram cycles 3625 p10 3625 p90 3625 sum 731.038
+spec lin16:5-32-1:128 cycles 8819 p10 8730 p90 9403 sum 2569.35
+spec lin16:5-32-1:128 ram cycles 6453 p10 6453 p90 6454 sum 2569.35
+spec lin16:5-32-1:16 cycles 6839 p10 6838 p90 6839 sum 4641.31
+spec lin16:5-32-1:16 ram cycles 6455 p10 6454 p90 6455 sum 4641.31
+spec lin16:5-32-1:256 cycles 11012 p10 10677 p90 11242 sum 5766.85
+spec lin16:5-32-1:256 ram cycles 6453 p10 6452 p90 6454 sum 5766.85
+spec lin16:5-32-1:64 cycles 7092 p10 7013 p90 7403 sum -2140.17
+spec lin16:5-32-1:64 ram cycles 6453 p10 6453 p90 6454 sum -2140.17
+spec lin16:5-4-1:128 cycles 1551 p10 1551 p90 1551 sum -2452.01
+spec lin16:5-4-1:128 ram cycles 1503 p10 1503 p90 1503 sum -2452.01
+spec lin16:5-4-1:16 cycles 1550 p10 1550 p90 1551 sum 1531.79
+spec lin16:5-4-1:16 ram cycles 1502 p10 1502 p90 1503 sum 1531.79
+spec lin16:5-4-1:256 cycles 1551 p10 1551 p90 1551 sum -1394.84
+spec lin16:5-4-1:256 ram cycles 1503 p10 1503 p90 1503 sum -1394.84
+spec lin16:5-4-1:64 cycles 1551 p10 1550 p90 1551 sum -839.555
+spec lin16:5-4-1:64 ram cycles 1503 p10 1502 p90 1503 sum -839.555
+spec lin16:5-8-1:128 cycles 2307 p10 2307 p90 2307 sum -1704.07
+spec lin16:5-8-1:128 ram cycles 2211 p10 2211 p90 2211 sum -1704.07
+spec lin16:5-8-1:16 cycles 2307 p10 2306 p90 2307 sum -4035.42
+spec lin16:5-8-1:16 ram cycles 2211 p10 2210 p90 2211 sum -4035.42
+spec lin16:5-8-1:256 cycles 2360 p10 2306 p90 2501 sum -2449.5
+spec lin16:5-8-1:256 ram cycles 2211 p10 2210 p90 2211 sum -2449.5
+spec lin16:5-8-1:64 cycles 2307 p10 2307 p90 2308 sum -1931.29
+spec lin16:5-8-1:64 ram cycles 2211 p10 2211 p90 2212 sum -1931.29
+spec lin16:5-8-8-1:128 cycles 4235 p10 4235 p90 4448 sum 2618.86
+spec lin16:5-8-8-1:128 ram cycles 4011 p10 4011 p90 4011 sum 2618.86
+spec lin16:5-8-8-1:16 cycles 4234 p10 4233 p90 4234 sum 2927.47
+spec lin16:5-8-8-1:16 ram cycles 4010 p10 4009 p90 4010 sum 2927.47
+spec lin16:5-8-8-1:256 cycles 5190 p10 4907 p90 5278 sum 2606.76
+spec lin16:5-8-8-1:256 ram cycles 4010 p10 4010 p90 4011 sum 2606.76
+spec lin16:5-8-8-1:64 cycles 4234 p10 4233 p90 4234 sum 2666.78
+spec lin16:5-8-8-1:64 ram cycles 4010 p10 4009 p90 4010 sum 2666.78
+spec lin16:6-16-16-1:128 cycles 19603 p10 19567 p90 20540 sum 207.509
+spec lin16:6-16-16-1:128 ram cycles 9167 p10 9165 p90 9167 sum 207.509
+spec lin16:6-16-16-1:16 cycles 9902 p10 9901 p90 9902 sum 8244.73
+spec lin16:6-16-16-1:16 ram cycles 9166 p10 9165 p90 9166 sum 8244.73
+spec lin16:6-16-16-1:256 cycles 23954 p10 23582 p90 24415 sum 2192.32
+spec lin16:6-16-16-1:256 ram n/a
+spec lin16:6-16-16-1:64 cycles 13090 p10 11921 p90 13319 sum 2117.92
+spec lin16:6-16-16-1:64 ram cycles 9167 p10 9167 p90 9168 sum 2117.92
+spec lin16:6-16-1:128 cycles 4472 p10 4348 p90 4577 sum 3499.82
+spec lin16:6-16-1:128 ram cycles 3929 p10 3929 p90 3930 sum 3499.82
+spec lin16:6-16-1:16 cycles 4153 p10 4153 p90 4154 sum 3181.12
+spec lin16:6-16-1:16 ram cycles 3929 p10 3929 p90 3930 sum 3181.12
+spec lin16:6-16-1:256 cycles 5921 p10 5443 p90 6046 sum 4294.9
+spec lin16:6-16-1:256 ram cycles 3929 p10 3929 p90 3929 sum 4294.9
+spec lin16:6-16-1:64 cycles 4153 p10 4152 p90 4153 sum 2150.96
+spec lin16:6-16-1:64 ram cycles 3929 p10 3928 p90 3929 sum 2150.96
+spec lin16:6-32-1:128 cycles 11358 p10 10650 p90 11393 sum -1035.32
+spec lin16:6-32-1:128 ram cycles 6982 p10 6980 p90 6982 sum -1035.32
+spec lin16:6-32-1:16 cycles 7430 p10 7430 p90 7430 sum -2531.22
+spec lin16:6-32-1:16 ram cycles 6982 p10 6982 p90 6982 sum -2531.22
+spec lin16:6-32-1:256 cycles 13764 p10 13479 p90 14011 sum -3182.49
+spec lin16:6-32-1:256 ram cycles 6981 p10 6980 p90 6981 sum -3182.49
+spec lin16:6-32-1:64 cycles 7854 p10 7801 p90 7924 sum 5565.23
+spec lin16:6-32-1:64 ram cycles 6982 p10 6980 p90 6982 sum 5565.23
+spec lin16:6-4-1:128 cycles 1695 p10 1695 p90 1695 sum -2163.46
+spec lin16:6-4-1:128 ram cycles 1639 p10 1639 p90 1639 sum -2163.46
+spec lin16:6-4-1:16 cycles 1695 p10 1695 p90 1695 sum -1718.86
+spec lin16:6-4-1:16 ram cycles 1639 p10 1639 p90 1639 sum -1718.86
+spec lin16:6-4-1:256 cycles 1695 p10 1694 p90 1695 sum 189.815
+spec lin16:6-4-1:256 ram cycles 1638 p10 1638 p90 1639 sum 189.815
+spec lin16:6-4-1:64 cycles 1695 p10 1694 p90 1695 sum 585.519
+spec lin16:6-4-1:64 ram cycles 1639 p10 1638 p90 1639 sum 585.519
+spec lin16:6-8-1:128 cycles 2515 p10 2514 p90 2515 sum 314.248
+spec lin16:6-8-1:128 ram cycles 2403 p10 2402 p90 2403 sum 314.248
+spec lin16:6-8-1:16 cycles 2515 p10 2514 p90 2515 sum 156.765
+spec lin16:6-8-1:16 ram cycles 2403 p10 2402 p90 2403 sum 156.765
+spec lin16:6-8-1:256 cycles 2692 p10 2586 p90 2763 sum 1502.66
+spec lin16:6-8-1:256 ram cycles 2403 p10 2403 p90 2403 sum 1502.66
+spec lin16:6-8-1:64 cycles 2515 p10 2515 p90 2515 sum -3352.35
+spec lin16:6-8-1:64 ram cycles 2403 p10 2403 p90 2403 sum -3352.35
+spec lin16:6-8-8-1:128 cycles 4657 p10 4568 p90 4797 sum 4183.3
+spec lin16:6-8-8-1:128 ram cycles 4204 p10 4203 p90 4205 sum 4183.3
+spec lin16:6-8-8-1:16 cycles 4441 p10 4440 p90 4441 sum -618.295
+spec lin16:6-8-8-1:16 ram cycles 4201 p10 4200 p90 4201 sum -618.295
+spec lin16:6-8-8-1:256 cycles 5328 p10 5185 p90 5487 sum -714.448
+spec lin16:6-8-8-1:256 ram cycles 4203 p10 4202 p90 4203 sum -714.448
+spec lin16:6-8-8-1:64 cycles 4441 p10 4440 p90 4441 sum 3558
+spec lin16:6-8-8-1:64 ram cycles 4201 p10 4200 p90 4201 sum 3558
+spec lin16:7-16-16-1:128 cycles 20487 p10 19902 p90 20645 sum -1570.72
+spec lin16:7-16-16-1:128 ram cycles 9469 p10 9469 p90 9470 sum -1570.72
+spec lin16:7-16-16-1:16 cycles 10238 p10 10237 p90 10238 sum -1379.3
+spec lin16:7-16-16-1:16 ram cycles 9469 p10 9469 p90 9471 sum -1379.3
+spec lin16:7-16-16-1:256 cycles 25245 p10 24928 p90 25406 sum -2081.94
+spec lin16:7-16-16-1:256 ram n/a
+spec lin16:7-16-16-1:64 cycles 13123 p10 12611 p90 13885 sum 643.759
+spec lin16:7-16-16-1:64 ram cycles 9472 p10 9471 p90 9472 sum 643.759
+spec lin16:7-16-1:128 cycles 4754 p10 4595 p90 4913 sum -177.805
+spec lin16:7-16-1:128 ram cycles 4233 p10 4233 p90 4233 sum -177.805
+spec lin16:7-16-1:16 cycles 4490 p10 4489 p90 4490 sum -3022.51
+spec lin16:7-16-1:16 ram cycles 4234 p10 4233 p90 4234 sum -3022.51
+spec lin16:7-16-1:256 cycles 6893 p10 6665 p90 7089 sum -599.089
+spec lin16:7-16-1:256 ram cycles 4233 p10 4232 p90 4234 sum -599.089
+spec lin16:7-16-1:64 cycles 4489 p10 4488 p90 4489 sum -4888.61
+spec lin16:7-16-1:64 ram cycles 4233 p10 4232 p90 4233 sum -4888.61
+spec lin16:7-32-1:128 cycles 13170 p10 12975 p90 13754 sum 4349.09
+spec lin16:7-32-1:128 ram cycles 7509 p10 7508 p90 7511 sum 4349.09
+spec lin16:7-32-1:16 cycles 8022 p10 8021 p90 8023 sum -2772.32
+spec lin16:7-32-1:16 ram cycles 7510 p10 7509 p90 7511 sum -2772.32
+spec lin16:7-32-1:256 cycles 15327 p10 15186 p90 15803 sum 4507.69
+spec lin16:7-32-1:256 ram cycles 7509 p10 7508 p90 7509 sum 4507.69
+spec lin16:7-32-1:64 cycles 8464 p10 8215 p90 8711 sum 1417.66
+spec lin16:7-32-1:64 ram cycles 7509 p10 7509 p90 7510 sum 1417.66
+spec lin16:7-4-1:128 cycles 1839 p10 1838 p90 1839 sum 545.861
+spec lin16:7-4-1:128 ram cycles 1775 p10 1774 p90 1775 sum 545.861
+spec lin16:7-4-1:16 cycles 1839 p10 1838 p90 1839 sum 1293.98
+spec lin16:7-4-1:16 ram cycles 1775 p10 1774 p90 1775 sum 1293.98
+spec lin16:7-4-1:256 cycles 1839 p10 1838 p90 1839 sum -2043.34
+spec lin16:7-4-1:256 ram cycles 1775 p10 1774 p90 1775 sum -2043.34
+spec lin16:7-4-1:64 cycles 1839 p10 1838 p90 1839 sum 907.448
+spec lin16:7-4-1:64 ram cycles 1775 p10 1774 p90 1775 sum 907.448
+spec lin16:7-8-1:128 cycles 2723 p10 2722 p90 2723 sum -3366.3
+spec lin16:7-8-1:128 ram cycles 2595 p10 2594 p90 2595 sum -3366.3
+spec lin16:7-8-1:16 cycles 2722 p10 2722 p90 2722 sum 1148.12
+spec lin16:7-8-1:16 ram cycles 2594 p10 2594 p90 2594 sum 1148.12
+spec lin16:7-8-1:256 cycles 2811 p10 2793 p90 2952 sum 2737.58
+spec lin16:7-8-1:256 ram cycles 2595 p10 2594 p90 2595 sum 2737.58
+spec lin16:7-8-1:64 cycles 2723 p10 2722 p90 2723 sum 126.934
+spec lin16:7-8-1:64 ram cycles 2595 p10 2594 p90 2595 sum 126.934
+spec lin16:7-8-8-1:128 cycles 4776 p10 4651 p90 4864 sum -3053.31
+spec lin16:7-8-8-1:128 ram cycles 4396 p10 4395 p90 4396 sum -3053.31
+spec lin16:7-8-8-1:16 cycles 4650 p10 4650 p90 4650 sum -3940.52
+spec lin16:7-8-8-1:16 ram cycles 4394 p10 4394 p90 4394 sum -3940.52
+spec lin16:7-8-8-1:256 cycles 5304 p10 5145 p90 5409 sum -1731.69
+spec lin16:7-8-8-1:256 ram cycles 4393 p10 4393 p90 4393 sum -1731.69
+spec lin16:7-8-8-1:64 cycles 4649 p10 4648 p90 4649 sum -4306.94
+spec lin16:7-8-8-1:64 ram cycles 4393 p10 4392 p90 4393 sum -4306.94
+spec mlp:3-128-1 cycles 24875 p10 24831 p90 24929 sum 192.652
+spec mlp:3-128-1 ram cycles 24363 p10 24319 p90 24400 sum 192.652
+spec mlp:3-128-128-1 cycles 207791 p10 207715 p90 207857 sum 392.706
+spec mlp:3-128-128-1 ram cycles 190894 p10 190819 p90 190921 sum 392.706
+spec mlp:3-128-128-128-1 cycles 431149 p10 431075 p90 431168 sum 463.145
+spec mlp:3-128-128-128-1 ram cycles 357506 p10 357374 p90 357635 sum 463.145
+spec mlp:3-128-128-128-1:silu cycles 504084 p10 504013 p90 504139 sum 397.696
+spec mlp:3-128-128-128-1:silu ram cycles 422677 p10 422618 p90 422714 sum 397.696
+spec mlp:3-128-128-128-1:tanh cycles 504040 p10 503972 p90 504105 sum -18.066
+spec mlp:3-128-128-128-1:tanh ram cycles 422653 p10 422593 p90 422718 sum -18.066
+spec mlp:3-128-128-1:silu cycles 251324 p10 251248 p90 251377 sum 241.89
+spec mlp:3-128-128-1:silu ram cycles 234405 p10 234353 p90 234480 sum 241.89
+spec mlp:3-128-128-1:tanh cycles 251340 p10 251264 p90 251396 sum -26.5102
+spec mlp:3-128-128-1:tanh ram cycles 234425 p10 234324 p90 234500 sum -26.5102
+spec mlp:3-128-1:silu cycles 46506 p10 46451 p90 46584 sum 110.413
+spec mlp:3-128-1:silu ram cycles 45994 p10 45939 p90 46070 sum 110.413
+spec mlp:3-128-1:tanh cycles 46511 p10 46459 p90 46589 sum 66.014
+spec mlp:3-128-1:tanh ram cycles 45999 p10 45947 p90 46079 sum 66.014
+spec mlp:3-16-1 cycles 3654 p10 3641 p90 3711 sum 15.7126
+spec mlp:3-16-1 ram cycles 3590 p10 3577 p90 3647 sum 15.7126
+spec mlp:3-16-16-1 cycles 8680 p10 8664 p90 8693 sum 119.863
+spec mlp:3-16-16-1 ram cycles 8360 p10 8344 p90 8373 sum 119.863
+spec mlp:3-16-16-16-1 cycles 13802 p10 13770 p90 13804 sum 19.0736
+spec mlp:3-16-16-16-1 ram cycles 13223 p10 13194 p90 13228 sum 19.0736
+spec mlp:3-16-16-16-1:silu cycles 21836 p10 21808 p90 21902 sum -3.27157
+spec mlp:3-16-16-16-1:silu ram cycles 21260 p10 21232 p90 21326 sum -3.27157
+spec mlp:3-16-16-16-1:tanh cycles 21877 p10 21843 p90 21946 sum -4.05575
+spec mlp:3-16-16-16-1:tanh ram cycles 21301 p10 21267 p90 21342 sum -4.05575
+spec mlp:3-16-16-1:silu cycles 14115 p10 14073 p90 14119 sum 78.6457
+spec mlp:3-16-16-1:silu ram cycles 13795 p10 13753 p90 13799 sum 78.6457
+spec mlp:3-16-16-1:tanh cycles 14131 p10 14094 p90 14135 sum 14.028
+spec mlp:3-16-16-1:tanh ram cycles 13811 p10 13774 p90 13815 sum 14.028
+spec mlp:3-16-1:silu cycles 6365 p10 6344 p90 6390 sum 10.2363
+spec mlp:3-16-1:silu ram cycles 6318 p10 6280 p90 6326 sum 10.2363
+spec mlp:3-16-1:tanh cycles 6382 p10 6345 p90 6391 sum 3.36906
+spec mlp:3-16-1:tanh ram cycles 6318 p10 6281 p90 6327 sum 3.36906
+spec mlp:3-32-1 cycles 6693 p10 6683 p90 6720 sum -7.3463
+spec mlp:3-32-1 ram cycles 6571 p10 6555 p90 6592 sum -7.3463
+spec mlp:3-32-1:silu cycles 12094 p10 12077 p90 12124 sum -8.35772
+spec mlp:3-32-1:silu ram cycles 11966 p10 11949 p90 11996 sum -8.35772
+spec mlp:3-32-1:tanh cycles 12089 p10 12079 p90 12126 sum 12.0916
+spec mlp:3-32-1:tanh ram cycles 11967 p10 11951 p90 11998 sum 12.0916
+spec mlp:3-32-32-1 cycles 21807 p10 21774 p90 21850 sum -28.1173
+spec mlp:3-32-32-1 ram cycles 20655 p10 20622 p90 20710 sum -28.1173
+spec mlp:3-32-32-1:silu cycles 32616 p10 32588 p90 32691 sum 5.0959
+spec mlp:3-32-32-1:silu ram cycles 31464 p10 31436 p90 31522 sum 5.0959
+spec mlp:3-32-32-1:tanh cycles 32630 p10 32615 p90 32705 sum 29.8435
+spec mlp:3-32-32-1:tanh ram cycles 31478 p10 31463 p90 31554 sum 29.8435
+spec mlp:3-32-32-32-1 cycles 36819 p10 36803 p90 36854 sum -17.628
+spec mlp:3-32-32-32-1 ram cycles 34643 p10 34593 p90 34724 sum -17.628
+spec mlp:3-32-32-32-1:silu cycles 53147 p10 53107 p90 53225 sum -35.197
+spec mlp:3-32-32-32-1:silu ram cycles 50971 p10 50931 p90 51052 sum -35.197
+spec mlp:3-32-32-32-1:tanh cycles 53187 p10 53151 p90 53251 sum 16.9054
+spec mlp:3-32-32-32-1:tanh ram cycles 51000 p10 50975 p90 51078 sum 16.9054
+spec mlp:3-64-1 cycles 12731 p10 12709 p90 12802 sum -29.1451
+spec mlp:3-64-1 ram cycles 12475 p10 12453 p90 12546 sum -29.1451
+spec mlp:3-64-1:silu cycles 23568 p10 23536 p90 23640 sum -4.53276
+spec mlp:3-64-1:silu ram cycles 23312 p10 23280 p90 23388 sum -4.53276
+spec mlp:3-64-1:tanh cycles 23572 p10 23540 p90 23615 sum 5.52449
+spec mlp:3-64-1:tanh ram cycles 23316 p10 23284 p90 23365 sum 5.52449
+spec mlp:3-64-64-1 cycles 63338 p10 63311 p90 63414 sum -133.715
+spec mlp:3-64-64-1 ram cycles 58986 p10 58884 p90 59062 sum -133.715
+spec mlp:3-64-64-1:silu cycles 85062 p10 85010 p90 85110 sum -96.0507
+spec mlp:3-64-64-1:silu ram cycles 80710 p10 80658 p90 80758 sum -96.0507
+spec mlp:3-64-64-1:tanh cycles 85084 p10 85008 p90 85129 sum -52.2693
+spec mlp:3-64-64-1:tanh ram cycles 80731 p10 80677 p90 80776 sum -52.2693
+spec mlp:3-64-64-64-1 cycles 113802 p10 113779 p90 113885 sum 391.56
+spec mlp:3-64-64-64-1 ram cycles 105354 p10 105279 p90 105437 sum 391.56
+spec mlp:3-64-64-64-1:silu cycles 146493 p10 146468 p90 146527 sum 253.169
+spec mlp:3-64-64-64-1:silu ram cycles 138045 p10 138020 p90 138080 sum 253.169
+spec mlp:3-64-64-64-1:tanh cycles 146505 p10 146484 p90 146527 sum 44.8035
+spec mlp:3-64-64-64-1:tanh ram cycles 138056 p10 138036 p90 138079 sum 44.8035
+spec mlp:4-128-1 cycles 26236 p10 26186 p90 26261 sum 68.7836
+spec mlp:4-128-1 ram cycles 25596 p10 25546 p90 25646 sum 68.7836
+spec mlp:4-128-128-1 cycles 209112 p10 208992 p90 209274 sum 391.095
+spec mlp:4-128-128-1 ram cycles 192082 p10 191963 p90 192250 sum 391.095
+spec mlp:4-128-128-128-1 cycles 437960 p10 437935 p90 438124 sum -404.861
+spec mlp:4-128-128-128-1 ram cycles 358604 p10 358528 p90 358741 sum -404.861
+spec mlp:4-128-128-128-1:silu cycles 508878 p10 508796 p90 508937 sum -263.217
+spec mlp:4-128-128-128-1:silu ram cycles 423971 p10 423924 p90 424029 sum -263.217
+spec mlp:4-128-128-128-1:tanh cycles 508846 p10 508776 p90 508901 sum 18.9897
+spec mlp:4-128-128-128-1:tanh ram cycles 423918 p10 423901 p90 423993 sum 18.9897
+spec mlp:4-128-128-1:silu cycles 252746 p10 252676 p90 252811 sum 306.672
+spec mlp:4-128-128-1:silu ram cycles 235712 p10 235647 p90 235786 sum 306.672
+spec mlp:4-128-128-1:tanh cycles 252746 p10 252665 p90 252832 sum 10.9074
+spec mlp:4-128-128-1:tanh ram cycles 235719 p10 235641 p90 235808 sum 10.9074
+spec mlp:4-128-1:silu cycles 47936 p10 47889 p90 48011 sum 37.3845
+spec mlp:4-128-1:silu ram cycles 47325 p10 47249 p90 47374 sum 37.3845
+spec mlp:4-128-1:tanh cycles 47954 p10 47903 p90 48034 sum -10.0974
+spec mlp:4-128-1:tanh ram cycles 47314 p10 47263 p90 47389 sum -10.0974
+spec mlp:4-16-1 cycles 3942 p10 3938 p90 3976 sum -15.6051
+spec mlp:4-16-1 ram cycles 3881 p10 3858 p90 3896 sum -15.6051
+spec mlp:4-16-16-1 cycles 8958 p10 8925 p90 9023 sum -15.3939
+spec mlp:4-16-16-1 ram cycles 8622 p10 8589 p90 8687 sum -15.3939
+spec mlp:4-16-16-16-1 cycles 13975 p10 13936 p90 14042 sum -119.18
+spec mlp:4-16-16-16-1 ram cycles 13383 p10 13344 p90 13450 sum -119.18
+spec mlp:4-16-16-16-1:silu cycles 22145 p10 22122 p90 22209 sum -44.0635
+spec mlp:4-16-16-16-1:silu ram cycles 21553 p10 21530 p90 21605 sum -44.0635
+spec mlp:4-16-16-16-1:tanh cycles 22162 p10 22139 p90 22214 sum 26.9999
+spec mlp:4-16-16-16-1:tanh ram cycles 21570 p10 21547 p90 21628 sum 26.9999
+spec mlp:4-16-16-1:silu cycles 14403 p10 14391 p90 14416 sum -9.74968
+spec mlp:4-16-16-1:silu ram cycles 14067 p10 14055 p90 14080 sum -9.74968
+spec mlp:4-16-16-1:tanh cycles 14413 p10 14390 p90 14417 sum -11.5508
+spec mlp:4-16-16-1:tanh ram cycles 14077 p10 14054 p90 14081 sum -11.5508
+spec mlp:4-16-1:silu cycles 6659 p10 6644 p90 6671 sum -8.31764
+spec mlp:4-16-1:silu ram cycles 6579 p10 6564 p90 6591 sum -8.31764
+spec mlp:4-16-1:tanh cycles 6664 p10 6646 p90 6673 sum -12.2912
+spec mlp:4-16-1:tanh ram cycles 6584 p10 6566 p90 6593 sum -12.2912
+spec mlp:4-32-1 cycles 7147 p10 7127 p90 7161 sum -16.7754
+spec mlp:4-32-1 ram cycles 6996 p10 6967 p90 7001 sum -16.7754
+spec mlp:4-32-1:silu cycles 12558 p10 12542 p90 12564 sum -15.2167
+spec mlp:4-32-1:silu ram cycles 12398 p10 12382 p90 12404 sum -15.2167
+spec mlp:4-32-1:tanh cycles 12560 p10 12545 p90 12567 sum -17.3764
+spec mlp:4-32-1:tanh ram cycles 12400 p10 12385 p90 12407 sum -17.3764
+spec mlp:4-32-32-1 cycles 22242 p10 22215 p90 22291 sum 51.4024
+spec mlp:4-32-32-1 ram cycles 21058 p10 21031 p90 21112 sum 51.4024
+spec mlp:4-32-32-1:silu cycles 33078 p10 33054 p90 33154 sum 40.0053
+spec mlp:4-32-32-1:silu ram cycles 31894 p10 31870 p90 31949 sum 40.0053
+spec mlp:4-32-32-1:tanh cycles 33099 p10 33065 p90 33174 sum 32.7604
+spec mlp:4-32-32-1:tanh ram cycles 31915 p10 31881 p90 31990 sum 32.7604
+spec mlp:4-32-32-32-1 cycles 37222 p10 37197 p90 37257 sum 132.324
+spec mlp:4-32-32-32-1 ram cycles 35014 p10 34973 p90 35089 sum 132.324
+spec mlp:4-32-32-32-1:silu cycles 53607 p10 53580 p90 53696 sum 115.38
+spec mlp:4-32-32-32-1:silu ram cycles 51399 p10 51372 p90 51480 sum 115.38
+spec mlp:4-32-32-32-1:tanh cycles 53645 p10 53592 p90 53707 sum 50.1172
+spec mlp:4-32-32-32-1:tanh ram cycles 51437 p10 51384 p90 51499 sum 50.1172
+spec mlp:4-64-1 cycles 13521 p10 13470 p90 13536 sum 53.0821
+spec mlp:4-64-1 ram cycles 13201 p10 13150 p90 13216 sum 53.0821
+spec mlp:4-64-1:silu cycles 24355 p10 24335 p90 24410 sum 4.99323
+spec mlp:4-64-1:silu ram cycles 24035 p10 24015 p90 24091 sum 4.99323
+spec mlp:4-64-1:tanh cycles 24362 p10 24340 p90 24423 sum -24.0587
+spec mlp:4-64-1:tanh ram cycles 24042 p10 24020 p90 24100 sum -24.0587
+spec mlp:4-64-64-1 cycles 64063 p10 63937 p90 64157 sum 134.62
+spec mlp:4-64-64-1 ram cycles 59647 p10 59521 p90 59741 sum 134.62
+spec mlp:4-64-64-1:silu cycles 85857 p10 85793 p90 85883 sum 82.8945
+spec mlp:4-64-64-1:silu ram cycles 81441 p10 81377 p90 81467 sum 82.8945
+spec mlp:4-64-64-1:tanh cycles 85874 p10 85815 p90 85916 sum -27.6061
+spec mlp:4-64-64-1:tanh ram cycles 81458 p10 81399 p90 81500 sum -27.6061
+spec mlp:4-64-64-64-1 cycles 114433 p10 114356 p90 114623 sum 28.0816
+spec mlp:4-64-64-64-1 ram cycles 105921 p10 105845 p90 106110 sum 28.0816
+spec mlp:4-64-64-64-1:silu cycles 147291 p10 147273 p90 147300 sum -14.2717
+spec mlp:4-64-64-64-1:silu ram cycles 138777 p10 138761 p90 138790 sum -14.2717
+spec mlp:4-64-64-64-1:tanh cycles 147293 p10 147268 p90 147307 sum -1.44684
+spec mlp:4-64-64-64-1:tanh ram cycles 138781 p10 138756 p90 138795 sum -1.44684
+spec mlp:5-128-1 cycles 27726 p10 27491 p90 27882 sum -129.999
+spec mlp:5-128-1 ram cycles 26958 p10 26723 p90 27114 sum -129.999
+spec mlp:5-128-128-1 cycles 210626 p10 210331 p90 210703 sum 209.314
+spec mlp:5-128-128-1 ram cycles 193474 p10 193178 p90 193555 sum 209.314
+spec mlp:5-128-128-128-1 cycles 443085 p10 442690 p90 443122 sum -35.2306
+spec mlp:5-128-128-128-1 ram cycles 360170 p10 359861 p90 360266 sum -35.2306
+spec mlp:5-128-128-128-1:silu cycles 513673 p10 513644 p90 513748 sum -55.4706
+spec mlp:5-128-128-128-1:silu ram cycles 425244 p10 425157 p90 425258 sum -55.4706
+spec mlp:5-128-128-128-1:tanh cycles 513656 p10 513611 p90 513731 sum 51.3359
+spec mlp:5-128-128-128-1:tanh ram cycles 425219 p10 425151 p90 425241 sum 51.3359
+spec mlp:5-128-128-1:silu cycles 254155 p10 254080 p90 254191 sum 125.386
+spec mlp:5-128-128-1:silu ram cycles 236989 p10 236927 p90 237034 sum 125.386
+spec mlp:5-128-128-1:tanh cycles 254182 p10 254106 p90 254185 sum -3.58371
+spec mlp:5-128-128-1:tanh ram cycles 237028 p10 236954 p90 237037 sum -3.58371
+spec mlp:5-128-1:silu cycles 49354 p10 49343 p90 49427 sum -68.1681
+spec mlp:5-128-1:silu ram cycles 48584 p10 48575 p90 48661 sum -68.1681
+spec mlp:5-128-1:tanh cycles 49377 p10 49359 p90 49450 sum -6.63693
+spec mlp:5-128-1:tanh ram cycles 48606 p10 48591 p90 48682 sum -6.63693
+spec mlp:5-16-1 cycles 4239 p10 4209 p90 4246 sum 77.6668
+spec mlp:5-16-1 ram cycles 4143 p10 4113 p90 4150 sum 77.6668
+spec mlp:5-16-16-1 cycles 9269 p10 9217 p90 9283 sum -56.6458
+spec mlp:5-16-16-1 ram cycles 8917 p10 8865 p90 8931 sum -56.6458
+spec mlp:5-16-16-16-1 cycles 14250 p10 14208 p90 14295 sum -52.7129
+spec mlp:5-16-16-16-1 ram cycles 13642 p10 13600 p90 13687 sum -52.7129
+spec mlp:5-16-16-16-1:silu cycles 22424 p10 22417 p90 22498 sum -46.4598
+spec mlp:5-16-16-16-1:silu ram cycles 21816 p10 21809 p90 21887 sum -46.4598
+spec mlp:5-16-16-16-1:tanh cycles 22443 p10 22431 p90 22516 sum 0.733621
+spec mlp:5-16-16-16-1:tanh ram cycles 21835 p10 21823 p90 21910 sum 0.733621
+spec mlp:5-16-16-1:silu cycles 14679 p10 14673 p90 14687 sum -42.7031
+spec mlp:5-16-16-1:silu ram cycles 14326 p10 14321 p90 14335 sum -42.7031
+spec mlp:5-16-16-1:tanh cycles 14695 p10 14682 p90 14701 sum -10.5545
+spec mlp:5-16-16-1:tanh ram cycles 14343 p10 14330 p90 14349 sum -10.5545
+spec mlp:5-16-1:silu cycles 6947 p10 6936 p90 6949 sum 34.0678
+spec mlp:5-16-1:silu ram cycles 6851 p10 6840 p90 6853 sum 34.0678
+spec mlp:5-16-1:tanh cycles 6949 p10 6938 p90 6952 sum -4.14063
+spec mlp:5-16-1:tanh ram cycles 6853 p10 6842 p90 6856 sum -4.14063
+spec mlp:5-32-1 cycles 7591 p10 7541 p90 7649 sum -50.4465
+spec mlp:5-32-1 ram cycles 7399 p10 7349 p90 7457 sum -50.4465
+spec mlp:5-32-1:silu cycles 13008 p10 12994 p90 13011 sum -11.4997
+spec mlp:5-32-1:silu ram cycles 12816 p10 12802 p90 12819 sum -11.4997
+spec mlp:5-32-1:tanh cycles 13014 p10 12999 p90 13016 sum 12.6327
+spec mlp:5-32-1:tanh ram cycles 12822 p10 12807 p90 12824 sum 12.6327
+spec mlp:5-32-32-1 cycles 22722 p10 22688 p90 22803 sum -159.632
+spec mlp:5-32-32-1 ram cycles 21506 p10 21472 p90 21587 sum -159.632
+spec mlp:5-32-32-1:silu cycles 33524 p10 33519 p90 33599 sum -110.082
+spec mlp:5-32-32-1:silu ram cycles 32308 p10 32303 p90 32384 sum -110.082
+spec mlp:5-32-32-1:tanh cycles 33558 p10 33545 p90 33633 sum 18.6762
+spec mlp:5-32-32-1:tanh ram cycles 32342 p10 32329 p90 32417 sum 18.6762
+spec mlp:5-32-32-32-1 cycles 37804 p10 37732 p90 37957 sum -9.26929
+spec mlp:5-32-32-32-1 ram cycles 35564 p10 35492 p90 35641 sum -9.26929
+spec mlp:5-32-32-32-1:silu cycles 54049 p10 54043 p90 54123 sum 7.62528
+spec mlp:5-32-32-32-1:silu ram cycles 51809 p10 51803 p90 51884 sum 7.62528
+spec mlp:5-32-32-32-1:tanh cycles 54096 p10 54085 p90 54170 sum -7.01677
+spec mlp:5-32-32-32-1:tanh ram cycles 51856 p10 51845 p90 51926 sum -7.01677
+spec mlp:5-64-1 cycles 14292 p10 14193 p90 14376 sum 4.77669
+spec mlp:5-64-1 ram cycles 13908 p10 13809 p90 13992 sum 4.77669
+spec mlp:5-64-1:silu cycles 25130 p10 25102 p90 25177 sum 15.0627
+spec mlp:5-64-1:silu ram cycles 24746 p10 24718 p90 24793 sum 15.0627
+spec mlp:5-64-1:tanh cycles 25141 p10 25109 p90 25195 sum 35.7802
+spec mlp:5-64-1:tanh ram cycles 24757 p10 24725 p90 24816 sum 35.7802
+spec mlp:5-64-64-1 cycles 64885 p10 64809 p90 65005 sum -143.604
+spec mlp:5-64-64-1 ram cycles 60404 p10 60329 p90 60472 sum -143.604
+spec mlp:5-64-64-1:silu cycles 86621 p10 86554 p90 86657 sum -103.414
+spec mlp:5-64-64-1:silu ram cycles 82143 p10 82066 p90 82171 sum -103.414
+spec mlp:5-64-64-1:tanh cycles 86642 p10 86567 p90 86702 sum -0.392673
+spec mlp:5-64-64-1:tanh ram cycles 82162 p10 82094 p90 82222 sum -0.392673
+spec mlp:5-64-64-64-1 cycles 115353 p10 115270 p90 115393 sum 63.6135
+spec mlp:5-64-64-64-1 ram cycles 106777 p10 106694 p90 106817 sum 63.6135
+spec mlp:5-64-64-64-1:silu cycles 148056 p10 148017 p90 148065 sum 70.3945
+spec mlp:5-64-64-64-1:silu ram cycles 139480 p10 139441 p90 139490 sum 70.3945
+spec mlp:5-64-64-64-1:tanh cycles 148073 p10 148026 p90 148083 sum 18.7059
+spec mlp:5-64-64-64-1:tanh ram cycles 139463 p10 139450 p90 139507 sum 18.7059
+spec mlp:6-128-1 cycles 29010 p10 28974 p90 29085 sum -99.3921
+spec mlp:6-128-1 ram cycles 28114 p10 28078 p90 28190 sum -99.3921
+spec mlp:6-128-128-1 cycles 212024 p10 211959 p90 212099 sum -247.319
+spec mlp:6-128-128-1 ram cycles 194744 p10 194679 p90 194813 sum -247.319
+spec mlp:6-128-128-128-1 cycles 447754 p10 447649 p90 447970 sum 313.449
+spec mlp:6-128-128-128-1 ram cycles 361338 p10 361236 p90 361409 sum 313.449
+spec mlp:6-128-128-128-1:silu cycles 518501 p10 518446 p90 518555 sum 238.592
+spec mlp:6-128-128-128-1:silu ram cycles 426497 p10 426470 p90 426547 sum 238.592
+spec mlp:6-128-128-128-1:tanh cycles 518448 p10 518402 p90 518495 sum -37.1392
+spec mlp:6-128-128-128-1:tanh ram cycles 426487 p10 426424 p90 426532 sum -37.1392
+spec mlp:6-128-128-1:silu cycles 255573 p10 255497 p90 255592 sum -216.511
+spec mlp:6-128-128-1:silu ram cycles 238275 p10 238186 p90 238312 sum -216.511
+spec mlp:6-128-128-1:tanh cycles 255601 p10 255531 p90 255608 sum 15.2505
+spec mlp:6-128-128-1:tanh ram cycles 238289 p10 238246 p90 238328 sum 15.2505
+spec mlp:6-128-1:silu cycles 50763 p10 50727 p90 50841 sum -7.03488
+spec mlp:6-128-1:silu ram cycles 49873 p10 49831 p90 49948 sum -7.03488
+spec mlp:6-128-1:tanh cycles 50795 p10 50752 p90 50863 sum 62.1319
+spec mlp:6-128-1:tanh ram cycles 49899 p10 49856 p90 49967 sum 62.1319
+spec mlp:6-16-1 cycles 4526 p10 4504 p90 4538 sum 34.3958
+spec mlp:6-16-1 ram cycles 4414 p10 4392 p90 4426 sum 34.3958
+spec mlp:6-16-16-1 cycles 9549 p10 9519 p90 9557 sum -132.541
+spec mlp:6-16-16-1 ram cycles 9181 p10 9151 p90 9189 sum -132.541
+spec mlp:6-16-16-16-1 cycles 14525 p10 14503 p90 14537 sum 73.5099
+spec mlp:6-16-16-16-1 ram cycles 13901 p10 13879 p90 13914 sum 73.5099
+spec mlp:6-16-16-16-1:silu cycles 22723 p10 22696 p90 22788 sum 38.5398
+spec mlp:6-16-16-16-1:silu ram cycles 22099 p10 22072 p90 22159 sum 38.5398
+spec mlp:6-16-16-16-1:tanh cycles 22741 p10 22725 p90 22806 sum -13.6721
+spec mlp:6-16-16-16-1:tanh ram cycles 22117 p10 22101 p90 22179 sum -13.6721
+spec mlp:6-16-16-1:silu cycles 14977 p10 14960 p90 14982 sum -71.4309
+spec mlp:6-16-16-1:silu ram cycles 14609 p10 14592 p90 14614 sum -71.4309
+spec mlp:6-16-16-1:tanh cycles 14992 p10 14975 p90 14994 sum 12.1535
+spec mlp:6-16-16-1:tanh ram cycles 14624 p10 14607 p90 14626 sum 12.1535
+spec mlp:6-16-1:silu cycles 7232 p10 7226 p90 7241 sum 19.902
+spec mlp:6-16-1:silu ram cycles 7120 p10 7114 p90 7129 sum 19.902
+spec mlp:6-16-1:tanh cycles 7234 p10 7229 p90 7242 sum 3.11535
+spec mlp:6-16-1:tanh ram cycles 7122 p10 7117 p90 7130 sum 3.11535
+spec mlp:6-32-1 cycles 8035 p10 7991 p90 8042 sum -5.82094
+spec mlp:6-32-1 ram cycles 7811 p10 7767 p90 7818 sum -5.82094
+spec mlp:6-32-1:silu cycles 13454 p10 13443 p90 13461 sum -16.4172
+spec mlp:6-32-1:silu ram cycles 13230 p10 13219 p90 13237 sum -16.4172
+spec mlp:6-32-1:tanh cycles 13459 p10 13448 p90 13466 sum -17.5879
+spec mlp:6-32-1:tanh ram cycles 13235 p10 13224 p90 13242 sum -17.5879
+spec mlp:6-32-32-1 cycles 23155 p10 23116 p90 23191 sum -196.706
+spec mlp:6-32-32-1 ram cycles 21907 p10 21868 p90 21949 sum -196.706
+spec mlp:6-32-32-1:silu cycles 33976 p10 33964 p90 34055 sum -128.571
+spec mlp:6-32-32-1:silu ram cycles 32728 p10 32716 p90 32804 sum -128.571
+spec mlp:6-32-32-1:tanh cycles 33996 p10 33993 p90 34076 sum -46.1315
+spec mlp:6-32-32-1:tanh ram cycles 32748 p10 32745 p90 32825 sum -46.1315
+spec mlp:6-32-32-32-1 cycles 38076 p10 38026 p90 38122 sum 201.555
+spec mlp:6-32-32-32-1 ram cycles 35799 p10 35754 p90 35879 sum 201.555
+spec mlp:6-32-32-32-1:silu cycles 54512 p10 54489 p90 54571 sum 123.836
+spec mlp:6-32-32-32-1:silu ram cycles 52223 p10 52217 p90 52305 sum 123.836
+spec mlp:6-32-32-32-1:tanh cycles 54530 p10 54525 p90 54605 sum -20.9543
+spec mlp:6-32-32-32-1:tanh ram cycles 52258 p10 52253 p90 52333 sum -20.9543
+spec mlp:6-64-1 cycles 15037 p10 15013 p90 15056 sum 4.95559
+spec mlp:6-64-1 ram cycles 14589 p10 14565 p90 14607 sum 4.95559
+spec mlp:6-64-1:silu cycles 25886 p10 25862 p90 25961 sum 5.14724
+spec mlp:6-64-1:silu ram cycles 25438 p10 25414 p90 25519 sum 5.14724
+spec mlp:6-64-1:tanh cycles 25898 p10 25875 p90 25965 sum 6.06937
+spec mlp:6-64-1:tanh ram cycles 25450 p10 25427 p90 25505 sum 6.06937
+spec mlp:6-64-64-1 cycles 65625 p10 65549 p90 65713 sum 56.8043
+spec mlp:6-64-64-1 ram cycles 61085 p10 61005 p90 61118 sum 56.8043
+spec mlp:6-64-64-1:silu cycles 87402 p10 87298 p90 87409 sum 24.7124
+spec mlp:6-64-64-1:silu ram cycles 82832 p10 82783 p90 82865 sum 24.7124
+spec mlp:6-64-64-1:tanh cycles 87408 p10 87349 p90 87437 sum -22.5082
+spec mlp:6-64-64-1:tanh ram cycles 82859 p10 82805 p90 82893 sum -22.5082
+spec mlp:6-64-64-64-1 cycles 116120 p10 116033 p90 116198 sum -215.607
+spec mlp:6-64-64-64-1 ram cycles 107480 p10 107393 p90 107558 sum -215.607
+spec mlp:6-64-64-64-1:silu cycles 148819 p10 148777 p90 148840 sum -186.273
+spec mlp:6-64-64-64-1:silu ram cycles 140184 p10 140137 p90 140200 sum -186.273
+spec mlp:6-64-64-64-1:tanh cycles 148842 p10 148808 p90 148843 sum -38.8609
+spec mlp:6-64-64-64-1:tanh ram cycles 140202 p10 140167 p90 140205 sum -38.8609
+spec mlp:7-128-1 cycles 30460 p10 30405 p90 30525 sum 367.976
+spec mlp:7-128-1 ram cycles 29436 p10 29381 p90 29501 sum 367.976
+spec mlp:7-128-128-1 cycles 213428 p10 213271 p90 213502 sum -154.866
+spec mlp:7-128-128-1 ram cycles 196018 p10 195863 p90 196094 sum -154.866
+spec mlp:7-128-128-128-1 cycles 452739 p10 452374 p90 452762 sum -66.1287
+spec mlp:7-128-128-128-1 ram cycles 362829 p10 362644 p90 362873 sum -66.1287
+spec mlp:7-128-128-128-1:silu cycles 523321 p10 523257 p90 523401 sum -18.9653
+spec mlp:7-128-128-128-1:silu ram cycles 427807 p10 427751 p90 427844 sum -18.9653
+spec mlp:7-128-128-128-1:tanh cycles 523258 p10 523166 p90 523335 sum -53.4573
+spec mlp:7-128-128-128-1:tanh ram cycles 427781 p10 427711 p90 427807 sum -53.4573
+spec mlp:7-128-128-1:silu cycles 256959 p10 256884 p90 257011 sum -102.831
+spec mlp:7-128-128-1:silu ram cycles 239543 p10 239476 p90 239604 sum -102.831
+spec mlp:7-128-128-1:tanh cycles 256985 p10 256912 p90 257018 sum -25.2068
+spec mlp:7-128-128-1:tanh ram cycles 239535 p10 239501 p90 239611 sum -25.2068
+spec mlp:7-128-1:silu cycles 52197 p10 52139 p90 52258 sum 168.06
+spec mlp:7-128-1:silu ram cycles 51156 p10 51115 p90 51234 sum 168.06
+spec mlp:7-128-1:tanh cycles 52211 p10 52169 p90 52292 sum -7.18607
+spec mlp:7-128-1:tanh ram cycles 51187 p10 51145 p90 51263 sum -7.18607
+spec mlp:7-16-1 cycles 4839 p10 4778 p90 4840 sum -30.6454
+spec mlp:7-16-1 ram cycles 4711 p10 4650 p90 4712 sum -30.6454
+spec mlp:7-16-16-1 cycles 9832 p10 9771 p90 9840 sum -7.81252
+spec mlp:7-16-16-1 ram cycles 9448 p10 9387 p90 9456 sum -7.81252
+spec mlp:7-16-16-16-1 cycles 14899 p10 14829 p90 14916 sum 21.988
+spec mlp:7-16-16-16-1 ram cycles 14259 p10 14189 p90 14276 sum 21.988
+spec mlp:7-16-16-16-1:silu cycles 23003 p10 22975 p90 23050 sum -0.0108667
+spec mlp:7-16-16-16-1:silu ram cycles 22363 p10 22335 p90 22438 sum -0.0108667
+spec mlp:7-16-16-16-1:tanh cycles 23023 p10 23002 p90 23090 sum 3.89803
+spec mlp:7-16-16-16-1:tanh ram cycles 22383 p10 22362 p90 22437 sum 3.89803
+spec mlp:7-16-16-1:silu cycles 15259 p10 15245 p90 15262 sum -8.62898
+spec mlp:7-16-16-1:silu ram cycles 14875 p10 14861 p90 14878 sum -8.62898
+spec mlp:7-16-16-1:tanh cycles 15262 p10 15254 p90 15280 sum -22.6925
+spec mlp:7-16-16-1:tanh ram cycles 14878 p10 14870 p90 14896 sum -22.6925
+spec mlp:7-16-1:silu cycles 7515 p10 7510 p90 7519 sum -23.8309
+spec mlp:7-16-1:silu ram cycles 7390 p10 7382 p90 7391 sum -23.8309
+spec mlp:7-16-1:tanh cycles 7521 p10 7512 p90 7522 sum 6.31118
+spec mlp:7-16-1:tanh ram cycles 7391 p10 7384 p90 7394 sum 6.31118
+spec mlp:7-32-1 cycles 8492 p10 8416 p90 8512 sum -71.8703
+spec mlp:7-32-1 ram cycles 8236 p10 8160 p90 8256 sum -71.8703
+spec mlp:7-32-1:silu cycles 13903 p10 13884 p90 13904 sum -24.5608
+spec mlp:7-32-1:silu ram cycles 13647 p10 13628 p90 13649 sum -24.5608
+spec mlp:7-32-1:tanh cycles 13910 p10 13891 p90 13911 sum 24.4469
+spec mlp:7-32-1:tanh ram cycles 13654 p10 13635 p90 13655 sum 24.4469
+spec mlp:7-32-32-1 cycles 23581 p10 23518 p90 23656 sum -43.4028
+spec mlp:7-32-32-1 ram cycles 22301 p10 22238 p90 22378 sum -43.4028
+spec mlp:7-32-32-1:silu cycles 34426 p10 34406 p90 34501 sum -15.7799
+spec mlp:7-32-32-1:silu ram cycles 33146 p10 33126 p90 33221 sum -15.7799
+spec mlp:7-32-32-1:tanh cycles 34444 p10 34425 p90 34509 sum -56.0743
+spec mlp:7-32-32-1:tanh ram cycles 33164 p10 33145 p90 33229 sum -56.0743
+spec mlp:7-32-32-32-1 cycles 38638 p10 38556 p90 38708 sum 60.6973
+spec mlp:7-32-32-32-1 ram cycles 36329 p10 36310 p90 36334 sum 60.6973
+spec mlp:7-32-32-32-1:silu cycles 54963 p10 54936 p90 55038 sum 29.6073
+spec mlp:7-32-32-32-1:silu ram cycles 52657 p10 52632 p90 52733 sum 29.6073
+spec mlp:7-32-32-32-1:tanh cycles 54981 p10 54966 p90 55057 sum -34.6392
+spec mlp:7-32-32-32-1:tanh ram cycles 52677 p10 52662 p90 52749 sum -34.6392
+spec mlp:7-64-1 cycles 15819 p10 15756 p90 15823 sum 141.317
+spec mlp:7-64-1 ram cycles 15307 p10 15244 p90 15311 sum 141.317
+spec mlp:7-64-1:silu cycles 26658 p10 26643 p90 26736 sum 71.9932
+spec mlp:7-64-1:silu ram cycles 26146 p10 26131 p90 26224 sum 71.9932
+spec mlp:7-64-1:tanh cycles 26674 p10 26658 p90 26748 sum 8.71299
+spec mlp:7-64-1:tanh ram cycles 26162 p10 26146 p90 26224 sum 8.71299
+spec mlp:7-64-64-1 cycles 66344 p10 66279 p90 66419 sum 328.049
+spec mlp:7-64-64-1 ram cycles 61736 p10 61671 p90 61802 sum 328.049
+spec mlp:7-64-64-1:silu cycles 88154 p10 88101 p90 88185 sum 241.296
+spec mlp:7-64-64-1:silu ram cycles 83551 p10 83470 p90 83577 sum 241.296
+spec mlp:7-64-64-1:tanh cycles 88201 p10 88125 p90 88224 sum -51.1628
+spec mlp:7-64-64-1:tanh ram cycles 83592 p10 83517 p90 83621 sum -51.1628
+spec mlp:7-64-64-64-1 cycles 116839 p10 116763 p90 116922 sum 174.717
+spec mlp:7-64-64-64-1 ram cycles 108135 p10 108059 p90 108218 sum 174.717
+spec mlp:7-64-64-64-1:silu cycles 149598 p10 149573 p90 149605 sum 123.043
+spec mlp:7-64-64-64-1:silu ram cycles 140894 p10 140869 p90 140903 sum 123.043
+spec mlp:7-64-64-64-1:tanh cycles 149624 p10 149606 p90 149635 sum -32.6841
+spec mlp:7-64-64-64-1:tanh ram cycles 140914 p10 140902 p90 140931 sum -32.6841
+spec poly:3:1 cycles 146 p10 146 p90 146 sum 3.33018
+spec poly:3:1 ram cycles 146 p10 146 p90 146 sum 3.33018
+spec poly:3:2 cycles 266 p10 266 p90 266 sum 4.29288
+spec poly:3:2 ram cycles 266 p10 266 p90 266 sum 4.29288
+spec poly:3:3 cycles 466 p10 466 p90 466 sum 4.08691
+spec poly:3:3 ram cycles 466 p10 466 p90 466 sum 4.08691
+spec poly:3:4 cycles 766 p10 766 p90 766 sum 2.66753
+spec poly:3:4 ram cycles 766 p10 766 p90 766 sum 2.66753
+spec poly:3:5 cycles 1186 p10 1186 p90 1186 sum 3.07294
+spec poly:3:5 ram cycles 1186 p10 1186 p90 1186 sum 3.07294
+spec poly:3:6 cycles 1746 p10 1746 p90 1746 sum 3.03413
+spec poly:3:6 ram cycles 1746 p10 1746 p90 1746 sum 3.03413
+spec poly:4:1 cycles 166 p10 166 p90 166 sum 3.05738
+spec poly:4:1 ram cycles 166 p10 166 p90 166 sum 3.05738
+spec poly:4:2 cycles 366 p10 366 p90 366 sum 4.36355
+spec poly:4:2 ram cycles 366 p10 366 p90 366 sum 4.36355
+spec poly:4:3 cycles 766 p10 766 p90 766 sum 4.01575
+spec poly:4:3 ram cycles 766 p10 766 p90 766 sum 4.01575
+spec poly:4:4 cycles 1466 p10 1466 p90 1466 sum 3.3108
+spec poly:4:4 ram cycles 1466 p10 1466 p90 1466 sum 3.3108
+spec poly:4:5 cycles 2586 p10 2586 p90 2586 sum 3.17832
+spec poly:4:5 ram cycles 2586 p10 2586 p90 2586 sum 3.17832
+spec poly:4:6 cycles 4266 p10 4266 p90 4266 sum 2.11661
+spec poly:4:6 ram cycles 4266 p10 4266 p90 4266 sum 2.11661
+spec poly:5:1 cycles 186 p10 186 p90 186 sum 3.4424
+spec poly:5:1 ram cycles 186 p10 186 p90 186 sum 3.4424
+spec poly:5:2 cycles 486 p10 486 p90 486 sum 4.40427
+spec poly:5:2 ram cycles 486 p10 486 p90 486 sum 4.40427
+spec poly:5:3 cycles 1186 p10 1186 p90 1186 sum 3.66749
+spec poly:5:3 ram cycles 1186 p10 1186 p90 1186 sum 3.66749
+spec poly:5:4 cycles 2586 p10 2586 p90 2586 sum 0.177356
+spec poly:5:4 ram cycles 2586 p10 2586 p90 2586 sum 0.177356
+spec poly:5:5 cycles 5106 p10 5106 p90 5106 sum -0.39273
+spec poly:5:5 ram cycles 5106 p10 5106 p90 5106 sum -0.39273
+spec poly:5:6 cycles 9306 p10 9306 p90 9306 sum -3.30549
+spec poly:5:6 ram cycles 9306 p10 9306 p90 9306 sum -3.30549
+spec poly:6:1 cycles 206 p10 206 p90 206 sum 3.33306
+spec poly:6:1 ram cycles 206 p10 206 p90 206 sum 3.33306
+spec poly:6:2 cycles 626 p10 626 p90 626 sum 6.49918
+spec poly:6:2 ram cycles 626 p10 626 p90 626 sum 6.49918
+spec poly:6:3 cycles 1746 p10 1746 p90 1746 sum 7.76455
+spec poly:6:3 ram cycles 1746 p10 1746 p90 1746 sum 7.76455
+spec poly:6:4 cycles 4266 p10 4266 p90 4266 sum 6.10296
+spec poly:6:4 ram cycles 4266 p10 4266 p90 4266 sum 6.10296
+spec poly:6:5 cycles 9306 p10 9306 p90 9306 sum 5.56614
+spec poly:6:5 ram cycles 9306 p10 9306 p90 9306 sum 5.56614
+spec poly:6:6 cycles 18546 p10 18546 p90 18599 sum 3.37623
+spec poly:6:6 ram cycles 18546 p10 18546 p90 18623 sum 3.37623
+spec poly:7:1 cycles 226 p10 226 p90 226 sum 3.70749
+spec poly:7:1 ram cycles 226 p10 226 p90 226 sum 3.70749
+spec poly:7:2 cycles 786 p10 786 p90 786 sum -2.85777
+spec poly:7:2 ram cycles 786 p10 786 p90 786 sum -2.85777
+spec poly:7:3 cycles 2466 p10 2466 p90 2466 sum -3.9577
+spec poly:7:3 ram cycles 2466 p10 2466 p90 2466 sum -3.9577
+spec poly:7:4 cycles 6666 p10 6666 p90 6666 sum -3.37375
+spec poly:7:4 ram cycles 6666 p10 6666 p90 6666 sum -3.37375
+spec poly:7:5 cycles 15906 p10 15906 p90 15983 sum -3.62786
+spec poly:7:5 ram cycles 15906 p10 15906 p90 15983 sum -3.62786
+spec poly:7:6 cycles 34386 p10 34386 p90 34464 sum -1.2813
+spec poly:7:6 ram cycles 34386 p10 34386 p90 34464 sum -1.2813
+DONE

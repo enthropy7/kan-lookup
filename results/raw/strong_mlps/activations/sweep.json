@@ -1,0 +1,101 @@
+{
+ "shapes": [
+  "mlp1_w4_silu",
+  "mlp1_w8_silu",
+  "mlp1_w16_silu",
+  "mlp1_w32_silu",
+  "mlp1_w64_silu",
+  "mlp1_w128_silu",
+  "mlp2_w4_silu",
+  "mlp2_w8_silu",
+  "mlp2_w16_silu",
+  "mlp2_w32_silu",
+  "mlp2_w64_silu",
+  "mlp2_w128_silu",
+  "mlp3_w4_silu",
+  "mlp3_w8_silu",
+  "mlp3_w16_silu",
+  "mlp3_w32_silu",
+  "mlp3_w64_silu",
+  "mlp3_w128_silu",
+  "mlp1_w4_tanh",
+  "mlp1_w8_tanh",
+  "mlp1_w16_tanh",
+  "mlp1_w32_tanh",
+  "mlp1_w64_tanh",
+  "mlp1_w128_tanh",
+  "mlp2_w4_tanh",
+  "mlp2_w8_tanh",
+  "mlp2_w16_tanh",
+  "mlp2_w32_tanh",
+  "mlp2_w64_tanh",
+  "mlp2_w128_tanh",
+  "mlp3_w4_tanh",
+  "mlp3_w8_tanh",
+  "mlp3_w16_tanh",
+  "mlp3_w32_tanh",
+  "mlp3_w64_tanh",
+  "mlp3_w128_tanh"
+ ],
+ "lrs": [
+  0.001,
+  0.003,
+  0.01
+ ],
+ "seeds": [
+  0,
+  1
+ ],
+ "steps": 6000,
+ "env": {
+  "time_utc": "2026-09-25T13:52:25+00:00",
+  "argv": [
+   "harness/regress_robust.py",
+   "run-a",
+   "--out",
+   "results/raw/exp036a",
+   "--workers",
+   "12"
+  ],
+  "host": "nixos",
+  "kernel": "6.18.42",
+  "cpu": "AMD Ryzen 5 7500F 6-Core Processor",
+  "python": "3.12.14",
+  "torch": "2.13.0+cu130",
+  "torch_cuda": "13.0",
+  "cudnn": 92200,
+  "triton": "3.7.1",
+  "nixpkgs_rev": "6774f7bc253789b113a4f39285dc0fa100abeacc",
+  "env": {
+   "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+   "PYTHONHASHSEED": "0",
+   "CUDA_VISIBLE_DEVICES": ""
+  },
+  "git": {
+   "commit": "9d14bc5a2b33cdd9acbfa315c033949a1b946ab7",
+   "dirty_files": []
+  },
+  "device": null,
+  "gpu": [
+   {
+    "name": "NVIDIA GeForce RTX 4090",
+    "driver_version": "595.84",
+    "pci.bus_id": "00000000:01:00.0",
+    "vbios_version": "95.02.3C.00.EB",
+    "clocks.sm": "210",
+    "clocks.mem": "405",
+    "clocks.max.sm": "3105",
+    "clocks.max.mem": "10501",
+    "power.limit": "450.00",
+    "power.default_limit": "450.00",
+    "persistence_mode": "Disabled",
+    "compute_mode": "Default",
+    "pstate": "P8",
+    "utilization.gpu": "2",
+    "temperature.gpu": "42",
+    "memory.used": "326",
+    "memory.total": "24564"
+   }
+  ]
+ }
+}

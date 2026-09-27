@@ -1,0 +1,76 @@
+{
+ "tasks": [
+  "pv_mp5",
+  "pv_chain6",
+  "tyre4",
+  "msis7",
+  "flame5",
+  "gasz7",
+  "ign5",
+  "igrf4",
+  "msis_d3",
+  "msis_d4",
+  "msis_d5",
+  "msis_d6"
+ ],
+ "folds": [
+  0,
+  1,
+  2
+ ],
+ "bases": [
+  "mod",
+  "bound"
+ ],
+ "w": [
+  0.5,
+  0.9,
+  0.99
+ ],
+ "cuts": [
+  4096,
+  8192,
+  16384,
+  32768,
+  65536,
+  131072
+ ],
+ "lams": [
+  1e-06,
+  0.0001,
+  0.01,
+  1.0
+ ],
+ "iters": 1000,
+ "new_grid": 8192,
+ "grid_lams": [
+  0.0001,
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "env": {
+  "time_utc": "2026-09-28T02:25:30+00:00",
+  "argv": [
+   "kantab/experiments/sparse_budgets.py",
+   "run",
+   "--workers",
+   "10"
+  ],
+  "host": "nixos",
+  "kernel": "6.18.42",
+  "cpu": "AMD Ryzen 5 7500F 6-Core Processor",
+  "python": "3.12.14",
+  "torch": "2.13.0+cu130",
+  "nixpkgs_rev": "6774f7bc253789b113a4f39285dc0fa100abeacc",
+  "env": {
+   "PYTHONHASHSEED": "0",
+   "CUDA_VISIBLE_DEVICES": ""
+  },
+  "git": {
+   "commit": "55b963f2e97689e30d3a002286bb0287444b1ab5",
+   "dirty_files": []
+  }
+ }
+}

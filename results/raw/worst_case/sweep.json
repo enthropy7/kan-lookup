@@ -1,0 +1,63 @@
+{
+ "tasks": [
+  "pv_mp5",
+  "pv_chain6",
+  "tyre4",
+  "msis7",
+  "flame5",
+  "gasz7",
+  "ign5",
+  "igrf4",
+  "msis_d3",
+  "msis_d4",
+  "msis_d5",
+  "msis_d6"
+ ],
+ "budgets": [
+  4096,
+  16384,
+  32768,
+  131072
+ ],
+ "groups": {
+  "kan": [
+   "kan"
+  ],
+  "maps": [
+   "grid",
+   "cp",
+   "ga2m"
+  ],
+  "sgrid": [
+   "sgrid"
+  ]
+ },
+ "seeds": [
+  0,
+  1
+ ],
+ "tolerance": 1e-06,
+ "env": {
+  "time_utc": "2026-09-28T13:44:10+00:00",
+  "argv": [
+   "kantab/experiments/worst_case.py",
+   "run",
+   "--workers",
+   "10"
+  ],
+  "host": "nixos",
+  "kernel": "6.18.42",
+  "cpu": "AMD Ryzen 5 7500F 6-Core Processor",
+  "python": "3.12.14",
+  "torch": "2.13.0+cu130",
+  "nixpkgs_rev": "6774f7bc253789b113a4f39285dc0fa100abeacc",
+  "env": {
+   "PYTHONHASHSEED": "0",
+   "CUDA_VISIBLE_DEVICES": null
+  },
+  "git": {
+   "commit": "a6475c9348931a16bf03346044c766616d243c30",
+   "dirty_files": []
+  }
+ }
+}

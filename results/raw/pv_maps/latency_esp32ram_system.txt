@@ -1,0 +1,2 @@
+board esp32 rev 301 cores 2 cpu_mhz 240 flash 4194304 specs 793 heap_free 271028 largest_block 139264
+As esp32, with each model's tables and weights copied into internal RAM when they fit (largest free block 139 264 B); the models that do not fit keep their flash timing.

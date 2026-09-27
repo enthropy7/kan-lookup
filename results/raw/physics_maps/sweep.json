@@ -1,0 +1,358 @@
+{
+ "tasks": [
+  "tyre4",
+  "msis7",
+  "flame5"
+ ],
+ "pv_tasks": [
+  "pv_mp5",
+  "pv_chain6"
+ ],
+ "n": 60000,
+ "grid_n": {
+  "tyre4": [
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12,
+   15
+  ],
+  "msis7": [
+   2,
+   3,
+   4
+  ],
+  "flame5": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ]
+ },
+ "curvature": {
+  "pv_mp5": [
+   0.11509782273414876,
+   0.02721838536919996,
+   5.015057024187954,
+   0.26818018820569994,
+   0.11364095184063702
+  ],
+  "pv_chain6": [
+   0.2188804588020589,
+   0.08799417264994526,
+   4.4667076092450815,
+   9.573835039161395,
+   0.012339219948554641,
+   0.029799847859620223
+  ],
+  "tyre4": [
+   1.562420517739149,
+   18.281741871009984,
+   0.014070150781198562,
+   0.1406239914832794
+  ],
+  "msis7": [
+   1.2888475242709219,
+   1.2170873295421718,
+   1.7831192479078173,
+   2.0004586862923355,
+   0.17260370917365211,
+   0.2255626170829549,
+   0.37966990716097326
+  ],
+  "flame5": [
+   0.041406164586491705,
+   0.4705140893395072,
+   5.1605867175801,
+   0.606095953077309,
+   0.13632649933128246
+  ]
+ },
+ "aniso_counts": {
+  "pv_mp5": [
+   "4x2x16x5x3",
+   "3x2x14x4x3",
+   "5x3x31x7x5",
+   "5x3x22x6x4",
+   "7x4x37x9x7",
+   "6x3x33x9x6"
+  ],
+  "pv_chain6": [
+   "3x2x8x10x2x2",
+   "2x2x7x9x2x2",
+   "4x3x15x22x2x2",
+   "4x3x11x15x2x2",
+   "5x4x19x28x2x3",
+   "5x3x16x22x2x3"
+  ],
+  "tyre4": [
+   "9x28x2x4",
+   "7x24x2x3",
+   "17x53x3x6",
+   "13x41x3x5",
+   "25x81x4x8",
+   "22x70x3x7"
+  ],
+  "msis7": [
+   "3x3x4x4x2x2x3",
+   "3x3x3x4x2x2x2",
+   "5x4x5x6x3x3x3",
+   "4x4x5x5x2x3x3",
+   "6x6x7x7x3x3x4",
+   "5x5x6x6x3x3x4"
+  ],
+  "flame5": [
+   "2x5x13x5x3",
+   "2x4x10x4x3",
+   "3x8x21x8x4",
+   "3x6x16x7x4",
+   "4x9x30x10x6",
+   "3x9x26x9x5"
+  ]
+ },
+ "fill": [
+  1.0,
+  0.5
+ ],
+ "curv_points": 2000,
+ "curv_step": 0.05,
+ "grid_lams": [
+  0.0001,
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "mlp": [
+  "mlp1_w16",
+  "mlp1_w32",
+  "mlp1_w64",
+  "mlp1_w128",
+  "mlp2_w16",
+  "mlp2_w32",
+  "mlp2_w64",
+  "mlp2_w128",
+  "mlp3_w16",
+  "mlp3_w32",
+  "mlp3_w64",
+  "mlp3_w128",
+  "mlp1_w16_silu",
+  "mlp1_w32_silu",
+  "mlp1_w64_silu",
+  "mlp1_w128_silu",
+  "mlp2_w16_silu",
+  "mlp2_w32_silu",
+  "mlp2_w64_silu",
+  "mlp2_w128_silu",
+  "mlp3_w16_silu",
+  "mlp3_w32_silu",
+  "mlp3_w64_silu",
+  "mlp3_w128_silu",
+  "mlp1_w16_tanh",
+  "mlp1_w32_tanh",
+  "mlp1_w64_tanh",
+  "mlp1_w128_tanh",
+  "mlp2_w16_tanh",
+  "mlp2_w32_tanh",
+  "mlp2_w64_tanh",
+  "mlp2_w128_tanh",
+  "mlp3_w16_tanh",
+  "mlp3_w32_tanh",
+  "mlp3_w64_tanh",
+  "mlp3_w128_tanh"
+ ],
+ "kan": [
+  "kan1_w4_g10",
+  "kan1_w4_g20",
+  "kan1_w8_g10",
+  "kan1_w8_g20",
+  "kan1_w16_g10",
+  "kan1_w16_g20",
+  "kan1_w32_g10",
+  "kan1_w32_g20",
+  "kan2_w8_g5",
+  "kan2_w16_g5"
+ ],
+ "cp": [
+  "cp1_q16",
+  "cp1_q32",
+  "cp1_q64",
+  "cp2_q16",
+  "cp2_q32",
+  "cp2_q64",
+  "cp4_q16",
+  "cp4_q32",
+  "cp4_q64",
+  "cp8_q16",
+  "cp8_q32",
+  "cp8_q64",
+  "cp16_q16",
+  "cp16_q32",
+  "cp16_q64"
+ ],
+ "ga2m": [
+  "ga2m_q16_8",
+  "ga2m_q16_16",
+  "ga2m_q16_32",
+  "ga2m_q32_8",
+  "ga2m_q32_16",
+  "ga2m_q32_32",
+  "ga2m_q64_8",
+  "ga2m_q64_16",
+  "ga2m_q64_32"
+ ],
+ "steps": 30000,
+ "lrs": [
+  0.001,
+  0.003,
+  0.01
+ ],
+ "seeds": [
+  0,
+  1
+ ],
+ "lut_variants": [
+  [
+   "lut6_i8",
+   6,
+   8,
+   false
+  ],
+  [
+   "lut6_i16",
+   6,
+   16,
+   false
+  ],
+  [
+   "lut8_i8",
+   8,
+   8,
+   false
+  ],
+  [
+   "lut8_i16",
+   8,
+   16,
+   false
+  ],
+  [
+   "lin4_i16",
+   4,
+   16,
+   true
+  ],
+  [
+   "lin6_i16_m5",
+   6,
+   16,
+   true,
+   0.05
+  ],
+  [
+   "lin7_i16_m5",
+   7,
+   16,
+   true,
+   0.05
+  ],
+  [
+   "lin8_i16_m5",
+   8,
+   16,
+   true,
+   0.05
+  ]
+ ],
+ "gbdt": [
+  "gbdt_n25_l7",
+  "gbdt_n25_l15",
+  "gbdt_n25_l31",
+  "gbdt_n50_l7",
+  "gbdt_n50_l15",
+  "gbdt_n50_l31",
+  "gbdt_n100_l7",
+  "gbdt_n100_l15",
+  "gbdt_n100_l31",
+  "gbdt_n200_l7",
+  "gbdt_n200_l15",
+  "gbdt_n200_l31",
+  "gbdt_n400_l7",
+  "gbdt_n400_l15",
+  "gbdt_n400_l31",
+  "gbdt_n800_l7",
+  "gbdt_n800_l15",
+  "gbdt_n800_l31"
+ ],
+ "poly": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "budgets": [
+  4096,
+  32768,
+  131072
+ ],
+ "margin": 0.8,
+ "env": {
+  "time_utc": "2026-09-26T11:52:39+00:00",
+  "argv": [
+   "harness/phys_sweep.py",
+   "run",
+   "--out",
+   "results/raw/exp042",
+   "--workers",
+   "10"
+  ],
+  "host": "nixos",
+  "kernel": "6.18.42",
+  "cpu": "AMD Ryzen 5 7500F 6-Core Processor",
+  "python": "3.12.14",
+  "torch": "2.13.0+cu130",
+  "torch_cuda": "13.0",
+  "cudnn": 92200,
+  "triton": "3.7.1",
+  "nixpkgs_rev": "6774f7bc253789b113a4f39285dc0fa100abeacc",
+  "env": {
+   "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+   "PYTHONHASHSEED": "0",
+   "CUDA_VISIBLE_DEVICES": ""
+  },
+  "git": {
+   "commit": "cefed631c4f5d9ae1252ad0c61387615e29c9143",
+   "dirty_files": []
+  },
+  "device": null,
+  "gpu": [
+   {
+    "name": "NVIDIA GeForce RTX 4090",
+    "driver_version": "595.84",
+    "pci.bus_id": "00000000:01:00.0",
+    "vbios_version": "95.02.3C.00.EB",
+    "clocks.sm": "210",
+    "clocks.mem": "405",
+    "clocks.max.sm": "3105",
+    "clocks.max.mem": "10501",
+    "power.limit": "450.00",
+    "power.default_limit": "450.00",
+    "persistence_mode": "Disabled",
+    "compute_mode": "Default",
+    "pstate": "P8",
+    "utilization.gpu": "2",
+    "temperature.gpu": "39",
+    "memory.used": "505",
+    "memory.total": "24564"
+   }
+  ]
+ }
+}

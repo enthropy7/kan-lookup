@@ -1,0 +1,199 @@
+{
+ "tasks": [
+  "kan_toy2",
+  "kan_toy4",
+  "feyn_i6_2",
+  "feyn_i29_16",
+  "feyn_i40_1",
+  "ccpp",
+  "airfoil",
+  "concrete",
+  "energy",
+  "airq"
+ ],
+ "folds": 5,
+ "mlp": [
+  "mlp1_w4",
+  "mlp1_w8",
+  "mlp1_w16",
+  "mlp1_w32",
+  "mlp1_w64",
+  "mlp1_w128",
+  "mlp2_w4",
+  "mlp2_w8",
+  "mlp2_w16",
+  "mlp2_w32",
+  "mlp2_w64",
+  "mlp2_w128",
+  "mlp3_w4",
+  "mlp3_w8",
+  "mlp3_w16",
+  "mlp3_w32",
+  "mlp3_w64",
+  "mlp3_w128"
+ ],
+ "kan": [
+  "kan1_w1_g5",
+  "kan1_w1_g10",
+  "kan1_w1_g20",
+  "kan1_w2_g5",
+  "kan1_w2_g10",
+  "kan1_w2_g20",
+  "kan1_w4_g5",
+  "kan1_w4_g10",
+  "kan1_w4_g20",
+  "kan1_w8_g5",
+  "kan1_w8_g10",
+  "kan1_w8_g20",
+  "kan1_w16_g5",
+  "kan1_w16_g10",
+  "kan1_w16_g20",
+  "kan1_w32_g5",
+  "kan1_w32_g10",
+  "kan1_w32_g20",
+  "kan2_w4_g5",
+  "kan2_w8_g5",
+  "kan2_w16_g5"
+ ],
+ "nn_lrs": [
+  0.001,
+  0.003,
+  0.01
+ ],
+ "seeds": [
+  0,
+  1
+ ],
+ "steps": 6000,
+ "batch": 64,
+ "eval_every": 250,
+ "lut_variants": [
+  [
+   "lut6_i8",
+   6,
+   8,
+   false
+  ],
+  [
+   "lut6_i16",
+   6,
+   16,
+   false
+  ],
+  [
+   "lut8_i8",
+   8,
+   8,
+   false
+  ],
+  [
+   "lut8_i16",
+   8,
+   16,
+   false
+  ],
+  [
+   "lin4_i16",
+   4,
+   16,
+   true
+  ],
+  [
+   "lin6_i16",
+   6,
+   16,
+   true
+  ]
+ ],
+ "gbdt": [
+  "gbdt_n25_l7",
+  "gbdt_n25_l15",
+  "gbdt_n25_l31",
+  "gbdt_n50_l7",
+  "gbdt_n50_l15",
+  "gbdt_n50_l31",
+  "gbdt_n100_l7",
+  "gbdt_n100_l15",
+  "gbdt_n100_l31",
+  "gbdt_n200_l7",
+  "gbdt_n200_l15",
+  "gbdt_n200_l31",
+  "gbdt_n400_l7",
+  "gbdt_n400_l15",
+  "gbdt_n400_l31",
+  "gbdt_n800_l7",
+  "gbdt_n800_l15",
+  "gbdt_n800_l31"
+ ],
+ "gbdt_lrs": [
+  0.05,
+  0.1,
+  0.3
+ ],
+ "poly_degrees": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "poly_alphas": [
+  1e-08,
+  1e-06,
+  0.0001,
+  0.01,
+  1.0
+ ],
+ "env": {
+  "time_utc": "2026-09-25T11:27:39+00:00",
+  "argv": [
+   "harness/regress_sweep.py",
+   "run",
+   "--out",
+   "results/raw/exp035",
+   "--workers",
+   "12"
+  ],
+  "host": "nixos",
+  "kernel": "6.18.42",
+  "cpu": "AMD Ryzen 5 7500F 6-Core Processor",
+  "python": "3.12.14",
+  "torch": "2.13.0+cu130",
+  "torch_cuda": "13.0",
+  "cudnn": 92200,
+  "triton": "3.7.1",
+  "nixpkgs_rev": "6774f7bc253789b113a4f39285dc0fa100abeacc",
+  "env": {
+   "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+   "PYTHONHASHSEED": "0",
+   "CUDA_VISIBLE_DEVICES": ""
+  },
+  "git": {
+   "commit": "39dcbb12e149756ce353807f628446d035e604e6",
+   "dirty_files": []
+  },
+  "device": null,
+  "gpu": [
+   {
+    "name": "NVIDIA GeForce RTX 4090",
+    "driver_version": "595.84",
+    "pci.bus_id": "00000000:01:00.0",
+    "vbios_version": "95.02.3C.00.EB",
+    "clocks.sm": "210",
+    "clocks.mem": "405",
+    "clocks.max.sm": "3105",
+    "clocks.max.mem": "10501",
+    "power.limit": "450.00",
+    "power.default_limit": "450.00",
+    "persistence_mode": "Disabled",
+    "compute_mode": "Default",
+    "pstate": "P8",
+    "utilization.gpu": "0",
+    "temperature.gpu": "42",
+    "memory.used": "325",
+    "memory.total": "24564"
+   }
+  ]
+ }
+}

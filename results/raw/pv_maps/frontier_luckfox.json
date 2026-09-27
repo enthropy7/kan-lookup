@@ -1,0 +1,3681 @@
+{
+ "points": [
+  {
+   "task": "pv_chain6",
+   "shape": "cp16_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.8669329583644867,
+   "val_rmse": 0.9667471349239349,
+   "bytes": 3524,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp16_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.642098069190979,
+   "val_rmse": 0.7149998545646667,
+   "bytes": 6596,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp16_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.8549037575721741,
+   "val_rmse": 1.0171650648117065,
+   "bytes": 12740,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp1_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 29.261874198913574,
+   "val_rmse": 29.499027252197266,
+   "bytes": 224,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp1_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 27.903082847595215,
+   "val_rmse": 28.076663970947266,
+   "bytes": 416,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp1_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 31.163182258605957,
+   "val_rmse": 31.40924072265625,
+   "bytes": 800,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp2_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 9.787858486175537,
+   "val_rmse": 9.727526187896729,
+   "bytes": 444,
+   "lat_ns": 1166
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp2_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 9.933053970336914,
+   "val_rmse": 9.873112678527832,
+   "bytes": 828,
+   "lat_ns": 1166
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp2_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 10.18611478805542,
+   "val_rmse": 10.107010841369629,
+   "bytes": 1596,
+   "lat_ns": 1166
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp4_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 2.6159297227859497,
+   "val_rmse": 2.6523858308792114,
+   "bytes": 884,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp4_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 2.303854465484619,
+   "val_rmse": 2.355574131011963,
+   "bytes": 1652,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp4_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 3.191406726837158,
+   "val_rmse": 3.253280997276306,
+   "bytes": 3188,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp8_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 1.245326042175293,
+   "val_rmse": 1.3623064160346985,
+   "bytes": 1764,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp8_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 1.178432047367096,
+   "val_rmse": 1.2744892835617065,
+   "bytes": 3300,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "cp8_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 1.522544801235199,
+   "val_rmse": 1.69528728723526,
+   "bytes": 6372,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "ga2m_q16_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 11.577621936798096,
+   "val_rmse": 11.673526763916016,
+   "bytes": 7960,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "ga2m_q16_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 12.842554569244385,
+   "val_rmse": 13.068992137908936,
+   "bytes": 31000,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "ga2m_q16_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 11.317190647125244,
+   "val_rmse": 11.469231605529785,
+   "bytes": 2200,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "ga2m_q32_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 11.572432518005371,
+   "val_rmse": 11.690311908721924,
+   "bytes": 8152,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "ga2m_q32_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 12.849729537963867,
+   "val_rmse": 13.074329376220703,
+   "bytes": 31192,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "ga2m_q32_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 11.311249256134033,
+   "val_rmse": 11.463930606842041,
+   "bytes": 2392,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "ga2m_q64_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 11.607830047607422,
+   "val_rmse": 11.724548816680908,
+   "bytes": 8536,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "ga2m_q64_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 12.89880895614624,
+   "val_rmse": 13.132056713104248,
+   "bytes": 31576,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "ga2m_q64_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 11.34175968170166,
+   "val_rmse": 11.502043724060059,
+   "bytes": 2776,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n100_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 6.867154657439909,
+   "val_rmse": 6.84289141600969,
+   "bytes": 23604,
+   "lat_ns": 6417
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n100_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 5.578342810045445,
+   "val_rmse": 5.683931036170117,
+   "bytes": 49204,
+   "lat_ns": 10501
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n100_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 8.613719962072075,
+   "val_rmse": 8.799116815055514,
+   "bytes": 10804,
+   "lat_ns": 5250
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n200_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 5.6333305173992745,
+   "val_rmse": 5.604741713586208,
+   "bytes": 47204,
+   "lat_ns": 11668
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n200_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 4.478806957438501,
+   "val_rmse": 4.5399087991045155,
+   "bytes": 98404,
+   "lat_ns": 19834
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n200_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 6.73085579273082,
+   "val_rmse": 6.868313432153079,
+   "bytes": 21604,
+   "lat_ns": 9625
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n25_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 10.434190238748853,
+   "val_rmse": 10.522805313368368,
+   "bytes": 5904,
+   "lat_ns": 2334
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n25_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 8.188494090036084,
+   "val_rmse": 8.30960821787198,
+   "bytes": 12304,
+   "lat_ns": 2917
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n25_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 12.866177201347162,
+   "val_rmse": 13.218947604421645,
+   "bytes": 2704,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n400_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 4.565070128643817,
+   "val_rmse": 4.641441416970375,
+   "bytes": 94404,
+   "lat_ns": 29460
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n400_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 3.715122552678494,
+   "val_rmse": 3.77260439219478,
+   "bytes": 196804,
+   "lat_ns": 68836
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n400_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 5.343856146646815,
+   "val_rmse": 5.468798510439454,
+   "bytes": 43204,
+   "lat_ns": 19543
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n50_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 8.524425001601795,
+   "val_rmse": 8.503238783867895,
+   "bytes": 11804,
+   "lat_ns": 4083
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n50_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 7.04597286338386,
+   "val_rmse": 7.108781254043126,
+   "bytes": 24604,
+   "lat_ns": 4667
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n50_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 10.782290470767242,
+   "val_rmse": 11.082039644451639,
+   "bytes": 5404,
+   "lat_ns": 3208
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n800_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 3.6909334554886923,
+   "val_rmse": 3.769772244706544,
+   "bytes": 188804,
+   "lat_ns": 121046
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n800_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 3.290719271218181,
+   "val_rmse": 3.3496580831951595,
+   "bytes": 393604,
+   "lat_ns": 182299
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gbdt_n800_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 4.262756333146254,
+   "val_rmse": 4.330673528050715,
+   "bytes": 86404,
+   "lat_ns": 39960
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "grid_n3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 10.347341792166025,
+   "val_rmse": 10.585260810679408,
+   "bytes": 1462,
+   "lat_ns": 3209
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "grid_n4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 14.362272446363027,
+   "val_rmse": 14.737807812823535,
+   "bytes": 8196,
+   "lat_ns": 3209
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "grid_n5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 8.003057835759563,
+   "val_rmse": 8.299549400436348,
+   "bytes": 31254,
+   "lat_ns": 3209
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "grid_n6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 4.87250329727984,
+   "val_rmse": 4.987880283543443,
+   "bytes": 93316,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridnode_n3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 20.04058892124429,
+   "val_rmse": 20.080520575784426,
+   "bytes": 1462,
+   "lat_ns": 3209
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridnode_n4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 19.045455730701182,
+   "val_rmse": 19.27892852865546,
+   "bytes": 8196,
+   "lat_ns": 3209
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridnode_n5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 10.396098428379306,
+   "val_rmse": 10.633409426147594,
+   "bytes": 31254,
+   "lat_ns": 3209
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "gridnode_n6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 5.929818393836904,
+   "val_rmse": 6.030971639043323,
+   "bytes": 93316,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 1.1533212065696716,
+   "val_rmse": 1.2092174887657166,
+   "bytes": 3828,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.5123133957386017,
+   "val_rmse": 0.576835572719574,
+   "bytes": 14580,
+   "lat_ns": 2334
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.5068375319242477,
+   "val_rmse": 0.573706865310669,
+   "bytes": 28916,
+   "lat_ns": 2625
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.5065320134162903,
+   "val_rmse": 0.5741467177867889,
+   "bytes": 57588,
+   "lat_ns": 2625
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 2.16867733001709,
+   "val_rmse": 2.2479993104934692,
+   "bytes": 14580,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 2.371841549873352,
+   "val_rmse": 2.491121530532837,
+   "bytes": 7412,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.7363060116767883,
+   "val_rmse": 0.7752930223941803,
+   "bytes": 57588,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 1.230573296546936,
+   "val_rmse": 1.243213415145874,
+   "bytes": 28916,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 1.1044530272483826,
+   "val_rmse": 1.1694682836532593,
+   "bytes": 3828,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.5364699065685272,
+   "val_rmse": 0.6198970973491669,
+   "bytes": 14580,
+   "lat_ns": 2334
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.5356318652629852,
+   "val_rmse": 0.6203666031360626,
+   "bytes": 28916,
+   "lat_ns": 2625
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.5359180271625519,
+   "val_rmse": 0.6231944561004639,
+   "bytes": 57588,
+   "lat_ns": 2625
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 2.1393710374832153,
+   "val_rmse": 2.202876925468445,
+   "bytes": 14580,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 2.403328061103821,
+   "val_rmse": 2.459332227706909,
+   "bytes": 7412,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.7750096321105957,
+   "val_rmse": 0.8087868392467499,
+   "bytes": 57588,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w16_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 1.23611181974411,
+   "val_rmse": 1.2789969444274902,
+   "bytes": 28916,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.9699022769927979,
+   "val_rmse": 1.041461706161499,
+   "bytes": 7604,
+   "lat_ns": 3792
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.312256321310997,
+   "val_rmse": 0.36992812156677246,
+   "bytes": 29108,
+   "lat_ns": 4083
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.30772142112255096,
+   "val_rmse": 0.36384589970111847,
+   "bytes": 57780,
+   "lat_ns": 4375
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.3073108643293381,
+   "val_rmse": 0.3628058433532715,
+   "bytes": 115124,
+   "lat_ns": 7292
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.8649227619171143,
+   "val_rmse": 1.930903673171997,
+   "bytes": 29108,
+   "lat_ns": 3792
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 2.0247922539711,
+   "val_rmse": 2.082714557647705,
+   "bytes": 14772,
+   "lat_ns": 3792
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.5563833713531494,
+   "val_rmse": 0.5839950740337372,
+   "bytes": 115124,
+   "lat_ns": 7000
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.8787892460823059,
+   "val_rmse": 0.9024406373500824,
+   "bytes": 57780,
+   "lat_ns": 4084
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.9658957123756409,
+   "val_rmse": 1.025536596775055,
+   "bytes": 7604,
+   "lat_ns": 3792
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.31182195246219635,
+   "val_rmse": 0.3688602149486542,
+   "bytes": 29108,
+   "lat_ns": 4083
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.3069039583206177,
+   "val_rmse": 0.36463552713394165,
+   "bytes": 57780,
+   "lat_ns": 4375
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.3062795400619507,
+   "val_rmse": 0.36393581330776215,
+   "bytes": 115124,
+   "lat_ns": 7292
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.8232980370521545,
+   "val_rmse": 1.9133449792861938,
+   "bytes": 29108,
+   "lat_ns": 3792
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.9578829407691956,
+   "val_rmse": 2.0405954122543335,
+   "bytes": 14772,
+   "lat_ns": 3792
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.5546985864639282,
+   "val_rmse": 0.5832610130310059,
+   "bytes": 115124,
+   "lat_ns": 7000
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w32_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.8712180852890015,
+   "val_rmse": 0.8922275006771088,
+   "bytes": 57780,
+   "lat_ns": 4084
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 4.509303092956543,
+   "val_rmse": 4.531442642211914,
+   "bytes": 996,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 3.9540023803710938,
+   "val_rmse": 3.955757737159729,
+   "bytes": 3684,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 3.9507170915603638,
+   "val_rmse": 3.9510560035705566,
+   "bytes": 7268,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 3.9505199193954468,
+   "val_rmse": 3.9508270025253296,
+   "bytes": 14436,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 5.843811511993408,
+   "val_rmse": 5.972006320953369,
+   "bytes": 3684,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 6.2179648876190186,
+   "val_rmse": 6.316696882247925,
+   "bytes": 1892,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 4.119014620780945,
+   "val_rmse": 4.125898480415344,
+   "bytes": 14436,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 4.6190667152404785,
+   "val_rmse": 4.636657238006592,
+   "bytes": 7268,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 4.535829544067383,
+   "val_rmse": 4.6033830642700195,
+   "bytes": 996,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 3.772615671157837,
+   "val_rmse": 3.82451331615448,
+   "bytes": 3684,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 3.767635226249695,
+   "val_rmse": 3.818420648574829,
+   "bytes": 7268,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 3.767585039138794,
+   "val_rmse": 3.8186134099960327,
+   "bytes": 14436,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 5.817197799682617,
+   "val_rmse": 5.855559825897217,
+   "bytes": 3684,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 6.087356805801392,
+   "val_rmse": 6.169868230819702,
+   "bytes": 1892,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 3.937740206718445,
+   "val_rmse": 3.99741268157959,
+   "bytes": 14436,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w4_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 4.59045147895813,
+   "val_rmse": 4.623145341873169,
+   "bytes": 7268,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 1.7396878600120544,
+   "val_rmse": 1.8247066736221313,
+   "bytes": 1940,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 1.198550045490265,
+   "val_rmse": 1.288017213344574,
+   "bytes": 7316,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 1.1948106288909912,
+   "val_rmse": 1.2837169766426086,
+   "bytes": 14484,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 1.1948681473731995,
+   "val_rmse": 1.283627688884735,
+   "bytes": 28820,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 2.847091794013977,
+   "val_rmse": 2.9808751344680786,
+   "bytes": 7316,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 3.14284610748291,
+   "val_rmse": 3.1926381587982178,
+   "bytes": 3732,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 1.3651120066642761,
+   "val_rmse": 1.4455838799476624,
+   "bytes": 28820,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 1.800925374031067,
+   "val_rmse": 1.8816236853599548,
+   "bytes": 14484,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 1.5505340695381165,
+   "val_rmse": 1.610086441040039,
+   "bytes": 1940,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 1.050769567489624,
+   "val_rmse": 1.1459827423095703,
+   "bytes": 7316,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 1.0492456555366516,
+   "val_rmse": 1.1453537940979004,
+   "bytes": 14484,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 1.0492387413978577,
+   "val_rmse": 1.1458410620689392,
+   "bytes": 28820,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 2.6494585275650024,
+   "val_rmse": 2.736525297164917,
+   "bytes": 7316,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 2.9754087924957275,
+   "val_rmse": 3.051496148109436,
+   "bytes": 3732,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 1.2080488801002502,
+   "val_rmse": 1.2982767820358276,
+   "bytes": 28820,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan1_w8_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 1.8352030515670776,
+   "val_rmse": 1.903666377067566,
+   "bytes": 14484,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w16_g5",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.7723310589790344,
+   "val_rmse": 0.8077536225318909,
+   "bytes": 12212,
+   "lat_ns": 4375
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w16_g5",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.19076121598482132,
+   "val_rmse": 0.20720724761486053,
+   "bytes": 47540,
+   "lat_ns": 4667
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w16_g5",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.18380305171012878,
+   "val_rmse": 0.2003137543797493,
+   "bytes": 94644,
+   "lat_ns": 4959
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w16_g5",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.1834017038345337,
+   "val_rmse": 0.19962312281131744,
+   "bytes": 188852,
+   "lat_ns": 9625
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w16_g5",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.99771648645401,
+   "val_rmse": 2.047989249229431,
+   "bytes": 47540,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w16_g5",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 2.093891143798828,
+   "val_rmse": 2.147526502609253,
+   "bytes": 23988,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w16_g5",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.5379725694656372,
+   "val_rmse": 0.5468864142894745,
+   "bytes": 188852,
+   "lat_ns": 7584
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w16_g5",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.8382607698440552,
+   "val_rmse": 0.8449369370937347,
+   "bytes": 94644,
+   "lat_ns": 4375
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w8_g5",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.8530990183353424,
+   "val_rmse": 0.8951743543148041,
+   "bytes": 4084,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w8_g5",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.34897662699222565,
+   "val_rmse": 0.3846414387226105,
+   "bytes": 15604,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w8_g5",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.3460860401391983,
+   "val_rmse": 0.3809303343296051,
+   "bytes": 30964,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w8_g5",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.34592168033123016,
+   "val_rmse": 0.3804200142621994,
+   "bytes": 61684,
+   "lat_ns": 2334
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w8_g5",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 2.3946492671966553,
+   "val_rmse": 2.416727304458618,
+   "bytes": 15604,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w8_g5",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 2.6418553590774536,
+   "val_rmse": 2.669779896736145,
+   "bytes": 7924,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w8_g5",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.6932356357574463,
+   "val_rmse": 0.6996282637119293,
+   "bytes": 61684,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "kan2_w8_g5",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 1.1661350727081299,
+   "val_rmse": 1.1732662916183472,
+   "bytes": 30964,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.941375732421875,
+   "val_rmse": 3.000622510910034,
+   "bytes": 1936,
+   "lat_ns": 10792
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 6.846759080886841,
+   "val_rmse": 6.972266435623169,
+   "bytes": 2192,
+   "lat_ns": 15751
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 4.034268379211426,
+   "val_rmse": 4.177513360977173,
+   "bytes": 2192,
+   "lat_ns": 15751
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 8.894543170928955,
+   "val_rmse": 9.267560005187988,
+   "bytes": 256,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 9.96418571472168,
+   "val_rmse": 10.144006729125977,
+   "bytes": 512,
+   "lat_ns": 2917
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 6.586205720901489,
+   "val_rmse": 6.785706281661987,
+   "bytes": 512,
+   "lat_ns": 2917
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 5.704020977020264,
+   "val_rmse": 5.914465427398682,
+   "bytes": 496,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 7.249633550643921,
+   "val_rmse": 7.446032285690308,
+   "bytes": 752,
+   "lat_ns": 4667
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 5.259814262390137,
+   "val_rmse": 5.378400087356567,
+   "bytes": 752,
+   "lat_ns": 4667
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 3.7594947814941406,
+   "val_rmse": 3.8863378763198853,
+   "bytes": 976,
+   "lat_ns": 5834
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 6.956032752990723,
+   "val_rmse": 7.1723549365997314,
+   "bytes": 1232,
+   "lat_ns": 8459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp1_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 4.4952781200408936,
+   "val_rmse": 4.663402557373047,
+   "bytes": 1232,
+   "lat_ns": 8459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.0898448824882507,
+   "val_rmse": 1.1127974390983582,
+   "bytes": 19348,
+   "lat_ns": 36752
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.5138105154037476,
+   "val_rmse": 2.536983370780945,
+   "bytes": 19860,
+   "lat_ns": 47543
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.515248715877533,
+   "val_rmse": 1.5209083557128906,
+   "bytes": 19860,
+   "lat_ns": 46960
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 3.129964232444763,
+   "val_rmse": 3.152860164642334,
+   "bytes": 644,
+   "lat_ns": 4083
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 3.5317546129226685,
+   "val_rmse": 3.5747355222702026,
+   "bytes": 1156,
+   "lat_ns": 5541
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.805225372314453,
+   "val_rmse": 2.8719675540924072,
+   "bytes": 1156,
+   "lat_ns": 5542
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.7171655893325806,
+   "val_rmse": 1.7594303488731384,
+   "bytes": 1780,
+   "lat_ns": 7292
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 3.016080141067505,
+   "val_rmse": 3.0654940605163574,
+   "bytes": 2292,
+   "lat_ns": 10208
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.138915777206421,
+   "val_rmse": 2.202543020248413,
+   "bytes": 2292,
+   "lat_ns": 9918
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.3833903074264526,
+   "val_rmse": 1.394541621208191,
+   "bytes": 5588,
+   "lat_ns": 15459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.524260401725769,
+   "val_rmse": 2.5611228942871094,
+   "bytes": 6100,
+   "lat_ns": 20709
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp2_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.8610682487487793,
+   "val_rmse": 1.8977062106132507,
+   "bytes": 6100,
+   "lat_ns": 20418
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.9481683373451233,
+   "val_rmse": 0.9709653854370117,
+   "bytes": 36760,
+   "lat_ns": 65336
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.1092504262924194,
+   "val_rmse": 2.145552396774292,
+   "bytes": 37528,
+   "lat_ns": 81378
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.266787350177765,
+   "val_rmse": 1.2708221673965454,
+   "bytes": 37528,
+   "lat_ns": 80503
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.839689016342163,
+   "val_rmse": 2.8902902603149414,
+   "bytes": 1032,
+   "lat_ns": 5834
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.6854857206344604,
+   "val_rmse": 2.741334915161133,
+   "bytes": 1800,
+   "lat_ns": 7875
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.0569326877593994,
+   "val_rmse": 2.0913755893707275,
+   "bytes": 1800,
+   "lat_ns": 7875
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.666631281375885,
+   "val_rmse": 1.6967227458953857,
+   "bytes": 3064,
+   "lat_ns": 11375
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.5208150148391724,
+   "val_rmse": 2.5394779443740845,
+   "bytes": 3832,
+   "lat_ns": 15459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.6584367752075195,
+   "val_rmse": 1.6807230114936829,
+   "bytes": 3832,
+   "lat_ns": 15459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.094096064567566,
+   "val_rmse": 1.1302424669265747,
+   "bytes": 10200,
+   "lat_ns": 24793
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.235268235206604,
+   "val_rmse": 2.2427029609680176,
+   "bytes": 10968,
+   "lat_ns": 32959
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "mlp3_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.3760818243026733,
+   "val_rmse": 1.411128044128418,
+   "bytes": 10968,
+   "lat_ns": 32668
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "poly1",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 40.94011571431353,
+   "val_rmse": 41.355731482821,
+   "bytes": 49,
+   "lat_ns": 583
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "poly2",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 27.996007070384138,
+   "val_rmse": 28.576227478683084,
+   "bytes": 196,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "poly3",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 18.220154477271304,
+   "val_rmse": 18.614463257884413,
+   "bytes": 588,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "poly4",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 12.048265970929371,
+   "val_rmse": 12.327158779586899,
+   "bytes": 1470,
+   "lat_ns": 4084
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "poly5",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 7.179356560498026,
+   "val_rmse": 7.310430100866332,
+   "bytes": 3234,
+   "lat_ns": 8459
+  },
+  {
+   "task": "pv_chain6",
+   "shape": "poly6",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 4.839523666914091,
+   "val_rmse": 4.960267372732077,
+   "bytes": 6468,
+   "lat_ns": 16626
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp16_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.29958805441856384,
+   "val_rmse": 0.3133762627840042,
+   "bytes": 2948,
+   "lat_ns": 2917
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp16_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.09240813925862312,
+   "val_rmse": 0.09685301780700684,
+   "bytes": 5508,
+   "lat_ns": 2917
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp16_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.0661277323961258,
+   "val_rmse": 0.06781288795173168,
+   "bytes": 10628,
+   "lat_ns": 2917
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp1_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.4111526161432266,
+   "val_rmse": 0.4176994115114212,
+   "bytes": 188,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp1_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.29980185627937317,
+   "val_rmse": 0.30306683480739594,
+   "bytes": 348,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp1_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 7.651983872056007,
+   "val_rmse": 7.806236043572426,
+   "bytes": 668,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp2_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.38761019706726074,
+   "val_rmse": 0.3952365070581436,
+   "bytes": 372,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp2_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.2807617262005806,
+   "val_rmse": 0.2832348942756653,
+   "bytes": 692,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp2_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.4163851737976074,
+   "val_rmse": 0.4238292872905731,
+   "bytes": 1332,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp4_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.32080142199993134,
+   "val_rmse": 0.33822090923786163,
+   "bytes": 740,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp4_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.17755265533924103,
+   "val_rmse": 0.18298877030611038,
+   "bytes": 1380,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp4_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.18376020342111588,
+   "val_rmse": 0.18701919168233871,
+   "bytes": 2660,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp8_q16",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.29680030047893524,
+   "val_rmse": 0.31297340989112854,
+   "bytes": 1476,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp8_q32",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.08573033660650253,
+   "val_rmse": 0.09059822931885719,
+   "bytes": 2756,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "cp8_q64",
+   "variant": "i16",
+   "family": "cp",
+   "rmse": 0.09754770249128342,
+   "val_rmse": 0.09612615033984184,
+   "bytes": 5316,
+   "lat_ns": 1750
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "ga2m_q16_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 1.0428752303123474,
+   "val_rmse": 1.121903419494629,
+   "bytes": 5344,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "ga2m_q16_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 1.1618516445159912,
+   "val_rmse": 1.206040620803833,
+   "bytes": 20704,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "ga2m_q16_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 1.1399329900741577,
+   "val_rmse": 1.2451205849647522,
+   "bytes": 1504,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "ga2m_q32_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 1.0280672907829285,
+   "val_rmse": 1.091617465019226,
+   "bytes": 5504,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "ga2m_q32_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 1.1606695652008057,
+   "val_rmse": 1.2056941390037537,
+   "bytes": 20864,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "ga2m_q32_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 1.1268924474716187,
+   "val_rmse": 1.2126225233078003,
+   "bytes": 1664,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "ga2m_q64_16",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 1.0315872430801392,
+   "val_rmse": 1.0906183123588562,
+   "bytes": 5824,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "ga2m_q64_32",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 1.1668525338172913,
+   "val_rmse": 1.2087620496749878,
+   "bytes": 21184,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "ga2m_q64_8",
+   "variant": "i16",
+   "family": "ga2m",
+   "rmse": 1.1309030055999756,
+   "val_rmse": 1.2110496163368225,
+   "bytes": 1984,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n100_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 1.836685372791321,
+   "val_rmse": 1.871007508369666,
+   "bytes": 23604,
+   "lat_ns": 8750
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n100_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 1.4867579526292916,
+   "val_rmse": 1.5405920858221516,
+   "bytes": 49204,
+   "lat_ns": 11667
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n100_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 2.5698195641663952,
+   "val_rmse": 2.626570280186744,
+   "bytes": 10804,
+   "lat_ns": 7000
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n200_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 1.5624543898148255,
+   "val_rmse": 1.5867143030788602,
+   "bytes": 47204,
+   "lat_ns": 16334
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n200_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 1.2795257352192195,
+   "val_rmse": 1.323254004706243,
+   "bytes": 98404,
+   "lat_ns": 23043
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n200_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 2.068308690191477,
+   "val_rmse": 2.142180254052882,
+   "bytes": 21604,
+   "lat_ns": 13417
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n25_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 3.5962717708684275,
+   "val_rmse": 3.6692560682102644,
+   "bytes": 5904,
+   "lat_ns": 2625
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n25_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 2.770253943872246,
+   "val_rmse": 2.8904318385393357,
+   "bytes": 12304,
+   "lat_ns": 2917
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n25_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 5.051408879262936,
+   "val_rmse": 5.138312931548839,
+   "bytes": 2704,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n400_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 1.30978225170429,
+   "val_rmse": 1.3294232100472063,
+   "bytes": 94404,
+   "lat_ns": 33543
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n400_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 1.072468056553585,
+   "val_rmse": 1.113343600593798,
+   "bytes": 196804,
+   "lat_ns": 107337
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n400_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 1.6551588473028123,
+   "val_rmse": 1.6996301507468863,
+   "bytes": 43204,
+   "lat_ns": 21001
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n50_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 2.742462222510964,
+   "val_rmse": 2.7713777101660932,
+   "bytes": 11804,
+   "lat_ns": 4375
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n50_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 2.1176782994197003,
+   "val_rmse": 2.1654214622188803,
+   "bytes": 24604,
+   "lat_ns": 5250
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n50_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 4.026425600421722,
+   "val_rmse": 4.1233663782430865,
+   "bytes": 5404,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n800_l15",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 1.0891284149164757,
+   "val_rmse": 1.1198083660789875,
+   "bytes": 188804,
+   "lat_ns": 152256
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n800_l31",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 0.9322654571685156,
+   "val_rmse": 0.9670835135964041,
+   "bytes": 393604,
+   "lat_ns": 271844
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gbdt_n800_l7",
+   "variant": "gbdt",
+   "family": "gbdt",
+   "rmse": 1.212714721600424,
+   "val_rmse": 1.2499355068799478,
+   "bytes": 86404,
+   "lat_ns": 42293
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "grid_n3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 8.549854819099584,
+   "val_rmse": 8.828419445508843,
+   "bytes": 490,
+   "lat_ns": 2041
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "grid_n4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 5.327215333054947,
+   "val_rmse": 5.48311994142636,
+   "bytes": 2052,
+   "lat_ns": 2041
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "grid_n5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 3.538754933084483,
+   "val_rmse": 3.68874041727576,
+   "bytes": 6254,
+   "lat_ns": 2041
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "grid_n6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 2.544455620711647,
+   "val_rmse": 2.644901627297743,
+   "bytes": 15556,
+   "lat_ns": 2041
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "grid_n7",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 2.0145649847437936,
+   "val_rmse": 2.0729798702391737,
+   "bytes": 33618,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "grid_n8",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 1.6848063161153035,
+   "val_rmse": 1.7664951900055132,
+   "bytes": 65540,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "grid_n9",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 1.502847082686593,
+   "val_rmse": 1.5145214874158575,
+   "bytes": 118102,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridnode_n3",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 21.127718769056532,
+   "val_rmse": 21.71090205370041,
+   "bytes": 490,
+   "lat_ns": 2041
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridnode_n4",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 12.090403623856744,
+   "val_rmse": 12.632412277817606,
+   "bytes": 2052,
+   "lat_ns": 2041
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridnode_n5",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 7.7475044419871635,
+   "val_rmse": 8.146307738790723,
+   "bytes": 6254,
+   "lat_ns": 2041
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridnode_n6",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 5.345760766672509,
+   "val_rmse": 5.652091417255664,
+   "bytes": 15556,
+   "lat_ns": 2041
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridnode_n7",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 3.8895111585128554,
+   "val_rmse": 4.138875665879899,
+   "bytes": 33618,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridnode_n8",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 2.9516681015826394,
+   "val_rmse": 3.1515752509695703,
+   "bytes": 65540,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "gridnode_n9",
+   "variant": "i16",
+   "family": "grid",
+   "rmse": 2.3153333082029244,
+   "val_rmse": 2.474889099133694,
+   "bytes": 118102,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.6617491841316223,
+   "val_rmse": 0.6775294542312622,
+   "bytes": 3308,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.04462113976478577,
+   "val_rmse": 0.045006515458226204,
+   "bytes": 12524,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.024879627861082554,
+   "val_rmse": 0.025009384378790855,
+   "bytes": 24812,
+   "lat_ns": 2334
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.0230898754671216,
+   "val_rmse": 0.023323911242187023,
+   "bytes": 49388,
+   "lat_ns": 2625
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.5270982384681702,
+   "val_rmse": 1.5537282228469849,
+   "bytes": 12524,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.5695865750312805,
+   "val_rmse": 1.596738040447235,
+   "bytes": 6380,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.37903518974781036,
+   "val_rmse": 0.38322722911834717,
+   "bytes": 49388,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.5204823017120361,
+   "val_rmse": 0.5236626267433167,
+   "bytes": 24812,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.7228077948093414,
+   "val_rmse": 0.7394016981124878,
+   "bytes": 3308,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.04776715487241745,
+   "val_rmse": 0.04907256364822388,
+   "bytes": 12524,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.023617926985025406,
+   "val_rmse": 0.023587001487612724,
+   "bytes": 24812,
+   "lat_ns": 2334
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.02054462395608425,
+   "val_rmse": 0.020653805695474148,
+   "bytes": 49388,
+   "lat_ns": 2625
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.5235141515731812,
+   "val_rmse": 1.5411173105239868,
+   "bytes": 12524,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.5496334433555603,
+   "val_rmse": 1.572106122970581,
+   "bytes": 6380,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.37549953162670135,
+   "val_rmse": 0.3803771883249283,
+   "bytes": 49388,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w16_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.5015804469585419,
+   "val_rmse": 0.5065515637397766,
+   "bytes": 24812,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.5190203487873077,
+   "val_rmse": 0.5324217230081558,
+   "bytes": 6572,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.036991653963923454,
+   "val_rmse": 0.03834379464387894,
+   "bytes": 25004,
+   "lat_ns": 3792
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.019666056148707867,
+   "val_rmse": 0.02094564400613308,
+   "bytes": 49580,
+   "lat_ns": 4084
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.018012518994510174,
+   "val_rmse": 0.019360238686203957,
+   "bytes": 98732,
+   "lat_ns": 7001
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.481029987335205,
+   "val_rmse": 1.4941082000732422,
+   "bytes": 25004,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.5051329135894775,
+   "val_rmse": 1.522538423538208,
+   "bytes": 12716,
+   "lat_ns": 3501
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.3649243116378784,
+   "val_rmse": 0.3702903538942337,
+   "bytes": 98732,
+   "lat_ns": 6126
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.46522557735443115,
+   "val_rmse": 0.4693205803632736,
+   "bytes": 49580,
+   "lat_ns": 4083
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.7517667412757874,
+   "val_rmse": 0.7663629949092865,
+   "bytes": 6572,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.04681630618870258,
+   "val_rmse": 0.04821295477449894,
+   "bytes": 25004,
+   "lat_ns": 3792
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.021015752106904984,
+   "val_rmse": 0.021925900131464005,
+   "bytes": 49580,
+   "lat_ns": 4084
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.018233035691082478,
+   "val_rmse": 0.019004122354090214,
+   "bytes": 98732,
+   "lat_ns": 7001
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.472527801990509,
+   "val_rmse": 1.490237832069397,
+   "bytes": 25004,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.4930472373962402,
+   "val_rmse": 1.5191523432731628,
+   "bytes": 12716,
+   "lat_ns": 3501
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.36491602659225464,
+   "val_rmse": 0.3673226833343506,
+   "bytes": 98732,
+   "lat_ns": 6126
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w32_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.45338574051856995,
+   "val_rmse": 0.4624878615140915,
+   "bytes": 49580,
+   "lat_ns": 4083
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 1.0296596884727478,
+   "val_rmse": 1.0412151217460632,
+   "bytes": 860,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.1405654177069664,
+   "val_rmse": 0.14393536746501923,
+   "bytes": 3164,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.12341545149683952,
+   "val_rmse": 0.12957043200731277,
+   "bytes": 6236,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.12176741287112236,
+   "val_rmse": 0.12832845002412796,
+   "bytes": 12380,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.8282045125961304,
+   "val_rmse": 1.8462477922439575,
+   "bytes": 3164,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.9118695259094238,
+   "val_rmse": 1.932854950428009,
+   "bytes": 1628,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.4685729742050171,
+   "val_rmse": 0.4735955148935318,
+   "bytes": 12380,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.7464886009693146,
+   "val_rmse": 0.7471368610858917,
+   "bytes": 6236,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.9974968731403351,
+   "val_rmse": 1.0112394988536835,
+   "bytes": 860,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.18311121314764023,
+   "val_rmse": 0.1866227090358734,
+   "bytes": 3164,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.173366479575634,
+   "val_rmse": 0.17578789591789246,
+   "bytes": 6236,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.1724553480744362,
+   "val_rmse": 0.1748584657907486,
+   "bytes": 12380,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.8175460696220398,
+   "val_rmse": 1.8494763374328613,
+   "bytes": 3164,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.9149243831634521,
+   "val_rmse": 1.9420737028121948,
+   "bytes": 1628,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.4804178476333618,
+   "val_rmse": 0.48626530170440674,
+   "bytes": 12380,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w4_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.7692298591136932,
+   "val_rmse": 0.7730460464954376,
+   "bytes": 6236,
+   "lat_ns": 1167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g10",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.7640581130981445,
+   "val_rmse": 0.7774981558322906,
+   "bytes": 1676,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g10",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.05833134986460209,
+   "val_rmse": 0.05751715786755085,
+   "bytes": 6284,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g10",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.03495913837105036,
+   "val_rmse": 0.03521796781569719,
+   "bytes": 12428,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g10",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.0329665569588542,
+   "val_rmse": 0.03322678245604038,
+   "bytes": 24716,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g10",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.6395137906074524,
+   "val_rmse": 1.654727578163147,
+   "bytes": 6284,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g10",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.7073696851730347,
+   "val_rmse": 1.732768952846527,
+   "bytes": 3212,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g10",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.40657298266887665,
+   "val_rmse": 0.4092143028974533,
+   "bytes": 24716,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g10",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.6184055507183075,
+   "val_rmse": 0.624494194984436,
+   "bytes": 12428,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g20",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 1.0237958133220673,
+   "val_rmse": 1.0408108532428741,
+   "bytes": 1676,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g20",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.07606387883424759,
+   "val_rmse": 0.07011591270565987,
+   "bytes": 6284,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g20",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.047073474153876305,
+   "val_rmse": 0.034448351711034775,
+   "bytes": 12428,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g20",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.04453703947365284,
+   "val_rmse": 0.030732897110283375,
+   "bytes": 24716,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g20",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.6050939559936523,
+   "val_rmse": 1.6237937808036804,
+   "bytes": 6284,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g20",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.6512736678123474,
+   "val_rmse": 1.6784437894821167,
+   "bytes": 3212,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g20",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.39780932664871216,
+   "val_rmse": 0.4032188653945923,
+   "bytes": 24716,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan1_w8_g20",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.5780395865440369,
+   "val_rmse": 0.5840794742107391,
+   "bytes": 12428,
+   "lat_ns": 1459
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w16_g5",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.46682409942150116,
+   "val_rmse": 0.4759076237678528,
+   "bytes": 11692,
+   "lat_ns": 4375
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w16_g5",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.03781598247587681,
+   "val_rmse": 0.03918699733912945,
+   "bytes": 45484,
+   "lat_ns": 4666
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w16_g5",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.02731005847454071,
+   "val_rmse": 0.02794523537158966,
+   "bytes": 90540,
+   "lat_ns": 5542
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w16_g5",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.026461242698132992,
+   "val_rmse": 0.0270225927233696,
+   "bytes": 180652,
+   "lat_ns": 9626
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w16_g5",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.597008466720581,
+   "val_rmse": 1.6258915662765503,
+   "bytes": 45484,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w16_g5",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.635495126247406,
+   "val_rmse": 1.6648711562156677,
+   "bytes": 22956,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w16_g5",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.39751771092414856,
+   "val_rmse": 0.4042472243309021,
+   "bytes": 180652,
+   "lat_ns": 7584
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w16_g5",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.5359501540660858,
+   "val_rmse": 0.5421174168586731,
+   "bytes": 90540,
+   "lat_ns": 3792
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w8_g5",
+   "variant": "lin4_i16",
+   "family": "kan",
+   "rmse": 0.38635678589344025,
+   "val_rmse": 0.39362797141075134,
+   "bytes": 3820,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w8_g5",
+   "variant": "lin6_i16_m5",
+   "family": "kan",
+   "rmse": 0.04130798019468784,
+   "val_rmse": 0.04307390749454498,
+   "bytes": 14572,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w8_g5",
+   "variant": "lin7_i16_m5",
+   "family": "kan",
+   "rmse": 0.03481058590114117,
+   "val_rmse": 0.03586316853761673,
+   "bytes": 28908,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w8_g5",
+   "variant": "lin8_i16_m5",
+   "family": "kan",
+   "rmse": 0.0343026015907526,
+   "val_rmse": 0.03525134548544884,
+   "bytes": 57580,
+   "lat_ns": 2334
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w8_g5",
+   "variant": "lut6_i16",
+   "family": "kan",
+   "rmse": 1.7470738887786865,
+   "val_rmse": 1.749372661113739,
+   "bytes": 14572,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w8_g5",
+   "variant": "lut6_i8",
+   "family": "kan",
+   "rmse": 1.808745801448822,
+   "val_rmse": 1.819405972957611,
+   "bytes": 7404,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w8_g5",
+   "variant": "lut8_i16",
+   "family": "kan",
+   "rmse": 0.43257859349250793,
+   "val_rmse": 0.4375563710927963,
+   "bytes": 57580,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "kan2_w8_g5",
+   "variant": "lut8_i8",
+   "family": "kan",
+   "rmse": 0.6243690848350525,
+   "val_rmse": 0.6218710839748383,
+   "bytes": 28908,
+   "lat_ns": 2333
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.8920828402042389,
+   "val_rmse": 0.8985766470432281,
+   "bytes": 1808,
+   "lat_ns": 10792
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.1243890523910522,
+   "val_rmse": 2.1518584489822388,
+   "bytes": 2064,
+   "lat_ns": 15750
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.6391068696975708,
+   "val_rmse": 1.675715684890747,
+   "bytes": 2064,
+   "lat_ns": 15750
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.7058964371681213,
+   "val_rmse": 1.7530624866485596,
+   "bytes": 240,
+   "lat_ns": 2042
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 4.058732867240906,
+   "val_rmse": 4.052493572235107,
+   "bytes": 496,
+   "lat_ns": 2916
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.8659998178482056,
+   "val_rmse": 1.8951634764671326,
+   "bytes": 496,
+   "lat_ns": 2917
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.226237952709198,
+   "val_rmse": 1.2266188263893127,
+   "bytes": 464,
+   "lat_ns": 3500
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.826520800590515,
+   "val_rmse": 2.8359830379486084,
+   "bytes": 720,
+   "lat_ns": 4667
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.61895751953125,
+   "val_rmse": 1.6611122488975525,
+   "bytes": 720,
+   "lat_ns": 4667
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.1383867263793945,
+   "val_rmse": 1.1310360133647919,
+   "bytes": 912,
+   "lat_ns": 5834
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 2.5860519409179688,
+   "val_rmse": 2.629956603050232,
+   "bytes": 1168,
+   "lat_ns": 8458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp1_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.7756911516189575,
+   "val_rmse": 1.7970248460769653,
+   "bytes": 1168,
+   "lat_ns": 8458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.5413573086261749,
+   "val_rmse": 0.5497217178344727,
+   "bytes": 19220,
+   "lat_ns": 36751
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.1988778710365295,
+   "val_rmse": 1.2020941972732544,
+   "bytes": 19732,
+   "lat_ns": 47252
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.8964858949184418,
+   "val_rmse": 0.9097684621810913,
+   "bytes": 19732,
+   "lat_ns": 46960
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.1692538261413574,
+   "val_rmse": 1.1835227012634277,
+   "bytes": 628,
+   "lat_ns": 4083
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.2742247581481934,
+   "val_rmse": 1.30194753408432,
+   "bytes": 1140,
+   "lat_ns": 5250
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.3068441152572632,
+   "val_rmse": 1.3386836051940918,
+   "bytes": 1140,
+   "lat_ns": 5250
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.7719321548938751,
+   "val_rmse": 0.7985881567001343,
+   "bytes": 1748,
+   "lat_ns": 7292
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.1288091540336609,
+   "val_rmse": 1.1308546662330627,
+   "bytes": 2260,
+   "lat_ns": 9917
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.0940040946006775,
+   "val_rmse": 1.0988691449165344,
+   "bytes": 2260,
+   "lat_ns": 9917
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.6894424259662628,
+   "val_rmse": 0.7016685903072357,
+   "bytes": 5524,
+   "lat_ns": 15168
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.1767385005950928,
+   "val_rmse": 1.1906556487083435,
+   "bytes": 6036,
+   "lat_ns": 20709
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp2_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.9547630548477173,
+   "val_rmse": 0.9726153314113617,
+   "bytes": 6036,
+   "lat_ns": 20418
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w128",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.5374404788017273,
+   "val_rmse": 0.5460250675678253,
+   "bytes": 36632,
+   "lat_ns": 65044
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w128_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.9637091755867004,
+   "val_rmse": 0.9792704582214355,
+   "bytes": 37400,
+   "lat_ns": 81378
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w128_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.7781443297863007,
+   "val_rmse": 0.7826060652732849,
+   "bytes": 37400,
+   "lat_ns": 80503
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w16",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.0719064474105835,
+   "val_rmse": 1.0707385540008545,
+   "bytes": 1016,
+   "lat_ns": 5833
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w16_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.159110188484192,
+   "val_rmse": 1.1729691624641418,
+   "bytes": 1784,
+   "lat_ns": 7875
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w16_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.2178530097007751,
+   "val_rmse": 1.2328763604164124,
+   "bytes": 1784,
+   "lat_ns": 7875
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w32",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.7887040674686432,
+   "val_rmse": 0.7910719811916351,
+   "bytes": 3032,
+   "lat_ns": 11084
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w32_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.9985558986663818,
+   "val_rmse": 1.0091203451156616,
+   "bytes": 3800,
+   "lat_ns": 15167
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w32_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 1.00619575381279,
+   "val_rmse": 1.0202370584011078,
+   "bytes": 3800,
+   "lat_ns": 15168
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w64",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.6448308825492859,
+   "val_rmse": 0.6512401103973389,
+   "bytes": 10136,
+   "lat_ns": 24792
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w64_silu",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.9602396190166473,
+   "val_rmse": 0.9718148708343506,
+   "bytes": 10904,
+   "lat_ns": 32668
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "mlp3_w64_tanh",
+   "variant": "int8",
+   "family": "mlp_int8",
+   "rmse": 0.8869729936122894,
+   "val_rmse": 0.8988238275051117,
+   "bytes": 10904,
+   "lat_ns": 32960
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "poly1",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 16.527017731348675,
+   "val_rmse": 17.06038603033974,
+   "bytes": 42,
+   "lat_ns": 583
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "poly2",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 8.741156800234766,
+   "val_rmse": 9.053175221736256,
+   "bytes": 147,
+   "lat_ns": 875
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "poly3",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 4.285924519550035,
+   "val_rmse": 4.469905616982999,
+   "bytes": 392,
+   "lat_ns": 1458
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "poly4",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 1.8388927790903686,
+   "val_rmse": 1.9260406514999358,
+   "bytes": 882,
+   "lat_ns": 2625
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "poly5",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.7233700072273593,
+   "val_rmse": 0.7636742086786655,
+   "bytes": 1764,
+   "lat_ns": 4958
+  },
+  {
+   "task": "pv_mp5",
+   "shape": "poly6",
+   "variant": "poly",
+   "family": "poly",
+   "rmse": 0.2677100327876686,
+   "val_rmse": 0.28640246419034204,
+   "bytes": 3234,
+   "lat_ns": 8459
+  }
+ ],
+ "criteria": {
+  "val_rmse": {
+   "C1": {
+    "cells": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "holds": true
+   },
+   "C2": {
+    "cells": [
+     false,
+     true,
+     true,
+     false,
+     true,
+     true
+    ],
+    "holds": true
+   }
+  },
+  "rmse": {
+   "C1": {
+    "cells": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "holds": true
+   },
+   "C2": {
+    "cells": [
+     false,
+     true,
+     true,
+     false,
+     true,
+     true
+    ],
+    "holds": true
+   }
+  },
+  "C3_pv_mp5": {
+   "target_rmse": 0.0661277323961258,
+   "best_baseline": {
+    "task": "pv_mp5",
+    "shape": "cp16_q64",
+    "variant": "i16",
+    "family": "cp",
+    "rmse": 0.0661277323961258,
+    "val_rmse": 0.06781288795173168,
+    "bytes": 10628,
+    "lat_ns": 2917
+   },
+   "base_fastest": {
+    "task": "pv_mp5",
+    "shape": "cp16_q64",
+    "variant": "i16",
+    "family": "cp",
+    "rmse": 0.0661277323961258,
+    "val_rmse": 0.06781288795173168,
+    "bytes": 10628,
+    "lat_ns": 2917
+   },
+   "base_smallest": {
+    "task": "pv_mp5",
+    "shape": "cp16_q64",
+    "variant": "i16",
+    "family": "cp",
+    "rmse": 0.0661277323961258,
+    "val_rmse": 0.06781288795173168,
+    "bytes": 10628,
+    "lat_ns": 2917
+   },
+   "kan_fastest": {
+    "task": "pv_mp5",
+    "shape": "kan1_w8_g10",
+    "variant": "lin6_i16_m5",
+    "family": "kan",
+    "rmse": 0.05833134986460209,
+    "val_rmse": 0.05751715786755085,
+    "bytes": 6284,
+    "lat_ns": 1458
+   },
+   "kan_smallest": {
+    "task": "pv_mp5",
+    "shape": "kan1_w8_g10",
+    "variant": "lin6_i16_m5",
+    "family": "kan",
+    "rmse": 0.05833134986460209,
+    "val_rmse": 0.05751715786755085,
+    "bytes": 6284,
+    "lat_ns": 1458
+   },
+   "lat_ratio": 0.49982859101816934,
+   "size_ratio": 0.5912683477606323,
+   "a": false,
+   "b": {
+    "task": "pv_mp5",
+    "shape": "kan1_w8_g10",
+    "variant": "lin8_i16_m5",
+    "family": "kan",
+    "rmse": 0.0329665569588542,
+    "val_rmse": 0.03322678245604038,
+    "bytes": 24716,
+    "lat_ns": 1459
+   },
+   "kan_best_rmse": 0.018012518994510174,
+   "win": true
+  },
+  "C3_pv_chain6": {
+   "target_rmse": 0.642098069190979,
+   "best_baseline": {
+    "task": "pv_chain6",
+    "shape": "cp16_q32",
+    "variant": "i16",
+    "family": "cp",
+    "rmse": 0.642098069190979,
+    "val_rmse": 0.7149998545646667,
+    "bytes": 6596,
+    "lat_ns": 3500
+   },
+   "base_fastest": {
+    "task": "pv_chain6",
+    "shape": "cp16_q32",
+    "variant": "i16",
+    "family": "cp",
+    "rmse": 0.642098069190979,
+    "val_rmse": 0.7149998545646667,
+    "bytes": 6596,
+    "lat_ns": 3500
+   },
+   "base_smallest": {
+    "task": "pv_chain6",
+    "shape": "cp16_q32",
+    "variant": "i16",
+    "family": "cp",
+    "rmse": 0.642098069190979,
+    "val_rmse": 0.7149998545646667,
+    "bytes": 6596,
+    "lat_ns": 3500
+   },
+   "kan_fastest": {
+    "task": "pv_chain6",
+    "shape": "kan2_w8_g5",
+    "variant": "lin6_i16_m5",
+    "family": "kan",
+    "rmse": 0.34897662699222565,
+    "val_rmse": 0.3846414387226105,
+    "bytes": 15604,
+    "lat_ns": 2042
+   },
+   "kan_smallest": {
+    "task": "pv_chain6",
+    "shape": "kan1_w16_g10",
+    "variant": "lin6_i16_m5",
+    "family": "kan",
+    "rmse": 0.5123133957386017,
+    "val_rmse": 0.576835572719574,
+    "bytes": 14580,
+    "lat_ns": 2334
+   },
+   "lat_ratio": 0.5834285714285714,
+   "size_ratio": 2.2104305639781687,
+   "a": false,
+   "b": null,
+   "kan_best_rmse": 0.1834017038345337,
+   "win": false
+  }
+ }
+}

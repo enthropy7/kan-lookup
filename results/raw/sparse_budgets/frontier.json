@@ -1,0 +1,6791 @@
+{
+ "folds": {
+  "0": {
+   "S1": 2,
+   "bound": {
+    "8192": 0,
+    "16384": 2,
+    "32768": 2
+   },
+   "cells": {
+    "pv_mp5 4096": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w4_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.1405654177069664,
+      "val_rmse": 0.14393536746501923,
+      "bytes": 3164,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.08337181278154854,
+      "val_rmse": 0.08560625784329799,
+      "bytes": 4076,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.08337181278154854,
+      "val_rmse": 0.08560625784329799,
+      "bytes": 4076,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 8192": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w8_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.05833134986460209,
+      "val_rmse": 0.05751715786755085,
+      "bytes": 6284,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.029462025740160918,
+      "val_rmse": 0.031744167192325756,
+      "bytes": 8163,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.029462025740160918,
+      "val_rmse": 0.031744167192325756,
+      "bytes": 8163,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 16384": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w8_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.047073474153876305,
+      "val_rmse": 0.034448351711034775,
+      "bytes": 12428,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.014532991999441254,
+      "val_rmse": 0.015784801765716387,
+      "bytes": 16339,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.014532991999441254,
+      "val_rmse": 0.015784801765716387,
+      "bytes": 16339,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 32768": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w16_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.023617926985025406,
+      "val_rmse": 0.023587001487612724,
+      "bytes": 24812,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.008707940395964031,
+      "val_rmse": 0.00942267047687855,
+      "bytes": 32716,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.008707940395964031,
+      "val_rmse": 0.00942267047687855,
+      "bytes": 32716,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 65536": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w16_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.02054462395608425,
+      "val_rmse": 0.020653805695474148,
+      "bytes": 49388,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 0.004024738054885488,
+      "val_rmse": 0.004150440545936965,
+      "bytes": 65404,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 0.004024738054885488,
+      "val_rmse": 0.004150440545936965,
+      "bytes": 65404,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 131072": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.018233035691082478,
+      "val_rmse": 0.019004122354090214,
+      "bytes": 98732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0015642556282968497,
+      "val_rmse": 0.0016786792497288073,
+      "bytes": 130941,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0015642556282968497,
+      "val_rmse": 0.0016786792497288073,
+      "bytes": 130941,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 4096": {
+     "win": false,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.8530990183353424,
+      "val_rmse": 0.8951743543148041,
+      "bytes": 4084,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.8669329583644867,
+      "val_rmse": 0.9667471349239349,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 2.9468728019067307,
+      "val_rmse": 3.072719321337108,
+      "bytes": 4060,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 8192": {
+     "win": false,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.8530990183353424,
+      "val_rmse": 0.8951743543148041,
+      "bytes": 4084,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.642098069190979,
+      "val_rmse": 0.7149998545646667,
+      "bytes": 6596,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 2.273771524802232,
+      "val_rmse": 2.38073326797774,
+      "bytes": 8158,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 16384": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w8_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.34897662699222565,
+      "val_rmse": 0.3846414387226105,
+      "bytes": 15604,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.642098069190979,
+      "val_rmse": 0.7149998545646667,
+      "bytes": 6596,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 1.576005314178939,
+      "val_rmse": 1.638352490325293,
+      "bytes": 16380,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 32768": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.31182195246219635,
+      "val_rmse": 0.3688602149486542,
+      "bytes": 29108,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.642098069190979,
+      "val_rmse": 0.7149998545646667,
+      "bytes": 6596,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.9760061512685966,
+      "val_rmse": 1.023791016771096,
+      "bytes": 32624,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 65536": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.19076121598482132,
+      "val_rmse": 0.20720724761486053,
+      "bytes": 47540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "gridv_n5x3x16x22x2x3",
+      "variant": "i16",
+      "family": "grid",
+      "rmse": 0.6416428009538637,
+      "val_rmse": 0.7134238917465344,
+      "bytes": 63388,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.9054507833630001,
+      "val_rmse": 0.9990176725930118,
+      "bytes": 65458,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 131072": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.18380305171012878,
+      "val_rmse": 0.2003137543797493,
+      "bytes": 94644,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.3991051706659589,
+      "val_rmse": 0.46337614758949314,
+      "bytes": 130896,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.3991051706659589,
+      "val_rmse": 0.46337614758949314,
+      "bytes": 130896,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 4096": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.006627216236665845,
+      "val_rmse": 0.00644157431088388,
+      "bytes": 3556,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.0028072833680256827,
+      "val_rmse": 0.002768651257830789,
+      "bytes": 4086,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.0028072833680256827,
+      "val_rmse": 0.002768651257830789,
+      "bytes": 4086,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 8192": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0027020025299862027,
+      "val_rmse": 0.0026028279680758715,
+      "bytes": 5252,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0011702066849238512,
+      "val_rmse": 0.001107458862741541,
+      "bytes": 8182,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0011702066849238512,
+      "val_rmse": 0.001107458862741541,
+      "bytes": 8182,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 16384": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0012342615518718958,
+      "val_rmse": 0.0011712221894413233,
+      "bytes": 10468,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.00046229392628177054,
+      "val_rmse": 0.0004541202050671557,
+      "bytes": 16254,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.00046229392628177054,
+      "val_rmse": 0.0004541202050671557,
+      "bytes": 16254,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 32768": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.000850126933073625,
+      "val_rmse": 0.0008346324611920863,
+      "bytes": 20900,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00023675372517213754,
+      "val_rmse": 0.0002286918162293224,
+      "bytes": 32686,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00023675372517213754,
+      "val_rmse": 0.0002286918162293224,
+      "bytes": 32686,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 65536": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.0006172102876007557,
+      "val_rmse": 0.0005979497800581157,
+      "bytes": 41380,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.000159345349389047,
+      "val_rmse": 0.0001421715610746369,
+      "bytes": 64782,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.000159345349389047,
+      "val_rmse": 0.0001421715610746369,
+      "bytes": 64782,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 131072": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.0005872520268894732,
+      "val_rmse": 0.0005682329938281327,
+      "bytes": 82340,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 5.3429167143915075e-05,
+      "val_rmse": 5.084390462656508e-05,
+      "bytes": 130958,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 5.3429167143915075e-05,
+      "val_rmse": 5.084390462656508e-05,
+      "bytes": 130958,
+      "family": "sgrid"
+     }
+    },
+    "msis7 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan1_w8_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.03738517314195633,
+      "val_rmse": 0.03770981356501579,
+      "bytes": 2204,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp8_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.03977068141102791,
+      "val_rmse": 0.039779504761099815,
+      "bytes": 2052,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n4_fit",
+      "variant": "i16",
+      "rmse": 0.047570762761291824,
+      "val_rmse": 0.047150333201576355,
+      "bytes": 2082,
+      "family": "sgrid"
+     }
+    },
+    "msis7 8192": {
+     "win": false,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.02641262672841549,
+      "val_rmse": 0.026470773853361607,
+      "bytes": 4348,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.027236320078372955,
+      "val_rmse": 0.027331430464982986,
+      "bytes": 4100,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.039868558594513284,
+      "val_rmse": 0.04004583323447038,
+      "bytes": 8178,
+      "family": "sgrid"
+     }
+    },
+    "msis7 16384": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.016000887844711542,
+      "val_rmse": 0.016194883733987808,
+      "bytes": 12732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.027236320078372955,
+      "val_rmse": 0.027331430464982986,
+      "bytes": 4100,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.028634197794987295,
+      "val_rmse": 0.028660003534311283,
+      "bytes": 9642,
+      "family": "sgrid"
+     }
+    },
+    "msis7 32768": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.016000887844711542,
+      "val_rmse": 0.016194883733987808,
+      "bytes": 12732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.027236320078372955,
+      "val_rmse": 0.027331430464982986,
+      "bytes": 4100,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.028634197794987295,
+      "val_rmse": 0.028660003534311283,
+      "bytes": 9642,
+      "family": "sgrid"
+     }
+    },
+    "msis7 65536": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.013963645789772272,
+      "val_rmse": 0.014044633135199547,
+      "bytes": 49596,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.021796325496649987,
+      "val_rmse": 0.021435165450595834,
+      "bytes": 41058,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.021796325496649987,
+      "val_rmse": 0.021435165450595834,
+      "bytes": 41058,
+      "family": "sgrid"
+     }
+    },
+    "msis7 131072": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.013963908422738314,
+      "val_rmse": 0.014044429641216993,
+      "bytes": 98748,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.021796325496649987,
+      "val_rmse": 0.021435165450595834,
+      "bytes": 41058,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.021796325496649987,
+      "val_rmse": 0.021435165450595834,
+      "bytes": 41058,
+      "family": "sgrid"
+     }
+    },
+    "flame5 4096": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w4_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 1.517835259437561,
+      "val_rmse": 1.544857144355774,
+      "bytes": 3164,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.8196055850717461,
+      "val_rmse": 0.8350386430959348,
+      "bytes": 4067,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.8196055850717461,
+      "val_rmse": 0.8350386430959348,
+      "bytes": 4067,
+      "family": "sgrid"
+     }
+    },
+    "flame5 8192": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.6669823229312897,
+      "val_rmse": 0.6750012934207916,
+      "bytes": 6284,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.6240927345090815,
+      "val_rmse": 0.6467085232907941,
+      "bytes": 8141,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.6240927345090815,
+      "val_rmse": 0.6467085232907941,
+      "bytes": 8141,
+      "family": "sgrid"
+     }
+    },
+    "flame5 16384": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w16_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.38975533843040466,
+      "val_rmse": 0.39936740696430206,
+      "bytes": 12524,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.30869307120689554,
+      "val_rmse": 0.3176344558873475,
+      "bytes": 16384,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.30869307120689554,
+      "val_rmse": 0.3176344558873475,
+      "bytes": 16384,
+      "family": "sgrid"
+     }
+    },
+    "flame5 32768": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.27206772565841675,
+      "val_rmse": 0.2878728359937668,
+      "bytes": 25004,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.2488874549516773,
+      "val_rmse": 0.247762438074611,
+      "bytes": 32678,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.2488874549516773,
+      "val_rmse": 0.247762438074611,
+      "bytes": 32678,
+      "family": "sgrid"
+     }
+    },
+    "flame5 65536": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.24223943799734116,
+      "val_rmse": 0.2542116791009903,
+      "bytes": 49580,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 0.1445256863544085,
+      "val_rmse": 0.14441918316268768,
+      "bytes": 65287,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 0.1445256863544085,
+      "val_rmse": 0.14441918316268768,
+      "bytes": 65287,
+      "family": "sgrid"
+     }
+    },
+    "flame5 131072": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.2452312856912613,
+      "val_rmse": 0.25059450417757034,
+      "bytes": 98732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.1176040010380287,
+      "val_rmse": 0.1121685939523736,
+      "bytes": 130989,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.1176040010380287,
+      "val_rmse": 0.1121685939523736,
+      "bytes": 130989,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 4096": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w8_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.000310193034238182,
+      "val_rmse": 0.00032062378886621445,
+      "bytes": 2204,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "cp8_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.00011602335871430114,
+      "val_rmse": 0.0001177113808807917,
+      "bytes": 2052,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.00015364579847472408,
+      "val_rmse": 0.00015005377528304003,
+      "bytes": 4092,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 8192": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w4_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.00021294417092576623,
+      "val_rmse": 0.0002132390218321234,
+      "bytes": 4204,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 5.6347386983864964e-05,
+      "val_rmse": 5.621971996795452e-05,
+      "bytes": 8149,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 5.6347386983864964e-05,
+      "val_rmse": 5.621971996795452e-05,
+      "bytes": 8149,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 16384": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w8_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 7.291551446542144e-05,
+      "val_rmse": 7.435624502249993e-05,
+      "bytes": 8348,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 2.957579816124282e-05,
+      "val_rmse": 2.9680276799451616e-05,
+      "bytes": 16377,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 2.957579816124282e-05,
+      "val_rmse": 2.9680276799451616e-05,
+      "bytes": 16377,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 32768": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w16_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 3.660966831375845e-05,
+      "val_rmse": 4.013459329144098e-05,
+      "bytes": 16636,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 1.2454180011196876e-05,
+      "val_rmse": 1.1971439793637366e-05,
+      "bytes": 32694,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 1.2454180011196876e-05,
+      "val_rmse": 1.1971439793637366e-05,
+      "bytes": 32694,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 65536": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w32_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 2.7139249141328037e-05,
+      "val_rmse": 2.9756422918580938e-05,
+      "bytes": 33212,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 7.34243788038179e-06,
+      "val_rmse": 6.87973198176393e-06,
+      "bytes": 65344,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 7.34243788038179e-06,
+      "val_rmse": 6.87973198176393e-06,
+      "bytes": 65344,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 131072": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w32_g10",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 2.296016100444831e-05,
+      "val_rmse": 2.541698904678924e-05,
+      "bytes": 65980,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 4.059158222143293e-06,
+      "val_rmse": 3.685916733381268e-06,
+      "bytes": 131028,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 4.059158222143293e-06,
+      "val_rmse": 3.685916733381268e-06,
+      "bytes": 131028,
+      "family": "sgrid"
+     }
+    },
+    "ign5 4096": {
+     "win": false,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.009143517818301916,
+      "val_rmse": 0.008885879069566727,
+      "bytes": 3308,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.009318878408521414,
+      "val_rmse": 0.009138065855950117,
+      "bytes": 2948,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.011190351615890813,
+      "val_rmse": 0.01147294725350755,
+      "bytes": 4085,
+      "family": "sgrid"
+     }
+    },
+    "ign5 8192": {
+     "win": true,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.005551283480599523,
+      "val_rmse": 0.0053624920547008514,
+      "bytes": 6284,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.00700618582777679,
+      "val_rmse": 0.006853830302134156,
+      "bytes": 5508,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.007553472927343001,
+      "val_rmse": 0.00749865417620585,
+      "bytes": 8160,
+      "family": "sgrid"
+     }
+    },
+    "ign5 16384": {
+     "win": true,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan2_w8_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0026568227913230658,
+      "val_rmse": 0.0026220568688586354,
+      "bytes": 14572,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.003549935389702109,
+      "val_rmse": 0.003547555918273375,
+      "bytes": 15463,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.003549935389702109,
+      "val_rmse": 0.003547555918273375,
+      "bytes": 15463,
+      "family": "sgrid"
+     }
+    },
+    "ign5 32768": {
+     "win": true,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0018743813852779567,
+      "val_rmse": 0.001807866443414241,
+      "bytes": 25004,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.0026704034266615342,
+      "val_rmse": 0.0026670768330827326,
+      "bytes": 31583,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.0026704034266615342,
+      "val_rmse": 0.0026670768330827326,
+      "bytes": 31583,
+      "family": "sgrid"
+     }
+    },
+    "ign5 65536": {
+     "win": false,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.0016682315617799759,
+      "val_rmse": 0.0016076749889180064,
+      "bytes": 49580,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 0.0018862540021189298,
+      "val_rmse": 0.001861611298606913,
+      "bytes": 65190,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 0.0018862540021189298,
+      "val_rmse": 0.001861611298606913,
+      "bytes": 65190,
+      "family": "sgrid"
+     }
+    },
+    "ign5 131072": {
+     "win": false,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.0016460956539958715,
+      "val_rmse": 0.0015901544829830527,
+      "bytes": 98732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.001525497830215503,
+      "val_rmse": 0.0013488885297708965,
+      "bytes": 130932,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.001525497830215503,
+      "val_rmse": 0.0013488885297708965,
+      "bytes": 130932,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 4096": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 198.72747802734375,
+      "val_rmse": 200.58168029785156,
+      "bytes": 3556,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 52.82669599296202,
+      "val_rmse": 52.26165603699572,
+      "bytes": 3894,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 52.82669599296202,
+      "val_rmse": 52.26165603699572,
+      "bytes": 3894,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 8192": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w8_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 74.89832305908203,
+      "val_rmse": 76.23111724853516,
+      "bytes": 5252,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b8_fit",
+      "variant": "i16",
+      "rmse": 18.567305449870865,
+      "val_rmse": 18.587668388314647,
+      "bytes": 7470,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b8_fit",
+      "variant": "i16",
+      "rmse": 18.567305449870865,
+      "val_rmse": 18.587668388314647,
+      "bytes": 7470,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 16384": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 32.286149978637695,
+      "val_rmse": 32.211506843566895,
+      "bytes": 10468,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b16_fit",
+      "variant": "i16",
+      "rmse": 8.38656222875175,
+      "val_rmse": 8.383214942652632,
+      "bytes": 16166,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b16_fit",
+      "variant": "i16",
+      "rmse": 8.38656222875175,
+      "val_rmse": 8.383214942652632,
+      "bytes": 16166,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 32768": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 20.6883602142334,
+      "val_rmse": 20.835941314697266,
+      "bytes": 20900,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 3.251460211050873,
+      "val_rmse": 3.3339088082720343,
+      "bytes": 32710,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 3.251460211050873,
+      "val_rmse": 3.3339088082720343,
+      "bytes": 32710,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 65536": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 12.267880916595459,
+      "val_rmse": 12.452594757080078,
+      "bytes": 41380,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 1.1792786473953412,
+      "val_rmse": 1.2057374150201066,
+      "bytes": 63630,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 1.1792786473953412,
+      "val_rmse": 1.2057374150201066,
+      "bytes": 63630,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 131072": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 11.585273265838623,
+      "val_rmse": 11.733561992645264,
+      "bytes": 82340,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.4939348402344403,
+      "val_rmse": 0.5216700706269072,
+      "bytes": 130670,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.4939348402344403,
+      "val_rmse": 0.5216700706269072,
+      "bytes": 130670,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.0072171620558947325,
+      "val_rmse": 0.007268668618053198,
+      "bytes": 2268,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.00271787351388574,
+      "val_rmse": 0.0026605043887697397,
+      "bytes": 3963,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.00271787351388574,
+      "val_rmse": 0.0026605043887697397,
+      "bytes": 3963,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 8192": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w8_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.005837787874042988,
+      "val_rmse": 0.005885058548301458,
+      "bytes": 4220,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0009665717249066256,
+      "val_rmse": 0.0009299264067942272,
+      "bytes": 7879,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0009665717249066256,
+      "val_rmse": 0.0009299264067942272,
+      "bytes": 7879,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 16384": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0018288139253854752,
+      "val_rmse": 0.0018197375466115773,
+      "bytes": 8412,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0006001401018549678,
+      "val_rmse": 0.0005884401242880769,
+      "bytes": 15727,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0006001401018549678,
+      "val_rmse": 0.0005884401242880769,
+      "bytes": 15727,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 32768": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0009337039082311094,
+      "val_rmse": 0.000927247543586418,
+      "bytes": 16796,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00024023428137471617,
+      "val_rmse": 0.000244146734362585,
+      "bytes": 32207,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00024023428137471617,
+      "val_rmse": 0.000244146734362585,
+      "bytes": 32207,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 65536": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.0007922997756395489,
+      "val_rmse": 0.0007892374705988914,
+      "bytes": 33180,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00011806591808889286,
+      "val_rmse": 0.00012055384777013065,
+      "bytes": 65227,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00011806591808889286,
+      "val_rmse": 0.00012055384777013065,
+      "bytes": 65227,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.0007836693548597395,
+      "val_rmse": 0.0007813114207237959,
+      "bytes": 65948,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 5.2013278126654375e-05,
+      "val_rmse": 5.40910717996342e-05,
+      "bytes": 130545,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 5.2013278126654375e-05,
+      "val_rmse": 5.40910717996342e-05,
+      "bytes": 130545,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.013211912475526333,
+      "val_rmse": 0.013111834414303303,
+      "bytes": 2788,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.009565060492604971,
+      "val_rmse": 0.009456379804760218,
+      "bytes": 2372,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.01652152475204945,
+      "val_rmse": 0.01603704868229906,
+      "bytes": 4078,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 8192": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.009901706129312515,
+      "val_rmse": 0.009784294292330742,
+      "bytes": 5540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.009565060492604971,
+      "val_rmse": 0.009456379804760218,
+      "bytes": 2372,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.011372808933114677,
+      "val_rmse": 0.011260090333111225,
+      "bytes": 5630,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 16384": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.009901706129312515,
+      "val_rmse": 0.009784294292330742,
+      "bytes": 5540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.008950132774753598,
+      "val_rmse": 0.008739583456321507,
+      "bytes": 15966,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.008950132774753598,
+      "val_rmse": 0.008739583456321507,
+      "bytes": 15966,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 32768": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.005641239462420344,
+      "val_rmse": 0.005507531110197306,
+      "bytes": 20900,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.004022874990248855,
+      "val_rmse": 0.003994091904257954,
+      "bytes": 32726,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.004022874990248855,
+      "val_rmse": 0.003994091904257954,
+      "bytes": 32726,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 65536": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.005612565670162439,
+      "val_rmse": 0.005483685992658138,
+      "bytes": 41380,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.002008843104093894,
+      "val_rmse": 0.0018335794137689836,
+      "bytes": 65134,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.002008843104093894,
+      "val_rmse": 0.0018335794137689836,
+      "bytes": 65134,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.005611813394352794,
+      "val_rmse": 0.005482514854520559,
+      "bytes": 82340,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0015275253572215107,
+      "val_rmse": 0.001422745990800378,
+      "bytes": 130934,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0015275253572215107,
+      "val_rmse": 0.001422745990800378,
+      "bytes": 130934,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.017202883027493954,
+      "val_rmse": 0.017005772329866886,
+      "bytes": 3308,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.0161217013373971,
+      "val_rmse": 0.01606144057586789,
+      "bytes": 2948,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.022882425085654107,
+      "val_rmse": 0.022310740234904564,
+      "bytes": 3450,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 8192": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.012945824768394232,
+      "val_rmse": 0.012740468606352806,
+      "bytes": 6572,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.0161217013373971,
+      "val_rmse": 0.01606144057586789,
+      "bytes": 2948,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.022882425085654107,
+      "val_rmse": 0.022310740234904564,
+      "bytes": 3450,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 16384": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.012075121514499187,
+      "val_rmse": 0.01193170016631484,
+      "bytes": 11692,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.013520737986499868,
+      "val_rmse": 0.013558715997233925,
+      "bytes": 12018,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.013520737986499868,
+      "val_rmse": 0.013558715997233925,
+      "bytes": 12018,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 32768": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.010160406120121479,
+      "val_rmse": 0.010101459454745054,
+      "bytes": 25004,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.012361564575082206,
+      "val_rmse": 0.011938192133046602,
+      "bytes": 32641,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.012361564575082206,
+      "val_rmse": 0.011938192133046602,
+      "bytes": 32641,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 65536": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.009613894391804934,
+      "val_rmse": 0.009595484472811222,
+      "bytes": 45484,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n7_fit",
+      "variant": "i16",
+      "rmse": 0.008424004037147095,
+      "val_rmse": 0.008055812794137661,
+      "bytes": 39738,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n7_fit",
+      "variant": "i16",
+      "rmse": 0.008424004037147095,
+      "val_rmse": 0.008055812794137661,
+      "bytes": 39738,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.009603641927242279,
+      "val_rmse": 0.009593742433935404,
+      "bytes": 90540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.004007201057715269,
+      "val_rmse": 0.0035632017217639886,
+      "bytes": 131037,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.004007201057715269,
+      "val_rmse": 0.0035632017217639886,
+      "bytes": 131037,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.021172290667891502,
+      "val_rmse": 0.02125541213899851,
+      "bytes": 3828,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.019797281362116337,
+      "val_rmse": 0.01972896046936512,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.04295592182036002,
+      "val_rmse": 0.04337407852555679,
+      "bytes": 4080,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 8192": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.01518272329121828,
+      "val_rmse": 0.015522793401032686,
+      "bytes": 7604,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.019797281362116337,
+      "val_rmse": 0.01972896046936512,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.02518520748895239,
+      "val_rmse": 0.025197785298034178,
+      "bytes": 5966,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 16384": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.014570819213986397,
+      "val_rmse": 0.014663543552160263,
+      "bytes": 12212,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.019797281362116337,
+      "val_rmse": 0.01972896046936512,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.02518520748895239,
+      "val_rmse": 0.025197785298034178,
+      "bytes": 5966,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 32768": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.012507626786828041,
+      "val_rmse": 0.01267895195633173,
+      "bytes": 29108,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.016489103664777616,
+      "val_rmse": 0.016520539978836398,
+      "bytes": 23102,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.016489103664777616,
+      "val_rmse": 0.016520539978836398,
+      "bytes": 23102,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 65536": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.012480136007070541,
+      "val_rmse": 0.01247213315218687,
+      "bytes": 47540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.01647141197596566,
+      "val_rmse": 0.016100184575810486,
+      "bytes": 65452,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.01647141197596566,
+      "val_rmse": 0.016100184575810486,
+      "bytes": 65452,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.012473631650209427,
+      "val_rmse": 0.012471369002014399,
+      "bytes": 94644,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.011374259822077168,
+      "val_rmse": 0.0104163920362172,
+      "bytes": 131062,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.011374259822077168,
+      "val_rmse": 0.0104163920362172,
+      "bytes": 131062,
+      "family": "sgrid"
+     }
+    }
+   }
+  },
+  "1": {
+   "S1": 2,
+   "bound": {
+    "8192": 0,
+    "16384": 2,
+    "32768": 2
+   },
+   "cells": {
+    "pv_mp5 4096": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w4_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.1392931528389454,
+      "val_rmse": 0.13823838159441948,
+      "bytes": 3164,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.08461042793577118,
+      "val_rmse": 0.084489933417924,
+      "bytes": 4079,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.08461042793577118,
+      "val_rmse": 0.084489933417924,
+      "bytes": 4079,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 8192": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w8_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.05904116481542587,
+      "val_rmse": 0.05527006648480892,
+      "bytes": 6284,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.03186042529797572,
+      "val_rmse": 0.031137487133710638,
+      "bytes": 8163,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.03186042529797572,
+      "val_rmse": 0.031137487133710638,
+      "bytes": 8163,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 16384": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w8_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.031790043227374554,
+      "val_rmse": 0.031149123795330524,
+      "bytes": 12428,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.015951173080289975,
+      "val_rmse": 0.015771737040908944,
+      "bytes": 16339,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.015951173080289975,
+      "val_rmse": 0.015771737040908944,
+      "bytes": 16339,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 32768": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w16_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.024329942651093006,
+      "val_rmse": 0.02380905207246542,
+      "bytes": 24812,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.009865533562278346,
+      "val_rmse": 0.009647310392755386,
+      "bytes": 32716,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.009865533562278346,
+      "val_rmse": 0.009647310392755386,
+      "bytes": 32716,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 65536": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w16_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.019470850005745888,
+      "val_rmse": 0.01949767768383026,
+      "bytes": 49388,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 0.0042086028433943184,
+      "val_rmse": 0.003959719166495457,
+      "bytes": 65413,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 0.0042086028433943184,
+      "val_rmse": 0.003959719166495457,
+      "bytes": 65413,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 131072": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.018241371028125286,
+      "val_rmse": 0.017425936181098223,
+      "bytes": 98732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0017370181102555025,
+      "val_rmse": 0.001605750072888143,
+      "bytes": 130941,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0017370181102555025,
+      "val_rmse": 0.001605750072888143,
+      "bytes": 130941,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 4096": {
+     "win": false,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.9837762713432312,
+      "val_rmse": 1.0385642647743225,
+      "bytes": 4084,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.9216863811016083,
+      "val_rmse": 0.9030922055244446,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 3.077826076259776,
+      "val_rmse": 3.091816945331273,
+      "bytes": 4060,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 8192": {
+     "win": false,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.9837762713432312,
+      "val_rmse": 1.0385642647743225,
+      "bytes": 4084,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.6453668773174286,
+      "val_rmse": 0.6364119648933411,
+      "bytes": 6596,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 2.381795203093669,
+      "val_rmse": 2.379774264510759,
+      "bytes": 8158,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 16384": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w8_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.45636606216430664,
+      "val_rmse": 0.5104256272315979,
+      "bytes": 15604,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.6453668773174286,
+      "val_rmse": 0.6364119648933411,
+      "bytes": 6596,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 1.629342734980099,
+      "val_rmse": 1.608122132021424,
+      "bytes": 16380,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 32768": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan1_w32_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.3869294375181198,
+      "val_rmse": 0.397518515586853,
+      "bytes": 29108,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.6453668773174286,
+      "val_rmse": 0.6364119648933411,
+      "bytes": 6596,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 1.0266530453338565,
+      "val_rmse": 0.9745994948847586,
+      "bytes": 32624,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 65536": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.24446981400251389,
+      "val_rmse": 0.29339951276779175,
+      "bytes": 47540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.6453668773174286,
+      "val_rmse": 0.6364119648933411,
+      "bytes": 6596,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.9939003098611443,
+      "val_rmse": 0.8988235847926035,
+      "bytes": 65458,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 131072": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.2372332066297531,
+      "val_rmse": 0.28774452209472656,
+      "bytes": 94644,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.46002562879138514,
+      "val_rmse": 0.4229476430392829,
+      "bytes": 130896,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.46002562879138514,
+      "val_rmse": 0.4229476430392829,
+      "bytes": 130896,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 4096": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.0063725728541612625,
+      "val_rmse": 0.006430715788155794,
+      "bytes": 3556,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.0027627221715608454,
+      "val_rmse": 0.0028289416902022393,
+      "bytes": 4086,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.0027627221715608454,
+      "val_rmse": 0.0028289416902022393,
+      "bytes": 4086,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 8192": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.002312461147084832,
+      "val_rmse": 0.0023928132141008973,
+      "bytes": 5252,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0009957335589886808,
+      "val_rmse": 0.0010200232851645989,
+      "bytes": 8182,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0009957335589886808,
+      "val_rmse": 0.0010200232851645989,
+      "bytes": 8182,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 16384": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.001098880369681865,
+      "val_rmse": 0.001096731110010296,
+      "bytes": 10468,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.00044603865356072155,
+      "val_rmse": 0.00047478193500626346,
+      "bytes": 16254,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.00044603865356072155,
+      "val_rmse": 0.00047478193500626346,
+      "bytes": 16254,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 32768": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.000836432387586683,
+      "val_rmse": 0.0008642140019219369,
+      "bytes": 20900,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00022822938252018432,
+      "val_rmse": 0.00024015493411471236,
+      "bytes": 32686,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00022822938252018432,
+      "val_rmse": 0.00024015493411471236,
+      "bytes": 32686,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 65536": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.0005433867918327451,
+      "val_rmse": 0.0005632381653413177,
+      "bytes": 41380,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00014459863149673401,
+      "val_rmse": 0.00015174730176207448,
+      "bytes": 64782,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00014459863149673401,
+      "val_rmse": 0.00015174730176207448,
+      "bytes": 64782,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 131072": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.0005189847433939576,
+      "val_rmse": 0.0005381315131671727,
+      "bytes": 82340,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 4.972119832951319e-05,
+      "val_rmse": 5.5220249609123914e-05,
+      "bytes": 130958,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 4.972119832951319e-05,
+      "val_rmse": 5.5220249609123914e-05,
+      "bytes": 130958,
+      "family": "sgrid"
+     }
+    },
+    "msis7 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan1_w8_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.03894374892115593,
+      "val_rmse": 0.03891918994486332,
+      "bytes": 2204,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp8_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.037442587316036224,
+      "val_rmse": 0.03842425160109997,
+      "bytes": 2052,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n4_fit",
+      "variant": "i16",
+      "rmse": 0.04700360097675441,
+      "val_rmse": 0.047798067511032695,
+      "bytes": 2082,
+      "family": "sgrid"
+     }
+    },
+    "msis7 8192": {
+     "win": false,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.02613214123994112,
+      "val_rmse": 0.026207560673356056,
+      "bytes": 4348,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.027840868569910526,
+      "val_rmse": 0.028321494348347187,
+      "bytes": 4100,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.04031265883438649,
+      "val_rmse": 0.040157556543249165,
+      "bytes": 8178,
+      "family": "sgrid"
+     }
+    },
+    "msis7 16384": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.0179721312597394,
+      "val_rmse": 0.01804606057703495,
+      "bytes": 12732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.027840868569910526,
+      "val_rmse": 0.028321494348347187,
+      "bytes": 4100,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.0287609195419235,
+      "val_rmse": 0.029238650013126307,
+      "bytes": 9642,
+      "family": "sgrid"
+     }
+    },
+    "msis7 32768": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.0179721312597394,
+      "val_rmse": 0.01804606057703495,
+      "bytes": 12732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.027840868569910526,
+      "val_rmse": 0.028321494348347187,
+      "bytes": 4100,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.0287609195419235,
+      "val_rmse": 0.029238650013126307,
+      "bytes": 9642,
+      "family": "sgrid"
+     }
+    },
+    "msis7 65536": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.015514539554715157,
+      "val_rmse": 0.01586849568411708,
+      "bytes": 49596,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.021262170827108934,
+      "val_rmse": 0.02130801426903693,
+      "bytes": 41058,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.021262170827108934,
+      "val_rmse": 0.02130801426903693,
+      "bytes": 41058,
+      "family": "sgrid"
+     }
+    },
+    "msis7 131072": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.01551288366317749,
+      "val_rmse": 0.01586568681523204,
+      "bytes": 98748,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.021262170827108934,
+      "val_rmse": 0.02130801426903693,
+      "bytes": 41058,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.021262170827108934,
+      "val_rmse": 0.02130801426903693,
+      "bytes": 41058,
+      "family": "sgrid"
+     }
+    },
+    "flame5 4096": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w4_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 1.7011603116989136,
+      "val_rmse": 1.7384824752807617,
+      "bytes": 3164,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.8236920768768806,
+      "val_rmse": 0.9167327461370498,
+      "bytes": 4067,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.8236920768768806,
+      "val_rmse": 0.9167327461370498,
+      "bytes": 4067,
+      "family": "sgrid"
+     }
+    },
+    "flame5 8192": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.6329641342163086,
+      "val_rmse": 0.6242992877960205,
+      "bytes": 6284,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.6346742765687224,
+      "val_rmse": 0.6804175440082623,
+      "bytes": 8141,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.6346742765687224,
+      "val_rmse": 0.6804175440082623,
+      "bytes": 8141,
+      "family": "sgrid"
+     }
+    },
+    "flame5 16384": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.3881511986255646,
+      "val_rmse": 0.3933754563331604,
+      "bytes": 12524,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.31304590407570965,
+      "val_rmse": 0.34730505672201967,
+      "bytes": 16384,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.31304590407570965,
+      "val_rmse": 0.34730505672201967,
+      "bytes": 16384,
+      "family": "sgrid"
+     }
+    },
+    "flame5 32768": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.29492808878421783,
+      "val_rmse": 0.2919798642396927,
+      "bytes": 25004,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.24182553305708815,
+      "val_rmse": 0.2631184257168055,
+      "bytes": 32678,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.24182553305708815,
+      "val_rmse": 0.2631184257168055,
+      "bytes": 32678,
+      "family": "sgrid"
+     }
+    },
+    "flame5 65536": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.2623258978128433,
+      "val_rmse": 0.26010578870773315,
+      "bytes": 49580,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 0.14064229217782204,
+      "val_rmse": 0.1473811459322389,
+      "bytes": 65287,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 0.14064229217782204,
+      "val_rmse": 0.1473811459322389,
+      "bytes": 65287,
+      "family": "sgrid"
+     }
+    },
+    "flame5 131072": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.2587595656514168,
+      "val_rmse": 0.2572920471429825,
+      "bytes": 98732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.11016948405749132,
+      "val_rmse": 0.11886195430045302,
+      "bytes": 130989,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.11016948405749132,
+      "val_rmse": 0.11886195430045302,
+      "bytes": 130989,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 4096": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w8_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.0003445581969572231,
+      "val_rmse": 0.0003323963610455394,
+      "bytes": 2204,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "cp8_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.00012201401113998145,
+      "val_rmse": 0.0001190477778436616,
+      "bytes": 2052,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.0001501380017752156,
+      "val_rmse": 0.00015723671349230376,
+      "bytes": 4092,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 8192": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w4_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0002177379501517862,
+      "val_rmse": 0.00021766062855022028,
+      "bytes": 4204,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 5.648120287019716e-05,
+      "val_rmse": 5.9920654326010125e-05,
+      "bytes": 8149,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 5.648120287019716e-05,
+      "val_rmse": 5.9920654326010125e-05,
+      "bytes": 8149,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 16384": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w8_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 7.324686157517135e-05,
+      "val_rmse": 7.465606540790759e-05,
+      "bytes": 8348,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 2.6314874460712953e-05,
+      "val_rmse": 2.7877259942767317e-05,
+      "bytes": 16384,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 2.6314874460712953e-05,
+      "val_rmse": 2.7877259942767317e-05,
+      "bytes": 16384,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 32768": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w16_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 5.072541898698546e-05,
+      "val_rmse": 4.513393832894508e-05,
+      "bytes": 16636,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 1.2437838136997053e-05,
+      "val_rmse": 1.3418467621740876e-05,
+      "bytes": 32748,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 1.2437838136997053e-05,
+      "val_rmse": 1.3418467621740876e-05,
+      "bytes": 32748,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 65536": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 3.492190990073141e-05,
+      "val_rmse": 3.303597986814566e-05,
+      "bytes": 49596,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 6.457772376591412e-06,
+      "val_rmse": 6.633130030472355e-06,
+      "bytes": 65498,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 6.457772376591412e-06,
+      "val_rmse": 6.633130030472355e-06,
+      "bytes": 65498,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 131072": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w32_g10",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 3.258529432059731e-05,
+      "val_rmse": 3.104419283772586e-05,
+      "bytes": 65980,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 3.4055948195534526e-06,
+      "val_rmse": 3.048339767477413e-06,
+      "bytes": 130986,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 3.4055948195534526e-06,
+      "val_rmse": 3.048339767477413e-06,
+      "bytes": 130986,
+      "family": "sgrid"
+     }
+    },
+    "ign5 4096": {
+     "win": false,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.010104245971888304,
+      "val_rmse": 0.010065791197121143,
+      "bytes": 3820,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.009535934310406446,
+      "val_rmse": 0.009665874298661947,
+      "bytes": 2948,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.012233158721134608,
+      "val_rmse": 0.011634251315831323,
+      "bytes": 4085,
+      "family": "sgrid"
+     }
+    },
+    "ign5 8192": {
+     "win": false,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.005950778257101774,
+      "val_rmse": 0.005692930892109871,
+      "bytes": 6284,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.006556707434356213,
+      "val_rmse": 0.006709043402224779,
+      "bytes": 5508,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.007441179375605324,
+      "val_rmse": 0.007476452811120707,
+      "bytes": 8192,
+      "family": "sgrid"
+     }
+    },
+    "ign5 16384": {
+     "win": true,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.002703067730180919,
+      "val_rmse": 0.0026789013063535094,
+      "bytes": 12524,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0034791154610025548,
+      "val_rmse": 0.0035161140693642083,
+      "bytes": 16002,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0034791154610025548,
+      "val_rmse": 0.0035161140693642083,
+      "bytes": 16002,
+      "family": "sgrid"
+     }
+    },
+    "ign5 32768": {
+     "win": true,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0019146653939969838,
+      "val_rmse": 0.0019211485632695258,
+      "bytes": 25004,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.0027038690055830737,
+      "val_rmse": 0.0028271757339346265,
+      "bytes": 31994,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.0027038690055830737,
+      "val_rmse": 0.0028271757339346265,
+      "bytes": 31994,
+      "family": "sgrid"
+     }
+    },
+    "ign5 65536": {
+     "win": false,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.001626248937100172,
+      "val_rmse": 0.0016362641472369432,
+      "bytes": 49580,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00198861499816519,
+      "val_rmse": 0.0020453641443110154,
+      "bytes": 65410,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00198861499816519,
+      "val_rmse": 0.0020453641443110154,
+      "bytes": 65410,
+      "family": "sgrid"
+     }
+    },
+    "ign5 131072": {
+     "win": false,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.0016051603597588837,
+      "val_rmse": 0.0016121947555802763,
+      "bytes": 98732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0011538337713626284,
+      "val_rmse": 0.001251299166709441,
+      "bytes": 130896,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0011538337713626284,
+      "val_rmse": 0.001251299166709441,
+      "bytes": 130896,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 4096": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 211.21383666992188,
+      "val_rmse": 214.12863159179688,
+      "bytes": 3556,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 52.19615810598893,
+      "val_rmse": 53.169376721138285,
+      "bytes": 3894,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 52.19615810598893,
+      "val_rmse": 53.169376721138285,
+      "bytes": 3894,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 8192": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 83.73723983764648,
+      "val_rmse": 83.56071853637695,
+      "bytes": 5252,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b8_fit",
+      "variant": "i16",
+      "rmse": 18.465377634769126,
+      "val_rmse": 18.687374988582892,
+      "bytes": 7470,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b8_fit",
+      "variant": "i16",
+      "rmse": 18.465377634769126,
+      "val_rmse": 18.687374988582892,
+      "bytes": 7470,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 16384": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 30.976834297180176,
+      "val_rmse": 31.238791465759277,
+      "bytes": 10468,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b16_fit",
+      "variant": "i16",
+      "rmse": 8.252512092991074,
+      "val_rmse": 8.530814299009423,
+      "bytes": 16166,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b16_fit",
+      "variant": "i16",
+      "rmse": 8.252512092991074,
+      "val_rmse": 8.530814299009423,
+      "bytes": 16166,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 32768": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 20.889437675476074,
+      "val_rmse": 21.009718894958496,
+      "bytes": 20900,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 3.344494486808337,
+      "val_rmse": 3.259159677985812,
+      "bytes": 32710,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 3.344494486808337,
+      "val_rmse": 3.259159677985812,
+      "bytes": 32710,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 65536": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 12.053881645202637,
+      "val_rmse": 12.059011936187744,
+      "bytes": 41380,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 1.2002997711193668,
+      "val_rmse": 1.1970710729876903,
+      "bytes": 63630,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 1.2002997711193668,
+      "val_rmse": 1.1970710729876903,
+      "bytes": 63630,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 131072": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 11.282274723052979,
+      "val_rmse": 11.322882175445557,
+      "bytes": 82340,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.524049717114236,
+      "val_rmse": 0.5082812752904085,
+      "bytes": 130670,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.524049717114236,
+      "val_rmse": 0.5082812752904085,
+      "bytes": 130670,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.007054449990391731,
+      "val_rmse": 0.007076263427734375,
+      "bytes": 2268,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.0024981581373140216,
+      "val_rmse": 0.002490147016942501,
+      "bytes": 3332,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.0026536538958432353,
+      "val_rmse": 0.00265719740457646,
+      "bytes": 3963,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 8192": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w8_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.005689137149602175,
+      "val_rmse": 0.005685331067070365,
+      "bytes": 4220,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0009296080251869165,
+      "val_rmse": 0.0009447460205667418,
+      "bytes": 7879,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0009296080251869165,
+      "val_rmse": 0.0009447460205667418,
+      "bytes": 7879,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 16384": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0017110361950471997,
+      "val_rmse": 0.0017308450187556446,
+      "bytes": 8412,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0005799451177028632,
+      "val_rmse": 0.0005853628703346093,
+      "bytes": 15727,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0005799451177028632,
+      "val_rmse": 0.0005853628703346093,
+      "bytes": 15727,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 32768": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0009503639012109488,
+      "val_rmse": 0.000947976455790922,
+      "bytes": 16796,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00022890052008746038,
+      "val_rmse": 0.00023397261307841647,
+      "bytes": 32207,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00022890052008746038,
+      "val_rmse": 0.00023397261307841647,
+      "bytes": 32207,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 65536": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.0008328575058840215,
+      "val_rmse": 0.0008318434120155871,
+      "bytes": 33180,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00011875054781749085,
+      "val_rmse": 0.00011395458201441516,
+      "bytes": 65227,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00011875054781749085,
+      "val_rmse": 0.00011395458201441516,
+      "bytes": 65227,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.0008259870228357613,
+      "val_rmse": 0.0008252487168647349,
+      "bytes": 65948,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 5.8410214913087514e-05,
+      "val_rmse": 5.579892887534079e-05,
+      "bytes": 130545,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 5.8410214913087514e-05,
+      "val_rmse": 5.579892887534079e-05,
+      "bytes": 130545,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.012861658819019794,
+      "val_rmse": 0.012800590135157108,
+      "bytes": 2788,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.009185156784951687,
+      "val_rmse": 0.009160418529063463,
+      "bytes": 2372,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.016068009555300102,
+      "val_rmse": 0.015871019416323556,
+      "bytes": 4078,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 8192": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.009169804397970438,
+      "val_rmse": 0.009080573916435242,
+      "bytes": 5540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.009185156784951687,
+      "val_rmse": 0.009160418529063463,
+      "bytes": 2372,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.011274735423732224,
+      "val_rmse": 0.011132597704328175,
+      "bytes": 5630,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 16384": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.009169804397970438,
+      "val_rmse": 0.009080573916435242,
+      "bytes": 5540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.008705810743082657,
+      "val_rmse": 0.00863750812123644,
+      "bytes": 15966,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.008705810743082657,
+      "val_rmse": 0.00863750812123644,
+      "bytes": 15966,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 32768": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.005496124038472772,
+      "val_rmse": 0.005481531610712409,
+      "bytes": 20900,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.004036664716555633,
+      "val_rmse": 0.003874145400669864,
+      "bytes": 32622,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.004036664716555633,
+      "val_rmse": 0.003874145400669864,
+      "bytes": 32622,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 65536": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g10",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.005482672015205026,
+      "val_rmse": 0.005471291020512581,
+      "bytes": 41380,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.002235889724836736,
+      "val_rmse": 0.0022302978505394,
+      "bytes": 65358,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.002235889724836736,
+      "val_rmse": 0.0022302978505394,
+      "bytes": 65358,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g10",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.005484139081090689,
+      "val_rmse": 0.005470385542139411,
+      "bytes": 82340,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.001398453679053698,
+      "val_rmse": 0.0013746886099261415,
+      "bytes": 130934,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.001398453679053698,
+      "val_rmse": 0.0013746886099261415,
+      "bytes": 130934,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.017535836435854435,
+      "val_rmse": 0.017566092312335968,
+      "bytes": 3308,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.015747093129903078,
+      "val_rmse": 0.015423760283738375,
+      "bytes": 2948,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.022255764540598983,
+      "val_rmse": 0.021954042973416518,
+      "bytes": 3450,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 8192": {
+     "win": true,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.012486896477639675,
+      "val_rmse": 0.012496006209403276,
+      "bytes": 6572,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.015747093129903078,
+      "val_rmse": 0.015423760283738375,
+      "bytes": 2948,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.022255764540598983,
+      "val_rmse": 0.021954042973416518,
+      "bytes": 3450,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 16384": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.011877188924700022,
+      "val_rmse": 0.011851835064589977,
+      "bytes": 11692,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.013537933511133119,
+      "val_rmse": 0.013267911794745305,
+      "bytes": 12018,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.013537933511133119,
+      "val_rmse": 0.013267911794745305,
+      "bytes": 12018,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 32768": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.009779216255992651,
+      "val_rmse": 0.009682127740234137,
+      "bytes": 25004,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.011824926272634992,
+      "val_rmse": 0.011697287243501407,
+      "bytes": 32641,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.011824926272634992,
+      "val_rmse": 0.011697287243501407,
+      "bytes": 32641,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 65536": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.009777204133570194,
+      "val_rmse": 0.009680260438472033,
+      "bytes": 49580,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n7_fit",
+      "variant": "i16",
+      "rmse": 0.007928885762196978,
+      "val_rmse": 0.007969000832200732,
+      "bytes": 39738,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n7_fit",
+      "variant": "i16",
+      "rmse": 0.007928885762196978,
+      "val_rmse": 0.007969000832200732,
+      "bytes": 39738,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.009777204133570194,
+      "val_rmse": 0.009680260438472033,
+      "bytes": 49580,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.003727140752538543,
+      "val_rmse": 0.003721349937810452,
+      "bytes": 131037,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.003727140752538543,
+      "val_rmse": 0.003721349937810452,
+      "bytes": 131037,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.021311894990503788,
+      "val_rmse": 0.020993639715015888,
+      "bytes": 3828,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.02022595703601837,
+      "val_rmse": 0.020216630771756172,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.04342188013967919,
+      "val_rmse": 0.042986505822195695,
+      "bytes": 4080,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 8192": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.014658551663160324,
+      "val_rmse": 0.01441103545948863,
+      "bytes": 7604,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.02022595703601837,
+      "val_rmse": 0.020216630771756172,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.025259522881435396,
+      "val_rmse": 0.025059720452595573,
+      "bytes": 5966,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 16384": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.013694492168724537,
+      "val_rmse": 0.013503404799848795,
+      "bytes": 12212,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.02022595703601837,
+      "val_rmse": 0.020216630771756172,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.025259522881435396,
+      "val_rmse": 0.025059720452595573,
+      "bytes": 5966,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 32768": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan1_w32_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.012388265691697598,
+      "val_rmse": 0.012133060954511166,
+      "bytes": 29108,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.016589885025027756,
+      "val_rmse": 0.016523299494885756,
+      "bytes": 23102,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.016589885025027756,
+      "val_rmse": 0.016523299494885756,
+      "bytes": 23102,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 65536": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.01106621464714408,
+      "val_rmse": 0.01078531751409173,
+      "bytes": 47540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.016372718128392878,
+      "val_rmse": 0.01643599229521988,
+      "bytes": 65452,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.016372718128392878,
+      "val_rmse": 0.01643599229521988,
+      "bytes": 65452,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.011063830927014351,
+      "val_rmse": 0.01077654492110014,
+      "bytes": 94644,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.01053295375825142,
+      "val_rmse": 0.010654216598745382,
+      "bytes": 131052,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.01053295375825142,
+      "val_rmse": 0.010654216598745382,
+      "bytes": 131052,
+      "family": "sgrid"
+     }
+    }
+   }
+  },
+  "2": {
+   "S1": 2,
+   "bound": {
+    "8192": 0,
+    "16384": 2,
+    "32768": 2
+   },
+   "cells": {
+    "pv_mp5 4096": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w4_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.19002500921487808,
+      "val_rmse": 0.18147704750299454,
+      "bytes": 3164,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.08586023238333453,
+      "val_rmse": 0.08726492987744086,
+      "bytes": 4076,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.08586023238333453,
+      "val_rmse": 0.08726492987744086,
+      "bytes": 4076,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 8192": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w8_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.05851968005299568,
+      "val_rmse": 0.059417884796857834,
+      "bytes": 6284,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.031030952489002478,
+      "val_rmse": 0.0308009329627991,
+      "bytes": 8163,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.031030952489002478,
+      "val_rmse": 0.0308009329627991,
+      "bytes": 8163,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 16384": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w8_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.0278761126101017,
+      "val_rmse": 0.027642060071229935,
+      "bytes": 12428,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.015560749722006538,
+      "val_rmse": 0.015626394443027956,
+      "bytes": 16339,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.015560749722006538,
+      "val_rmse": 0.015626394443027956,
+      "bytes": 16339,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 32768": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w16_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.02468135580420494,
+      "val_rmse": 0.022356200963258743,
+      "bytes": 24812,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.010149279124801944,
+      "val_rmse": 0.010163976719302793,
+      "bytes": 32716,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.010149279124801944,
+      "val_rmse": 0.010163976719302793,
+      "bytes": 32716,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 65536": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w16_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.0222725635394454,
+      "val_rmse": 0.019535230472683907,
+      "bytes": 49388,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00389373691460066,
+      "val_rmse": 0.004127243822231338,
+      "bytes": 65404,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00389373691460066,
+      "val_rmse": 0.004127243822231338,
+      "bytes": 65404,
+      "family": "sgrid"
+     }
+    },
+    "pv_mp5 131072": {
+     "win": false,
+     "kan": {
+      "task": "pv_mp5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.02822498418390751,
+      "val_rmse": 0.01780269853770733,
+      "bytes": 98732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0014742863352539455,
+      "val_rmse": 0.0015842125851754645,
+      "bytes": 130941,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_mp5",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0014742863352539455,
+      "val_rmse": 0.0015842125851754645,
+      "bytes": 130941,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 4096": {
+     "win": false,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.9169333577156067,
+      "val_rmse": 0.9002640247344971,
+      "bytes": 4084,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.8578010201454163,
+      "val_rmse": 0.911119133234024,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 3.0822900431144866,
+      "val_rmse": 3.121879498811121,
+      "bytes": 4060,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 8192": {
+     "win": false,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.9169333577156067,
+      "val_rmse": 0.9002640247344971,
+      "bytes": 4084,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.6941193640232086,
+      "val_rmse": 0.8518761396408081,
+      "bytes": 6596,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 2.3563987464488116,
+      "val_rmse": 2.47328420734233,
+      "bytes": 8158,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 16384": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w8_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.41840678453445435,
+      "val_rmse": 0.4810827523469925,
+      "bytes": 15604,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.6941193640232086,
+      "val_rmse": 0.8518761396408081,
+      "bytes": 6596,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 1.5902277120245882,
+      "val_rmse": 1.6845628477725936,
+      "bytes": 16380,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 32768": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan1_w32_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.37077078223228455,
+      "val_rmse": 0.38754136860370636,
+      "bytes": 29108,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.6941193640232086,
+      "val_rmse": 0.8518761396408081,
+      "bytes": 6596,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.9659748388418848,
+      "val_rmse": 1.0689938290096468,
+      "bytes": 32624,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 65536": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.20715313404798508,
+      "val_rmse": 0.2744707763195038,
+      "bytes": 47540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "gridv_n5x3x16x22x2x3",
+      "variant": "i16",
+      "family": "grid",
+      "rmse": 0.7234185951218961,
+      "val_rmse": 0.8133767359085132,
+      "bytes": 63388,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.9057224697549038,
+      "val_rmse": 1.010551255718985,
+      "bytes": 65458,
+      "family": "sgrid"
+     }
+    },
+    "pv_chain6 131072": {
+     "win": true,
+     "kan": {
+      "task": "pv_chain6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.1998751536011696,
+      "val_rmse": 0.2694281339645386,
+      "bytes": 94644,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.42310691314281423,
+      "val_rmse": 0.5201907818724698,
+      "bytes": 130896,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "pv_chain6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.42310691314281423,
+      "val_rmse": 0.5201907818724698,
+      "bytes": 130896,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 4096": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.0060225664637982845,
+      "val_rmse": 0.005924064898863435,
+      "bytes": 3556,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.0028383701760173116,
+      "val_rmse": 0.0028499983966757125,
+      "bytes": 4086,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.0028383701760173116,
+      "val_rmse": 0.0028499983966757125,
+      "bytes": 4086,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 8192": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0020820991485379636,
+      "val_rmse": 0.002148165483959019,
+      "bytes": 5252,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0011676232740341344,
+      "val_rmse": 0.0011730296219587964,
+      "bytes": 8182,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0011676232740341344,
+      "val_rmse": 0.0011730296219587964,
+      "bytes": 8182,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 16384": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0011101648560725152,
+      "val_rmse": 0.00112753122812137,
+      "bytes": 10468,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0004859355557085869,
+      "val_rmse": 0.00048598038049669357,
+      "bytes": 16254,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0004859355557085869,
+      "val_rmse": 0.00048598038049669357,
+      "bytes": 16254,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 32768": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0008542282448615879,
+      "val_rmse": 0.0008465622377116233,
+      "bytes": 20900,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00024550125527177113,
+      "val_rmse": 0.0002522918795268793,
+      "bytes": 32686,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00024550125527177113,
+      "val_rmse": 0.0002522918795268793,
+      "bytes": 32686,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 65536": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.000574619771214202,
+      "val_rmse": 0.0005913825007155538,
+      "bytes": 41380,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.0001552781588089664,
+      "val_rmse": 0.00016851531388479472,
+      "bytes": 64782,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.0001552781588089664,
+      "val_rmse": 0.00016851531388479472,
+      "bytes": 64782,
+      "family": "sgrid"
+     }
+    },
+    "tyre4 131072": {
+     "win": false,
+     "kan": {
+      "task": "tyre4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.0005517822573892772,
+      "val_rmse": 0.0005710584810003638,
+      "bytes": 82340,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 7.680933905120221e-05,
+      "val_rmse": 8.294124074855091e-05,
+      "bytes": 130662,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "tyre4",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 7.680933905120221e-05,
+      "val_rmse": 8.294124074855091e-05,
+      "bytes": 130662,
+      "family": "sgrid"
+     }
+    },
+    "msis7 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan1_w8_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.03794810734689236,
+      "val_rmse": 0.03748239949345589,
+      "bytes": 2204,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp8_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.04043295606970787,
+      "val_rmse": 0.040164658799767494,
+      "bytes": 2052,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n4_fit",
+      "variant": "i16",
+      "rmse": 0.047880578396339794,
+      "val_rmse": 0.04731205475690863,
+      "bytes": 2082,
+      "family": "sgrid"
+     }
+    },
+    "msis7 8192": {
+     "win": false,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.026346152648329735,
+      "val_rmse": 0.026467852294445038,
+      "bytes": 4348,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.026606391184031963,
+      "val_rmse": 0.025981915183365345,
+      "bytes": 4100,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.03993384938931846,
+      "val_rmse": 0.039867021817040514,
+      "bytes": 8178,
+      "family": "sgrid"
+     }
+    },
+    "msis7 16384": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.01666949037462473,
+      "val_rmse": 0.016668603755533695,
+      "bytes": 12732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.026606391184031963,
+      "val_rmse": 0.025981915183365345,
+      "bytes": 4100,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.029210867038144676,
+      "val_rmse": 0.029161966259110876,
+      "bytes": 9642,
+      "family": "sgrid"
+     }
+    },
+    "msis7 32768": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.01666949037462473,
+      "val_rmse": 0.016668603755533695,
+      "bytes": 12732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.026606391184031963,
+      "val_rmse": 0.025981915183365345,
+      "bytes": 4100,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.029210867038144676,
+      "val_rmse": 0.029161966259110876,
+      "bytes": 9642,
+      "family": "sgrid"
+     }
+    },
+    "msis7 65536": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.01450867298990488,
+      "val_rmse": 0.014336301945149899,
+      "bytes": 49596,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.02097844950107579,
+      "val_rmse": 0.02100852953867226,
+      "bytes": 41058,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.02097844950107579,
+      "val_rmse": 0.02100852953867226,
+      "bytes": 41058,
+      "family": "sgrid"
+     }
+    },
+    "msis7 131072": {
+     "win": true,
+     "kan": {
+      "task": "msis7",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.014502860605716705,
+      "val_rmse": 0.01432733191177249,
+      "bytes": 98748,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.02097844950107579,
+      "val_rmse": 0.02100852953867226,
+      "bytes": 41058,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis7",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.02097844950107579,
+      "val_rmse": 0.02100852953867226,
+      "bytes": 41058,
+      "family": "sgrid"
+     }
+    },
+    "flame5 4096": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w4_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 1.7464407086372375,
+      "val_rmse": 1.6893916130065918,
+      "bytes": 3164,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.9181472329474899,
+      "val_rmse": 0.7998351854919064,
+      "bytes": 4067,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.9181472329474899,
+      "val_rmse": 0.7998351854919064,
+      "bytes": 4067,
+      "family": "sgrid"
+     }
+    },
+    "flame5 8192": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.6712071001529694,
+      "val_rmse": 0.6438411474227905,
+      "bytes": 6284,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.6755040506072655,
+      "val_rmse": 0.6109112437467684,
+      "bytes": 8141,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.6755040506072655,
+      "val_rmse": 0.6109112437467684,
+      "bytes": 8141,
+      "family": "sgrid"
+     }
+    },
+    "flame5 16384": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.37856970727443695,
+      "val_rmse": 0.3541918992996216,
+      "bytes": 12524,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.3489277734072404,
+      "val_rmse": 0.3096687361658059,
+      "bytes": 16384,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.3489277734072404,
+      "val_rmse": 0.3096687361658059,
+      "bytes": 16384,
+      "family": "sgrid"
+     }
+    },
+    "flame5 32768": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.294925257563591,
+      "val_rmse": 0.27807170152664185,
+      "bytes": 25004,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.26757896912671153,
+      "val_rmse": 0.2551111323444988,
+      "bytes": 32678,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.26757896912671153,
+      "val_rmse": 0.2551111323444988,
+      "bytes": 32678,
+      "family": "sgrid"
+     }
+    },
+    "flame5 65536": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.2616143226623535,
+      "val_rmse": 0.24883271008729935,
+      "bytes": 49580,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 0.1506855005164255,
+      "val_rmse": 0.1424543210370022,
+      "bytes": 65287,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 0.1506855005164255,
+      "val_rmse": 0.1424543210370022,
+      "bytes": 65287,
+      "family": "sgrid"
+     }
+    },
+    "flame5 131072": {
+     "win": false,
+     "kan": {
+      "task": "flame5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.25883743166923523,
+      "val_rmse": 0.24590138345956802,
+      "bytes": 98732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.12099688265908194,
+      "val_rmse": 0.11117698518193202,
+      "bytes": 130989,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "flame5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.12099688265908194,
+      "val_rmse": 0.11117698518193202,
+      "bytes": 130989,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 4096": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w8_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.00030288854031823575,
+      "val_rmse": 0.0003039904695469886,
+      "bytes": 2204,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "cp8_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.00011980025374214165,
+      "val_rmse": 0.0001216796699736733,
+      "bytes": 2052,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 0.00015725313720620323,
+      "val_rmse": 0.00014792817816430647,
+      "bytes": 4092,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 8192": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w16_g20",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.00021427170577226207,
+      "val_rmse": 0.000210952312045265,
+      "bytes": 4348,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 5.9972710058387604e-05,
+      "val_rmse": 5.5662675132459713e-05,
+      "bytes": 8149,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 5.9972710058387604e-05,
+      "val_rmse": 5.5662675132459713e-05,
+      "bytes": 8149,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 16384": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w8_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 7.636115697096102e-05,
+      "val_rmse": 8.002484173630364e-05,
+      "bytes": 8348,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 2.9120961592924887e-05,
+      "val_rmse": 2.7154871191762056e-05,
+      "bytes": 16353,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 2.9120961592924887e-05,
+      "val_rmse": 2.7154871191762056e-05,
+      "bytes": 16353,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 32768": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w16_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 3.5979817766929045e-05,
+      "val_rmse": 3.445078982622363e-05,
+      "bytes": 16636,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 1.3256293513907764e-05,
+      "val_rmse": 1.27140389677102e-05,
+      "bytes": 32689,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 1.3256293513907764e-05,
+      "val_rmse": 1.27140389677102e-05,
+      "bytes": 32689,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 65536": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w32_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 2.8602345992112532e-05,
+      "val_rmse": 2.6324979444325436e-05,
+      "bytes": 33212,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 6.776914411738482e-06,
+      "val_rmse": 7.126981458881375e-06,
+      "bytes": 65514,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b64_fit",
+      "variant": "i16",
+      "rmse": 6.776914411738482e-06,
+      "val_rmse": 7.126981458881375e-06,
+      "bytes": 65514,
+      "family": "sgrid"
+     }
+    },
+    "gasz7 131072": {
+     "win": false,
+     "kan": {
+      "task": "gasz7",
+      "shape": "kan1_w32_g10",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 2.5089092559937853e-05,
+      "val_rmse": 2.2637897927779704e-05,
+      "bytes": 65980,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 3.3656810494830036e-06,
+      "val_rmse": 3.6466078625471624e-06,
+      "bytes": 130945,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "gasz7",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 3.3656810494830036e-06,
+      "val_rmse": 3.6466078625471624e-06,
+      "bytes": 130945,
+      "family": "sgrid"
+     }
+    },
+    "ign5 4096": {
+     "win": false,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.010731823742389679,
+      "val_rmse": 0.010375444777309895,
+      "bytes": 3820,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.008947385009378195,
+      "val_rmse": 0.009063109755516052,
+      "bytes": 2948,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.010872982959385222,
+      "val_rmse": 0.011192115264736261,
+      "bytes": 4085,
+      "family": "sgrid"
+     }
+    },
+    "ign5 8192": {
+     "win": true,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.005316054914146662,
+      "val_rmse": 0.005174572579562664,
+      "bytes": 6284,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.0066496762447059155,
+      "val_rmse": 0.006395845441147685,
+      "bytes": 5508,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b8_fit",
+      "variant": "i16",
+      "rmse": 0.007541526638519751,
+      "val_rmse": 0.007395636961763459,
+      "bytes": 8192,
+      "family": "sgrid"
+     }
+    },
+    "ign5 16384": {
+     "win": false,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0029823030345141888,
+      "val_rmse": 0.0028128159465268254,
+      "bytes": 12524,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0036390572783045264,
+      "val_rmse": 0.0038093394506364974,
+      "bytes": 15902,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0036390572783045264,
+      "val_rmse": 0.0038093394506364974,
+      "bytes": 15902,
+      "family": "sgrid"
+     }
+    },
+    "ign5 32768": {
+     "win": true,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0017272269469685853,
+      "val_rmse": 0.001649600628297776,
+      "bytes": 25004,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.002767119048952338,
+      "val_rmse": 0.002702089656972248,
+      "bytes": 31857,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b32_fit",
+      "variant": "i16",
+      "rmse": 0.002767119048952338,
+      "val_rmse": 0.002702089656972248,
+      "bytes": 31857,
+      "family": "sgrid"
+     }
+    },
+    "ign5 65536": {
+     "win": true,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.0014992147916927934,
+      "val_rmse": 0.0014196577831171453,
+      "bytes": 49580,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.0021761841028670533,
+      "val_rmse": 0.001936736570286074,
+      "bytes": 65287,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.0021761841028670533,
+      "val_rmse": 0.001936736570286074,
+      "bytes": 65287,
+      "family": "sgrid"
+     }
+    },
+    "ign5 131072": {
+     "win": false,
+     "kan": {
+      "task": "ign5",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.0014754681033082306,
+      "val_rmse": 0.0014063743292354047,
+      "bytes": 98732,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0015742653973072182,
+      "val_rmse": 0.001189726017776034,
+      "bytes": 130869,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "ign5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0015742653973072182,
+      "val_rmse": 0.001189726017776034,
+      "bytes": 130869,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 4096": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan2_w8_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 220.16715240478516,
+      "val_rmse": 216.4559326171875,
+      "bytes": 3556,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 53.173809703792976,
+      "val_rmse": 52.714046176843674,
+      "bytes": 3894,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.9_b4_fit",
+      "variant": "i16",
+      "rmse": 53.173809703792976,
+      "val_rmse": 52.714046176843674,
+      "bytes": 3894,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 8192": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w8_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 77.61320495605469,
+      "val_rmse": 76.80870819091797,
+      "bytes": 5252,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b8_fit",
+      "variant": "i16",
+      "rmse": 18.782553021939346,
+      "val_rmse": 18.952634985196863,
+      "bytes": 7470,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b8_fit",
+      "variant": "i16",
+      "rmse": 18.782553021939346,
+      "val_rmse": 18.952634985196863,
+      "bytes": 7470,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 16384": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 33.2059440612793,
+      "val_rmse": 32.912800788879395,
+      "bytes": 10468,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b16_fit",
+      "variant": "i16",
+      "rmse": 8.633838541972906,
+      "val_rmse": 8.464878522388062,
+      "bytes": 16166,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b16_fit",
+      "variant": "i16",
+      "rmse": 8.633838541972906,
+      "val_rmse": 8.464878522388062,
+      "bytes": 16166,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 32768": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 21.251300811767578,
+      "val_rmse": 21.20812702178955,
+      "bytes": 20900,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b32_fit",
+      "variant": "i16",
+      "rmse": 3.428054481824604,
+      "val_rmse": 3.3730858485220523,
+      "bytes": 32310,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b32_fit",
+      "variant": "i16",
+      "rmse": 3.428054481824604,
+      "val_rmse": 3.3730858485220523,
+      "bytes": 32310,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 65536": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 12.224095344543457,
+      "val_rmse": 12.205585956573486,
+      "bytes": 41380,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 1.1871216993953602,
+      "val_rmse": 1.179682392042789,
+      "bytes": 63630,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b64_fit",
+      "variant": "i16",
+      "rmse": 1.1871216993953602,
+      "val_rmse": 1.179682392042789,
+      "bytes": 63630,
+      "family": "sgrid"
+     }
+    },
+    "igrf4 131072": {
+     "win": false,
+     "kan": {
+      "task": "igrf4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 11.465474128723145,
+      "val_rmse": 11.42324447631836,
+      "bytes": 82340,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.5343382940952554,
+      "val_rmse": 0.541279092111214,
+      "bytes": 130670,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "igrf4",
+      "shape": "sgrid_mod_w0.99_b128_fit",
+      "variant": "i16",
+      "rmse": 0.5343382940952554,
+      "val_rmse": 0.541279092111214,
+      "bytes": 130670,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.0073269212152808905,
+      "val_rmse": 0.00718533550389111,
+      "bytes": 2268,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "cp16_q32",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.0025655310600996017,
+      "val_rmse": 0.002550413366407156,
+      "bytes": 3332,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.00266114172968339,
+      "val_rmse": 0.0026476748724677496,
+      "bytes": 3963,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 8192": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w8_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.006268423516303301,
+      "val_rmse": 0.006208749720826745,
+      "bytes": 4220,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0009440767868235902,
+      "val_rmse": 0.0009391588257550299,
+      "bytes": 7879,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b8_fit",
+      "variant": "i16",
+      "rmse": 0.0009440767868235902,
+      "val_rmse": 0.0009391588257550299,
+      "bytes": 7879,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 16384": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w16_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0018765143468044698,
+      "val_rmse": 0.001875339075922966,
+      "bytes": 8412,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0005980963590240007,
+      "val_rmse": 0.000593268290150821,
+      "bytes": 15727,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.0005980963590240007,
+      "val_rmse": 0.000593268290150821,
+      "bytes": 15727,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 32768": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0009857628028839827,
+      "val_rmse": 0.0009827215690165758,
+      "bytes": 16796,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00022996352864036197,
+      "val_rmse": 0.00023168519283837117,
+      "bytes": 32207,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.00022996352864036197,
+      "val_rmse": 0.00023168519283837117,
+      "bytes": 32207,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 65536": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.0008598645799793303,
+      "val_rmse": 0.0008558384724892676,
+      "bytes": 33180,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00011303057895850014,
+      "val_rmse": 0.00011447182376524673,
+      "bytes": 65227,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.00011303057895850014,
+      "val_rmse": 0.00011447182376524673,
+      "bytes": 65227,
+      "family": "sgrid"
+     }
+    },
+    "msis_d3 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d3",
+      "shape": "kan1_w32_g20",
+      "variant": "lin8_i16_m5",
+      "family": "kan",
+      "rmse": 0.0008517566602677107,
+      "val_rmse": 0.0008466712315566838,
+      "bytes": 65948,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 5.636185747910676e-05,
+      "val_rmse": 5.7255841097035614e-05,
+      "bytes": 130545,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d3",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 5.636185747910676e-05,
+      "val_rmse": 5.7255841097035614e-05,
+      "bytes": 130545,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.013088017236441374,
+      "val_rmse": 0.013279803562909365,
+      "bytes": 2788,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.009485820308327675,
+      "val_rmse": 0.009783260058611631,
+      "bytes": 2372,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.015869176019570896,
+      "val_rmse": 0.016321219828328227,
+      "bytes": 4078,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 8192": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.009393167216330767,
+      "val_rmse": 0.009597083553671837,
+      "bytes": 5540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.009485820308327675,
+      "val_rmse": 0.009783260058611631,
+      "bytes": 2372,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.011159964331351739,
+      "val_rmse": 0.011170281327925401,
+      "bytes": 5630,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 16384": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.009393167216330767,
+      "val_rmse": 0.009597083553671837,
+      "bytes": 5540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.008636999316434536,
+      "val_rmse": 0.008903724987712807,
+      "bytes": 15966,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b16_fit",
+      "variant": "i16",
+      "rmse": 0.008636999316434536,
+      "val_rmse": 0.008903724987712807,
+      "bytes": 15966,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 32768": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.005740497959777713,
+      "val_rmse": 0.005763304186984897,
+      "bytes": 20900,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.0038504031571806076,
+      "val_rmse": 0.003915117540120893,
+      "bytes": 32726,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.0038504031571806076,
+      "val_rmse": 0.003915117540120893,
+      "bytes": 32726,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 65536": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.005723161855712533,
+      "val_rmse": 0.0057455687783658504,
+      "bytes": 41380,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.0022087186727109192,
+      "val_rmse": 0.0022615653119426042,
+      "bytes": 65358,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.0022087186727109192,
+      "val_rmse": 0.0022615653119426042,
+      "bytes": 65358,
+      "family": "sgrid"
+     }
+    },
+    "msis_d4 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d4",
+      "shape": "kan1_w32_g20",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.005723161855712533,
+      "val_rmse": 0.0057455687783658504,
+      "bytes": 41380,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.001365988714972751,
+      "val_rmse": 0.0014332812740636852,
+      "bytes": 130934,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d4",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.001365988714972751,
+      "val_rmse": 0.0014332812740636852,
+      "bytes": 130934,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.01713288389146328,
+      "val_rmse": 0.01707669161260128,
+      "bytes": 3308,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.015505895484238863,
+      "val_rmse": 0.015340957324951887,
+      "bytes": 2948,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.02207444955002313,
+      "val_rmse": 0.02198484566866845,
+      "bytes": 3450,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 8192": {
+     "win": true,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.012119452934712172,
+      "val_rmse": 0.012129607610404491,
+      "bytes": 6572,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.015505895484238863,
+      "val_rmse": 0.015340957324951887,
+      "bytes": 2948,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.02207444955002313,
+      "val_rmse": 0.02198484566866845,
+      "bytes": 3450,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 16384": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.011325088329613209,
+      "val_rmse": 0.011318648234009743,
+      "bytes": 11692,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.013266585198889517,
+      "val_rmse": 0.013293879958957842,
+      "bytes": 12018,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.013266585198889517,
+      "val_rmse": 0.013293879958957842,
+      "bytes": 12018,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 32768": {
+     "win": true,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan1_w32_g10",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.0091844592243433,
+      "val_rmse": 0.009203065652400255,
+      "bytes": 25004,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.011831391660470878,
+      "val_rmse": 0.011576597149615727,
+      "bytes": 32641,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.5_b32_fit",
+      "variant": "i16",
+      "rmse": 0.011831391660470878,
+      "val_rmse": 0.011576597149615727,
+      "bytes": 32641,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 65536": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.009021259844303131,
+      "val_rmse": 0.008932741824537516,
+      "bytes": 45484,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n7_fit",
+      "variant": "i16",
+      "rmse": 0.007935769831262643,
+      "val_rmse": 0.008031589953454047,
+      "bytes": 39738,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_reg_n7_fit",
+      "variant": "i16",
+      "rmse": 0.007935769831262643,
+      "val_rmse": 0.008031589953454047,
+      "bytes": 39738,
+      "family": "sgrid"
+     }
+    },
+    "msis_d5 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d5",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.009019509889185429,
+      "val_rmse": 0.008925323374569416,
+      "bytes": 90540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0036394855583344004,
+      "val_rmse": 0.003645949077002474,
+      "bytes": 131037,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d5",
+      "shape": "sgrid_mod_w0.9_b128_fit",
+      "variant": "i16",
+      "rmse": 0.0036394855583344004,
+      "val_rmse": 0.003645949077002474,
+      "bytes": 131037,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 4096": {
+     "win": false,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan1_w16_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.02094893716275692,
+      "val_rmse": 0.02076986711472273,
+      "bytes": 3828,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.019959816709160805,
+      "val_rmse": 0.02003909181803465,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b4_fit",
+      "variant": "i16",
+      "rmse": 0.04303592942669775,
+      "val_rmse": 0.04264366426587808,
+      "bytes": 4080,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 8192": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan1_w32_g10",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.014903252944350243,
+      "val_rmse": 0.014776264317333698,
+      "bytes": 7604,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.019959816709160805,
+      "val_rmse": 0.02003909181803465,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.02507102197177917,
+      "val_rmse": 0.02526442575873061,
+      "bytes": 5966,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 16384": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin4_i16",
+      "family": "kan",
+      "rmse": 0.013491341844201088,
+      "val_rmse": 0.013599909842014313,
+      "bytes": 12212,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "cp16_q16",
+      "variant": "i16",
+      "family": "cp",
+      "rmse": 0.019959816709160805,
+      "val_rmse": 0.02003909181803465,
+      "bytes": 3524,
+      "lat_ns": null
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n5_fit",
+      "variant": "i16",
+      "rmse": 0.02507102197177917,
+      "val_rmse": 0.02526442575873061,
+      "bytes": 5966,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 32768": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan1_w32_g20",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.012439165730029345,
+      "val_rmse": 0.012228333856910467,
+      "bytes": 29108,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.016452029086487078,
+      "val_rmse": 0.016648822999984887,
+      "bytes": 23102,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_reg_n6_fit",
+      "variant": "i16",
+      "rmse": 0.016452029086487078,
+      "val_rmse": 0.016648822999984887,
+      "bytes": 23102,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 65536": {
+     "win": true,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin6_i16_m5",
+      "family": "kan",
+      "rmse": 0.010681284125894308,
+      "val_rmse": 0.010832438245415688,
+      "bytes": 47540,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.016492529515849494,
+      "val_rmse": 0.016437321361580975,
+      "bytes": 65452,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b64_fit",
+      "variant": "i16",
+      "rmse": 0.016492529515849494,
+      "val_rmse": 0.016437321361580975,
+      "bytes": 65452,
+      "family": "sgrid"
+     }
+    },
+    "msis_d6 131072": {
+     "win": false,
+     "kan": {
+      "task": "msis_d6",
+      "shape": "kan2_w16_g5",
+      "variant": "lin7_i16_m5",
+      "family": "kan",
+      "rmse": 0.010670558083802462,
+      "val_rmse": 0.010824222583323717,
+      "bytes": 94644,
+      "lat_ns": null
+     },
+     "map": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.010718805605982606,
+      "val_rmse": 0.01127155505956945,
+      "bytes": 131062,
+      "family": "sgrid"
+     },
+     "sgrid": {
+      "task": "msis_d6",
+      "shape": "sgrid_mod_w0.5_b128_fit",
+      "variant": "i16",
+      "rmse": 0.010718805605982606,
+      "val_rmse": 0.01127155505956945,
+      "bytes": 131062,
+      "family": "sgrid"
+     }
+    }
+   }
+  }
+ },
+ "S1": false,
+ "B1": null
+}

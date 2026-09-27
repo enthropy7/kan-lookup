@@ -1,0 +1,430 @@
+{
+ "tasks": [
+  "gasz7",
+  "ign5",
+  "igrf4",
+  "msis_d3",
+  "msis_d4",
+  "msis_d5",
+  "msis_d6"
+ ],
+ "n": 60000,
+ "grid_n": {
+  "gasz7": [
+   2,
+   3,
+   4
+  ],
+  "ign5": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "igrf4": [
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12,
+   15
+  ],
+  "msis_d3": [
+   4,
+   6,
+   8,
+   12,
+   16,
+   20,
+   25,
+   32,
+   40
+  ],
+  "msis_d4": [
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12,
+   15
+  ],
+  "msis_d5": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "msis_d6": [
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "predict": {
+  "gasz7": true,
+  "ign5": true,
+  "igrf4": false,
+  "msis_d3": false,
+  "msis_d4": false,
+  "msis_d5": true,
+  "msis_d6": true
+ },
+ "curvature": {
+  "gasz7": [
+   0.5025587617263939,
+   0.5984566605815933,
+   0.021580014849623252,
+   0.009601739711558064,
+   0.014880437955886387,
+   0.016283214531666083,
+   0.06884811203517145
+  ],
+  "ign5": [
+   1.0561944416228055,
+   0.4933105032200773,
+   0.11212320504568327,
+   5.181955122728711,
+   0.03383822990209075
+  ],
+  "igrf4": [
+   10.770674525224768,
+   10.377859723156417,
+   0.06523003087480499,
+   0.004684777335938472
+  ],
+  "msis_d3": [
+   1.2565975567074201,
+   1.3820767360857753,
+   1.965874603141501
+  ],
+  "msis_d4": [
+   1.3232587747316042,
+   1.1492989971063046,
+   1.7380933368251985,
+   2.001319885025706
+  ],
+  "msis_d5": [
+   1.2755362768436236,
+   1.2450941615916142,
+   1.770075776093275,
+   2.009171454975616,
+   0.22298840223596078
+  ],
+  "msis_d6": [
+   1.2531317036742762,
+   1.2161262371547765,
+   1.7416573014622254,
+   2.02912065483643,
+   0.2233473667889432,
+   0.1771242166681769
+  ]
+ },
+ "aniso_counts": {
+  "gasz7": [
+   "6x7x2x2x2x2x3",
+   "4x5x2x2x2x2x3",
+   "8x9x3x2x3x3x4",
+   "7x8x3x2x2x3x4",
+   "12x13x3x3x3x3x5",
+   "10x10x3x3x3x3x4"
+  ],
+  "ign5": [
+   "6x5x3x11x2",
+   "6x4x2x10x2",
+   "10x7x4x19x3",
+   "8x6x3x18x3",
+   "13x9x5x28x4",
+   "11x8x5x24x3"
+  ],
+  "igrf4": [
+   "18x18x3x2",
+   "16x15x2x2",
+   "40x40x5x2",
+   "32x31x4x2",
+   "61x59x6x3",
+   "58x56x5x2"
+  ],
+  "msis_d3": [
+   "12x12x14",
+   "9x10x11",
+   "23x24x29",
+   "18x19x23",
+   "37x38x46",
+   "29x31x36"
+  ],
+  "msis_d4": [
+   "6x6x7x8",
+   "5x5x6x6",
+   "10x10x12x13",
+   "9x8x10x11",
+   "15x14x17x18",
+   "12x12x15x15"
+  ],
+  "msis_d5": [
+   "5x5x5x5x3",
+   "4x4x4x5x3",
+   "7x7x9x9x4",
+   "6x6x7x8x4",
+   "10x9x12x12x5",
+   "9x9x10x10x4"
+  ],
+  "msis_d6": [
+   "4x4x4x5x3x2",
+   "4x3x4x5x2x2",
+   "6x6x7x7x3x3",
+   "5x5x6x6x3x3",
+   "7x7x9x9x4x4",
+   "7x6x8x8x4x3"
+  ]
+ },
+ "fill": [
+  1.0,
+  0.5
+ ],
+ "curv_points": 2000,
+ "curv_step": 0.05,
+ "grid_lams": [
+  0.0001,
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "mlp": [
+  "mlp1_w16",
+  "mlp1_w32",
+  "mlp1_w64",
+  "mlp1_w128",
+  "mlp2_w16",
+  "mlp2_w32",
+  "mlp2_w64",
+  "mlp2_w128",
+  "mlp3_w16",
+  "mlp3_w32",
+  "mlp3_w64",
+  "mlp3_w128",
+  "mlp1_w16_silu",
+  "mlp1_w32_silu",
+  "mlp1_w64_silu",
+  "mlp1_w128_silu",
+  "mlp2_w16_silu",
+  "mlp2_w32_silu",
+  "mlp2_w64_silu",
+  "mlp2_w128_silu",
+  "mlp3_w16_silu",
+  "mlp3_w32_silu",
+  "mlp3_w64_silu",
+  "mlp3_w128_silu",
+  "mlp1_w16_tanh",
+  "mlp1_w32_tanh",
+  "mlp1_w64_tanh",
+  "mlp1_w128_tanh",
+  "mlp2_w16_tanh",
+  "mlp2_w32_tanh",
+  "mlp2_w64_tanh",
+  "mlp2_w128_tanh",
+  "mlp3_w16_tanh",
+  "mlp3_w32_tanh",
+  "mlp3_w64_tanh",
+  "mlp3_w128_tanh"
+ ],
+ "kan": [
+  "kan1_w4_g10",
+  "kan1_w4_g20",
+  "kan1_w8_g10",
+  "kan1_w8_g20",
+  "kan1_w16_g10",
+  "kan1_w16_g20",
+  "kan1_w32_g10",
+  "kan1_w32_g20",
+  "kan2_w8_g5",
+  "kan2_w16_g5"
+ ],
+ "cp": [
+  "cp1_q16",
+  "cp1_q32",
+  "cp1_q64",
+  "cp2_q16",
+  "cp2_q32",
+  "cp2_q64",
+  "cp4_q16",
+  "cp4_q32",
+  "cp4_q64",
+  "cp8_q16",
+  "cp8_q32",
+  "cp8_q64",
+  "cp16_q16",
+  "cp16_q32",
+  "cp16_q64"
+ ],
+ "ga2m": [
+  "ga2m_q16_8",
+  "ga2m_q16_16",
+  "ga2m_q16_32",
+  "ga2m_q32_8",
+  "ga2m_q32_16",
+  "ga2m_q32_32",
+  "ga2m_q64_8",
+  "ga2m_q64_16",
+  "ga2m_q64_32"
+ ],
+ "steps": 30000,
+ "lrs": [
+  0.001,
+  0.003,
+  0.01
+ ],
+ "seeds": [
+  0,
+  1
+ ],
+ "lut_variants": [
+  [
+   "lut6_i8",
+   6,
+   8,
+   false
+  ],
+  [
+   "lut6_i16",
+   6,
+   16,
+   false
+  ],
+  [
+   "lut8_i8",
+   8,
+   8,
+   false
+  ],
+  [
+   "lut8_i16",
+   8,
+   16,
+   false
+  ],
+  [
+   "lin4_i16",
+   4,
+   16,
+   true
+  ],
+  [
+   "lin6_i16_m5",
+   6,
+   16,
+   true,
+   0.05
+  ],
+  [
+   "lin7_i16_m5",
+   7,
+   16,
+   true,
+   0.05
+  ],
+  [
+   "lin8_i16_m5",
+   8,
+   16,
+   true,
+   0.05
+  ]
+ ],
+ "gbdt": [
+  "gbdt_n25_l7",
+  "gbdt_n25_l15",
+  "gbdt_n25_l31",
+  "gbdt_n50_l7",
+  "gbdt_n50_l15",
+  "gbdt_n50_l31",
+  "gbdt_n100_l7",
+  "gbdt_n100_l15",
+  "gbdt_n100_l31",
+  "gbdt_n200_l7",
+  "gbdt_n200_l15",
+  "gbdt_n200_l31",
+  "gbdt_n400_l7",
+  "gbdt_n400_l15",
+  "gbdt_n400_l31",
+  "gbdt_n800_l7",
+  "gbdt_n800_l15",
+  "gbdt_n800_l31"
+ ],
+ "poly": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "budgets": [
+  4096,
+  32768,
+  131072
+ ],
+ "margin": 0.8,
+ "env": {
+  "time_utc": "2026-09-26T13:29:29+00:00",
+  "argv": [
+   "harness/rule_sweep.py",
+   "run",
+   "--out",
+   "results/raw/exp043",
+   "--workers",
+   "10"
+  ],
+  "host": "nixos",
+  "kernel": "6.18.42",
+  "cpu": "AMD Ryzen 5 7500F 6-Core Processor",
+  "python": "3.12.14",
+  "torch": "2.13.0+cu130",
+  "torch_cuda": "13.0",
+  "cudnn": 92200,
+  "triton": "3.7.1",
+  "nixpkgs_rev": "6774f7bc253789b113a4f39285dc0fa100abeacc",
+  "env": {
+   "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+   "PYTHONHASHSEED": "0",
+   "CUDA_VISIBLE_DEVICES": ""
+  },
+  "git": {
+   "commit": "a437053115e4c2673c60411b1452beecbe354108",
+   "dirty_files": []
+  },
+  "device": null,
+  "gpu": [
+   {
+    "name": "NVIDIA GeForce RTX 4090",
+    "driver_version": "595.84",
+    "pci.bus_id": "00000000:01:00.0",
+    "vbios_version": "95.02.3C.00.EB",
+    "clocks.sm": "210",
+    "clocks.mem": "405",
+    "clocks.max.sm": "3105",
+    "clocks.max.mem": "10501",
+    "power.limit": "450.00",
+    "power.default_limit": "450.00",
+    "persistence_mode": "Disabled",
+    "compute_mode": "Default",
+    "pstate": "P8",
+    "utilization.gpu": "0",
+    "temperature.gpu": "41",
+    "memory.used": "512",
+    "memory.total": "24564"
+   }
+  ]
+ }
+}
