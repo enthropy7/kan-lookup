@@ -23,8 +23,15 @@ jobs:
         run: nix build -L
       - name: Tests in the development shell
         timeout-minutes: 20
+        shell: bash
         # a test that hangs prints its stack after five minutes
-        run: nix develop --command pytest -v -o faulthandler_timeout=300 tests
+        run: |
+          nix develop --command pytest -v -o faulthandler_timeout=300 tests 2>&1 | tee pytest.log
+          exit ${PIPESTATUS[0]}
+      - name: The end of a failed test run, as an annotation
+        if: failure()
+        shell: bash
+        run: echo "::error title=pytest::$(tail -n 60 pytest.log | sed 's/%/%25/g' | awk '{printf "%s%%0A", $0}')"
       - run: mkdir out && cp result/verdicts.txt result/numbers.json out/
       - uses: actions/upload-artifact@v4
         with:
