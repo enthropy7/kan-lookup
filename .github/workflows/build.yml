@@ -17,7 +17,7 @@ jobs:
         os: [ubuntu-24.04, macos-15]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: cachix/install-nix-action@v31
       - name: Every verdict and figure, recomputed from results/raw
         run: nix build -L
@@ -33,7 +33,7 @@ jobs:
         shell: bash
         run: echo "::error title=pytest::$(tail -n 60 pytest.log | sed 's/%/%25/g' | awk '{printf "%s%%0A", $0}')"
       - run: mkdir out && cp result/verdicts.txt result/numbers.json out/
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: results-${{ matrix.os }}
           path: out
@@ -42,7 +42,7 @@ jobs:
     needs: results
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
       - name: Linux and macOS give the same verdicts and numbers
         run: |
           diff results-ubuntu-24.04/verdicts.txt results-macos-15/verdicts.txt
@@ -55,7 +55,7 @@ jobs:
         os: [ubuntu-24.04, macos-15]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: cachix/install-nix-action@v31
       - name: STM32 toolchain, CMSIS and libopencm3
         run: nix develop ./mcu/stm32 --command arm-none-eabi-gcc --version

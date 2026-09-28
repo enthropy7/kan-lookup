@@ -139,6 +139,10 @@
             KANTAB_NIXPKGS_REV = nixpkgs.rev;
             PYTHONHASHSEED = "0";
             PYTHONDONTWRITEBYTECODE = "1";
+          } // pkgs.lib.optionalAttrs (!isLinux) {
+            # torch brings its own libomp, scikit-learn from nixpkgs another; on macOS the two deadlock in one process
+            # unless OpenMP runs a single thread
+            OMP_NUM_THREADS = "1";
           };
           results = pkgs.runCommand "kan-lookup-results" ({ nativeBuildInputs = [ python ]; } // env) ''
             cp -r ${self} src && chmod -R u+w src && cd src
