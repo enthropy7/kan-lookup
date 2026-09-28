@@ -56,7 +56,11 @@
     },
     "root": {
       "inputs": {
-        "esp-dev": "esp-dev"
+        "esp-dev": "esp-dev",
+        "nixpkgs": [
+          "esp-dev",
+          "nixpkgs"
+        ]
       }
     },
     "systems": {

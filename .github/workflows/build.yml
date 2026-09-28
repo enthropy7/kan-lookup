@@ -4,6 +4,11 @@ on:
   push:
   workflow_dispatch:
 
+# a new push cancels the run of the previous one
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   results:
     strategy:
@@ -17,7 +22,9 @@ jobs:
       - name: Every verdict and figure, recomputed from results/raw
         run: nix build -L
       - name: Tests in the development shell
-        run: nix develop --command pytest -q tests
+        timeout-minutes: 20
+        # a test that hangs prints its stack after five minutes
+        run: nix develop --command pytest -v -o faulthandler_timeout=300 tests
       - run: mkdir out && cp result/verdicts.txt result/numbers.json out/
       - uses: actions/upload-artifact@v4
         with:
